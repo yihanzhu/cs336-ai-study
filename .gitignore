@@ -1,0 +1,29 @@
+.DS_Store
+__pycache__/
+*.pyc
+# Raw source media, full captions, rendered pages and installed runtimes stay local.
+/work/*
+!/work/*.py
+!/work/sources/
+/work/sources/*
+!/work/sources/manifest.json
+# Historical one-off migration scripts are not part of the maintained build.
+/work/integrate_review.py
+/work/update_release.py
+/work/integrate_asr.py
+# Archive is reproducible from tracked deliverables.
+/outputs/*.zip
+
+# One-off authoring/migration and local reading helpers
+/work/add_pdf_notes.py
+/work/upgrade_build.py
+/work/read_trace_mid.py
+/work/inspect_trace_values.py
+/work/extra_audio_audit.py
+
+# Personal learner state is local, never curriculum content.
+/local/
+/outputs/学习进度.md
+/outputs/learning-progress.md
+/outputs/开源准备检查.md
+/work/apply_public_cleanup.py

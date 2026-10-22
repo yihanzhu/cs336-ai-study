@@ -1,0 +1,3960 @@
+{
+  "checked": "2026-10-22",
+  "years": {
+    "2024": {
+      "url": "https://cs336.stanford.edu/spring2024/",
+      "lectures": [
+        {
+          "number": 1,
+          "date": "Mon April 1",
+          "title": "Overview, tokenization (Percy)",
+          "links": [
+            {
+              "label": "lecture_01.py",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_01.py"
+            }
+          ],
+          "chapters": [
+            "01",
+            "02"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_01.py",
+          "sha256": "216485cf0940ca6b4880dc1f84643896c1e95332508495890a1d6e0b200b3470"
+        },
+        {
+          "number": 2,
+          "date": "Wed April 3",
+          "title": "Pytorch, resource accounting (Percy)",
+          "links": [
+            {
+              "label": "lecture_02.py",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_02.py"
+            }
+          ],
+          "chapters": [
+            "00",
+            "03",
+            "04",
+            "09"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_02.py",
+          "sha256": "76236128cb3878eee239aee8a79f495589f4ffff14b61b57d676ff28865aa38d"
+        },
+        {
+          "number": 3,
+          "date": "Mon April 8",
+          "title": "Architectures, hyperparameters (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 3.pdf",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%203%20-%20architecture.pdf"
+            }
+          ],
+          "chapters": [
+            "02",
+            "05",
+            "06",
+            "07"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%203%20-%20architecture.pdf",
+          "sha256": "10802f17e7fbb391fe8a728ca900cc8e5bcd22c68a41fc5fb196041dddf4525e"
+        },
+        {
+          "number": 4,
+          "date": "Wed April 10",
+          "title": "Mixture of experts (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 4.pdf",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%204%20-%20details%20%2B%20MoEs.pdf"
+            }
+          ],
+          "chapters": [
+            "02",
+            "06",
+            "07",
+            "08"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%204%20-%20details%20%2B%20MoEs.pdf",
+          "sha256": "a8e781fc9e163f9d8affe722f17e27be9d2d90952a633745b5529d454754ca38"
+        },
+        {
+          "number": 5,
+          "date": "Mon April 15",
+          "title": "GPUs (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 5.pdf",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%205%20-%20GPUs.pdf"
+            }
+          ],
+          "chapters": [
+            "10",
+            "12"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%205%20-%20GPUs.pdf",
+          "sha256": "b8f7ab503ba900fbbf4a617911d48f0e42a3127a2f65c650e2aa7b1e29bba18d"
+        },
+        {
+          "number": 6,
+          "date": "Wed April 17",
+          "title": "Kernels, Triton (Percy)",
+          "links": [
+            {
+              "label": "lecture_06.py",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_06.py"
+            }
+          ],
+          "chapters": [
+            "11"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_06.py",
+          "sha256": "43de299a8c0284b8ddd2593e3e12b03f4862bb78bd6f1e3baa117e1ffe648892"
+        },
+        {
+          "number": 7,
+          "date": "Mon April 22",
+          "title": "Parallelism (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 7.pdf",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%207%20-%20Parallelism%20basics.pdf"
+            }
+          ],
+          "chapters": [
+            "13",
+            "14"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%207%20-%20Parallelism%20basics.pdf",
+          "sha256": "aecd757c2f1881cae55ceada4a763b818d0ff8aee9aacbea727342588cd0967a"
+        },
+        {
+          "number": 8,
+          "date": "Wed April 24",
+          "title": "Parallelism (Percy)",
+          "links": [
+            {
+              "label": "lecture_08.py",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_08.py"
+            }
+          ],
+          "chapters": [
+            "13",
+            "14"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_08.py",
+          "sha256": "708e54f2c457bceb50a944054b2a2f3f820f4bc63f9f2acf75a1f8a19e597472"
+        },
+        {
+          "number": 9,
+          "date": "Mon April 29",
+          "title": "Scaling laws (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 9.pdf",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%209%20-%20Scaling%20laws%20basics.pdf"
+            }
+          ],
+          "chapters": [
+            "16"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%209%20-%20Scaling%20laws%20basics.pdf",
+          "sha256": "44e926b15ae1745beeb23cbf07175e038689ea9fed70e92ac145a5f4a4281087"
+        },
+        {
+          "number": 10,
+          "date": "Wed May 1",
+          "title": "Scaling laws (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 10.pdf",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%2010%20-%20Scaling%20details.pdf"
+            }
+          ],
+          "chapters": [
+            "17"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%2010%20-%20Scaling%20details.pdf",
+          "sha256": "c655abd80530bdc5a3dee445fc2837b3b655b9223fd2ecdb79254abcc328809a"
+        },
+        {
+          "number": 11,
+          "date": "Mon May 6",
+          "title": "Data (Percy)",
+          "links": [
+            {
+              "label": "lecture_11.py",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_11.py"
+            }
+          ],
+          "chapters": [
+            "19"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_11.py",
+          "sha256": "0a02e297d1408f148e839d8c8cf8712a3701091c2f7e52f916d2a06304089466"
+        },
+        {
+          "number": 12,
+          "date": "Wed May 8",
+          "title": "Data (Percy)",
+          "links": [
+            {
+              "label": "lecture_12.py",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_12.py"
+            }
+          ],
+          "chapters": [
+            "20"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_12.py",
+          "sha256": "d7992f245fdc08e5b0db20ccbfd4d40934073bded413bfac9298f70e768fef4b"
+        },
+        {
+          "number": 13,
+          "date": "Mon May 13",
+          "title": "Data (Percy)",
+          "links": [
+            {
+              "label": "lecture_13.py",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_13.py"
+            }
+          ],
+          "chapters": [
+            "19",
+            "21"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_13.py",
+          "sha256": "0be45ab822a7e9114e9bd6e067fbc464694499f641bf5ae06040b64bf04294c9"
+        },
+        {
+          "number": 14,
+          "date": "Wed May 15",
+          "title": "Data (Percy)",
+          "links": [
+            {
+              "label": "lecture_14.py",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_14.py"
+            }
+          ],
+          "chapters": [
+            "22",
+            "23"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_14.py",
+          "sha256": "92882ca88da19a418f98cba3085d61f308c3b9acf6bb3a869e66700a49b49eeb"
+        },
+        {
+          "number": 15,
+          "date": "Mon May 20",
+          "title": "Alignment (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 15.pdf",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%2015%20-%20Alignment%20by%20SFT.pdf"
+            }
+          ],
+          "chapters": [
+            "23"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%2015%20-%20Alignment%20by%20SFT.pdf",
+          "sha256": "03907022849adc5ffdac67d4c5c13271bedd614945c4d92c9f9d0715d8e56596"
+        },
+        {
+          "number": 16,
+          "date": "Wed May 22",
+          "title": "Alignment (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 16.pdf",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%2016%20-%20Alignment%20by%20RLHF.pdf"
+            }
+          ],
+          "chapters": [
+            "24"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%2016%20-%20Alignment%20by%20RLHF.pdf",
+          "sha256": "aa2dce2e0d0e2292fde94d6dd07e35263b6b31b64958e1fc0023beed0f82097a"
+        },
+        {
+          "number": 17,
+          "date": "Wed May 29",
+          "title": "Evals (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 17.pdf",
+              "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%2017%20-%20Evals.pdf"
+            }
+          ],
+          "chapters": [
+            "18"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%2017%20-%20Evals.pdf",
+          "sha256": "765cb06562a2454e2be8a44a168b5f158b8ec22c37d510e46c250ad01f92bd10"
+        },
+        {
+          "number": 18,
+          "date": "Mon June 3",
+          "title": "Guest lecture by Ce Zhang",
+          "links": [
+            {
+              "label": "Ce Zhang",
+              "url": "https://zhangce.github.io/"
+            }
+          ],
+          "chapters": [
+            "28"
+          ],
+          "material_status": "官网有日程，未取得独立讲义／完整字幕"
+        },
+        {
+          "number": 19,
+          "date": "Wed June 5",
+          "title": "Guest lecture by Aakanksha Chowdhery",
+          "links": [
+            {
+              "label": "Aakanksha Chowdhery",
+              "url": "https://www.achowdhery.com"
+            }
+          ],
+          "chapters": [
+            "28"
+          ],
+          "material_status": "官网有日程，未取得独立讲义／完整字幕"
+        }
+      ],
+      "links": [
+        {
+          "label": "CS336",
+          "url": "https://cs336.stanford.edu/spring2024/index.html"
+        },
+        {
+          "label": "Coursework",
+          "url": "https://cs336.stanford.edu/spring2024/#coursework"
+        },
+        {
+          "label": "Schedule",
+          "url": "https://cs336.stanford.edu/spring2024/#schedule"
+        },
+        {
+          "label": "\n        \n          \n          \n        \n      ",
+          "url": "https://nlp.stanford.edu/"
+        },
+        {
+          "label": "\n        \n          \n          \n        \n      ",
+          "url": "https://crfm.stanford.edu"
+        },
+        {
+          "label": "here",
+          "url": "https://cs336.stanford.edu/"
+        },
+        {
+          "label": "\n            \n              \n                \n                \n              \n            \n            Tatsunori Hashimoto\n          ",
+          "url": "https://thashim.github.io/"
+        },
+        {
+          "label": "\n            \n              \n                \n                \n              \n            \n            Percy Liang\n          ",
+          "url": "https://cs.stanford.edu/~pliang/"
+        },
+        {
+          "label": "\n            \n              \n                \n                \n              \n            \n            Nelson Liu\n          ",
+          "url": "https://cs.stanford.edu/~nfliu/"
+        },
+        {
+          "label": "\n            \n              \n                \n                \n              \n            \n            Gabriel Poesia\n          ",
+          "url": "https://gpoesia.com/"
+        },
+        {
+          "label": "McMurtry Art & Art History Building, Oshman Presentation Space, Room 102",
+          "url": "https://campus-map.stanford.edu/?srch=Oshman%20Hall"
+        },
+        {
+          "label": "\n              cs336-spr2324-staff@lists.stanford.edu",
+          "url": "mailto:cs336-spr2324-staff@lists.stanford.edu"
+        },
+        {
+          "label": "Assignment 1: Basics",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment1-basics"
+        },
+        {
+          "label": "leaderboard",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment1-basics-leaderboard"
+        },
+        {
+          "label": "Assignment 2: Systems",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment2-systems"
+        },
+        {
+          "label": "Assignment 3: Scaling",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment3-scaling"
+        },
+        {
+          "label": "Assignment 4: Data",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment4-data"
+        },
+        {
+          "label": "leaderboard",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment4-data-leaderboard"
+        },
+        {
+          "label": "Assignment 5: Alignment",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment5-alignment"
+        },
+        {
+          "label": "schedule",
+          "url": "https://cs336.stanford.edu/spring2024/#schedule"
+        },
+        {
+          "label": "Honor Code",
+          "url": "https://ed.stanford.edu/academics/masters-handbook/honor-code"
+        },
+        {
+          "label": "Together AI",
+          "url": "https://together.ai"
+        },
+        {
+          "label": "repository",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures"
+        },
+        {
+          "label": "lecture_01.py",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_01.py"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment1-basics"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/master/cs336_spring2024_assignment1_basics.pdf"
+        },
+        {
+          "label": "leaderboard",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment1-basics-leaderboard"
+        },
+        {
+          "label": "lecture_02.py",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_02.py"
+        },
+        {
+          "label": "lecture 3.pdf",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%203%20-%20architecture.pdf"
+        },
+        {
+          "label": "lecture 4.pdf",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%204%20-%20details%20%2B%20MoEs.pdf"
+        },
+        {
+          "label": "lecture 5.pdf",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%205%20-%20GPUs.pdf"
+        },
+        {
+          "label": "lecture_06.py",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_06.py"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment2-systems"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/master/cs336_spring2024_assignment2_systems.pdf"
+        },
+        {
+          "label": "lecture 7.pdf",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%207%20-%20Parallelism%20basics.pdf"
+        },
+        {
+          "label": "lecture_08.py",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_08.py"
+        },
+        {
+          "label": "lecture 9.pdf",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%209%20-%20Scaling%20laws%20basics.pdf"
+        },
+        {
+          "label": "lecture 10.pdf",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%2010%20-%20Scaling%20details.pdf"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment3-scaling"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment3-scaling/blob/master/cs336_spring2024_assignment3_scaling.pdf"
+        },
+        {
+          "label": "lecture_11.py",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_11.py"
+        },
+        {
+          "label": "lecture_12.py",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_12.py"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment4-data"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/master/cs336_spring2024_assignment4_data.pdf"
+        },
+        {
+          "label": "leaderboard",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment4-data-leaderboard"
+        },
+        {
+          "label": "lecture_13.py",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_13.py"
+        },
+        {
+          "label": "lecture_14.py",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/lecture_14.py"
+        },
+        {
+          "label": "lecture 15.pdf",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%2015%20-%20Alignment%20by%20SFT.pdf"
+        },
+        {
+          "label": "lecture 16.pdf",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%2016%20-%20Alignment%20by%20RLHF.pdf"
+        },
+        {
+          "label": "lecture 17.pdf",
+          "url": "https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%2017%20-%20Evals.pdf"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment5-alignment"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/master/cs336_spring2024_assignment5_alignment.pdf"
+        },
+        {
+          "label": "Ce Zhang",
+          "url": "https://zhangce.github.io/"
+        },
+        {
+          "label": "Aakanksha Chowdhery",
+          "url": "https://www.achowdhery.com"
+        }
+      ]
+    },
+    "2025": {
+      "url": "https://cs336.stanford.edu/spring2025/",
+      "lectures": [
+        {
+          "number": 1,
+          "date": "Tues April 1",
+          "title": "Overview, tokenization (Percy)",
+          "links": [
+            {
+              "label": "lecture_01.py",
+              "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_01.json"
+            }
+          ],
+          "chapters": [
+            "01",
+            "02"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_01.py",
+          "sha256": "f7e0511caefdef1958836c618ef9510b3da92baa2524d34d76f35eaf1abc6190",
+          "video_url": "https://www.youtube.com/watch?v=SQ3fZ1sAqXI",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 2,
+          "date": "Thurs April 3",
+          "title": "PyTorch, resource accounting (Percy)",
+          "links": [
+            {
+              "label": "lecture_02.py",
+              "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_02.json"
+            }
+          ],
+          "chapters": [
+            "00",
+            "03",
+            "04",
+            "09"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_02.py",
+          "sha256": "5f21bf395988f49dcd48408ad2382e2304eecc2811dd2d7965e8eb3ab8e3df3c",
+          "video_url": "https://www.youtube.com/watch?v=msHyYioAyNE",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 3,
+          "date": "Tues April 8",
+          "title": "Architectures, hyperparameters (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 3.pdf",
+              "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/e9cb2488fdb53ea37f0e38924ec3a1701925cef3/nonexecutable/2025%20Lecture%203%20-%20architecture.pdf"
+            }
+          ],
+          "chapters": [
+            "05",
+            "06"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/e9cb2488fdb53ea37f0e38924ec3a1701925cef3/nonexecutable/2025%20Lecture%203%20-%20architecture.pdf",
+          "sha256": "3692b3d25b5605e70930abc81d63241c71c136dfb573029d4544420925e0f9c4",
+          "video_url": "https://www.youtube.com/watch?v=ptFiH_bHnJw",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 4,
+          "date": "Thurs April 10",
+          "title": "Mixture of experts (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 4.pdf",
+              "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/98455ec198c9a88ec1ab2b1c4058662431b54ce3/nonexecutable/2025%20Lecture%204%20-%20MoEs.pdf"
+            }
+          ],
+          "chapters": [
+            "07",
+            "08"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/98455ec198c9a88ec1ab2b1c4058662431b54ce3/nonexecutable/2025%20Lecture%204%20-%20MoEs.pdf",
+          "sha256": "b62ba6416f04c4473834fffa19119317e78542a6b8dc94a5e816790643cb0c4f",
+          "video_url": "https://www.youtube.com/watch?v=LPv1KfUXLCo",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 5,
+          "date": "Tues April 15",
+          "title": "GPUs (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 5.pdf",
+              "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/2025%20Lecture%205%20-%20GPUs.pdf"
+            }
+          ],
+          "chapters": [
+            "10",
+            "12"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/nonexecutable/2025%20Lecture%205%20-%20GPUs.pdf",
+          "sha256": "ff25621de3d3d462a534070a209a8efac1b8410e3da58de08f764e33482bb6ba",
+          "video_url": "https://www.youtube.com/watch?v=6OBtO9niT00",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 6,
+          "date": "Thurs April 17",
+          "title": "Kernels, Triton (Tatsu)",
+          "links": [
+            {
+              "label": "lecture_06.py",
+              "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_06.json"
+            }
+          ],
+          "chapters": [
+            "11"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_06.py",
+          "sha256": "60cbb051e6a8fce4b9f5857258bbe89e43933b50427e8f51d8c0415ebca8520b",
+          "video_url": "https://www.youtube.com/watch?v=E8Mju53VB00",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 7,
+          "date": "Tues April 22",
+          "title": "Parallelism (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 7.pdf",
+              "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/4eff81bee0a853217209e163936b264f03572b66/nonexecutable/2025%20Lecture%207%20-%20Parallelism%20basics.pdf"
+            }
+          ],
+          "chapters": [
+            "13",
+            "14"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/4eff81bee0a853217209e163936b264f03572b66/nonexecutable/2025%20Lecture%207%20-%20Parallelism%20basics.pdf",
+          "sha256": "c1868d601380a62d87cbacb91589114e46e3e88e47577d9308dde1788c9cc09a",
+          "video_url": "https://www.youtube.com/watch?v=l1RJcDjzK8M",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 8,
+          "date": "Thurs April 24",
+          "title": "Parallelism (Percy)",
+          "links": [
+            {
+              "label": "lecture_08.py",
+              "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_08.json"
+            }
+          ],
+          "chapters": [
+            "13",
+            "14"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_08.py",
+          "sha256": "2e1a2564382bc3c4649d62054930c27c4b7c6ab8199908af19e812c08ec12d0c",
+          "video_url": "https://www.youtube.com/watch?v=LHpr5ytssLo",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 9,
+          "date": "Tues April 29",
+          "title": "Scaling laws (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 9.pdf",
+              "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/fb79eb018fa047bf99c4c785dcbbd62fff361e54/nonexecutable/2025%20Lecture%209%20-%20Scaling%20laws%20basics.pdf"
+            }
+          ],
+          "chapters": [
+            "16"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/fb79eb018fa047bf99c4c785dcbbd62fff361e54/nonexecutable/2025%20Lecture%209%20-%20Scaling%20laws%20basics.pdf",
+          "sha256": "89f1e78e7c040a463a2f3a22025bcca9836ca1ecdbee88b398b780835e5bf7ce",
+          "video_url": "https://www.youtube.com/watch?v=6Q-ESEmDf4Q",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 10,
+          "date": "Thurs May 1",
+          "title": "Inference (Percy)",
+          "links": [
+            {
+              "label": "lecture_10.py",
+              "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_10.json"
+            }
+          ],
+          "chapters": [
+            "07",
+            "15"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_10.py",
+          "sha256": "dd1b67f51a70439f8ee8f87a2e143c8f6b93ab9a1c79a8d905807bb8737470d8",
+          "video_url": "https://www.youtube.com/watch?v=fcgPYo3OtV0",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 11,
+          "date": "Tues May 6",
+          "title": "Scaling laws (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 11.pdf",
+              "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/00191bba00d6d64621dc46ccaed9122681413a24/nonexecutable/2025%20Lecture%2011%20-%20Scaling%20details.pdf"
+            }
+          ],
+          "chapters": [
+            "17"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/00191bba00d6d64621dc46ccaed9122681413a24/nonexecutable/2025%20Lecture%2011%20-%20Scaling%20details.pdf",
+          "sha256": "9aab7ba7abb0059170c2626291f7ff4b6f5c81bc6448a52945143008bcc9b887",
+          "video_url": "https://www.youtube.com/watch?v=OSYuUqGBQxw",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 12,
+          "date": "Thurs May 8",
+          "title": "Evaluation (Percy)",
+          "links": [
+            {
+              "label": "lecture_12.py",
+              "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_12.json"
+            }
+          ],
+          "chapters": [
+            "18"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_12.py",
+          "sha256": "2d3968b889ee6b17a4d56089dcfd51b39cf59c5099e96745dfa8b895052f563e",
+          "video_url": "https://www.youtube.com/watch?v=x-R5l2HsXqM",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 13,
+          "date": "Tues May 13",
+          "title": "Data (Percy)",
+          "links": [
+            {
+              "label": "lecture_13.py",
+              "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_13.json"
+            }
+          ],
+          "chapters": [
+            "19",
+            "22"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_13.py",
+          "sha256": "acefa00aea1f97dc4605e321e951d30d884194971903f10a881e1a7623d3af84",
+          "video_url": "https://www.youtube.com/watch?v=WePxmeXU1xg",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 14,
+          "date": "Thurs May 15",
+          "title": "Data (Percy)",
+          "links": [
+            {
+              "label": "lecture_14.py",
+              "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_14.json"
+            }
+          ],
+          "chapters": [
+            "20",
+            "21"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_14.py",
+          "sha256": "2a44df9b2cbe4befb892eeb8d6b2d5327d4cd73b3abe8da72633979a51766c6b",
+          "video_url": "https://www.youtube.com/watch?v=9Cd0THLS1t0",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 15,
+          "date": "Tues May 20",
+          "title": "Alignment - SFT/RLHF (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 15.pdf",
+              "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/61eddac004df975466cff0329b615f2d24230069/nonexecutable/2025%20Lecture%2015%20-%20RLHF%20Alignment.pdf"
+            }
+          ],
+          "chapters": [
+            "23",
+            "24"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/61eddac004df975466cff0329b615f2d24230069/nonexecutable/2025%20Lecture%2015%20-%20RLHF%20Alignment.pdf",
+          "sha256": "d16bdb0f22702aba773cb76883b2c9e501c05ebd9e955e403ebbaebe544ece60",
+          "video_url": "https://www.youtube.com/watch?v=Dfu7vC9jo4w",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 16,
+          "date": "Thurs May 22",
+          "title": "Alignment - RL (Tatsu)",
+          "links": [
+            {
+              "label": "lecture 16.pdf",
+              "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/e94e33f433985e57036b25215dff2a4292e67a4f/nonexecutable/2025%20Lecture%2016%20-%20RLVR.pdf"
+            }
+          ],
+          "chapters": [
+            "24",
+            "25"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/e94e33f433985e57036b25215dff2a4292e67a4f/nonexecutable/2025%20Lecture%2016%20-%20RLVR.pdf",
+          "sha256": "6d789153852144d687bd9b068d5e5b5717ea99fd60d8febe8c8b06b6aa86439f",
+          "video_url": "https://www.youtube.com/watch?v=46f2QTDB08Q",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 17,
+          "date": "Tues May 27",
+          "title": "Alignment - RL (Percy)",
+          "links": [
+            {
+              "label": "lecture_17.py",
+              "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_17.json"
+            }
+          ],
+          "chapters": [
+            "25",
+            "26"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_17.py",
+          "sha256": "ba5068ead3170b649022a70c2b1e49c84d945f23bf9e23276ba634020c8966bc",
+          "video_url": "https://www.youtube.com/watch?v=JdGFdViaOJk",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 18,
+          "date": "Thurs May 29",
+          "title": "Guest Lecture by Junyang Lin",
+          "links": [
+            {
+              "label": "Junyang Lin",
+              "url": "https://justinlin610.github.io/"
+            }
+          ],
+          "chapters": [
+            "28"
+          ],
+          "material_status": "官网有日程，未取得独立讲义／完整字幕"
+        },
+        {
+          "number": 19,
+          "date": "Tues June 3",
+          "title": "Guest lecture by Mike Lewis",
+          "links": [
+            {
+              "label": "Mike Lewis",
+              "url": "https://ai.meta.com/people/209431298931133/mike-lewis/"
+            }
+          ],
+          "chapters": [
+            "28"
+          ],
+          "material_status": "官网有日程，未取得独立讲义／完整字幕"
+        }
+      ],
+      "links": [
+        {
+          "label": "CS336",
+          "url": "https://cs336.stanford.edu/spring2025/index.html"
+        },
+        {
+          "label": "Coursework",
+          "url": "https://cs336.stanford.edu/spring2025/#coursework"
+        },
+        {
+          "label": "Schedule",
+          "url": "https://cs336.stanford.edu/spring2025/#schedule"
+        },
+        {
+          "label": "\n        \n          \n          \n        \n      ",
+          "url": "https://nlp.stanford.edu/"
+        },
+        {
+          "label": "\n        \n          \n          \n        \n      ",
+          "url": "https://crfm.stanford.edu"
+        },
+        {
+          "label": "here",
+          "url": "https://cs336.stanford.edu/"
+        },
+        {
+          "label": "\n            \n              \n                \n                \n              \n            \n            Tatsunori Hashimoto\n          ",
+          "url": "https://thashim.github.io/"
+        },
+        {
+          "label": "\n            \n              \n                \n                \n              \n            \n            Percy Liang\n          ",
+          "url": "https://cs.stanford.edu/~pliang/"
+        },
+        {
+          "label": "\n            \n              \n                \n                \n              \n            \n            Neil Band\n          ",
+          "url": "https://nband.github.io/"
+        },
+        {
+          "label": "\n            \n              \n                \n                \n              \n            \n            Marcel Rød\n          ",
+          "url": "https://marcel.roed.me"
+        },
+        {
+          "label": "\n            \n              \n                \n                \n              \n            \n            Rohith Kuditipudi\n          ",
+          "url": "https://web.stanford.edu/~rohithk/"
+        },
+        {
+          "label": "NVIDIA Auditorium",
+          "url": "https://campus-map.stanford.edu/?srch=NVIDIA+Auditorium"
+        },
+        {
+          "label": "\n              cs336-spr2425-staff@lists.stanford.edu",
+          "url": "mailto:cs336-spr2425-staff@lists.stanford.edu"
+        },
+        {
+          "label": "Assignment 1: Basics",
+          "url": "https://github.com/stanford-cs336/assignment1-basics/tree/main"
+        },
+        {
+          "label": "leaderboard",
+          "url": "https://github.com/stanford-cs336/assignment1-basics-leaderboard/tree/master"
+        },
+        {
+          "label": "Assignment 2: Systems",
+          "url": "https://github.com/stanford-cs336/assignment2-systems/tree/main"
+        },
+        {
+          "label": "leaderboard",
+          "url": "https://github.com/stanford-cs336/assignment2-systems-leaderboard/tree/main"
+        },
+        {
+          "label": "Assignment 3: Scaling",
+          "url": "https://github.com/stanford-cs336/assignment3-scaling/tree/main"
+        },
+        {
+          "label": "Assignment 4: Data",
+          "url": "https://github.com/stanford-cs336/assignment4-data/tree/main"
+        },
+        {
+          "label": "leaderboard",
+          "url": "https://github.com/stanford-cs336/assignment4-data-leaderboard"
+        },
+        {
+          "label": "Assignment 5: Alignment and Reasoning RL",
+          "url": "https://github.com/stanford-cs336/assignment5-alignment"
+        },
+        {
+          "label": "Optional Part 2",
+          "url": "https://github.com/stanford-cs336/assignment5-alignment/blob/main/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+        },
+        {
+          "label": "schedule",
+          "url": "https://cs336.stanford.edu/spring2025/#schedule"
+        },
+        {
+          "label": "RunPod",
+          "url": "https://docs.runpod.io/get-started"
+        },
+        {
+          "label": "RunPod Pricing",
+          "url": "https://runpod.io/pricing"
+        },
+        {
+          "label": "Lambda Labs",
+          "url": "https://docs.lambda.ai/public-cloud/on-demand/creating-managing-instances/#launching-instances"
+        },
+        {
+          "label": "Lambda Labs Pricing",
+          "url": "https://lambda.ai/pricing"
+        },
+        {
+          "label": "Paperspace",
+          "url": "https://docs.digitalocean.com/products/paperspace/deployments/getting-started/quickstart/"
+        },
+        {
+          "label": "Paperspace Pricing",
+          "url": "https://www.paperspace.com/pricing"
+        },
+        {
+          "label": "Together",
+          "url": "https://www.together.ai/blog/instant-gpu-clusters"
+        },
+        {
+          "label": "Together Instant GPU Cluster Pricing",
+          "url": "https://www.together.ai/blog/instant-gpu-clusters"
+        },
+        {
+          "label": "Honor Code",
+          "url": "https://ed.stanford.edu/academics/masters-handbook/honor-code"
+        },
+        {
+          "label": "Together AI",
+          "url": "https://together.ai"
+        },
+        {
+          "label": "lecture_01.py",
+          "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_01.json"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/assignment1-basics/tree/main"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/cs336_spring2025_assignment1_basics.pdf"
+        },
+        {
+          "label": "leaderboard",
+          "url": "https://github.com/stanford-cs336/spring2025-assignment1-basics-leaderboard/tree/master"
+        },
+        {
+          "label": "lecture_02.py",
+          "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_02.json"
+        },
+        {
+          "label": "lecture 3.pdf",
+          "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/e9cb2488fdb53ea37f0e38924ec3a1701925cef3/nonexecutable/2025%20Lecture%203%20-%20architecture.pdf"
+        },
+        {
+          "label": "lecture 4.pdf",
+          "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/98455ec198c9a88ec1ab2b1c4058662431b54ce3/nonexecutable/2025%20Lecture%204%20-%20MoEs.pdf"
+        },
+        {
+          "label": "lecture 5.pdf",
+          "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/2025%20Lecture%205%20-%20GPUs.pdf"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/assignment2-systems/tree/main"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/assignment2-systems/blob/main/cs336_spring2025_assignment2_systems.pdf"
+        },
+        {
+          "label": "leaderboard",
+          "url": "https://github.com/stanford-cs336/assignment2-systems-leaderboard/tree/main"
+        },
+        {
+          "label": "lecture_06.py",
+          "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_06.json"
+        },
+        {
+          "label": "lecture 7.pdf",
+          "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/4eff81bee0a853217209e163936b264f03572b66/nonexecutable/2025%20Lecture%207%20-%20Parallelism%20basics.pdf"
+        },
+        {
+          "label": "lecture_08.py",
+          "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_08.json"
+        },
+        {
+          "label": "lecture 9.pdf",
+          "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/fb79eb018fa047bf99c4c785dcbbd62fff361e54/nonexecutable/2025%20Lecture%209%20-%20Scaling%20laws%20basics.pdf"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/assignment3-scaling/tree/main"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/assignment3-scaling/blob/main/cs336_spring2025_assignment3_scaling.pdf"
+        },
+        {
+          "label": "lecture_10.py",
+          "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_10.json"
+        },
+        {
+          "label": "lecture 11.pdf",
+          "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/00191bba00d6d64621dc46ccaed9122681413a24/nonexecutable/2025%20Lecture%2011%20-%20Scaling%20details.pdf"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/assignment4-data/tree/main"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/assignment4-data/blob/main/cs336_spring2025_assignment4_data.pdf"
+        },
+        {
+          "label": "leaderboard",
+          "url": "https://github.com/stanford-cs336/assignment4-data-leaderboard"
+        },
+        {
+          "label": "lecture_12.py",
+          "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_12.json"
+        },
+        {
+          "label": "lecture_13.py",
+          "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_13.json"
+        },
+        {
+          "label": "lecture_14.py",
+          "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_14.json"
+        },
+        {
+          "label": "lecture 15.pdf",
+          "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/61eddac004df975466cff0329b615f2d24230069/nonexecutable/2025%20Lecture%2015%20-%20RLHF%20Alignment.pdf"
+        },
+        {
+          "label": "lecture 16.pdf",
+          "url": "https://github.com/stanford-cs336/spring2025-lectures/blob/e94e33f433985e57036b25215dff2a4292e67a4f/nonexecutable/2025%20Lecture%2016%20-%20RLVR.pdf"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/assignment5-alignment"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/assignment5-alignment/blob/master/cs336_spring2025_assignment5_alignment.pdf"
+        },
+        {
+          "label": "lecture_17.py",
+          "url": "https://cs336.stanford.edu/spring2025-lectures/?trace=var/traces/lecture_17.json"
+        },
+        {
+          "label": "Junyang Lin",
+          "url": "https://justinlin610.github.io/"
+        },
+        {
+          "label": "Mike Lewis",
+          "url": "https://ai.meta.com/people/209431298931133/mike-lewis/"
+        }
+      ]
+    },
+    "2026": {
+      "url": "https://cs336.stanford.edu/",
+      "lectures": [
+        {
+          "number": 1,
+          "date": "Mon March 30",
+          "title": "Overview, tokenization [Percy]",
+          "links": [
+            {
+              "label": "lecture_01.py",
+              "url": "https://cs336.stanford.edu/lectures/?trace=lecture_01"
+            }
+          ],
+          "chapters": [
+            "01",
+            "02",
+            "04"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_01.py",
+          "sha256": "a7d47339eab889679010e926db8beb79f475a0596243f19bb15dbd69223f67e6",
+          "video_url": "https://www.youtube.com/watch?v=JuoVZkPBiKk",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 2,
+          "date": "Wed April 1",
+          "title": "PyTorch (einops), resource accounting (FLOPs, memory, arithmetic intensity) [Percy]",
+          "links": [
+            {
+              "label": "lecture_02.py",
+              "url": "https://cs336.stanford.edu/lectures/?trace=lecture_02"
+            },
+            {
+              "label": "recording version",
+              "url": "https://cs336.stanford.edu/lectures/?trace=lecture_02_recording"
+            }
+          ],
+          "chapters": [
+            "00",
+            "03",
+            "04",
+            "09"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_02.py",
+          "sha256": "f731b3849afc970a062f1fe692d7d80f5952cf82c2a4f6f2803a8fb9a9dabfd6",
+          "video_url": "https://www.youtube.com/watch?v=kuYAsz7zspQ",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 3,
+          "date": "Mon April 6",
+          "title": "Architectures, hyperparameters [Tatsu]",
+          "links": [
+            {
+              "label": "lecture 3.pdf",
+              "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_03.pdf"
+            }
+          ],
+          "chapters": [
+            "04",
+            "05",
+            "06",
+            "07"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_03.pdf",
+          "sha256": "20a953541b41a099bc69b8d809139a4ccdb2aefedaa13e50c766245fe4b5167e",
+          "video_url": "https://www.youtube.com/watch?v=lVynu4bo1rY",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 4,
+          "date": "Wed April 8",
+          "title": "Attention alternatives and mixture of experts [Tatsu]",
+          "links": [
+            {
+              "label": "lecture 4.pdf",
+              "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_04.pdf"
+            }
+          ],
+          "chapters": [
+            "07",
+            "08"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_04.pdf",
+          "sha256": "922da01cee70ed9dc9eef13d8116f1d6f45d663c12e632b3e80954c783bd3ce5",
+          "video_url": "https://www.youtube.com/watch?v=cKSwj_qZ8Jg",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 5,
+          "date": "Mon April 13",
+          "title": "GPUs, TPUs [Tatsu]",
+          "links": [
+            {
+              "label": "lecture 5.pdf",
+              "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_05.pdf"
+            }
+          ],
+          "chapters": [
+            "09",
+            "10",
+            "12"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_05.pdf",
+          "sha256": "a2d5664a3b5a1f246df2fe58b43189215f29931ec05bde4d8a6af4664f55cafe",
+          "video_url": "https://www.youtube.com/watch?v=izZba4UA7iY",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 6,
+          "date": "Wed April 15",
+          "title": "Kernels, Triton [Percy]",
+          "links": [
+            {
+              "label": "lecture_06.py",
+              "url": "https://cs336.stanford.edu/lectures/?trace=lecture_06"
+            }
+          ],
+          "chapters": [
+            "11",
+            "12"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_06.py",
+          "sha256": "4be1200d93d1f38963d40d7c46a5be72dd67a230ebf8a48d446f018d5e8fa788",
+          "video_url": "https://www.youtube.com/watch?v=xnDHaNUvHBg",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 7,
+          "date": "Mon April 20",
+          "title": "Parallelism [Percy]",
+          "links": [
+            {
+              "label": "lecture_07.py",
+              "url": "https://cs336.stanford.edu/lectures/?trace=lecture_07"
+            }
+          ],
+          "chapters": [
+            "13",
+            "14"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_07.py",
+          "sha256": "7cdec6c6e2b78afd667c98e2826efea637bb076cd926c45b4f404b0528c42e60",
+          "video_url": "https://www.youtube.com/watch?v=SzpOcwdIL0Y",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 8,
+          "date": "Wed April 22",
+          "title": "Parallelism [Tatsu]",
+          "links": [
+            {
+              "label": "lecture_08.pdf",
+              "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_08.pdf"
+            }
+          ],
+          "chapters": [
+            "08",
+            "13",
+            "14"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_08.pdf",
+          "sha256": "4c4d7674b333693f20f328935d84dd8a073362c9725c5e05302b6650751ad4d1",
+          "video_url": "https://www.youtube.com/watch?v=6-cXp-aOmdg",
+          "caption_status": "failed",
+          "video_comparison_status": "full_caption_text_reviewed_local_asr_low_confidence",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 9,
+          "date": "Mon April 27",
+          "title": "Scaling laws [Tatsu]",
+          "links": [
+            {
+              "label": "lecture_09.pdf",
+              "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_09.pdf"
+            }
+          ],
+          "chapters": [
+            "16"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_09.pdf",
+          "sha256": "92a5d9e26e65bb0a9d8c79b12ed7ea26d14530bf960dcf44f9ed5fd372f519fa",
+          "video_url": "https://www.youtube.com/watch?v=Q15rhEWZPQ4",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 10,
+          "date": "Wed April 29",
+          "title": "Inference [Percy]",
+          "links": [
+            {
+              "label": "lecture_10.py",
+              "url": "https://cs336.stanford.edu/lectures/?trace=lecture_10"
+            }
+          ],
+          "chapters": [
+            "07",
+            "15"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_10.py",
+          "sha256": "e79acd9115d75f0b8bf4902d97dc41c1f6b5016778321f19c2dc241a90cfe9b9",
+          "video_url": "https://www.youtube.com/watch?v=EfM546A79aM",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 11,
+          "date": "Mon May 4",
+          "title": "Scaling laws [Tatsu]",
+          "links": [
+            {
+              "label": "lecture_11.pdf",
+              "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_11.pdf"
+            }
+          ],
+          "chapters": [
+            "04",
+            "17"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_11.pdf",
+          "sha256": "b2148e683b4020f3fa95f5c95f37be55ebf6b2f57382f4c148517e84bf1df890",
+          "video_url": "https://www.youtube.com/watch?v=vTfEyOyzV9E",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 12,
+          "date": "Wed May 6",
+          "title": "Evaluation [Percy]",
+          "links": [
+            {
+              "label": "lecture_12.py",
+              "url": "https://cs336.stanford.edu/lectures/?trace=lecture_12"
+            }
+          ],
+          "chapters": [
+            "18"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_12.py",
+          "sha256": "93e4049c9ee2665a7e5c883fee2c213e2eaa45aa5d452e447b5a15a5f353fd09",
+          "video_url": "https://www.youtube.com/watch?v=JpAxdTWQJxM",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 13,
+          "date": "Mon May 11",
+          "title": "Data (sources, datasets) [Percy]",
+          "links": [
+            {
+              "label": "lecture_13.py",
+              "url": "https://cs336.stanford.edu/lectures/?trace=lecture_13"
+            }
+          ],
+          "chapters": [
+            "19"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_13.py",
+          "sha256": "321fbab635378c275f65c41487119f3b9b171fc0ddef1454a4c607c9db72163b",
+          "video_url": "https://www.youtube.com/watch?v=-qm0ln33G24",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 14,
+          "date": "Wed May 13",
+          "title": "Data (filtering, deduplication, mixing, synthetic data) [Percy]",
+          "links": [
+            {
+              "label": "lecture_14.py",
+              "url": "https://cs336.stanford.edu/lectures/?trace=lecture_14"
+            }
+          ],
+          "chapters": [
+            "20",
+            "21",
+            "22"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_14.py",
+          "sha256": "8e0e17f868002f2e8f73afed018b2dd787c0a1b371eec599c44d8dbfe555ae9b",
+          "video_url": "https://www.youtube.com/watch?v=5sxHosTLPF8",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 15,
+          "date": "Mon May 18",
+          "title": "Mid/post-training (SFT/RLHF) [Tatsu]",
+          "links": [
+            {
+              "label": "lecture_15.pdf",
+              "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_15.pdf"
+            }
+          ],
+          "chapters": [
+            "22",
+            "23",
+            "24"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_15.pdf",
+          "sha256": "42a4bc02408a96e0b414f789f32780ae1d8461000f872d93aa38c94fe369e862",
+          "video_url": "https://www.youtube.com/watch?v=2oH6PWPrYFo",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 16,
+          "date": "Wed May 20",
+          "title": "Post-training - RLVR [Tatsu]",
+          "links": [
+            {
+              "label": "lecture_16.pdf",
+              "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_16.pdf"
+            }
+          ],
+          "chapters": [
+            "24",
+            "25"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_16.pdf",
+          "sha256": "1a2bea825499f226b1c3fe990606253ad1b4fdbdf2ae90b4d12d7d0c07f2c8b3",
+          "video_url": "https://www.youtube.com/watch?v=dIFAi87Ws4E",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 17,
+          "date": "Wed May 27",
+          "title": "Alignment - multimodality [Percy]",
+          "links": [
+            {
+              "label": "lecture_17.py",
+              "url": "https://cs336.stanford.edu/lectures/?trace=lecture_17"
+            }
+          ],
+          "chapters": [
+            "27"
+          ],
+          "material_status": "已取得官方讲义，已核对目录线索",
+          "download": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_17.py",
+          "sha256": "d8c3054ecce42fda3d92b4f21677a83d65cb525e8b3fbd4361c079f3cd20da52",
+          "video_url": "https://www.youtube.com/watch?v=26FtD08ZpOU",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        },
+        {
+          "number": 18,
+          "date": "Mon June 1",
+          "title": "Guest lecture: Daniel Selsam",
+          "links": [],
+          "chapters": [
+            "28"
+          ],
+          "material_status": "官网有日程，未取得独立讲义／完整字幕"
+        },
+        {
+          "number": 19,
+          "date": "Wed June 3",
+          "title": "Guest lecture: Dan Fu",
+          "links": [],
+          "chapters": [
+            "28"
+          ],
+          "material_status": "字幕全文及课堂补充已核对；无独立讲义",
+          "video_url": "https://www.youtube.com/watch?v=9EEm4iMAF5s",
+          "caption_status": "extracted",
+          "video_comparison_status": "full_uploaded_caption_text_reviewed",
+          "review_detail": "字幕全文已校读，逐讲结构、问答/演示候选和纠错均有时间戳；非完整音频听校或全画面核验"
+        }
+      ],
+      "links": [
+        {
+          "label": "CS336",
+          "url": "https://cs336.stanford.edu/"
+        },
+        {
+          "label": "Coursework",
+          "url": "https://cs336.stanford.edu/#coursework"
+        },
+        {
+          "label": "Schedule",
+          "url": "https://cs336.stanford.edu/#schedule"
+        },
+        {
+          "label": "\n          \n            \n            \n          \n        ",
+          "url": "https://nlp.stanford.edu/"
+        },
+        {
+          "label": "\n          \n            \n            \n          \n        ",
+          "url": "https://crfm.stanford.edu"
+        },
+        {
+          "label": "Spring 2025",
+          "url": "https://cs336.stanford.edu/spring2025/"
+        },
+        {
+          "label": "Spring 2024",
+          "url": "https://cs336.stanford.edu/spring2024/"
+        },
+        {
+          "label": "Spring 2025",
+          "url": "https://cs336.stanford.edu/spring2025/"
+        },
+        {
+          "label": "Spring 2024",
+          "url": "https://cs336.stanford.edu/spring2024/"
+        },
+        {
+          "label": "\n              \n                \n                  \n                  \n                \n              \n              Tatsunori Hashimoto\n            ",
+          "url": "https://thashim.github.io/"
+        },
+        {
+          "label": "\n              \n                \n                  \n                  \n                \n              \n              Percy Liang\n            ",
+          "url": "https://cs.stanford.edu/~pliang/"
+        },
+        {
+          "label": "\n              \n                \n              \n              Herman Brunborg\n            ",
+          "url": "https://brunborg.com"
+        },
+        {
+          "label": "\n              \n                \n              \n              Marcel Rød\n            ",
+          "url": "https://marcel.roed.me"
+        },
+        {
+          "label": "\n              \n                \n              \n              Steven Cao\n            ",
+          "url": "https://stevenxcao.github.io/"
+        },
+        {
+          "label": "Skilling Auditorium",
+          "url": "https://campus-map.stanford.edu/?srch=Skilling+Auditorium"
+        },
+        {
+          "label": "YouTube playlist",
+          "url": "https://www.youtube.com/watch?v=JuoVZkPBiKk&list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV"
+        },
+        {
+          "label": "\n              cs336-spr2526-staff@lists.stanford.edu",
+          "url": "mailto:cs336-spr2526-staff@lists.stanford.edu"
+        },
+        {
+          "label": "Assignment 1: Basics",
+          "url": "https://github.com/stanford-cs336/assignment1-basics/tree/main"
+        },
+        {
+          "label": "Assignment 2: Systems",
+          "url": "https://github.com/stanford-cs336/assignment2-systems/tree/main"
+        },
+        {
+          "label": "Assignment 3: Scaling",
+          "url": "https://github.com/stanford-cs336/assignment3-scaling/tree/main"
+        },
+        {
+          "label": "Assignment 4: Data",
+          "url": "https://github.com/stanford-cs336/assignment4-data/tree/main"
+        },
+        {
+          "label": "Assignment 5: Alignment and Reasoning RL",
+          "url": "https://github.com/stanford-cs336/assignment5-alignment/tree/main"
+        },
+        {
+          "label": "Optional Part 2",
+          "url": "https://github.com/stanford-cs336/assignment5-alignment/blob/main/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+        },
+        {
+          "label": "schedule",
+          "url": "https://cs336.stanford.edu/#schedule"
+        },
+        {
+          "label": "Modal",
+          "url": "https://modal.com"
+        },
+        {
+          "label": "Modal Pricing",
+          "url": "https://modal.com/pricing"
+        },
+        {
+          "label": "Lambda Labs",
+          "url": "https://lambda.ai"
+        },
+        {
+          "label": "Lambda Pricing",
+          "url": "https://lambda.ai/pricing"
+        },
+        {
+          "label": "RunPod",
+          "url": "https://www.runpod.io"
+        },
+        {
+          "label": "RunPod Pricing",
+          "url": "https://www.runpod.io/pricing"
+        },
+        {
+          "label": "Nebius",
+          "url": "https://nebius.com/"
+        },
+        {
+          "label": "Nebius Pricing",
+          "url": "https://nebius.com/prices"
+        },
+        {
+          "label": "Together",
+          "url": "https://www.together.ai/"
+        },
+        {
+          "label": "Together Pricing",
+          "url": "https://www.together.ai/pricing#gpu-clusters"
+        },
+        {
+          "label": "Honor Code",
+          "url": "https://ed.stanford.edu/academics/masters-handbook/honor-code"
+        },
+        {
+          "label": "AI policy",
+          "url": "https://docs.google.com/document/d/1SZAlExB1qAc9izHt54gwunNpjKE6wXb8Y7yA_e-baK8"
+        },
+        {
+          "label": "this",
+          "url": "https://gist.github.com/1cg/a6c6f2276a1fe5ee172282580a44a7ac"
+        },
+        {
+          "label": "Modal",
+          "url": "https://modal.jobs/"
+        },
+        {
+          "label": "YouTube playlist",
+          "url": "https://www.youtube.com/watch?v=JuoVZkPBiKk&list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV"
+        },
+        {
+          "label": "lecture_01.py",
+          "url": "https://cs336.stanford.edu/lectures/?trace=lecture_01"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/assignment1-basics/tree/main"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/cs336_assignment1_basics.pdf"
+        },
+        {
+          "label": "lecture_02.py",
+          "url": "https://cs336.stanford.edu/lectures/?trace=lecture_02"
+        },
+        {
+          "label": "recording version",
+          "url": "https://cs336.stanford.edu/lectures/?trace=lecture_02_recording"
+        },
+        {
+          "label": "lecture 3.pdf",
+          "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_03.pdf"
+        },
+        {
+          "label": "lecture 4.pdf",
+          "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_04.pdf"
+        },
+        {
+          "label": "lecture 5.pdf",
+          "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_05.pdf"
+        },
+        {
+          "label": "lecture_06.py",
+          "url": "https://cs336.stanford.edu/lectures/?trace=lecture_06"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/assignment2-systems/tree/main"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/assignment2-systems/blob/main/cs336_assignment2_systems.pdf"
+        },
+        {
+          "label": "lecture_07.py",
+          "url": "https://cs336.stanford.edu/lectures/?trace=lecture_07"
+        },
+        {
+          "label": "lecture_08.pdf",
+          "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_08.pdf"
+        },
+        {
+          "label": "lecture_09.pdf",
+          "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_09.pdf"
+        },
+        {
+          "label": "lecture_10.py",
+          "url": "https://cs336.stanford.edu/lectures/?trace=lecture_10"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/assignment3-scaling/tree/main"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/assignment3-scaling/blob/main/cs336_assignment3_scaling.pdf"
+        },
+        {
+          "label": "lecture_11.pdf",
+          "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_11.pdf"
+        },
+        {
+          "label": "lecture_12.py",
+          "url": "https://cs336.stanford.edu/lectures/?trace=lecture_12"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/assignment4-data/tree/main"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/assignment4-data/blob/main/cs336_assignment4_data.pdf"
+        },
+        {
+          "label": "lecture_13.py",
+          "url": "https://cs336.stanford.edu/lectures/?trace=lecture_13"
+        },
+        {
+          "label": "lecture_14.py",
+          "url": "https://cs336.stanford.edu/lectures/?trace=lecture_14"
+        },
+        {
+          "label": "lecture_15.pdf",
+          "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_15.pdf"
+        },
+        {
+          "label": "lecture_16.pdf",
+          "url": "https://github.com/stanford-cs336/lectures/blob/main/lecture_16.pdf"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/stanford-cs336/assignment5-alignment/tree/main"
+        },
+        {
+          "label": "preview",
+          "url": "https://github.com/stanford-cs336/assignment5-alignment/blob/main/cs336_spring2026_assignment5_alignment.pdf"
+        },
+        {
+          "label": "Optional Part 2",
+          "url": "https://github.com/stanford-cs336/assignment5-alignment/blob/main/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+        },
+        {
+          "label": "lecture_17.py",
+          "url": "https://cs336.stanford.edu/lectures/?trace=lecture_17"
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "year": 2024,
+      "number": 1,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_01.py",
+      "sha256": "216485cf0940ca6b4880dc1f84643896c1e95332508495890a1d6e0b200b3470",
+      "bytes": 15842,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "number": 2,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_02.py",
+      "sha256": "76236128cb3878eee239aee8a79f495589f4ffff14b61b57d676ff28865aa38d",
+      "bytes": 35959,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "number": 3,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%203%20-%20architecture.pdf",
+      "sha256": "10802f17e7fbb391fe8a728ca900cc8e5bcd22c68a41fc5fb196041dddf4525e",
+      "bytes": 7020445,
+      "status": "ok",
+      "pages": 68
+    },
+    {
+      "year": 2024,
+      "number": 4,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%204%20-%20details%20%2B%20MoEs.pdf",
+      "sha256": "a8e781fc9e163f9d8affe722f17e27be9d2d90952a633745b5529d454754ca38",
+      "bytes": 7822805,
+      "status": "ok",
+      "pages": 49
+    },
+    {
+      "year": 2024,
+      "number": 5,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%205%20-%20GPUs.pdf",
+      "sha256": "b8f7ab503ba900fbbf4a617911d48f0e42a3127a2f65c650e2aa7b1e29bba18d",
+      "bytes": 11109717,
+      "status": "ok",
+      "pages": 50
+    },
+    {
+      "year": 2024,
+      "number": 6,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_06.py",
+      "sha256": "43de299a8c0284b8ddd2593e3e12b03f4862bb78bd6f1e3baa117e1ffe648892",
+      "bytes": 41782,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "number": 7,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%207%20-%20Parallelism%20basics.pdf",
+      "sha256": "aecd757c2f1881cae55ceada4a763b818d0ff8aee9aacbea727342588cd0967a",
+      "bytes": 7672764,
+      "status": "ok",
+      "pages": 54
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_08.py",
+      "sha256": "708e54f2c457bceb50a944054b2a2f3f820f4bc63f9f2acf75a1f8a19e597472",
+      "bytes": 29631,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "number": 9,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%209%20-%20Scaling%20laws%20basics.pdf",
+      "sha256": "44e926b15ae1745beeb23cbf07175e038689ea9fed70e92ac145a5f4a4281087",
+      "bytes": 9784133,
+      "status": "ok",
+      "pages": 52
+    },
+    {
+      "year": 2024,
+      "number": 10,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%2010%20-%20Scaling%20details.pdf",
+      "sha256": "c655abd80530bdc5a3dee445fc2837b3b655b9223fd2ecdb79254abcc328809a",
+      "bytes": 7214764,
+      "status": "ok",
+      "pages": 47
+    },
+    {
+      "year": 2024,
+      "number": 11,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_11.py",
+      "sha256": "0a02e297d1408f148e839d8c8cf8712a3701091c2f7e52f916d2a06304089466",
+      "bytes": 19154,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "number": 12,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_12.py",
+      "sha256": "d7992f245fdc08e5b0db20ccbfd4d40934073bded413bfac9298f70e768fef4b",
+      "bytes": 16875,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "number": 13,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_13.py",
+      "sha256": "0be45ab822a7e9114e9bd6e067fbc464694499f641bf5ae06040b64bf04294c9",
+      "bytes": 19265,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "number": 14,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/lecture_14.py",
+      "sha256": "92882ca88da19a418f98cba3085d61f308c3b9acf6bb3a869e66700a49b49eeb",
+      "bytes": 12082,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "number": 15,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%2015%20-%20Alignment%20by%20SFT.pdf",
+      "sha256": "03907022849adc5ffdac67d4c5c13271bedd614945c4d92c9f9d0715d8e56596",
+      "bytes": 6998036,
+      "status": "ok",
+      "pages": 53
+    },
+    {
+      "year": 2024,
+      "number": 16,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%2016%20-%20Alignment%20by%20RLHF.pdf",
+      "sha256": "aa2dce2e0d0e2292fde94d6dd07e35263b6b31b64958e1fc0023beed0f82097a",
+      "bytes": 8031406,
+      "status": "ok",
+      "pages": 50
+    },
+    {
+      "year": 2024,
+      "number": 17,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-lectures/main/nonexecutable/Lecture%2017%20-%20Evals.pdf",
+      "sha256": "765cb06562a2454e2be8a44a168b5f158b8ec22c37d510e46c250ad01f92bd10",
+      "bytes": 9249324,
+      "status": "ok",
+      "pages": 53
+    },
+    {
+      "year": 2025,
+      "number": 1,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_01.py",
+      "sha256": "f7e0511caefdef1958836c618ef9510b3da92baa2524d34d76f35eaf1abc6190",
+      "bytes": 38152,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "number": 2,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_02.py",
+      "sha256": "5f21bf395988f49dcd48408ad2382e2304eecc2811dd2d7965e8eb3ab8e3df3c",
+      "bytes": 39071,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "number": 3,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/e9cb2488fdb53ea37f0e38924ec3a1701925cef3/nonexecutable/2025%20Lecture%203%20-%20architecture.pdf",
+      "sha256": "3692b3d25b5605e70930abc81d63241c71c136dfb573029d4544420925e0f9c4",
+      "bytes": 5277140,
+      "status": "ok",
+      "pages": 68
+    },
+    {
+      "year": 2025,
+      "number": 4,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/98455ec198c9a88ec1ab2b1c4058662431b54ce3/nonexecutable/2025%20Lecture%204%20-%20MoEs.pdf",
+      "sha256": "b62ba6416f04c4473834fffa19119317e78542a6b8dc94a5e816790643cb0c4f",
+      "bytes": 4677130,
+      "status": "ok",
+      "pages": 47
+    },
+    {
+      "year": 2025,
+      "number": 5,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/nonexecutable/2025%20Lecture%205%20-%20GPUs.pdf",
+      "sha256": "ff25621de3d3d462a534070a209a8efac1b8410e3da58de08f764e33482bb6ba",
+      "bytes": 4766673,
+      "status": "ok",
+      "pages": 51
+    },
+    {
+      "year": 2025,
+      "number": 6,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_06.py",
+      "sha256": "60cbb051e6a8fce4b9f5857258bbe89e43933b50427e8f51d8c0415ebca8520b",
+      "bytes": 37332,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "number": 7,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/4eff81bee0a853217209e163936b264f03572b66/nonexecutable/2025%20Lecture%207%20-%20Parallelism%20basics.pdf",
+      "sha256": "c1868d601380a62d87cbacb91589114e46e3e88e47577d9308dde1788c9cc09a",
+      "bytes": 5004408,
+      "status": "ok",
+      "pages": 60
+    },
+    {
+      "year": 2025,
+      "number": 8,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_08.py",
+      "sha256": "2e1a2564382bc3c4649d62054930c27c4b7c6ab8199908af19e812c08ec12d0c",
+      "bytes": 18582,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "number": 9,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/fb79eb018fa047bf99c4c785dcbbd62fff361e54/nonexecutable/2025%20Lecture%209%20-%20Scaling%20laws%20basics.pdf",
+      "sha256": "89f1e78e7c040a463a2f3a22025bcca9836ca1ecdbee88b398b780835e5bf7ce",
+      "bytes": 6014047,
+      "status": "ok",
+      "pages": 53
+    },
+    {
+      "year": 2025,
+      "number": 10,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_10.py",
+      "sha256": "dd1b67f51a70439f8ee8f87a2e143c8f6b93ab9a1c79a8d905807bb8737470d8",
+      "bytes": 30126,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "number": 11,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/00191bba00d6d64621dc46ccaed9122681413a24/nonexecutable/2025%20Lecture%2011%20-%20Scaling%20details.pdf",
+      "sha256": "9aab7ba7abb0059170c2626291f7ff4b6f5c81bc6448a52945143008bcc9b887",
+      "bytes": 6265218,
+      "status": "ok",
+      "pages": 55
+    },
+    {
+      "year": 2025,
+      "number": 12,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_12.py",
+      "sha256": "2d3968b889ee6b17a4d56089dcfd51b39cf59c5099e96745dfa8b895052f563e",
+      "bytes": 20339,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "number": 13,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_13.py",
+      "sha256": "acefa00aea1f97dc4605e321e951d30d884194971903f10a881e1a7623d3af84",
+      "bytes": 32850,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "number": 14,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_14.py",
+      "sha256": "2a44df9b2cbe4befb892eeb8d6b2d5327d4cd73b3abe8da72633979a51766c6b",
+      "bytes": 31263,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "number": 15,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/61eddac004df975466cff0329b615f2d24230069/nonexecutable/2025%20Lecture%2015%20-%20RLHF%20Alignment.pdf",
+      "sha256": "d16bdb0f22702aba773cb76883b2c9e501c05ebd9e955e403ebbaebe544ece60",
+      "bytes": 6626049,
+      "status": "ok",
+      "pages": 66
+    },
+    {
+      "year": 2025,
+      "number": 16,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/e94e33f433985e57036b25215dff2a4292e67a4f/nonexecutable/2025%20Lecture%2016%20-%20RLVR.pdf",
+      "sha256": "6d789153852144d687bd9b068d5e5b5717ea99fd60d8febe8c8b06b6aa86439f",
+      "bytes": 7079571,
+      "status": "ok",
+      "pages": 67
+    },
+    {
+      "year": 2025,
+      "number": 17,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/main/lecture_17.py",
+      "sha256": "ba5068ead3170b649022a70c2b1e49c84d945f23bf9e23276ba634020c8966bc",
+      "bytes": 25974,
+      "status": "ok"
+    },
+    {
+      "year": 2026,
+      "number": 1,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_01.py",
+      "sha256": "a7d47339eab889679010e926db8beb79f475a0596243f19bb15dbd69223f67e6",
+      "bytes": 42672,
+      "status": "ok"
+    },
+    {
+      "year": 2026,
+      "number": 2,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_02.py",
+      "sha256": "f731b3849afc970a062f1fe692d7d80f5952cf82c2a4f6f2803a8fb9a9dabfd6",
+      "bytes": 35396,
+      "status": "ok"
+    },
+    {
+      "year": 2026,
+      "number": 3,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_03.pdf",
+      "sha256": "20a953541b41a099bc69b8d809139a4ccdb2aefedaa13e50c766245fe4b5167e",
+      "bytes": 5990936,
+      "status": "ok",
+      "pages": 67
+    },
+    {
+      "year": 2026,
+      "number": 4,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_04.pdf",
+      "sha256": "922da01cee70ed9dc9eef13d8116f1d6f45d663c12e632b3e80954c783bd3ce5",
+      "bytes": 6500834,
+      "status": "ok",
+      "pages": 60
+    },
+    {
+      "year": 2026,
+      "number": 5,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_05.pdf",
+      "sha256": "a2d5664a3b5a1f246df2fe58b43189215f29931ec05bde4d8a6af4664f55cafe",
+      "bytes": 5200951,
+      "status": "ok",
+      "pages": 55
+    },
+    {
+      "year": 2026,
+      "number": 6,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_06.py",
+      "sha256": "4be1200d93d1f38963d40d7c46a5be72dd67a230ebf8a48d446f018d5e8fa788",
+      "bytes": 31366,
+      "status": "ok"
+    },
+    {
+      "year": 2026,
+      "number": 7,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_07.py",
+      "sha256": "7cdec6c6e2b78afd667c98e2826efea637bb076cd926c45b4f404b0528c42e60",
+      "bytes": 26346,
+      "status": "ok"
+    },
+    {
+      "year": 2026,
+      "number": 8,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_08.pdf",
+      "sha256": "4c4d7674b333693f20f328935d84dd8a073362c9725c5e05302b6650751ad4d1",
+      "bytes": 6563256,
+      "status": "ok",
+      "pages": 73
+    },
+    {
+      "year": 2026,
+      "number": 9,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_09.pdf",
+      "sha256": "92a5d9e26e65bb0a9d8c79b12ed7ea26d14530bf960dcf44f9ed5fd372f519fa",
+      "bytes": 6941146,
+      "status": "ok",
+      "pages": 57
+    },
+    {
+      "year": 2026,
+      "number": 10,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_10.py",
+      "sha256": "e79acd9115d75f0b8bf4902d97dc41c1f6b5016778321f19c2dc241a90cfe9b9",
+      "bytes": 31289,
+      "status": "ok"
+    },
+    {
+      "year": 2026,
+      "number": 11,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_11.pdf",
+      "sha256": "b2148e683b4020f3fa95f5c95f37be55ebf6b2f57382f4c148517e84bf1df890",
+      "bytes": 6702855,
+      "status": "ok",
+      "pages": 58
+    },
+    {
+      "year": 2026,
+      "number": 12,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_12.py",
+      "sha256": "93e4049c9ee2665a7e5c883fee2c213e2eaa45aa5d452e447b5a15a5f353fd09",
+      "bytes": 21557,
+      "status": "ok"
+    },
+    {
+      "year": 2026,
+      "number": 13,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_13.py",
+      "sha256": "321fbab635378c275f65c41487119f3b9b171fc0ddef1454a4c607c9db72163b",
+      "bytes": 33754,
+      "status": "ok"
+    },
+    {
+      "year": 2026,
+      "number": 14,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_14.py",
+      "sha256": "8e0e17f868002f2e8f73afed018b2dd787c0a1b371eec599c44d8dbfe555ae9b",
+      "bytes": 24169,
+      "status": "ok"
+    },
+    {
+      "year": 2026,
+      "number": 15,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_15.pdf",
+      "sha256": "42a4bc02408a96e0b414f789f32780ae1d8461000f872d93aa38c94fe369e862",
+      "bytes": 6395151,
+      "status": "ok",
+      "pages": 65
+    },
+    {
+      "year": 2026,
+      "number": 16,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_16.pdf",
+      "sha256": "1a2bea825499f226b1c3fe990606253ad1b4fdbdf2ae90b4d12d7d0c07f2c8b3",
+      "bytes": 6755659,
+      "status": "ok",
+      "pages": 61
+    },
+    {
+      "year": 2026,
+      "number": 17,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_17.py",
+      "sha256": "d8c3054ecce42fda3d92b4f21677a83d65cb525e8b3fbd4361c079f3cd20da52",
+      "bytes": 13890,
+      "status": "ok"
+    }
+  ],
+  "assignment_files": [
+    {
+      "repo": "assignment1-basics",
+      "name": "cs336_assignment1_basics.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment1-basics/main/cs336_assignment1_basics.pdf",
+      "html": "https://github.com/stanford-cs336/assignment1-basics/blob/main/cs336_assignment1_basics.pdf",
+      "bytes": 965629,
+      "sha256": "cf402d1c6d3c66da035bdf33b3e2c1bbc4bb92a78b006ee36577e925a265e328",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment2-systems",
+      "name": "cs336_assignment2_systems.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment2-systems/main/cs336_assignment2_systems.pdf",
+      "html": "https://github.com/stanford-cs336/assignment2-systems/blob/main/cs336_assignment2_systems.pdf",
+      "bytes": 1495177,
+      "sha256": "f5667e3b6fac23c3a6d4ad4a999445b96aab3fb2246904d13ec86b79320b1a84",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment3-scaling",
+      "name": "cs336_assignment3_scaling.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment3-scaling/main/cs336_assignment3_scaling.pdf",
+      "html": "https://github.com/stanford-cs336/assignment3-scaling/blob/main/cs336_assignment3_scaling.pdf",
+      "bytes": 182230,
+      "sha256": "121e9d15b1ba508cef437acc764eaa83268b559c4898c10bda3fd56bdde50392",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment4-data",
+      "name": "cs336_assignment4_data.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment4-data/main/cs336_assignment4_data.pdf",
+      "html": "https://github.com/stanford-cs336/assignment4-data/blob/main/cs336_assignment4_data.pdf",
+      "bytes": 287362,
+      "sha256": "2b0660d0d1e96366c4688f9606c707c668a1fa76396c563b21a6fc75863fb59e",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment5-alignment",
+      "name": "cs336_spring2026_assignment5_alignment.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment5-alignment/main/cs336_spring2026_assignment5_alignment.pdf",
+      "html": "https://github.com/stanford-cs336/assignment5-alignment/blob/main/cs336_spring2026_assignment5_alignment.pdf",
+      "bytes": 765568,
+      "sha256": "c93d503a69aef4aa7519b7fc664abebbf2ebf5e5e88379a7ed92f4c209a2d26a",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment5-alignment",
+      "name": "cs336_spring2026_assignment5_supplement_safety_rlhf.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment5-alignment/main/cs336_spring2026_assignment5_supplement_safety_rlhf.pdf",
+      "html": "https://github.com/stanford-cs336/assignment5-alignment/blob/main/cs336_spring2026_assignment5_supplement_safety_rlhf.pdf",
+      "bytes": 295954,
+      "sha256": "30a2de73c2b95b9302bf31640f5f6016ef884d611cba94c9a0fdb1e505ad07e3",
+      "status": "ok"
+    },
+    {
+      "repo": "spring2024-assignment1-basics",
+      "name": "cs336_spring2024_assignment1_basics.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-assignment1-basics/master/cs336_spring2024_assignment1_basics.pdf",
+      "html": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/master/cs336_spring2024_assignment1_basics.pdf",
+      "bytes": 342354,
+      "sha256": "c8578ef01241aaeca3187579b3ff5b650ab74130e8c125a3863e94f53039e1cd",
+      "status": "ok"
+    },
+    {
+      "repo": "spring2024-assignment2-systems",
+      "name": "cs336_spring2024_assignment2_systems.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-assignment2-systems/master/cs336_spring2024_assignment2_systems.pdf",
+      "html": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/master/cs336_spring2024_assignment2_systems.pdf",
+      "bytes": 438697,
+      "sha256": "1acee0d2c3ba798325d72ccc0b8129085d7d1dff68d242c355d4065589234edd",
+      "status": "ok"
+    },
+    {
+      "repo": "spring2024-assignment3-scaling",
+      "name": "cs336_spring2024_assignment3_scaling.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-assignment3-scaling/master/cs336_spring2024_assignment3_scaling.pdf",
+      "html": "https://github.com/stanford-cs336/spring2024-assignment3-scaling/blob/master/cs336_spring2024_assignment3_scaling.pdf",
+      "bytes": 76302,
+      "sha256": "05a0d3553b5099689aaba2d0ad638d74c8dd5452a0bc64e4a085ab2a7048fd11",
+      "status": "ok"
+    },
+    {
+      "repo": "spring2024-assignment4-data",
+      "name": "cs336_spring2024_assignment4_data.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-assignment4-data/master/cs336_spring2024_assignment4_data.pdf",
+      "html": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/master/cs336_spring2024_assignment4_data.pdf",
+      "bytes": 149544,
+      "sha256": "c5b680cd51c0d40b5424c852beeb835e7491b620efaa17f672b542104ef51472",
+      "status": "ok"
+    },
+    {
+      "repo": "spring2024-assignment5-alignment",
+      "name": "cs336_spring2024_assignment5_alignment.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2024-assignment5-alignment/master/cs336_spring2024_assignment5_alignment.pdf",
+      "html": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/master/cs336_spring2024_assignment5_alignment.pdf",
+      "bytes": 160333,
+      "sha256": "6b800d78184bb4395c2c648204ef89838cf58d0ed9ecd4382cbee6994cdae3aa",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment1-basics",
+      "name": "cs336_spring2025_assignment1_basics.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment1-basics/spring2025/cs336_spring2025_assignment1_basics.pdf",
+      "html": "https://github.com/stanford-cs336/assignment1-basics/blob/spring2025/cs336_spring2025_assignment1_basics.pdf",
+      "bytes": 419506,
+      "sha256": "9446073819eea8dea9bf9e585d96f908a68efc1eaf9501500563d790e687e888",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment2-systems",
+      "name": "cs336_spring2025_assignment2_systems.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment2-systems/spring2025/cs336_spring2025_assignment2_systems.pdf",
+      "html": "https://github.com/stanford-cs336/assignment2-systems/blob/spring2025/cs336_spring2025_assignment2_systems.pdf",
+      "bytes": 494365,
+      "sha256": "4b9ae97f4962a83f9de5ec744ae4fb3baeb6aedbcf7b78b54a9ded08362f2bfb",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment3-scaling",
+      "name": "cs336_spring2025_assignment3_scaling.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment3-scaling/spring2025/cs336_spring2025_assignment3_scaling.pdf",
+      "html": "https://github.com/stanford-cs336/assignment3-scaling/blob/spring2025/cs336_spring2025_assignment3_scaling.pdf",
+      "bytes": 77041,
+      "sha256": "2e36b6d389459799094bc82bb4fa64706b7e5398c3e5f06f7ef5059014ac80d4",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment4-data",
+      "name": "cs336_spring2025_assignment4_data.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment4-data/spring2025/cs336_spring2025_assignment4_data.pdf",
+      "html": "https://github.com/stanford-cs336/assignment4-data/blob/spring2025/cs336_spring2025_assignment4_data.pdf",
+      "bytes": 156445,
+      "sha256": "fefb6d3bf2d78d0076a30f18d6197779e1aaef25feb024b57017ba56c8a89fc9",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment5-alignment",
+      "name": "cs336_spring2025_assignment5_alignment.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment5-alignment/spring2025/cs336_spring2025_assignment5_alignment.pdf",
+      "html": "https://github.com/stanford-cs336/assignment5-alignment/blob/spring2025/cs336_spring2025_assignment5_alignment.pdf",
+      "bytes": 276583,
+      "sha256": "656c717afbbb0c40b672f09608c438e2b7c4f8683b2da2ea8f92e5f1df9bbbb6",
+      "status": "ok"
+    },
+    {
+      "repo": "assignment5-alignment",
+      "name": "cs336_spring2025_assignment5_supplement_safety_rlhf.pdf",
+      "url": "https://raw.githubusercontent.com/stanford-cs336/assignment5-alignment/spring2025/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf",
+      "html": "https://github.com/stanford-cs336/assignment5-alignment/blob/spring2025/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf",
+      "bytes": 148716,
+      "sha256": "ecf7fd5b6ee20ac89f64a56f063805f6ac9089cd5a71f5c7764420cae875262a",
+      "status": "ok"
+    }
+  ],
+  "chapter_count": 29,
+  "knowledge_point_count": 299,
+  "coverage_limits": [
+    "全部已取得字幕文字已校读；音频尚未完整听校，字幕漏记发言无法由文字恢复",
+    "关键帧取样不等于全帧验收；231张讲义图像主图已看，405复合输出检查不等于所有GPU程序复跑",
+    "2026 L08 官方字幕未取得；本地自动转写需听校",
+    "2024 录像及五场嘉宾完整一手课堂材料未取得",
+    "全部1889页版面/主图已看，密集公式重点核对；小字、引用实验未全部独立验证",
+    "尚未做 2026 春季之后全领域更新审查"
+  ],
+  "video_sources": [
+    {
+      "year": 2025,
+      "playlist_order": 1,
+      "id": "SQ3fZ1sAqXI",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 1: Overview and Tokenization",
+      "url": "https://www.youtube.com/watch?v=SQ3fZ1sAqXI",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1498,
+      "last_caption_end_seconds": 4733.97,
+      "word_count": 10989,
+      "segments_sha256": "c1536559807574b858680f1eb3a7e65a26dc33050a3eec01f10fdc4f3f44b961",
+      "extracted_at": "2026-10-22T13:42:31.586460+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 2,
+      "id": "msHyYioAyNE",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lec. 2: Pytorch, Resource Accounting",
+      "url": "https://www.youtube.com/watch?v=msHyYioAyNE",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1291,
+      "last_caption_end_seconds": 4757.15,
+      "word_count": 9833,
+      "segments_sha256": "46399db47a61a20c0f22d772181d9a820470954539c8c3eb5d80a8dae56b1f2f",
+      "extracted_at": "2026-10-22T13:42:31.354092+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 3,
+      "id": "ptFiH_bHnJw",
+      "title": "Stanford CS336 Lang. Modeling from Scratch | Spring 2025 | Lec. 3: Architectures, Hyperparameters",
+      "url": "https://www.youtube.com/watch?v=ptFiH_bHnJw",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1990,
+      "last_caption_end_seconds": 5218.4,
+      "word_count": 15050,
+      "segments_sha256": "2bc6f4a278ac7bccd161d99237dbb2ef839c28b849f4e558d6848f59d89e9557",
+      "extracted_at": "2026-10-22T13:42:32.468982+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 4,
+      "id": "LPv1KfUXLCo",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 4: Mixture of experts",
+      "url": "https://www.youtube.com/watch?v=LPv1KfUXLCo",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1953,
+      "last_caption_end_seconds": 4918.71,
+      "word_count": 14467,
+      "segments_sha256": "9e781c2993aa19589baaef55c590f82878688cc7c34e7cd8ebd057a2dd46e982",
+      "extracted_at": "2026-10-22T13:42:32.764072+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 5,
+      "id": "6OBtO9niT00",
+      "title": "Stanford CS336 I Language Modeling from Scratch | Spring 2025 | Lecture 5: GPUs",
+      "url": "https://www.youtube.com/watch?v=6OBtO9niT00",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1725,
+      "last_caption_end_seconds": 4456.7699999999995,
+      "word_count": 13631,
+      "segments_sha256": "01cfad47bd887f6a53e26cbdb5e43e6a91a2b818678ff07d0b10f90784133fa3",
+      "extracted_at": "2026-10-22T13:42:33.544504+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 6,
+      "id": "E8Mju53VB00",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 6: Kernels, Triton",
+      "url": "https://www.youtube.com/watch?v=E8Mju53VB00",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1860,
+      "last_caption_end_seconds": 4817.16,
+      "word_count": 14450,
+      "segments_sha256": "e59f0fde4e8e0be7e6e4541b9a7e5733afb83b116dba336244e982c2aab4ae95",
+      "extracted_at": "2026-10-22T13:42:43.953434+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 7,
+      "id": "l1RJcDjzK8M",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 7: Parallelism 1",
+      "url": "https://www.youtube.com/watch?v=l1RJcDjzK8M",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1969,
+      "last_caption_end_seconds": 5078.33,
+      "word_count": 15081,
+      "segments_sha256": "d29010235d502b0b1a452f0b43845ac93cf96ec4ee350c11f5e5fa290468a770",
+      "extracted_at": "2026-10-22T13:42:34.871832+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 8,
+      "id": "LHpr5ytssLo",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 8: Parallelism 2",
+      "url": "https://www.youtube.com/watch?v=LHpr5ytssLo",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1250,
+      "last_caption_end_seconds": 4506.110000000001,
+      "word_count": 9160,
+      "segments_sha256": "52887cda9b624832a146de77c479fe84b8115fce2f3f27f56107fae4f956771e",
+      "extracted_at": "2026-10-22T13:42:35.980159+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 9,
+      "id": "6Q-ESEmDf4Q",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 9: Scaling laws 1",
+      "url": "https://www.youtube.com/watch?v=6Q-ESEmDf4Q",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1462,
+      "last_caption_end_seconds": 3913.34,
+      "word_count": 11409,
+      "segments_sha256": "dbd986b521faed9a55f38bbbb8255d5b76e083a950a841fafe7654473a54d5e7",
+      "extracted_at": "2026-10-22T13:42:37.157990+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 10,
+      "id": "fcgPYo3OtV0",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 10: Inference",
+      "url": "https://www.youtube.com/watch?v=fcgPYo3OtV0",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1464,
+      "last_caption_end_seconds": 4966.8099999999995,
+      "word_count": 11219,
+      "segments_sha256": "4ddb091dfd01513ef16f2537a4f5d85b7f0f15f4f49eb9780abfc378e80f23b9",
+      "extracted_at": "2026-10-22T13:42:38.376283+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 11,
+      "id": "OSYuUqGBQxw",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 11: Scaling laws 2",
+      "url": "https://www.youtube.com/watch?v=OSYuUqGBQxw",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1743,
+      "last_caption_end_seconds": 4688.91,
+      "word_count": 13682,
+      "segments_sha256": "6e6827354e76a7b0b6afa29165df8ad81c0f59ce7063382fe2b382b906d2bea6",
+      "extracted_at": "2026-10-22T13:42:39.681700+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 12,
+      "id": "x-R5l2HsXqM",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 12: Evaluation",
+      "url": "https://www.youtube.com/watch?v=x-R5l2HsXqM",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1510,
+      "last_caption_end_seconds": 4843.42,
+      "word_count": 11132,
+      "segments_sha256": "539c46a3c64b3bd94a0677269b166b586813fcb6dc4e2932b169e7f5e98360b4",
+      "extracted_at": "2026-10-22T13:42:40.811582+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 13,
+      "id": "WePxmeXU1xg",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 13: Data 1",
+      "url": "https://www.youtube.com/watch?v=WePxmeXU1xg",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1422,
+      "last_caption_end_seconds": 4741.26,
+      "word_count": 10384,
+      "segments_sha256": "35dad675b3654c7555d66faba188715ae5ef76660ade0126423295185c9b53f4",
+      "extracted_at": "2026-10-22T13:42:41.962720+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 14,
+      "id": "9Cd0THLS1t0",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 14: Data 2",
+      "url": "https://www.youtube.com/watch?v=9Cd0THLS1t0",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1394,
+      "last_caption_end_seconds": 4746.59,
+      "word_count": 10556,
+      "segments_sha256": "c47e41e0c0803f343a42fbb46cfa82a3fe50974ab0b5065171f92636f62c865d",
+      "extracted_at": "2026-10-22T13:42:43.006371+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 15,
+      "id": "Dfu7vC9jo4w",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 15: Alignment - SFT/RLHF",
+      "url": "https://www.youtube.com/watch?v=Dfu7vC9jo4w",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1696,
+      "last_caption_end_seconds": 4486.45,
+      "word_count": 12989,
+      "segments_sha256": "e3e1e96fff62dfce96c7bac8b8b40ca3c936343a0ca4f6272c38965c006437cb",
+      "extracted_at": "2026-10-22T13:42:44.271090+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 16,
+      "id": "46f2QTDB08Q",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 16: Alignment - RL 1",
+      "url": "https://www.youtube.com/watch?v=46f2QTDB08Q",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1847,
+      "last_caption_end_seconds": 4827.42,
+      "word_count": 14002,
+      "segments_sha256": "fd65b9cafba02d0853da9066463123b7eacd23f74f0ff0dfa5d4975ad8eb642d",
+      "extracted_at": "2026-10-22T13:42:45.357327+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2025,
+      "playlist_order": 17,
+      "id": "JdGFdViaOJk",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 17: Alignment - RL 2",
+      "url": "https://www.youtube.com/watch?v=JdGFdViaOJk",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1342,
+      "last_caption_end_seconds": 4562.81,
+      "word_count": 10332,
+      "segments_sha256": "a6b5592cb4658a5244ce5688871985f4a005cf0b7e713d74b3a8cf99f08d758d",
+      "extracted_at": "2026-10-22T13:42:45.622595+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 1,
+      "id": "JuoVZkPBiKk",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 1: Overview, Tokenization",
+      "url": "https://www.youtube.com/watch?v=JuoVZkPBiKk",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1509,
+      "last_caption_end_seconds": 4757.22,
+      "word_count": 11500,
+      "segments_sha256": "952bbffdd142200a46548f3ff996757dd14986b06bb38cc2ea134de8d9f97420",
+      "extracted_at": "2026-10-22T13:42:46.625334+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 2,
+      "id": "kuYAsz7zspQ",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 2: PyTorch (einops)",
+      "url": "https://www.youtube.com/watch?v=kuYAsz7zspQ",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1425,
+      "last_caption_end_seconds": 4640.78,
+      "word_count": 10413,
+      "segments_sha256": "071574102ed23f30938e095fe92f46fa06a6e1d4291501c7f121e1fb98f27f68",
+      "extracted_at": "2026-10-22T13:42:46.931726+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 3,
+      "id": "lVynu4bo1rY",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 3: Architectures",
+      "url": "https://www.youtube.com/watch?v=lVynu4bo1rY",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 2020,
+      "last_caption_end_seconds": 5349.75,
+      "word_count": 15166,
+      "segments_sha256": "f4b53a98bdbc242bcb38b12b28b4f372703ea2a93d03acf4d8a3a13e8b0cf9d8",
+      "extracted_at": "2026-10-22T13:42:47.578955+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 4,
+      "id": "cKSwj_qZ8Jg",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 4: Attention Alternatives",
+      "url": "https://www.youtube.com/watch?v=cKSwj_qZ8Jg",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1938,
+      "last_caption_end_seconds": 5175.51,
+      "word_count": 14534,
+      "segments_sha256": "fdc3e46a636edcd26fda9773eec7a20c88c6faaba501b409a5721ec9f1226fbe",
+      "extracted_at": "2026-10-22T13:42:48.381935+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 5,
+      "id": "izZba4UA7iY",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 5: GPUs, TPUs",
+      "url": "https://www.youtube.com/watch?v=izZba4UA7iY",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1925,
+      "last_caption_end_seconds": 4714.21,
+      "word_count": 14242,
+      "segments_sha256": "1b2f6f9922ef3bed6bad01995c043ddd21fa0fec33ef4b9c0addf3ce82860f4b",
+      "extracted_at": "2026-10-22T13:42:58.512414+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 6,
+      "id": "xnDHaNUvHBg",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 6: Kernels, Triton, XLA",
+      "url": "https://www.youtube.com/watch?v=xnDHaNUvHBg",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1552,
+      "last_caption_end_seconds": 5196.6,
+      "word_count": 11433,
+      "segments_sha256": "eb7f9f2d2958eac5e959c12bd4dbdeaff952c755c1c9d9e954f00a3680a77b46",
+      "extracted_at": "2026-10-22T13:42:49.541982+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 7,
+      "id": "SzpOcwdIL0Y",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 7: Parallelism",
+      "url": "https://www.youtube.com/watch?v=SzpOcwdIL0Y",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1312,
+      "last_caption_end_seconds": 4857.68,
+      "word_count": 9938,
+      "segments_sha256": "3bc797e1e0fd386d0183661ef403b5294649a296438531f32b8ce88e52a1f87d",
+      "extracted_at": "2026-10-22T13:42:50.957294+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 8,
+      "id": "6-cXp-aOmdg",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 8: Parallelism",
+      "url": "https://www.youtube.com/watch?v=6-cXp-aOmdg",
+      "status": "failed",
+      "error_type": "IpBlocked",
+      "local_asr": {
+        "status": "local_asr_unverified",
+        "model": "faster-whisper base.en CPU int8 beam=1",
+        "segments_count": 1702,
+        "last_end": 4804.74,
+        "source_duration": 4810,
+        "is_generated": true,
+        "audio_sha256": "1c0201b2bc61b04df5c421716209bae99f2ae2ee7991daaa33ba5000455a7f45",
+        "transcript_file_sha256": "854e400ee25e0e39cc2564989621cdd50e32f10c7125c14a444f33c82b82c23d",
+        "quality_note": "Automatic draft; technical terms, questions and formulas require cross-checking."
+      },
+      "review_status": "full_caption_text_reviewed_local_asr_low_confidence"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 9,
+      "id": "Q15rhEWZPQ4",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 9: Scaling Laws",
+      "url": "https://www.youtube.com/watch?v=Q15rhEWZPQ4",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1812,
+      "last_caption_end_seconds": 4673.51,
+      "word_count": 14285,
+      "segments_sha256": "968b6d16961fffa586fe1f2fcaeaba96d28c687f96e9f3dbd4f3fd81b5058e4b",
+      "extracted_at": "2026-10-22T13:42:53.285777+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 10,
+      "id": "EfM546A79aM",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 10: Inference",
+      "url": "https://www.youtube.com/watch?v=EfM546A79aM",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1509,
+      "last_caption_end_seconds": 5124.28,
+      "word_count": 11125,
+      "segments_sha256": "a250e9c1a27a3bf3234afd48db00af154f65ff5fe6c1081153b3be8b49642993",
+      "extracted_at": "2026-10-22T13:42:54.292674+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 11,
+      "id": "vTfEyOyzV9E",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 11:  Scaling Laws",
+      "url": "https://www.youtube.com/watch?v=vTfEyOyzV9E",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1808,
+      "last_caption_end_seconds": 4618.22,
+      "word_count": 14044,
+      "segments_sha256": "8ce921d6414167894da8db6c82a83d14d10b239d1d8c30fcd688a871ffc80254",
+      "extracted_at": "2026-10-22T13:42:55.431727+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 12,
+      "id": "JpAxdTWQJxM",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 12: Evaluation",
+      "url": "https://www.youtube.com/watch?v=JpAxdTWQJxM",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1376,
+      "last_caption_end_seconds": 4710.71,
+      "word_count": 10271,
+      "segments_sha256": "1be085d8d1998d53a1b30b421a343d701484e929c50f47af857036e20a09e274",
+      "extracted_at": "2026-10-22T13:42:56.755488+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 13,
+      "id": "-qm0ln33G24",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 13: Data (Sources, Datasets)",
+      "url": "https://www.youtube.com/watch?v=-qm0ln33G24",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1419,
+      "last_caption_end_seconds": 4916.08,
+      "word_count": 10735,
+      "segments_sha256": "41ccb28db751e026eee65b439b86b5c44aecb7f0c64fb069b7aeedce09371ea9",
+      "extracted_at": "2026-10-22T13:42:57.746246+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 14,
+      "id": "5sxHosTLPF8",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 14: Data",
+      "url": "https://www.youtube.com/watch?v=5sxHosTLPF8",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1448,
+      "last_caption_end_seconds": 5080.18,
+      "word_count": 10853,
+      "segments_sha256": "688ba22f2a7b8b578b1480e16cb566f5a1c0a4501f0a2deb47ce343355224acd",
+      "extracted_at": "2026-10-22T13:42:58.814539+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 15,
+      "id": "2oH6PWPrYFo",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 15: Mid/Post-Training",
+      "url": "https://www.youtube.com/watch?v=2oH6PWPrYFo",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1872,
+      "last_caption_end_seconds": 4788.06,
+      "word_count": 14142,
+      "segments_sha256": "c1c6693fa89815f2a61adc79cd5a6d4c1380e33aa3f0a41d1adfdd466b2b3317",
+      "extracted_at": "2026-10-22T13:42:59.854704+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 16,
+      "id": "dIFAi87Ws4E",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 16: Post-Training - RLVR",
+      "url": "https://www.youtube.com/watch?v=dIFAi87Ws4E",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1687,
+      "last_caption_end_seconds": 4545.08,
+      "word_count": 13041,
+      "segments_sha256": "4113f613ac547252bc9d71229641a4e48d6e09ba9681314f725147cd402d3088",
+      "extracted_at": "2026-10-22T13:43:00.523645+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 17,
+      "id": "26FtD08ZpOU",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 17: Alignment - Multimodality",
+      "url": "https://www.youtube.com/watch?v=26FtD08ZpOU",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1264,
+      "last_caption_end_seconds": 4654.06,
+      "word_count": 9458,
+      "segments_sha256": "1c26be725bade121c467a8d10468f0df39267c1d1333b1afbff6654bc2f0ef3d",
+      "extracted_at": "2026-10-22T13:43:01.451052+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    },
+    {
+      "year": 2026,
+      "playlist_order": 18,
+      "id": "9EEm4iMAF5s",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Guest Lecture: Dan Fu",
+      "url": "https://www.youtube.com/watch?v=9EEm4iMAF5s",
+      "status": "extracted",
+      "track_language": "en-US",
+      "is_generated": false,
+      "segments_count": 1533,
+      "last_caption_end_seconds": 4295.860000000001,
+      "word_count": 12165,
+      "segments_sha256": "249900c38c2a696b4ac053a825d27ed2fa6fbcd1aef1a2f0638f2dbaf14a858d",
+      "extracted_at": "2026-10-22T13:43:01.689249+00:00",
+      "review_status": "full_uploaded_caption_text_reviewed"
+    }
+  ],
+  "learning_materials": {
+    "version": "1.2-public-audit",
+    "file": "CS336-AI陪学资料.md",
+    "semantic_review_level": "complete_retrieved_caption_text_reading_plus_lecture_material_and_selected_demo_checks",
+    "full_caption_text_review_complete": true,
+    "full_audio_listening_review_complete": false,
+    "visual_review_complete": false,
+    "pdf_visual_overview_pages": 1889,
+    "original_audio_machine_comparisons": 35,
+    "trace_unique_images_reviewed": 231,
+    "trace_compound_values_checked": 405,
+    "demo_results": "CS336-实验结果.json"
+  },
+  "execution_sources": [
+    {
+      "repo": "spring2025-lectures",
+      "sha": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+      "path": "var/traces/lecture_01.json",
+      "blob_sha": "095fe1d7df4111767e059a99c3c04e887289bd15",
+      "size": 1258686,
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b/var/traces/lecture_01.json",
+      "sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc",
+      "success": true,
+      "steps": 1080,
+      "functions": [
+        "main",
+        "welcome",
+        "why_this_course_exists",
+        "current_landscape",
+        "what_is_this_program",
+        "course_logistics",
+        "course_components",
+        "basics",
+        "systems",
+        "scaling_laws",
+        "data",
+        "look_at_web_data",
+        "alignment",
+        "supervised_finetuning",
+        "learning_from_feedback",
+        "tokenization",
+        "intro_to_tokenization",
+        "tokenization_examples",
+        "get_gpt2_tokenizer",
+        "get_compression_ratio",
+        "character_tokenizer",
+        "encode",
+        "decode",
+        "byte_tokenizer",
+        "word_tokenizer",
+        "bpe_tokenizer",
+        "train_bpe",
+        "merge",
+        "__init__"
+      ]
+    },
+    {
+      "repo": "spring2025-lectures",
+      "sha": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+      "path": "var/traces/lecture_02.json",
+      "blob_sha": "989f528d57d0a33947dbeeb585bd260d1ec5ced7",
+      "size": 1492272,
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b/var/traces/lecture_02.json",
+      "sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05",
+      "success": true,
+      "steps": 1672,
+      "functions": [
+        "main",
+        "motivating_questions",
+        "tensors_basics",
+        "tensors_memory",
+        "get_memory_usage",
+        "tensors_on_gpus",
+        "tensor_operations",
+        "tensor_storage",
+        "tensor_slicing",
+        "same_storage",
+        "tensor_elementwise",
+        "tensor_matmul",
+        "tensor_einops",
+        "einops_motivation",
+        "jaxtyping_basics",
+        "einops_einsum",
+        "einops_reduce",
+        "einops_rearrange",
+        "tensor_operations_flops",
+        "get_device",
+        "time_matmul",
+        "run",
+        "get_promised_flop_per_sec",
+        "gradients_basics",
+        "gradients_flops",
+        "module_parameters",
+        "custom_model",
+        "__init__",
+        "get_num_parameters",
+        "<genexpr>",
+        "forward",
+        "note_about_randomness",
+        "data_loading",
+        "get_batch",
+        "optimizer",
+        "step",
+        "train_loop",
+        "train",
+        "checkpointing",
+        "mixed_precision_training"
+      ]
+    },
+    {
+      "repo": "spring2025-lectures",
+      "sha": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+      "path": "var/traces/lecture_06.json",
+      "blob_sha": "61323ca3f95feec47c7e4155f8122ffaf3e6ad52",
+      "size": 13136048,
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b/var/traces/lecture_06.json",
+      "sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6",
+      "success": true,
+      "steps": 9522,
+      "functions": [
+        "main",
+        "announcements",
+        "review_of_gpus",
+        "print_gpu_specs",
+        "benchmarking_and_profiling",
+        "run_mlp",
+        "__init__",
+        "<listcomp>",
+        "benchmarking",
+        "benchmark",
+        "<lambda>",
+        "run_operation2",
+        "run",
+        "forward",
+        "profiling",
+        "profile",
+        "kernel_fusion_motivation",
+        "pytorch_gelu",
+        "manual_gelu",
+        "run_operation1",
+        "cuda_kernels",
+        "create_cuda_gelu",
+        "triton_kernels",
+        "triton_introduction",
+        "triton_gelu_main",
+        "triton_gelu",
+        "print_ptx_main",
+        "print_ptx",
+        "pytorch_compilation",
+        "triton_softmax_main",
+        "manual_softmax",
+        "triton_softmax",
+        "pytorch_softmax",
+        "further_reading"
+      ]
+    },
+    {
+      "repo": "spring2025-lectures",
+      "sha": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+      "path": "var/traces/lecture_08.json",
+      "blob_sha": "fa7c4b9845841d5177682a8f7554685c7181f950",
+      "size": 370234,
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b/var/traces/lecture_08.json",
+      "sha256": "2c819f1a5cfda52b9eebe88760866cbf2354cb8d2af9e13332d46170590ce4ae",
+      "success": true,
+      "steps": 409,
+      "functions": [
+        "main",
+        "collective_operations",
+        "torch_distributed",
+        "collective_operations_main",
+        "setup",
+        "cleanup",
+        "benchmarking",
+        "all_reduce",
+        "reduce_scatter",
+        "data_parallelism",
+        "generate_sample_data",
+        "data_parallelism_main",
+        "<listcomp>",
+        "tensor_parallelism",
+        "tensor_parallelism_main",
+        "pipeline_parallelism",
+        "pipeline_parallelism_main"
+      ]
+    },
+    {
+      "repo": "spring2025-lectures",
+      "sha": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+      "path": "var/traces/lecture_08_stdout.txt",
+      "blob_sha": "7e8e9f965c6ae75e1737a7fe08364813449c0288",
+      "size": 7558,
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b/var/traces/lecture_08_stdout.txt",
+      "sha256": "e6030d3c9383d12f07f4c40add66343e985d3633c37d3e1be4aeb27107cbe680",
+      "success": true
+    },
+    {
+      "repo": "spring2025-lectures",
+      "sha": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+      "path": "var/traces/lecture_10.json",
+      "blob_sha": "6a56fabf792c9b47fb40073d4d691855d84a6e54",
+      "size": 473500,
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b/var/traces/lecture_10.json",
+      "sha256": "011bd0a31e1374a6634e7d722b2ae6c3445f23a4d3fddd3404ed1fd8a703f406",
+      "success": true,
+      "steps": 516,
+      "functions": [
+        "main",
+        "landscape",
+        "review_transformer",
+        "review_of_arithmetic_intensity",
+        "arithmetic_intensity_of_inference",
+        "throughput_and_latency",
+        "llama2_13b_config",
+        "compute_transformer_stats",
+        "reduce_kv_cache_size",
+        "alternatives_to_the_transformer",
+        "quantization",
+        "model_pruning",
+        "speculative_sampling",
+        "continuous_batching",
+        "paged_attention"
+      ]
+    },
+    {
+      "repo": "spring2025-lectures",
+      "sha": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+      "path": "var/traces/lecture_12.json",
+      "blob_sha": "d15393c1a5a2416e6a49251eb69dadc3d75a9cac",
+      "size": 323757,
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b/var/traces/lecture_12.json",
+      "sha256": "cd46e2de576209ea0b16db827141a254b749efb2d55bd35d913480d64cf3babd",
+      "success": true,
+      "steps": 300,
+      "functions": [
+        "main",
+        "what_you_see",
+        "how_to_think_about_evaluation",
+        "perplexity",
+        "knowledge_benchmarks",
+        "instruction_following_benchmarks",
+        "agent_benchmarks",
+        "pure_reasoning_benchmarks",
+        "safety_benchmarks",
+        "realism",
+        "validity",
+        "what_are_we_evaluating"
+      ]
+    },
+    {
+      "repo": "spring2025-lectures",
+      "sha": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+      "path": "var/traces/lecture_13.json",
+      "blob_sha": "acd027bcfeb7f2f49c888dca93604f82142c6dcc",
+      "size": 458616,
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b/var/traces/lecture_13.json",
+      "sha256": "6445753fa11435936bc8fed60a924c562a4bc7b17cea73b57dc642ffd80ebcff",
+      "success": true,
+      "steps": 445,
+      "functions": [
+        "main",
+        "introduction",
+        "bert",
+        "books_corpus",
+        "wikipedia",
+        "gpt2_webtext",
+        "common_crawl",
+        "ccnet",
+        "t5_c4",
+        "gpt3",
+        "the_pile",
+        "project_gutenberg",
+        "books3",
+        "stackexchange",
+        "github",
+        "gopher_massivetext",
+        "llama",
+        "refinedweb",
+        "dolma",
+        "dclm",
+        "nemotron_cc",
+        "copyright",
+        "long_context",
+        "tasks",
+        "instruction_chat"
+      ]
+    },
+    {
+      "repo": "spring2025-lectures",
+      "sha": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+      "path": "var/traces/lecture_14.json",
+      "blob_sha": "178deeea3843bb99e698207c36531887a7de069d",
+      "size": 1672466,
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b/var/traces/lecture_14.json",
+      "sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9",
+      "success": true,
+      "steps": 1834,
+      "functions": [
+        "main",
+        "filtering_algorithms",
+        "kenlm_main",
+        "compute",
+        "fasttext_main",
+        "dsir_main",
+        "importance_sampling",
+        "get_hashed_ngrams",
+        "filtering_summary",
+        "filtering_applications",
+        "language_identification",
+        "quality_filtering",
+        "toxicity_filtering",
+        "deduplication",
+        "hash_functions",
+        "exact_deduplication",
+        "bloom_filter",
+        "build_table",
+        "query_table",
+        "build_table_k",
+        "query_table_k",
+        "<genexpr>",
+        "false_positive_rate_analysis",
+        "jaccard_minhash",
+        "compute_jaccard",
+        "minhash",
+        "locality_sensitive_hashing",
+        "get_prob_collision"
+      ]
+    },
+    {
+      "repo": "spring2025-lectures",
+      "sha": "b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b",
+      "path": "var/traces/lecture_17.json",
+      "blob_sha": "5530638c6dd91cb7d49fce9c229a95953ef86bd4",
+      "size": 1196777,
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/spring2025-lectures/b98b08a98d9d47a69bbdcb4e96a58aa48ee4d13b/var/traces/lecture_17.json",
+      "sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e",
+      "success": true,
+      "steps": 1046,
+      "functions": [
+        "main",
+        "rl_setup_for_language_models",
+        "policy_gradient",
+        "training_walkthrough",
+        "simple_task",
+        "sort_distance_reward",
+        "<genexpr>",
+        "sort_inclusion_ordering_reward",
+        "simple_model",
+        "__init__",
+        "generate_responses",
+        "forward",
+        "compute_reward",
+        "compute_deltas",
+        "compute_log_probs",
+        "compute_loss",
+        "freezing_parameters",
+        "compute_kl_penalty",
+        "run_policy_gradient",
+        "print_information",
+        "tstr",
+        "experiments"
+      ]
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_01.json",
+      "blob_sha": "ba664668ac8875d11ba8e203995cefcbd71bf169",
+      "size": 1010365,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_01.json",
+      "sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104",
+      "success": true,
+      "steps": 617,
+      "functions": [
+        "main",
+        "welcome",
+        "why_this_course_exists",
+        "current_lm_landscape",
+        "what_is_this_program",
+        "course_logistics",
+        "course_syllabus",
+        "basics",
+        "systems",
+        "scaling_laws",
+        "data",
+        "alignment",
+        "tokenization",
+        "intro_to_tokenization",
+        "tokenization_examples",
+        "get_compression_ratio",
+        "character_tokenizer",
+        "byte_tokenizer",
+        "word_tokenizer",
+        "bpe_tokenizer",
+        "train_bpe",
+        "<dictcomp>",
+        "encode",
+        "merge"
+      ]
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_02.json",
+      "blob_sha": "f8fd90d3c832752ee2d26a0bce3f29f79937d749",
+      "size": 721816,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_02.json",
+      "sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486",
+      "success": true,
+      "steps": 955,
+      "functions": [
+        "main",
+        "motivating_questions",
+        "tensors_basics",
+        "tensors_memory",
+        "get_memory_usage",
+        "tensors_on_gpus",
+        "tensor_einops",
+        "einops_motivation",
+        "einops_einsum",
+        "einops_reduce",
+        "einops_rearrange",
+        "tensor_operations_flops",
+        "benchmark",
+        "run",
+        "get_promised_flop_per_sec",
+        "arithmetic_intensity",
+        "arithmetic_intensity_relu",
+        "arithmetic_intensity_gelu",
+        "arithmetic_intensity_dot_product",
+        "arithmetic_intensity_matrix_vector_product",
+        "arithmetic_intensity_matmul",
+        "roofline_plots",
+        "deep_network",
+        "__init__",
+        "forward",
+        "gradients_basics",
+        "gradients_flops",
+        "optimizer",
+        "step",
+        "<dictcomp>",
+        "train_loop",
+        "get_batch",
+        "gradient_accumulation",
+        "activation_checkpointing"
+      ]
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_02_recording.json",
+      "blob_sha": "d5de83a7d1c15144d1aff7b0149957a8a9d372c2",
+      "size": 767647,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_02_recording.json",
+      "sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e",
+      "success": true,
+      "steps": 992,
+      "functions": [
+        "main",
+        "motivating_questions",
+        "tensors_basics",
+        "tensors_memory",
+        "get_memory_usage",
+        "tensors_on_gpus",
+        "tensor_einops",
+        "einops_motivation",
+        "einops_einsum",
+        "einops_reduce",
+        "einops_rearrange",
+        "tensor_operations_flops",
+        "time_matmul",
+        "run",
+        "get_promised_flop_per_sec",
+        "arithmetic_intensity",
+        "arithmetic_intensity_relu",
+        "arithmetic_intensity_gelu",
+        "arithmetic_intensity_dot_product",
+        "arithmetic_intensity_matrix_vector_product",
+        "arithmetic_intensity_matmul",
+        "roofline_plots",
+        "deep_linear_network",
+        "__init__",
+        "forward",
+        "gradients_basics",
+        "gradients_flops",
+        "optimizer",
+        "step",
+        "<dictcomp>",
+        "train_loop",
+        "get_batch",
+        "gradient_accumulation",
+        "activation_checkpointing"
+      ]
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_06.json",
+      "blob_sha": "2f134eca578d9c75efcb39cc2eb77ac84c222b0e",
+      "size": 378740,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_06.json",
+      "sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f",
+      "success": true,
+      "steps": 442,
+      "functions": [
+        "main",
+        "review_of_gpus",
+        "benchmarking_and_profiling",
+        "benchmarking",
+        "run_operation2",
+        "benchmark",
+        "profiling",
+        "profile",
+        "naive_vs_builtin_vs_compiled_gelu",
+        "naive_gelu",
+        "builtin_gelu",
+        "check_equal_1d",
+        "triton_introduction",
+        "triton_gelu_example",
+        "triton_gelu",
+        "triton_softmax_example",
+        "naive_softmax",
+        "triton_softmax",
+        "triton_row_sum_example",
+        "builtin_row_sum",
+        "triton_row_sum",
+        "triton_matmul_relu_example",
+        "naive_matmul_relu",
+        "triton_matmul_relu"
+      ]
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_07.json",
+      "blob_sha": "6730500a2e98805d357a915c9950617c4c22d2e2",
+      "size": 522395,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_07.json",
+      "sha256": "5e17a63a09248fc194d5f63680681dc855cf956eac5c2b25215f69429f336968",
+      "success": true,
+      "steps": 633,
+      "functions": [
+        "main",
+        "collective_operations",
+        "hardware",
+        "torch_distributed",
+        "spawn",
+        "collective_operations_main",
+        "setup",
+        "cleanup",
+        "__exit__",
+        "benchmarking",
+        "all_reduce",
+        "reduce_scatter",
+        "data_parallelism",
+        "generate_sample_data",
+        "data_parallelism_main",
+        "get_init_params",
+        "tensor_parallelism",
+        "tensor_parallelism_main",
+        "pipeline_parallelism",
+        "pipeline_parallelism_main",
+        "summarize_tensor"
+      ]
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_07_stdout.txt",
+      "blob_sha": "f8c51182a5a5ff130313cab9f2af86c98fb16df8",
+      "size": 6520,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_07_stdout.txt",
+      "sha256": "f85c209a52ca79e57a2973fb1e3bec822f03ab7e59e0500050b9f3e5f8187507",
+      "success": true
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_10.json",
+      "blob_sha": "78778757cf374a1b7d2750bf878321eb80a834c7",
+      "size": 374981,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_10.json",
+      "sha256": "b9229447c3042f34bd6e307c2f2c34ba294d10708f208e8d1237be080d683cb6",
+      "success": true,
+      "steps": 437,
+      "functions": [
+        "main",
+        "landscape",
+        "review_transformer",
+        "review_of_arithmetic_intensity",
+        "arithmetic_intensity_of_inference",
+        "throughput_and_latency",
+        "llama2_13b_config",
+        "compute_transformer_performance_stats",
+        "reduce_kv_cache_size",
+        "quantization",
+        "model_pruning",
+        "speculative_sampling",
+        "continuous_batching",
+        "paged_attention"
+      ]
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_12.json",
+      "blob_sha": "4dbf9b92226339eeb2cd88b9f158b326c5974eac",
+      "size": 322264,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_12.json",
+      "sha256": "1f71bd19541b5902c35cc4ead4442ec6e25445e442ac746029558ad55259b35f",
+      "success": true,
+      "steps": 313,
+      "functions": [
+        "main",
+        "what_is_good",
+        "perplexity",
+        "exam_benchmarks",
+        "chat_benchmarks",
+        "agentic_benchmarks",
+        "pure_reasoning_benchmarks",
+        "safety_benchmarks",
+        "realism",
+        "validity",
+        "how_to_think_about_evaluation"
+      ]
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_13.json",
+      "blob_sha": "c7285cf6b8aef8c733e1275ee582da6d97e06278",
+      "size": 445728,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_13.json",
+      "sha256": "8b756902b42c9d775292840ad04eb008df815f86c438bba1795beb3830cec373",
+      "success": true,
+      "steps": 489,
+      "functions": [
+        "main",
+        "motivation",
+        "raw_sources",
+        "copyright",
+        "common_crawl",
+        "wikipedia",
+        "github",
+        "arxiv",
+        "bert",
+        "books_corpus",
+        "gpt2_webtext",
+        "ccnet",
+        "t5_c4",
+        "gpt3",
+        "the_pile",
+        "project_gutenberg",
+        "books3",
+        "stackexchange",
+        "gopher_massivetext",
+        "llama",
+        "refinedweb",
+        "dolma",
+        "dclm",
+        "nemotron_cc",
+        "the_stack",
+        "common_pile"
+      ]
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_14.json",
+      "blob_sha": "3ae4731fc6e73452b63af05f53d36608159b55db",
+      "size": 381280,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_14.json",
+      "sha256": "08f5e49a794a94e20423eb4edf7908f3b0b8969c3d0c31fa7d3c6b176aa0bddb",
+      "success": true,
+      "steps": 406,
+      "functions": [
+        "main",
+        "transformation",
+        "filtering",
+        "deduplication",
+        "hash_functions",
+        "exact_deduplication",
+        "jaccard_minhash",
+        "compute_jaccard",
+        "locality_sensitive_hashing",
+        "get_prob_collision",
+        "<dictcomp>",
+        "data_mixing",
+        "post_training_data"
+      ]
+    },
+    {
+      "repo": "lectures",
+      "sha": "de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e",
+      "path": "var/traces/lecture_17.json",
+      "blob_sha": "01b15e6c6a0f974e0028226189f3696687413796",
+      "size": 192237,
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/de53a9f979a6ee35f7d13a5e1aadee5ea1afc58e/var/traces/lecture_17.json",
+      "sha256": "4eb3419ca93a62d70d88c06a89e0e12b2b48984e1020f1e1020ec65f199887d2",
+      "success": true,
+      "steps": 235,
+      "functions": [
+        "main",
+        "clip",
+        "siglip",
+        "llava",
+        "llava_onevision",
+        "qwen_vl",
+        "qwen2_vl",
+        "qwen3_vl",
+        "chameleon"
+      ]
+    }
+  ],
+  "audio_comparison_summary": {
+    "ledger": "CS336-原始音频比对.json",
+    "counts": {
+      "recordings": 35,
+      "new_full_audio_machine_comparisons": 34,
+      "flagged_regions_reviewed": 267,
+      "comparison_windows": 5588,
+      "duration_seconds": 167329
+    },
+    "manual_listening_complete": false
+  },
+  "additional_visual_evidence": {
+    "pdf_ledger": "CS336-PDF内容核对.json",
+    "trace_images": "CS336-讲义图像核验.json",
+    "compound_values": "CS336-演示数组核验.json"
+  },
+  "guest_checks": [
+    {
+      "year": 2024,
+      "number": 18,
+      "speaker": "Ce Zhang",
+      "status": "2024 L17第2页明确说明嘉宾讲座不录制；本场独立讲义未取得",
+      "checked": [
+        "官方日程",
+        "2024 L17 PDF第2页的不录制说明",
+        "官方讲义仓库完整文件树",
+        "讲者个人主页",
+        "姓名＋课程号的公开搜索"
+      ],
+      "source": "https://cs336.stanford.edu/spring2024/",
+      "related": "https://zhangce.github.io/",
+      "note": "2024 L17第2页写明接下来周一/周三嘉宾不录制（https://github.com/stanford-cs336/spring2024-lectures/blob/main/nonexecutable/Lecture%2017%20-%20Evals.pdf#page=2）。个人主页说明其研究方向，但不能反推出本课讲座主题。未用其他系统演讲代替。"
+    },
+    {
+      "year": 2024,
+      "number": 19,
+      "speaker": "Aakanksha Chowdhery",
+      "status": "2024 L17第2页明确说明嘉宾讲座不录制；本场独立讲义未取得",
+      "checked": [
+        "官方日程",
+        "2024 L17 PDF第2页的不录制说明",
+        "官方讲义仓库完整文件树",
+        "讲者个人主页近期演讲",
+        "姓名＋课程号的公开视频搜索"
+      ],
+      "source": "https://cs336.stanford.edu/spring2024/",
+      "related": "https://www.achowdhery.com/",
+      "note": "2024 L17第2页是官方不录制证据。主页有 Stanford CS528 的 Gemini/PaLM-E 演讲入口，属于另一门课，未冒充本场内容。"
+    },
+    {
+      "year": 2025,
+      "number": 18,
+      "speaker": "Junyang Lin",
+      "status": "本课完整录像、字幕、讲义未取得；已补官方相关阅读",
+      "checked": [
+        "官方日程",
+        "17 项官方播放列表",
+        "官方仓库完整文件树",
+        "2025 L17 对下一次嘉宾与 Qwen3 的说明",
+        "讲者主页、Qwen 官方发布"
+      ],
+      "source": "https://cs336.stanford.edu/spring2025/",
+      "related": "https://qwenlm.github.io/blog/qwen3/",
+      "note": "Qwen 官方发布可补阶段配方：先建立一般能力，再提高知识密集内容与扩展上下文；后训练结合长推理示范、规则奖励、思考模式融合与一般行为优化。它帮助串起主线，但没有本场学生问答和现场演示，不能称为该讲重建。"
+    },
+    {
+      "year": 2025,
+      "number": 19,
+      "speaker": "Mike Lewis",
+      "status": "本课完整录像、字幕、讲义未取得；已补官方相关阅读",
+      "checked": [
+        "官方日程",
+        "17 项官方播放列表",
+        "官方仓库完整文件树",
+        "2025 L17 对下一次嘉宾与 Llama3 的说明",
+        "Meta 作者研究页",
+        "新增疑似公开视频 r3DC_gjFCSA 的发布元数据，已排除其他讲者/活动"
+      ],
+      "source": "https://cs336.stanford.edu/spring2025/",
+      "related": "https://ai.meta.com/research/publications/the-llama-3-herd-of-models",
+      "note": "新增视频线索 r3DC_gjFCSA 实为 Joe Spisak 的 2024 年会议演讲，不能补本场。官方报告把预训练、后训练、跨语言/代码/工具能力及多模态组合放在同一模型系列中。阅读时追踪数据、结构、计算、评估的对应关系；不把整篇论文当成本场逐字讲义。"
+    },
+    {
+      "year": 2026,
+      "number": 18,
+      "speaker": "Daniel Selsam",
+      "status": "本课完整录像、字幕、讲义未取得",
+      "checked": [
+        "官方日程",
+        "18 项官方播放列表",
+        "官方仓库完整文件树",
+        "姓名＋课程号的公开与公开视频搜索"
+      ],
+      "source": "https://cs336.stanford.edu/",
+      "related": null,
+      "note": "只确认日程中的姓名，不按个人研究方向编造 Lean/形式证明讲座内容。"
+    },
+    {
+      "year": 2026,
+      "number": 19,
+      "speaker": "Dan Fu",
+      "status": "本课录像与字幕已纳入，补充作者论文与代码；独立本课幻灯片未取得",
+      "checked": [
+        "官方日程",
+        "官方播放列表第 18 项",
+        "本课字幕",
+        "时间线与递推画面",
+        "作者论文和研究代码"
+      ],
+      "source": "https://www.youtube.com/watch?v=9EEm4iMAF5s",
+      "related": "https://arxiv.org/html/2604.12946v1",
+      "note": "Parcae 原论文进一步明确循环状态由线性转移、输入注入及非线性块组成。负对角参数须经过具体离散化，不能由符号直接判断离散迭代稳定。Megakernel 代码另见 https://github.com/HazyResearch/Megakernels ，含 Llama 演示入口；未在本机编译或做 GPU 性能复现。"
+    }
+  ],
+  "context_review_findings_count": 334,
+  "verification_completion_status": "publicly_accessible_audit_complete_with_documented_gaps",
+  "pdf_page_inventory": {
+    "total": 1889,
+    "core_lectures": 1439,
+    "assignments": 450,
+    "mechanical_inventory": "CS336-PDF逐页核验记录.json",
+    "content_findings": "CS336-PDF内容核对.json",
+    "visual_overview_pages": 1889,
+    "full_semantic_verification_complete": false
+  },
+  "tutoring_plans": {
+    "version": "3.1",
+    "authored_lessons": 299,
+    "chapters": 29,
+    "file": "CS336-逐点教案.json",
+    "coverage_file": "CS336-教案覆盖核对.json",
+    "scope": "Original curriculum lesson plans complete; not complete capture of missing original classes; not independently peer reviewed",
+    "default_language": "en",
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "authored_lessons_per_language": 299,
+    "bilingual_file": "CS336-bilingual-lessons.json",
+    "bilingual_review_file": "CS336-bilingual-review.json"
+  }
+}

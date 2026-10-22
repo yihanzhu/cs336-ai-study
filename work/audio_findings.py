@@ -1,0 +1,12 @@
+"""Findings after reading the 35 largest 30-second transcription disagreements."""
+AUDIO_REVIEW_SOURCE_SHA256='d5c145fb0f1aed2405749509f888413af03c6237381890a4ab74ff6904a5ebcb'
+AUDIO_FINDINGS=[
+ {'start':240,'end':270,'finding':'两个模型仍未清楚还原学生问句。只保留讲者明确解释：分解方式不唯一，reduce-scatter加all-gather是为后续分片算法服务。','status':'student_wording_unresolved'},
+ {'start':1560,'end':1650,'finding':'small.en使FSDP与pipeline的追问更易辨认，但仍是机器候选。讲义支持的概念是各rank仍计算完整模型，按需收集每层参数；不是每卡只计算一段层。总参数已经对层求和，不能重复乘层数。','status':'concept_crosschecked_pdf_student_wording_not_listened'},
+ {'start':2160,'end':2190,'finding':'第二版更像是在追问PP相对FSDP的通信优势。只按p35、p43解释激活规模bsh与参数规模之别；具体大小仍依模型与batch，不保证任何配置都更小。','status':'concept_crosschecked_pdf_student_wording_not_listened'},
+ {'start':2790,'end':2850,'finding':'base把sbh转成SVH/SPH，small更接近sbh。以p46可见公式为准：s是序列长度，b是microbatch，h是隐藏维度，a是注意力头数；不能按字幕字母抄公式。','status':'formula_crosschecked_rendered_pdf'},
+ {'start':3150,'end':3210,'finding':'涉及MLP重算的学生问句仍不可靠。p47说明24/t来自Attention和MLP里可被TP切分的部分，不能只由口述把24全部归为MLP。可重算更多激活，但需要增加实际运算，不能把重算称为免费。','status':'concept_crosschecked_pdf_student_wording_unresolved'},
+ {'start':3780,'end':3810,'finding':'两个模型对MoE能否套用其他并行方式的学生问句仍含残缺。保留p52–53的可核概念：策略能组合，但EP分组与attention/FFN切法有额外约束。','status':'student_wording_unresolved'},
+ {'start':4080,'end':4140,'finding':'SP/CP命名追问仍不够清楚；small额外识别出闭源模型循环结构传闻，讲者明确不确定。传闻不作为模型结构事实。SP与CP按p48、p54的实际切分对象区分。','status':'student_wording_and_closed_model_rumor_unresolved'},
+ {'start':4530,'end':4590,'finding':'Llama 405B被small转成4/5B，Gemma被两个模型转成Gamma；这说明更大ASR也会制造错误。型号按p66–68及作者报告核对。148是故障类别计数，不是所有中断；原论文百分比不一致另列PDF纠错。','status':'names_and_counts_crosschecked_primary_sources'},
+ {'start':4650,'end':4680,'finding':'Mixtral、DeepSeek V3、Nemotron等专名两版仍有误拼。p69–72的Megatron截图表示文档配置案例，不当成作者已经用该配置训练的证明。','status':'names_and_evidence_scope_crosschecked_pdf'}]

@@ -1,0 +1,10 @@
+CS336 AI tutoring · 3.1 · English default, Chinese supported
+
+Open CS336-lesson-plans.html for the offline bilingual reader. Switching language keeps the same point. Browsing does not record mastery.
+For an AI tutor, provide CS336-lesson-plans.md (English) or CS336-逐点陪学教案.md (Chinese), the curriculum, CS336-evidence-and-gaps.en.md, and your ONE current progress file.
+First-time learners: copy a blank template into local/learning-progress.md, or in a repository checkout run python3 work/init_learning.py --language en (or zh). Existing learners: never overwrite local progress. The release ZIP offers templates; it does not include your personal history.
+
+Send this to your tutor:
+Read my local progress first, including teaching language. Use the saved language; otherwise default to English. Read the current point and its source limits. Treat me as a beginner who needs foundations refreshed. Teach one small concept with a worked example and one understanding question. Wait for my answer. Only then use answer criteria and repair guidance. Do not require videos or large assignments. Do not invent missing original material. Use point IDs for progress across languages. At session end save only to ignored local/learning-progress.md. Never commit or automatically push personal progress to this curriculum repository. Without file tools, give me the full updated text and do not claim it was saved.
+
+Full original evidence context is retained in the historical Chinese preparation/audit files; core 299-point teaching plans and all point-level source limits are available in both languages.

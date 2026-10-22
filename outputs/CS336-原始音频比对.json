@@ -1,0 +1,4625 @@
+{
+  "date": "2026-10-22",
+  "lectures": [
+    {
+      "lecture": "2026-01",
+      "video_id": "JuoVZkPBiKk",
+      "url": "https://www.youtube.com/watch?v=JuoVZkPBiKk",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "6b0d7e9d0ce0bc0a8fccf37d2121b26bba4178816808b3a28c50b5309efae705",
+      "audio_bytes": 28980728,
+      "duration_seconds": 4762,
+      "format_id": "139-17",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "6fb35b84a48a0ad17c4828dcf0698180c9f0f7748678bcd0062cc481d54ebf69",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4756.68,
+      "comparison_windows": 159,
+      "windows_below_075": 4,
+      "elapsed_seconds": 214,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4761.57678,
+      "source_result_sha256": "919e61209b8a0f2d2f6307961e5c7daca801b3254a1206edba7921be705b177b",
+      "comparison_sha256": "7f8561ae07431515cdbaa92d12d83cd86606248be6477a06b681f81bd6a9a513",
+      "repair_sha256": "89735f92df5782f0cb6df9cf307b832b0d5ecf53f1590fc193c553f66dd57b25",
+      "repair_region_count": 3,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 360,
+          "end": 420,
+          "finding": "base.en在这一段产生大量重复句，属于转写失败而非课堂重复讲同一内容；不覆盖上传字幕。保留小规模/大规模计算分配不同的概念，课堂具体比例仍是所引配置。"
+        },
+        {
+          "start": 2280,
+          "end": 2310,
+          "finding": "上传字幕MV link与ASR的MB link都不准，按系统讲义统一写NVLink；DGX B200的命名和8 GPU布局按官方原图与指定版本理解。"
+        },
+        {
+          "start": 2850,
+          "end": 2880,
+          "finding": "ASR把“scaling laws are not laws of nature”误转，正文按原字幕及scaling讲义保留：规律需合适训练配方才能实现，不会自动保证外推。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 355,
+          "end": 425,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "13d67b1075610a525b2a227b954c7ff5862711b13b7447e2987ecbab93369be7",
+          "second_asr_text_sha256": "7e9ad8b4bf0b0a9fd1d3760dcdfc828ed43ecbe201a5b024cb7705076a3dac03"
+        },
+        {
+          "start": 2275,
+          "end": 2315,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "fa00516291ce8c8b48c17b0391ab710d6ab5bf9405b8d9fa19fb33853445e3d4",
+          "second_asr_text_sha256": "17d2615916223e81ba8272db6964b927f383e1dde1e70247e0597165d1819373"
+        },
+        {
+          "start": 2845,
+          "end": 2885,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "e2b41c1b943188cd6d55762cc0dfde5f9c29de0a8c753df9596ed9c2f2a1ad22",
+          "second_asr_text_sha256": "64e11e9dfb79585ceffd133228581b2e79ca699979b43c939713538707eb1d58"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4756.68
+    },
+    {
+      "lecture": "2026-02",
+      "video_id": "kuYAsz7zspQ",
+      "url": "https://www.youtube.com/watch?v=kuYAsz7zspQ",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "c1aef5e7cb5b96df4d563df98a752c1a7397151d3355fdb4a40d6879a51e4757",
+      "audio_bytes": 28271323,
+      "duration_seconds": 4645,
+      "format_id": "139-20",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "d0052528d2b2d5ec09b0c562517079fd521dd451592e4163881afe7e2edb8bd7",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4639.96,
+      "comparison_windows": 155,
+      "windows_below_075": 2,
+      "elapsed_seconds": 204,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4645.012608,
+      "source_result_sha256": "40df4bc650c616961d0f6ad17fa0d016d75b01af89601933128ae93048b6c9c0",
+      "comparison_sha256": "0b38fbe049f894c00d9b875dd5cad635f76a8d701cf83c94ec10bb30e22bf20c",
+      "repair_sha256": "17ab91d1c6756de6ed3590a34ba6224bdab96da9c954b9ec1f04f026942a9380",
+      "repair_region_count": 8,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1980,
+          "end": 2010,
+          "finding": "学生在问是否只考虑常规矩阵乘，以及其他如次立方算法；ASR识别失败。按上传字幕保留提问，回答是实际优化还需系统/硬件共同设计，不能据此说所有渐近快算法无价值。"
+        },
+        {
+          "start": 3300,
+          "end": 3330,
+          "finding": "学生追问为何计算能力相对带宽过剩、能否重新设计加速器；ASR技术词混乱。不根据问句猜精确利用率，答案需区分峰值与端到端受限资源。"
+        },
+        {
+          "start": 698,
+          "end": 717,
+          "finding": "BF16仍有精度风险，mixed precision保留关键量FP32；small.en把BF16误写F16，不直接覆盖字幕。"
+        },
+        {
+          "start": 925,
+          "end": 984,
+          "finding": "block scale共享会限制同块数值相对动态范围，1bit问题两模型仍缺词，不能恢复具体硬件主张。"
+        },
+        {
+          "start": 2317,
+          "end": 2364,
+          "finding": "promised FLOPs为对应spec峰值，MFU50%只作课堂例，原因后续回到带宽/实现，不虚构逐器件损失分解。"
+        },
+        {
+          "start": 2880,
+          "end": 2897,
+          "finding": "Transformer典型算术强度学生追问留待后续；需要具体prefill/decode与shape，不能给一个常数代表所有层。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 698.68,
+          "end": 717.04,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "0fe44dff8bb4f606885b1d5835b1b1ac990ed7bd1d33a1018d517e2d87aa1b15",
+          "second_asr_text_sha256": "01fdd742776332449604396b24c862e2f38eb35f991df035c297f756d31e2579"
+        },
+        {
+          "start": 925.14,
+          "end": 944.22,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "2741535a855862aff66e0b437473f6a8a420c358ddaadaf4284f9d27fd0f2c88",
+          "second_asr_text_sha256": "ad3e844d81fd873dc90d2a0739ff2917f1fbbb1378cbfc1a6ab0d90be988c9ab"
+        },
+        {
+          "start": 961.1,
+          "end": 984.3000000000001,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "90536683edb0fce389977337a2bca0736310a33b096bbbb2bcf9d80b5584263d",
+          "second_asr_text_sha256": "4282ca3865462ee5e0e5861afa9be1bcebe2ecd94769b23aede0ca6c41d7a42e"
+        },
+        {
+          "start": 1975,
+          "end": 2015,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "dceae9f8e8b4e69ce0eb3bb07cf8de2717f2a9a01b6bfb8ed220a9806d95a65c",
+          "second_asr_text_sha256": "6ebb0f877a74f98eafed3598466d3df22a8901149a9ab4ca61979ffd361ffa02"
+        },
+        {
+          "start": 2317.55,
+          "end": 2335.98,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "3c16ed99585c83d102a415b9ead45b058232b8547b64be069eb499a12349427e",
+          "second_asr_text_sha256": "2ff1d8bfac765fe3ac301e8c083287796785f9903aff99f7d658891bb4729dcf"
+        },
+        {
+          "start": 2343.37,
+          "end": 2363.5499999999997,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "88d4e41d918b430ae3eb50b2f669859393707d531ed6efa8a09900c4145a6745",
+          "second_asr_text_sha256": "3a19e9bbe38e0d7f8e672e268f906ee4d134da9148bdf02adc4fc68892be5d05"
+        },
+        {
+          "start": 2880.4,
+          "end": 2896.3,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "3f5e6a6a7689e889050aa47c3878d99cb0c42656903f9c8fa94268de0f29386d",
+          "second_asr_text_sha256": "66241339fbbfb0eeb6fb5e7e48e014c856ae2bd4ebb356b3b7b9bb6fa3fe3994"
+        },
+        {
+          "start": 3287.88,
+          "end": 3335,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "5a3c17ab5d3179fc7e9b478820bab20e62783d957ebb9f93acde6ae92b7037e8",
+          "second_asr_text_sha256": "808de7ca9774fafcbc0befd6c93d4e7200e5e3cef6f20dcba3887aa359d6d9c8"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4639.96
+    },
+    {
+      "lecture": "2026-03",
+      "video_id": "lVynu4bo1rY",
+      "url": "https://www.youtube.com/watch?v=lVynu4bo1rY",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "3d42a51d597210319ea9a760a0bf2fa7e9b4637f7d6a1d1ff8ec608a7a312992",
+      "audio_bytes": 32585289,
+      "duration_seconds": 5354,
+      "format_id": "139-20",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "a6d6e43efb4e2a628f00275859ac36000b406a580a95902f4a3a71903e57695e",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 5349.19,
+      "comparison_windows": 179,
+      "windows_below_075": 3,
+      "elapsed_seconds": 239,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 5353.824943,
+      "source_result_sha256": "c02f324362ca0787506a06a2baa63e62bd909e347dff81fec8e27adc57b4e76a",
+      "comparison_sha256": "e5ef0938261ae921611f9473615f03b08552a69d484c03df74d614260adc2ca1",
+      "repair_sha256": "d901e005070bd2ec36733c73e279a1b1d2d0d6aacf4c1b8f655c2a36fea597f1",
+      "repair_region_count": 11,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1004,
+          "end": 1023,
+          "finding": "small.en补出tensor contraction，支持学生问归一化搬运为何不成比例；仍不把模糊口语恢复成逐字引语。"
+        },
+        {
+          "start": 2370,
+          "end": 2586,
+          "finding": "串并行质量差异、partial RoPE与相对位置内积追问都保留；small.en仍混技术词，结合原字幕/图理解。讲者承认缺少控制消融，不能把后续模型不用并行当严格因果证据。"
+        },
+        {
+          "start": 3391,
+          "end": 3561,
+          "finding": "学生说multimodal，small.en误转multilingual；bits/byte跨tokenizer比较需同一字节文本和编码。后续追问讲者明确留待课后，不替他编补最终结论。"
+        },
+        {
+          "start": 3870,
+          "end": 3888,
+          "finding": "weight decay优化作用问题仍有问句缺词，保留答复与不确定标记。"
+        },
+        {
+          "start": 4990,
+          "end": 5111,
+          "finding": "经验超参仍需按模型假设调参；动态超参答例为weight decay，不推成唯一可变项。MQA在训练时就定义KV头数，不能只在推理时直接删头而默认无损。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1004.83,
+          "end": 1022.75,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "b8fbd7053ad5f2f3e4fd076401427f63ea0f3e4fd8801650592740e0349a97a9",
+          "second_asr_text_sha256": "0aaea6e419bb21b3e24491f3fc939bd945435ba8e51173c5478c7aa1da48875f"
+        },
+        {
+          "start": 2370.32,
+          "end": 2388.44,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "33761fe32c593a24ce60a34993d9cb85327e9469a54533a6a63e4f5fae15fcc2",
+          "second_asr_text_sha256": "60cfbfeeed28cda7657b43bcaff44366a9249ab6a3afe789240fe57a2d935307"
+        },
+        {
+          "start": 2416.85,
+          "end": 2525,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "b8fc580e4126769b7f5b6bea5cd892ab597816c47c11e59ed2ab98e11c1d364e",
+          "second_asr_text_sha256": "46248638beb19538cb679814ee1ffa21eb9b84d032b914eb429c0e6c464e0818"
+        },
+        {
+          "start": 2566.88,
+          "end": 2585.76,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "9a015422957103b4fe7691d8c062534cab73de168754acca98f656d5aeaa0b81",
+          "second_asr_text_sha256": "5aa10d4f2ca32ed78fae4c76c720dda25ceb87145cf6c44be598e68617e32215"
+        },
+        {
+          "start": 3391.16,
+          "end": 3413.96,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "fb3bb47ce3dc69145026ea21f9e39238fe0127de519a46c4e0da073f5679f6f1",
+          "second_asr_text_sha256": "bb6a754091635d27d0f66c015ac6af1b0540bb05dca80bb38824f7968ff26478"
+        },
+        {
+          "start": 3430.05,
+          "end": 3449.8100000000004,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "a80cc29e6b6c6bb6a8d1fc389e2a1f3086df3c6c2012204ff53ca8692c5a875b",
+          "second_asr_text_sha256": "763e7b2eae8a8fc6063689763cafdddb4a2be51cfb089e4bd6eb6197ff12257f"
+        },
+        {
+          "start": 3505,
+          "end": 3560.23,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "b9d6daec6ff3197bfb92bbfd5ee5f8d231b15bea13c7f2e0e2598a1d9ea97789",
+          "second_asr_text_sha256": "d5cd86661a6888729290172200eb634203bd7c87b430e5d026244e8692708265"
+        },
+        {
+          "start": 3870.88,
+          "end": 3887.2400000000002,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "aef7f77a4c642567a63b0643403a4f3bfd88ea5eb4eec6a6515bff8d61806522",
+          "second_asr_text_sha256": "851794c99b774ad631e5dedf1d790830207744ea01f892f763219471b2499081"
+        },
+        {
+          "start": 4990.89,
+          "end": 5021.82,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "28433429dab8e2d620d70924d65166d8578b040e13ac64bfc20f2874faed7d5e",
+          "second_asr_text_sha256": "856d3a486c0ac52a92640128aa3cf220da9dd27078f5aeb55e9434378462cb8a"
+        },
+        {
+          "start": 5049.61,
+          "end": 5066.66,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "6952da8f5c5ae666786a39be88e3713faf7ea8aaf675405e222bb619dae1fedd",
+          "second_asr_text_sha256": "11f9962eda6ac70a794f0159da8de6b259867655ed97501bdb13541fab57ff5f"
+        },
+        {
+          "start": 5088.72,
+          "end": 5110.358,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "e9750c28fd0871b5e6b7702c59939f6bfbe3a64ef01e18d3d083ff7fc3c3e909",
+          "second_asr_text_sha256": "704deb414f47c794d5c38d9eb6a7b884a378bd8ab8b6d2c9400c08b323f6e023"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 5349.19
+    },
+    {
+      "lecture": "2026-04",
+      "video_id": "cKSwj_qZ8Jg",
+      "url": "https://www.youtube.com/watch?v=cKSwj_qZ8Jg",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "f9f2d679e0c4bc71dbaff03f6666c5f65cf18e421f8e2bcd0a206edb6d0a94a7",
+      "audio_bytes": 31530427,
+      "duration_seconds": 5180,
+      "format_id": "139-16",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "e10a31998384093c96b2beb98238469202a19a50260f41ba87160456efdf7621",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 5174.81,
+      "comparison_windows": 173,
+      "windows_below_075": 7,
+      "elapsed_seconds": 230,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 5180.511202,
+      "source_result_sha256": "d5ee97f421eb379416d2cd41d691fc57c5105f1e9088cf380a684ba41c7aecee",
+      "comparison_sha256": "107cdc49c69379ec94cd5c0354813485acbf35a3d772099cb49846e1af6d5876",
+      "repair_sha256": "32d085e77d3bf942987434c4eaddc76700ada47d5256e8da5c0f7c3d51022525",
+      "repair_region_count": 12,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1241,
+          "end": 1314,
+          "finding": "线性attention并行式与因果递推在相同定义下精确等价；与一般RNN的质量比较并非该等价失效。未听清的指代继续标缺。"
+        },
+        {
+          "start": 1649,
+          "end": 1865,
+          "finding": "DSA indexer仍看全部位置，省的是常数；长上下文扩展和post-training顺序明确，不能说冻结模型随手插入即可。未来架构回答为讲者猜测，学生长问句仍无法完整恢复。"
+        },
+        {
+          "start": 1945,
+          "end": 2043,
+          "finding": "SSM有限状态的信息瓶颈与context/state大小相关，不代表所有SSM训练更难；具体缺字不猜。"
+        },
+        {
+          "start": 2547,
+          "end": 2675,
+          "finding": "MoE训练和推理均稀疏，路由按token；通信限制并行扩展。small.en把assignment设计尾句混乱，不作为新作业要求。"
+        },
+        {
+          "start": 4195,
+          "end": 4281,
+          "finding": "专家不必形成按人类主题分工；理想每专家均衡且均匀放置可推出每设备均衡，软辅助目标未完美实现仍需设备级约束。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1241.75,
+          "end": 1275.47,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "92c2b33dd75cb77c7dd7505e9abab5607c17ffa75a26e57fe3a82bd37dfd2e3a",
+          "second_asr_text_sha256": "3066bca1b46c3be0f38bb501d38a4ba297c8a5b3c434e126fe3ba031a51640c5"
+        },
+        {
+          "start": 1290.32,
+          "end": 1313.3,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "bf3f36b30d75292ac06984e90dac8fc83e34603271f9bcb806617fb02349c4d8",
+          "second_asr_text_sha256": "d5adb1dd801559bb3a7ec515dfb0cdee8adede1fb6dafce13165c2696632da01"
+        },
+        {
+          "start": 1649.77,
+          "end": 1687.1299999999999,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "8defdd3162e450ab7871467122db1abfb712bde2e4a70745b04c98b95ac05964",
+          "second_asr_text_sha256": "735d266ad63329eab1a5bc594d5f16cfe2103f3b84d81057e1cd5636f3ba01ed"
+        },
+        {
+          "start": 1712.79,
+          "end": 1731.9099999999999,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "d1c8c572c1d49390af2e27021d7495c8a25e841b4d9d99c71938b9a375083196",
+          "second_asr_text_sha256": "4b37033a3f8df8d383e73d998f3d79893ccfc103bab55d298c641b53463d1030"
+        },
+        {
+          "start": 1735,
+          "end": 1841.3999999999999,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "c110d7df366f0046fc2bc9de81f854239f80d613c4370361729b64d3b04612c9",
+          "second_asr_text_sha256": "47189cb2043b2a93f059e45fc49a8413e5e2cb5fe153634051a127fe767c048b"
+        },
+        {
+          "start": 1825,
+          "end": 1865,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "8f971dbf3f4938af203d45859e7f0d7aae102a634b79d24366deea1da341736a",
+          "second_asr_text_sha256": "f4f8d424964f6fd38168901c871013af5a4d14fbca17b3db63c5441ccdbf4b11"
+        },
+        {
+          "start": 1945,
+          "end": 1985,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "7d962cbf5caac3c974b9a675783b6b6557a7e807e76f381814147dcfe977714f",
+          "second_asr_text_sha256": "536eb1986e02969a0fdb5b268d8a77ff2a734c0c06145a0dd550cd27994a8c24"
+        },
+        {
+          "start": 2020.15,
+          "end": 2042.19,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "bf2f02c9603f663148af0bc3b1de43b17800e2886b06abfdbd1f30db9f8b9ed0",
+          "second_asr_text_sha256": "d2bd6f33a6d67118c4fe147c5d84ad80967d701cf486f9462076e9ac544c1f9a"
+        },
+        {
+          "start": 2547.37,
+          "end": 2565.69,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "d459549eefdf7aca0263e4f2d4452e3d2fb339c63f12d54e2fb0d9dcfbea1ce7",
+          "second_asr_text_sha256": "ba3ba014e351e015d0c72f5c4a2f3478a461e1919f9e9c69a3e47d22aaf180c7"
+        },
+        {
+          "start": 2605,
+          "end": 2675,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "041e6a3a3bf1c72419fee42664ab502fef7abfb27f85d6c2c5143f50296229ca",
+          "second_asr_text_sha256": "3dfbfb0a6dae76f5fe72ebf1d2a04cc81e2b9228aab51f4e6421b332117b7552"
+        },
+        {
+          "start": 4195,
+          "end": 4235,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "38b8c1019be664a1e16304229b307f35990f82a122a04223c075ef24579fcda3",
+          "second_asr_text_sha256": "cd0c8470b597431eabe56bbcf556b2db7179e8c50fb1105ad019fc4c059cc5a8"
+        },
+        {
+          "start": 4259.39,
+          "end": 4280.1900000000005,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "ce7a29d237386e1885ad68542577af4d0cf4aa4ce08e46d2e7966377bc60f46f",
+          "second_asr_text_sha256": "4b83dea395b75691d4e9e99e9400f1183b39c2d88491ca5d28421f1ef1e4a27d"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 5174.81
+    },
+    {
+      "lecture": "2026-05",
+      "video_id": "izZba4UA7iY",
+      "url": "https://www.youtube.com/watch?v=izZba4UA7iY",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "3d1c842d10c96d1c4b1390533faaddd3e6556e3b7d0ab6b4bd1f7f58e40f45dd",
+      "audio_bytes": 28721842,
+      "duration_seconds": 4719,
+      "format_id": "139-17",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "530d7e24f9d1eea157187c75c4ef91a16620e48fe89fb495fb64432e9a6db60e",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4709.53,
+      "comparison_windows": 158,
+      "windows_below_075": 4,
+      "elapsed_seconds": 220,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4719.037823,
+      "source_result_sha256": "bcab504bde3b0c4f71cd475ad2359bd0622fc5cf4f27f6214c85efc6470ed976",
+      "comparison_sha256": "cd11a9113c6cc8fe50395c28e9857612c321b8abae658fc7819f112901ab3339",
+      "repair_sha256": "89cee1e4b3b535e29fdaef28d42424e78f1782482bd1db7168bf74ae46ba614b",
+      "repair_region_count": 9,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 768,
+          "end": 965,
+          "finding": "shared memory由程序显式使用，L1 cache由缓存机制管理；block含多个warp，不是整个block每次同一条指令。"
+        },
+        {
+          "start": 1205,
+          "end": 1222,
+          "finding": "GPU/TPU某项典型大小的学生问句仍无法恢复，讲者明确不知道，不补出虚构数值。"
+        },
+        {
+          "start": 1685,
+          "end": 1702,
+          "finding": "small.en的O2/O1为L2/L1候选，按讲义解释层级/物理距离而非只凭距离解释所有延迟。"
+        },
+        {
+          "start": 2665,
+          "end": 2836,
+          "finding": "量化不限于矩阵，但matmul硬件收益与scale开销决定是否划算；MoE不是所有硬件结构稀疏的同义。Apple本地模型与量化/蒸馏的具体问句仍有缺词。"
+        },
+        {
+          "start": 3655,
+          "end": 3712,
+          "finding": "Groq被字幕/ASR写为rock/Grok；跨设备切矩阵与单卡tile可类比，但DP/TP切分与共享存储不同，不能说整个模型总能放SRAM。"
+        },
+        {
+          "start": 4705,
+          "end": 4719,
+          "finding": "尾部鼓掌而非教学遗漏；两次ASR尾端与音频长度差由结束非讲话段解释。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 767.72,
+          "end": 786.38,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "e2d73fc6c586816a71265f98adfa5be942abe4348e42333a27657fcb5585219b",
+          "second_asr_text_sha256": "dcfe6e0632f8d74a80c57d3666cb428113c4c4b46631c54f291c081811b145f1"
+        },
+        {
+          "start": 925,
+          "end": 965,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "3dc29ae227ec1c656602e33b146cad511dfde36e5765aed07ffb21338baab6a3",
+          "second_asr_text_sha256": "e25af21c2cf3004eb3b8f033fa5d2258afdbdd1b73ba3102eac3579e4d0f39e1"
+        },
+        {
+          "start": 1204.86,
+          "end": 1222.0,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "103cd94f2a190b43d3bdc50b6b4831749fbbd8cc80757759b36883eda15025a8",
+          "second_asr_text_sha256": "b3b83ce88fa26847dc3532f0546042a754d638e3eb1600231fb4b1c70395cda8"
+        },
+        {
+          "start": 1684.51,
+          "end": 1701.91,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "19759e6f2ace9feb9772d0686ec994afedc0063d6d43629592c9e7914d6dabf5",
+          "second_asr_text_sha256": "348b528d1fae90cd098981795892d7bcc6692842699b31f402c03cf56cba43a2"
+        },
+        {
+          "start": 2665,
+          "end": 2705,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "5fd2949dc0b6e71f1b6bbc63b8ebef25747e5b7b285d5d1104872e650b0aa8b5",
+          "second_asr_text_sha256": "19c815c0ecd395fc7a895b050cc7322532e14d0f97197e69ec98562d40f5187f"
+        },
+        {
+          "start": 2780.11,
+          "end": 2797.3700000000003,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "28ca5902276fabcced93d678832f6acd5026b28f77837cde8b2dab54ee0128cc",
+          "second_asr_text_sha256": "25c20b6c6090006007a6362ff2b503ac564fd05d83ebca23fe871ab07bed27d7"
+        },
+        {
+          "start": 2819.86,
+          "end": 2836.46,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "45cc196cb99cce3f0a8e6aa9d727d5a66f0791ec425a4b6491bc62d43d13aa4e",
+          "second_asr_text_sha256": "fbeb0b21fda28e1febdcb6dc2c76d0c853f92b3a542585abd0391721c239c900"
+        },
+        {
+          "start": 3655,
+          "end": 3710.948,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "ce09b46587b6edde0ae953a33aebb513ecbc5fca47bf0bc82d413bdfbaf680b2",
+          "second_asr_text_sha256": "b72b019c2549d5457c99e9f253552d9c390fd866033f0649ef371159eb2e4caf"
+        },
+        {
+          "start": 4705,
+          "end": 4719,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "c82d3cfa3a0baceff43b627550f2ff2bca52c4c48db78d28f8f38eeb45dfb22d",
+          "second_asr_text_sha256": "d92d8f5425c9d1d48b0050e52718f4531ab90075084752ddbf772fd1f31e93bc"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4709.53
+    },
+    {
+      "lecture": "2026-06",
+      "video_id": "xnDHaNUvHBg",
+      "url": "https://www.youtube.com/watch?v=xnDHaNUvHBg",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "926b221836cb72257b0ad91a64517323b7baada5fb69f5f2e415ad3362b1cd33",
+      "audio_bytes": 31653988,
+      "duration_seconds": 5201,
+      "format_id": "139-17",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "1dd6bc50bcd28e56fd05dc491e93700a202e83829c5b0a8d65bc5934e504c866",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 5196.76,
+      "comparison_windows": 174,
+      "windows_below_075": 15,
+      "elapsed_seconds": 203,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 5200.805442,
+      "source_result_sha256": "228ba7457a1faa4b6090b3d3a863b5278ee40b052e276c4a94bce73c135f66be",
+      "comparison_sha256": "cadfcf356ed36fcdc7f0ca81007de8ecaf06852707fbc007da2bbfe5e18d3b7b",
+      "repair_sha256": "ff7f1ac6991d8844af2cffe1bf0b6780b4f989e2da30ba64845b788d095205ca",
+      "repair_region_count": 18,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1195,
+          "end": 1265,
+          "finding": "同SM可驻留多block，受寄存器/共享内存/线程等资源限制；wave例不意味着硬件绝不让block共享SM。学生具体140/148数字不恢复。"
+        },
+        {
+          "start": 2135,
+          "end": 2195,
+          "finding": "讲者明确当前compiled Triton比built-in慢，不能照学生前提写成Triton更快。"
+        },
+        {
+          "start": 2755,
+          "end": 3431,
+          "finding": "tl.load与Python语句的执行时间分开：编译后GPU执行，PTX并非逐thread再次编译。warp调度隐藏等待不保证全隐藏。四warp scheduler数目原因讲者不知道，继续保留未知。"
+        },
+        {
+          "start": 3505,
+          "end": 3898,
+          "finding": "softmax朴素5MN读3MN写为简化账本；单block整行与分块归约适用不同shape，按列softmax需改stride/归约轴，不能只改名字。"
+        },
+        {
+          "start": 4212,
+          "end": 4325,
+          "finding": "“accumulator放shared”是课堂假设，Triton编译可用寄存器等，应以生成代码/资源统计核对，非tl.sum默认一律shared。"
+        },
+        {
+          "start": 5035,
+          "end": 5195,
+          "finding": "ASR多次把matmul转为MAML，统一按演示代码纠正。末尾高维tensor整体/逐元素加载没有抽象统一答案，讲者留到课后，不编具体最佳方案。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1195,
+          "end": 1265,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "90ce04aa059fdf04553d80bc5f71a346bfa028aaaa762ef8144ba056f88ca472",
+          "second_asr_text_sha256": "a9009d44e9c849f417543cdfbaca59e946cce5dc8e31edecfadb5803556e957d"
+        },
+        {
+          "start": 2134.82,
+          "end": 2152.38,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "23c01b44f73ac675a28c5a9e2fd3a565ffeb57e1b9b952f61005ca50d6410bd7",
+          "second_asr_text_sha256": "51c8f28c91900c179d1bb6d6785d299efb7a1a09e8ccafabeac6b64314cb1865"
+        },
+        {
+          "start": 2155,
+          "end": 2195,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "f7d7146c6972f3bac0ffe1ce4842367c85af43ef25edd6efcaa58ceb8ef8f186",
+          "second_asr_text_sha256": "e8927ad2a1651a3b610b970aea3b34059482202bd89600f00c4f8a8534a68e32"
+        },
+        {
+          "start": 2755,
+          "end": 2795,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "b4a98b39d78b4b34db6528cd4f7bebdb7f9ef80824f4ad7af328442592891dc4",
+          "second_asr_text_sha256": "c86fb1aaadb0c2f9f8ade7825b6cb33d5056806b81240a4a3354b05ed3b92a4a"
+        },
+        {
+          "start": 2845,
+          "end": 2885,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "83d8754152356dd0a9787de05aeee5e020babb9fe1a27495d3679855bbc31ca5",
+          "second_asr_text_sha256": "cc279d5a3e09148440b2c1a122ab7c506d126afbb5f119cfdd03a830ce170f7b"
+        },
+        {
+          "start": 2905,
+          "end": 3005,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "ee1885662c055292ac3d706df7c32c981ccc5fece3dc4637f43cfcca24512691",
+          "second_asr_text_sha256": "255ec1b313bc181951ddb4fa877dd69e267773e2ed318ecd636f16ee1bcec94c"
+        },
+        {
+          "start": 3194.21,
+          "end": 3211.69,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "ce6fce796d8791f399660144e16d0dbb8b6428e6b79246b427e01b5a34e13399",
+          "second_asr_text_sha256": "a3d94852b0e6e7cd8cb558c221678b2acf89f0673a457221a3ef680ebe2d3256"
+        },
+        {
+          "start": 3345.49,
+          "end": 3363.6349999999998,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "5a4014f80526b0eafcb540dc9ad853ceb00ac3753f0b0b6131d03cbec38b06d9",
+          "second_asr_text_sha256": "f4f5f8a6c8901edf53d27dcd0491965a6593746965461decd532b8a757bc0036"
+        },
+        {
+          "start": 3408.78,
+          "end": 3431.02,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "8cbffacb863aee2c944d0cac3a62ad3aa2675c0eb61f06edae7fc68a310e1230",
+          "second_asr_text_sha256": "b1aca3682a3ad4305dc17d966cc9ebac0a62bc382c7c8eacd40a051dba84fb1d"
+        },
+        {
+          "start": 3505,
+          "end": 3545,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "eb01f0171cb340880864a60232b00ab4070b02efe57265adbb12843ce5d2fafc",
+          "second_asr_text_sha256": "dba63df903003ae928dcca517d50a14b6a82a5125c6c96060574d93fd5f12385"
+        },
+        {
+          "start": 3595,
+          "end": 3635,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "7b951df3724234344f281c0d4c634d0fcd80f03d4a747ebf20bf333edabce2d0",
+          "second_asr_text_sha256": "968fef1c957114f0a9f227e46800f3ac463d9023e22faa3368ef0a21588ce28c"
+        },
+        {
+          "start": 3715,
+          "end": 3755,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "0eb64e17a4e35d208b2e400313f449a537e684d31ec36e73c560fdb04d1e7d92",
+          "second_asr_text_sha256": "f44bd64260b7583501b556b94b09f2c2fd46b207e18c4958fc8a72e09d40a10f"
+        },
+        {
+          "start": 3824.11,
+          "end": 3844.123,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "950887dc672e1d157039b0b892547b153a2b7e7a6c64d947a49ca72e25a7a9c0",
+          "second_asr_text_sha256": "e27ad74fcb0641560266a5088e8bc4099bcd64752d2c8a64b9f58020abe0278b"
+        },
+        {
+          "start": 3880.61,
+          "end": 3896.9900000000002,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "26a4aff2cd29e3647a284d27cecfff50bcbaa9d889e448f15fcfbbac14d27fca",
+          "second_asr_text_sha256": "9e4b68ffa22d2fe349b31409c7b080b50d6bdc7ed23792adf7acf8d884b27e08"
+        },
+        {
+          "start": 4212.22,
+          "end": 4230.013,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "c9b27be52d69abe83d8f1766a376eeebb5afe3bb22a84b0f59724806a5d5279b",
+          "second_asr_text_sha256": "e26f31d3a1944e0a09320c89bf01a4eaa2aa01bf6dc49f41462b82970e7f7ef0"
+        },
+        {
+          "start": 4285,
+          "end": 4325,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "757d1d5bb4683cd9bf70b1920dd4d486a424a23de624581b045f2221f43f53db",
+          "second_asr_text_sha256": "d78252c4367978b732db7776d02963def59afcd308422cb2f2f62a05ce701b94"
+        },
+        {
+          "start": 5035,
+          "end": 5075,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "156181f9d1ca7da0105b568ccb50ce1fcd2560a473dea23ac34ee5756deccdb8",
+          "second_asr_text_sha256": "76ef2f96a28112185617d961aa9bc3f440259c6d8cc8a5c35fa01d1512a3d28f"
+        },
+        {
+          "start": 5125,
+          "end": 5195,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "f2d118eb84cf04406c78de6751fda9f2b10bbd02798c718b6608d969b75015ea",
+          "second_asr_text_sha256": "dfc3f1c1188a4ac9ce76f4c23cf393ca71a1067e87bc4df5a0ee1bdbf70c791b"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 5196.76
+    },
+    {
+      "lecture": "2026-07",
+      "video_id": "SzpOcwdIL0Y",
+      "url": "https://www.youtube.com/watch?v=SzpOcwdIL0Y",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "98073671329bd1677230a10bc28628d75795f08910c91ff78309d25a4a26f600",
+      "audio_bytes": 29594140,
+      "duration_seconds": 4862,
+      "format_id": "139-16",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "fefa1066e0bf59c667f918d6dba2dcc8138e9623b920ce3dc47b06a7166a3da3",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4857.97,
+      "comparison_windows": 162,
+      "windows_below_075": 7,
+      "elapsed_seconds": 185,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4862.351383,
+      "source_result_sha256": "5f22780a86134ae7e35055299116b5d0b36668a8178d183d1720508c92fb19e7",
+      "comparison_sha256": "de7a9e7e3364e82ab20963a3e431a22aa55de0cabf9848e470c96eaeb1db078e",
+      "repair_sha256": "4573cab4fbae6afca9fdeeaafe91c17c482fac39fb7c3a2c056f807629730b6f",
+      "repair_region_count": 20,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 714,
+          "end": 1308,
+          "finding": "NumPy broadcasting只是复制/可见性的类比；gather/reduce目标root由调用指定，不永久固定rank0。collective既是概念也是实际API。"
+        },
+        {
+          "start": 1768,
+          "end": 2155,
+          "finding": "字幕缺词中的Llama/RDMA/NVSwitch依据上下文保留候选；RoCE是RDMA的一种，网络设备拓扑与操作语义不同。NCCL跨节点具体优化讲者不知，不能编成已证明最优。"
+        },
+        {
+          "start": 2514,
+          "end": 2632,
+          "finding": "此课一rank对应一GPU是示范约定，不是rank定义。某how does it work学生问句两次ASR均未恢复，继续保留缺口。"
+        },
+        {
+          "start": 3175,
+          "end": 3278,
+          "finding": "CUDA异步操作计时需等待完成，barrier与device synchronize作用不同；讲者未确认的严格先后顺序不替他下结论。"
+        },
+        {
+          "start": 3641,
+          "end": 3713,
+          "finding": "示范要求batch至少world size且整除更方便，不是所有分布式训练的数学硬限制；DDP封装可复用于Transformer。"
+        },
+        {
+          "start": 4073,
+          "end": 4175,
+          "finding": "forward all-gather的伴随在backward需reduce-scatter，当前toy代码未实现自动反向，不能说调用backward自然全部正确。"
+        },
+        {
+          "start": 4241,
+          "end": 4718,
+          "finding": "microbatch减少流水空闲，JAX的sharding可由编译器处理；字幕starting应是sharding，不能混到优化器初始化。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 714.45,
+          "end": 734.25,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "8eb1c69cdf58e6434dd13a3688f6f51f7c473cf6293419711739ba4ecf478fbd",
+          "second_asr_text_sha256": "158a4dc4cfd3c7f045b3d24a3ade177b539d8f368c37a045aa09ca8b0ebb1ca9"
+        },
+        {
+          "start": 1160.29,
+          "end": 1177.55,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "adb43cee2bac43f45cec69f3953596477575ba5d74a3f8f041ed28b1bc2faa1f",
+          "second_asr_text_sha256": "01fb447009837d476149d9cd25841fb1211808277a81e6b9eeaedac598507a44"
+        },
+        {
+          "start": 1225,
+          "end": 1265,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "396748630d01a6870a087daf3926c22729eb2d63e391a9419089ccd3bc9ee407",
+          "second_asr_text_sha256": "d8dea9b517627b4fc4355dcac35b1615b7dc0c73f1294cb996120aaf9d9c2acb"
+        },
+        {
+          "start": 1283.58,
+          "end": 1308.06,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "ec3e54670e933a55b798eb18b9dc214c260092530ddf6bc28e343e715da718d7",
+          "second_asr_text_sha256": "af1aa72aa80edfa4cc4614825fe25fd4e90ff85c8fd3a0ba099909baf2dc2a33"
+        },
+        {
+          "start": 1768.02,
+          "end": 1786.48,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "474e6df0a030b23dfa13ef560ba72447c9b5ef9e1b4b974e611614379c5f73d3",
+          "second_asr_text_sha256": "4075040edc35944993514c0eb83b686c95a06399596c733a516136ccca0f8e38"
+        },
+        {
+          "start": 1915,
+          "end": 1955,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "234fda696aa1c29f341cac7846fa1ceed68e6d23d26f7e3b890632e0caf14390",
+          "second_asr_text_sha256": "4660119c2d2370587586adfe146d2e72ebf633aa26111aed3285df4ce81ddddb"
+        },
+        {
+          "start": 1975,
+          "end": 2045,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "20ec433a622e07d20f653fc942ff090aac18c36dbe653c0a05658bc7114438b5",
+          "second_asr_text_sha256": "98f43d586fd81574087a09c0861d75babd99e6a32052800d648464ddca67938e"
+        },
+        {
+          "start": 2065.82,
+          "end": 2083.06,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "6290e9d6c5232d95d06b8800c0ec012992c997f5f5be0e0510a7cb5183bfebf0",
+          "second_asr_text_sha256": "90e7785c764cd9c2cccb99d1c484f38816c3a1a3eb9bfb92a9fccd10507751ea"
+        },
+        {
+          "start": 2136.02,
+          "end": 2155.42,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "4999182725d88a5f521ab5535dedb2f922283791f189c9493ef15095e2d7defd",
+          "second_asr_text_sha256": "8051742787e26c1227cec4a980a2715fdd082491ab1fcb80af48c9ee29f72284"
+        },
+        {
+          "start": 2514.04,
+          "end": 2531.9519999999998,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "354c736f7584269a9fa69b9ff4e33b49f72f99dfe1b2de3dc32c2a8444de8e60",
+          "second_asr_text_sha256": "12b2b75e8766a5ce1eb509d1f19d138faa86d2cd440a2566e9e7a4333e450b59"
+        },
+        {
+          "start": 2614.04,
+          "end": 2631.83,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "bf3d170c245dfca85d5a2864279f8bd95d6bd007d8277e1ba338763db03b02a0",
+          "second_asr_text_sha256": "130e0b1a71cffc732d9988effcaa2a63f928daa462ea7702ce509c7481871698"
+        },
+        {
+          "start": 3175,
+          "end": 3278.2099999999996,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "8f6eb59d54e921b207c84d47543d80a2cbf90d9162613faa7482ff402b921126",
+          "second_asr_text_sha256": "61245dfc334214f72fcf0efdc4cf83a18e2e5a0b188b8b39e69cc63465819b8f"
+        },
+        {
+          "start": 3641.483,
+          "end": 3660.003,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "eaf686777247c7e034d7f49515d8c41a5c166d824c469492184810254a41f7d6",
+          "second_asr_text_sha256": "401ef3ad3fcc62fa96ea20ece4921ab07041c6800c5793613e4d6d3edd4833a0"
+        },
+        {
+          "start": 3662.61,
+          "end": 3680.85,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "26b725c7faae6d6203538dc622d88f4a2315738e1800f07893f008fa8acf0a4b",
+          "second_asr_text_sha256": "1605ac709d6c01ee8321abcc2c02489ce509afc5b966609fc6fe40398c52c3ab"
+        },
+        {
+          "start": 3684.59,
+          "end": 3712.71,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "a631152543b8a7bcea104ce7a28a708acb9faea8f8c7b8fec095e8874d71f596",
+          "second_asr_text_sha256": "ee2b4180ef90f267a3fa3053ecf935dc2a203369ebd1df152b411c000fcf7ead"
+        },
+        {
+          "start": 4073.05,
+          "end": 4096.01,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "95b033c6c561135deedf4efc775ca236e016a04d1518ec4fab872172217d51c2",
+          "second_asr_text_sha256": "27429cd7e875837d1a8999381be2b4778aabb52c509274955471448211cedb22"
+        },
+        {
+          "start": 4107.43,
+          "end": 4124.85,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "2838154109f03c5dc1786a1c4d44781f24abd0915bd663e9e4885e6348c792c7",
+          "second_asr_text_sha256": "1ef05c79b37aac1fb303e38bd882a300b4320d91457416f123be297632136a11"
+        },
+        {
+          "start": 4131.49,
+          "end": 4175,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "bd8ede96285b4077b0febfafb4fbe9deec058e77e4554bf6322efdc1092c8ae0",
+          "second_asr_text_sha256": "7b8e200cb1d0e9fa4e7acd35643f48a1aa403a3d1d7ed0623ad31cc6a5258d09"
+        },
+        {
+          "start": 4241.04,
+          "end": 4261.76,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "c2a6b5513bace94083d23342bac0e03d2e2bf6ecabfd7df5185e5f60157b506e",
+          "second_asr_text_sha256": "8f5531a94a0c32fd3740221d51b97aa5f426e1d8311b13b5e62476b249719ae4"
+        },
+        {
+          "start": 4698.66,
+          "end": 4717.7,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "7907439b6829a56ff54a0a4a904b5428c2069c2cb18a70d7e6fb74ff4fe5c10e",
+          "second_asr_text_sha256": "30196a0f590df1253db10a186e90943098f5e1867567c56cb06b1b409bf5897f"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4857.97
+    },
+    {
+      "lecture": "2026-09",
+      "video_id": "Q15rhEWZPQ4",
+      "url": "https://www.youtube.com/watch?v=Q15rhEWZPQ4",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "f13432ddd3f308ea515f412ef282a53ebdd6bf39d30c0455e7babb5b6679ab40",
+      "audio_bytes": 28464107,
+      "duration_seconds": 4677,
+      "format_id": "139-17",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "8fa328e90ee60efe50d80069152775f9cc63acc0d31caaf9426ff80a45a4d05b",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4668.64,
+      "comparison_windows": 156,
+      "windows_below_075": 0,
+      "elapsed_seconds": 215,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4676.684626,
+      "source_result_sha256": "8117955089ff2ccbc3f20e18a3295177a9e2c4ff6545b0a04fbde4e637b67664",
+      "comparison_sha256": "895425164e3759985de8d31f90db4689e063d757a8a98b2dd2278d0322ea5c9b",
+      "repair_sha256": "b7f47aa2d687b75e8693cc43c70e0abedb63874b566840914c668b3439a2dca0",
+      "repair_region_count": 4,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 614,
+          "end": 633,
+          "finding": "学生问经验scaling是否有理论根据，原字幕/第二转写仍有缺字；均值及网格例是解释，不是LLM幂律定理。"
+        },
+        {
+          "start": 1239,
+          "end": 1256,
+          "finding": "model大于data不是参数数与token数一比一边界，应看容量相对样本及训练收敛。"
+        },
+        {
+          "start": 3225,
+          "end": 3243,
+          "finding": "重复runs/variance问答指出所见往往单次运行，不能给曲线补上不存在的seed误差条。"
+        },
+        {
+          "start": 3343,
+          "end": 3362,
+          "finding": "拟合train还是held-out loss需明确评测分布；反复选配方的集属于validation，不能把反复使用test说成规范无泄漏。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 614.26,
+          "end": 633.36,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "026e7f95a4f0fb40ba22cb4d608ab3fa114a7080fa22216fa1d6ef413456e45e",
+          "second_asr_text_sha256": "0f314e3b1b640f4185f8e53b4d404d232c6a768554f1cf643e56a84157c1d6e9"
+        },
+        {
+          "start": 1238.51,
+          "end": 1255.652,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "403a4f95bc870bc0ad7b68f36dc05e58d1a4724f9fed838c7fc23e8e45fac99b",
+          "second_asr_text_sha256": "96cb4bb5e1a48c1b8d825ec2408cdba1129d621d1703611560611582d2264d87"
+        },
+        {
+          "start": 3224.94,
+          "end": 3242.66,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "e75d9fcdbd49a166da17dfe0535e8edf54eca8aedd5b655226ca074da4d5a1c1",
+          "second_asr_text_sha256": "1c70bf96f7fc71d524c287db6d3741f14c918983fdf1f1cd1867ce438344ae5a"
+        },
+        {
+          "start": 3343.09,
+          "end": 3362.27,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "b34d4ca1783bcc8b0c2bdd810ee69128f7fe0a5fe7dfd89fdfae9e0cc8238cc4",
+          "second_asr_text_sha256": "019602efa47d13d9d73f972d6d7d7fb8e980b4a49fbedb49e2ce84c23e26b1f1"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4668.64
+    },
+    {
+      "lecture": "2026-10",
+      "video_id": "EfM546A79aM",
+      "url": "https://www.youtube.com/watch?v=EfM546A79aM",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "94fe0c6caf505adf3df6cb83157f09b053158cb0e6b7a66f755f7fb34e2987b7",
+      "audio_bytes": 31221267,
+      "duration_seconds": 5130,
+      "format_id": "139-17",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "df5aa89e39ffa6444bb0b2b9ee53d590407bcd4666bba377e145cee9cdacde53",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 5122.97,
+      "comparison_windows": 171,
+      "windows_below_075": 9,
+      "elapsed_seconds": 188,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 5129.705941,
+      "source_result_sha256": "76f9605753675b2c169d50f148f777670e038ed0aaadebb6dea96468397bceef",
+      "comparison_sha256": "f772c05f15d78062073926c02c140ecde94053d3e7a53f7edfcf0fe86d2cf221",
+      "repair_sha256": "0c22b4571a314dd028be464f200efce317ff5a8d3ea2379b1bf1b9cc5da151df",
+      "repair_region_count": 8,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1105,
+          "end": 1235,
+          "finding": "GQA现场纠正：k是KV头/组数，g是每组query头数；讲者承认原标记有误并说课后改。学生部分问句仍不可辨，不据ASR补写。"
+        },
+        {
+          "start": 2065,
+          "end": 2135,
+          "finding": "字幕TFRT应为TTFT。memory-bound指此处decode与所算shape，不能扩成全部推理/prefill永远带宽受限。"
+        },
+        {
+          "start": 3535,
+          "end": 3744,
+          "finding": "学生比较sliding window与Mamba/DeltaNet的混合架构。固定状态压缩有长程检索损失风险；讲者对未来可改进空间的判断是研究判断，不证明任意linear attention优于窗口。末尾缺词仍未恢复。"
+        },
+        {
+          "start": 3955,
+          "end": 3995,
+          "finding": "GPTQ按层用近似曲率补偿量化误差，非把layer by layer的ASR杂词当新算法。"
+        },
+        {
+          "start": 4269,
+          "end": 4289,
+          "finding": "神经元恒为100是否有意义的问答可看方差；绝对幅值本身不证明语义重要性，学生末尾原句仍不清。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1105,
+          "end": 1214.45,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "c60cb910d913e8dbcdf7a30428ad687383b877a0b2b3d1ad907b973cd764aeeb",
+          "second_asr_text_sha256": "05724243ff2489dcd991f3387f94e69b57b5247eda33acaa23c0b827ddfcb0a9"
+        },
+        {
+          "start": 1195,
+          "end": 1235,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "fdab71075e0e6240b0d3640ebec24a4d2b101b35a854af6ca2bc28552676cdcb",
+          "second_asr_text_sha256": "341c09acb6a5350890a84f85ea7d51ee50a72a8b8d7fb81a37ebdf447a4f1655"
+        },
+        {
+          "start": 2065,
+          "end": 2135,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "af1aef37814f88ca20bf17a999ebc758906af1c2ca116ff05a20f20bd953f5e3",
+          "second_asr_text_sha256": "373509d02a4359d09f1baf110760cc5dce0f4f98300d12c98969ad28bf4c3071"
+        },
+        {
+          "start": 3535,
+          "end": 3575,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "46ebc783e671d95ed998b977cba530627cc7e00c4bfafa3eb3c1907f14d0f558",
+          "second_asr_text_sha256": "c1e741f655daa6d846d68658ed47474235837c306b9c173f9768c9ffea094a64"
+        },
+        {
+          "start": 3655,
+          "end": 3695,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "70aa8fa0bab73214954d5d61f4e37f5a95ffd259f36a499fc908140a9ff7b4ef",
+          "second_asr_text_sha256": "625c0d67bae8a98979a161e8a96e3c89cd1d8ebe20fe51baadff8f2f73899ca3"
+        },
+        {
+          "start": 3728.97,
+          "end": 3744.47,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "fae003bdbe4d694f39cb55e030965b4bb11f42fa0d58e295e14a875860df453a",
+          "second_asr_text_sha256": "78f8f80103d19e322a81e8966144fc75b5fe8a44f77ae6ae1382ef8d7d260d7f"
+        },
+        {
+          "start": 3955,
+          "end": 3995,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "c2126578bb6837423e30f640b03b96490dd21264b32212fa1a71975d0c1defe8",
+          "second_asr_text_sha256": "3397aa402eb0efa7e100a8ad09ea44e9eff54e04f8e2f42c37a2d5fe006c4946"
+        },
+        {
+          "start": 4269.81,
+          "end": 4288.330000000001,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "ce6ed6f86c691643fa27213f09ce6a8cd17611a7712ae77a87af4dea963601a7",
+          "second_asr_text_sha256": "bb459582244c9ea9d44adb5a565741b828fc3ce3394488886aa54a9a44c6de5b"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 5122.97
+    },
+    {
+      "lecture": "2026-11",
+      "video_id": "vTfEyOyzV9E",
+      "url": "https://www.youtube.com/watch?v=vTfEyOyzV9E",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "3ba2d3c30611fce914484d1e17929df87a9d90bb9d51267397d20a9b8c3750ac",
+      "audio_bytes": 28139613,
+      "duration_seconds": 4623,
+      "format_id": "139-20",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "fcd0bd0acc1d76cad50534d9c8bf092f65a10fd1d68ede13c7a13bca91ed8429",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4617.19,
+      "comparison_windows": 154,
+      "windows_below_075": 0,
+      "elapsed_seconds": 198,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4623.37161,
+      "source_result_sha256": "c77ab98f29493c7be85ec1c1dc994f891c6e2b0215fd80ecc11488b80f749428",
+      "comparison_sha256": "bffe5eab79e578dfb70f3312133820a2d27ef37219044673dfe5b1d4bc0752cd",
+      "repair_sha256": "5e4e16761724b51856214d25cd74e6bfeeafbd6a6726f5057ef7c557aa70c228",
+      "repair_region_count": 3,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 3197,
+          "end": 3215,
+          "finding": "Muon历史段的人名两次转写为Caillou但字幕缺失，不能据此确定研究者姓名，保留未辨认。"
+        },
+        {
+          "start": 3291,
+          "end": 3318,
+          "finding": "学生原问部分不清；讲者复述为SVD在GPU上是否快，说明实现用有限步Newton–Schulz的矩阵乘，不直接运行完整SVD。"
+        },
+        {
+          "start": 3327,
+          "end": 3348,
+          "finding": "不同优化器超参数是否共用的问句有缺词；讲者答不同，不能补成任意Muon/Adam超参可直接互换。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 3197.53,
+          "end": 3214.8300000000004,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "f04437dbcdbb5253496fbfd134a4b57d600aec1f82c81a049e7960dfa33b8d51",
+          "second_asr_text_sha256": "4b2813fa56ac1827d3caa8d51de4a0dc26fa0f1f73941d7c318094f290a3400b"
+        },
+        {
+          "start": 3291.02,
+          "end": 3311.26,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "9b7031fdd6e62deb418c016dfe263652d1cb511788a2d7aa88343edd25e261d8",
+          "second_asr_text_sha256": "df43770211a4ac42c9dfb7b4cde697e99b18b8bd2db54aac74691d62fdbd8166"
+        },
+        {
+          "start": 3327.82,
+          "end": 3348.1200000000003,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "289a3c0c68ce438e263cfd79d4574f0af8bb62b8407b6be190f684faabe1bfac",
+          "second_asr_text_sha256": "a8c04271c8b06bbface667e987e67d2636bfb28763e8cb0f37464473218b31b9"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4617.19
+    },
+    {
+      "lecture": "2026-12",
+      "video_id": "JpAxdTWQJxM",
+      "url": "https://www.youtube.com/watch?v=JpAxdTWQJxM",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "6e3ec24131288c6914e25c3a4dc49c8747220210199a199dcbccba968558813a",
+      "audio_bytes": 28691891,
+      "duration_seconds": 4714,
+      "format_id": "139-20",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "15a723513eeec4c1cd30e1725f82660e61dfb12abb21c2dfb7a57708c16cbddf",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4708.02,
+      "comparison_windows": 157,
+      "windows_below_075": 1,
+      "elapsed_seconds": 166,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4714.115193,
+      "source_result_sha256": "a23c26901d656f941e4763bbfdbfdedf5def5cd9a152f8f792b8b8c59fdfc99b",
+      "comparison_sha256": "b241ed8f5b326fd42b0680c04e897cd94a6038bb6e4dba4f423eb5b5892b770c",
+      "repair_sha256": "f5bafc182230dc654b5db3b81ccde4f0333c424491831ab76b10fbb951b13a7a",
+      "repair_region_count": 3,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 2054,
+          "end": 2075,
+          "finding": "字幕being应为beating：Bradley–Terry用分差建胜率，Elo更新与静态最大似然拟合不要混为同一步。"
+        },
+        {
+          "start": 3533,
+          "end": 3550,
+          "finding": "human-solvable评测的能力范围与IMO/开放数学研究不同。转写more gold应为IMO gold，超人任务不能靠普通人工时限全部覆盖。"
+        },
+        {
+          "start": 4375,
+          "end": 4415,
+          "finding": "SWE-bench Verified修订任务/测试质量，不意味着所有缺陷已消失。perplexity评测便于自动算分但仍依赖数据质量与分布。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 2053.61,
+          "end": 2075.09,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "3653d5f4a710a5135399dcdfb536b8109259b83aa200ae055254ed9aaf9d101d",
+          "second_asr_text_sha256": "b66a5b103090df7fee5a968f770c8268c68edb96a87c7eba7008b9e8019234b0"
+        },
+        {
+          "start": 3532.68,
+          "end": 3550.22,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "3b16e90b9bfb2ff34131c3255b2d82d68e407af4b85ccbd4af7cb1de4943be9f",
+          "second_asr_text_sha256": "cb15699f3639e2012f74c54398072ea39a418be02fb176617f921d6331c92720"
+        },
+        {
+          "start": 4375,
+          "end": 4415,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "34c8bd37f70a22b600a2bd52cfcc5b0b0eba3e1e1a61af4bde8c84bab598a60c",
+          "second_asr_text_sha256": "e95812e9830d40d26db45e57358f01744be778d946d73c36ec5188a84e690444"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4708.02
+    },
+    {
+      "lecture": "2026-13",
+      "video_id": "-qm0ln33G24",
+      "url": "https://www.youtube.com/watch?v=-qm0ln33G24",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "c1112b4531f4d98cdc7d31bebb6831f137467ec43cda73d2c7ecd4d874320070",
+      "audio_bytes": 29953637,
+      "duration_seconds": 4921,
+      "format_id": "139-18",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "1b910cff9de67ddd713bfc71e7d74b0ad3c8779679582565280068580a3354bb",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4915.21,
+      "comparison_windows": 164,
+      "windows_below_075": 3,
+      "elapsed_seconds": 168,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4921.422948,
+      "source_result_sha256": "1a6c63d9dbe2c965cfc2e3253cba97d11a440956ceca3bb6e8a251c0b92c26c2",
+      "comparison_sha256": "75c115b6676c81117e3fb65d0c64b02297524ce52e8a96a57f9ce98e4b995ae7",
+      "repair_sha256": "61c86cf62b8a4986b504d1635c735616354abcef4b2e7f92090c951e3d4415d8",
+      "repair_region_count": 3,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1845,
+          "end": 1895,
+          "finding": "ElevenLabs/voice data讲者明确不熟、课后讨论，不编答复。许可随时间改变的问题保留原问，使用须看具体版本许可，不能由课堂口述推成通用法律结论。"
+        },
+        {
+          "start": 2575,
+          "end": 2645,
+          "finding": "arXiv论文许可需逐篇核对，不能将讲者“我想大多CC”写成全部可任意使用；synthetic data probably yes为课堂判断，不能代替发布模型/数据的条款。爬虫过滤盗版网站学生问句仍不全。"
+        },
+        {
+          "start": 4174,
+          "end": 4193,
+          "finding": "total processed tokens与unique tokens区分：多epoch重复计数，不能把总训练token当唯一语料规模。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1845.19,
+          "end": 1895,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "b942ec9ca53d0a888058164149b0af3c3cc3849706c68717c4f8fa5cb2856afb",
+          "second_asr_text_sha256": "c017fcaa596d177f49f77786bf4dab0574b2cdad62c2c37530f8f96af5813984"
+        },
+        {
+          "start": 2575,
+          "end": 2645,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "c8c3ffbd873adfdb675484f4af492479c0eebe3b5b91f3112b094bd0170dd458",
+          "second_asr_text_sha256": "c0b99ecb1ac140299e1d8e6d7f79797bfdffc714ff4b2fbd656d8e490625ac56"
+        },
+        {
+          "start": 4174.18,
+          "end": 4192.62,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "4eab12be34f7c92d1b8c3edbe5a86f1d61fd845c584dcd60a182221e6d8c479a",
+          "second_asr_text_sha256": "56f3e4578b7387607f7abee4ea9641c165731848b28b805cd1ccbb809e083f33"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4915.21
+    },
+    {
+      "lecture": "2026-14",
+      "video_id": "5sxHosTLPF8",
+      "url": "https://www.youtube.com/watch?v=5sxHosTLPF8",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "b3b153e876070f86561667d6f80c330199d1a837516feb2e67a1898ea055ae25",
+      "audio_bytes": 30955081,
+      "duration_seconds": 5086,
+      "format_id": "139-20",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "a602733c5780201f0757850f21ee47d373a29ea3d0030b77da66ea50844e538d",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 5076.83,
+      "comparison_windows": 170,
+      "windows_below_075": 6,
+      "elapsed_seconds": 175,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 5085.959546,
+      "source_result_sha256": "1e0ff4ae693607f98ccbd9d739dcd2db2c43a7eff2d8bc56107cd390f24ecf2d",
+      "comparison_sha256": "e0b5ba298bbb9e7d4bd8fa81cde711c13702e0757427b826bffff4d98c44916e",
+      "repair_sha256": "de32dfbb77266d4e2455920d4a722dc7c4797169d5cb0ac273db95d661def06b",
+      "repair_region_count": 7,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 235,
+          "end": 275,
+          "finding": "Resiliparse/Trafilatura/FinePDFs专名依据官方代码/屏幕，ASR音似词不收成新工具。抽取器表现依下游评测，不声明全任务赢家。"
+        },
+        {
+          "start": 1255,
+          "end": 1295,
+          "finding": "高质量数据与训练更久的交互问句转写仍不完整，不能捏造独立正交收益。"
+        },
+        {
+          "start": 2215,
+          "end": 2255,
+          "finding": "MinHash签名减小表示，避免n²还需bucket/LSH检索；不能说只算签名即自动解决所有pairs比较。"
+        },
+        {
+          "start": 3355,
+          "end": 3515,
+          "finding": "为何50 epochs的追问部分仍不清；讲者强调配比会造成小语料高重复，应记每源有效epochs。通常按sequence选mixture来源、batch内混合降方差，不是每token换域或必定固定10步切换。"
+        },
+        {
+          "start": 4328,
+          "end": 4345,
+          "finding": "Nemotron之后的缺名第二转写猜Omal仍不足确定，保留未辨认。Common Crawl可按域分组再选择配比这一答复可恢复。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 235,
+          "end": 275,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "93c346649c58dff8cc8be16f84dd07ff27fc9f86350af5e9bb3d3e662930628a",
+          "second_asr_text_sha256": "425704af6f964d1a94b9669d90c48f36ee000024b70926af70d480d3ef8fff56"
+        },
+        {
+          "start": 1255,
+          "end": 1295,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "e43396bf5f4ad470507b6acc48b5c2d9735f25b9a1acf1706b5640a240a1fb7b",
+          "second_asr_text_sha256": "a5b7427b8e99649ed953ea45ce373b14822770c0cf6b7808d9d469c6486c5115"
+        },
+        {
+          "start": 2215,
+          "end": 2255,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "423559059e7ad795c3327bbac841e172b1720537ccb5487a0493e5aab60f0862",
+          "second_asr_text_sha256": "f70f6a42917befb2d073813f2d92c7c0de452e8987e33fcb07fd566971937541"
+        },
+        {
+          "start": 3355,
+          "end": 3395,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "86516651347da39c71038f06ccdc851f20229da248975d82618b4d52ff3715f9",
+          "second_asr_text_sha256": "23c06f6b6c403efe1b196b5a71f44c01e6cbfa69e7f52e566600b0bde1f26a0e"
+        },
+        {
+          "start": 3415,
+          "end": 3455,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "c69eeb1747939ba1eeecd171bfb4beb5e9f2865ab7f2a9631fd8dc4c46a358ca",
+          "second_asr_text_sha256": "40bbdcd2387e2e3afde4656b0e39df62dfc0d473582e940dcaa394f11d7ab50f"
+        },
+        {
+          "start": 3475,
+          "end": 3515,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "814a88aae2e1eaba0ba4cc46cef746af821a480c38067695a01425ca46038d6d",
+          "second_asr_text_sha256": "40cc1f8fe38d3c6135e44b3887bf823aba6ae256c6a375c4c89cd2814255ade3"
+        },
+        {
+          "start": 4328.15,
+          "end": 4345.429999999999,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "03df3333735a9679c9bcb49f7bf04fb2dffb88877bec678675a9dbe67c1c9674",
+          "second_asr_text_sha256": "e9a02156c438e53f10cb43d8a430891b26172ac2d9046489c0e6a08a8fd8d3e4"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 5076.83
+    },
+    {
+      "lecture": "2026-15",
+      "video_id": "2oH6PWPrYFo",
+      "url": "https://www.youtube.com/watch?v=2oH6PWPrYFo",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "c66cd983349afb5c1a9a089ecbf03abc6f9c090de3cf7cec59c8e7ea2f401479",
+      "audio_bytes": 29179496,
+      "duration_seconds": 4794,
+      "format_id": "139-19",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "5c0b85c35bb877a1ce69cad302044487d100bc88713975cc99833509e4f206f7",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4786.96,
+      "comparison_windows": 160,
+      "windows_below_075": 2,
+      "elapsed_seconds": 198,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4794.224036,
+      "source_result_sha256": "28aae67cc7c5129e40f229e72c715b55cee386ed9bf12dc11c2d5027ffa32b57",
+      "comparison_sha256": "21b52d50087d4ddaeff3e516e053646fd22b2b1300b4eff4b3e31b8458c6bc12",
+      "repair_sha256": "cafd6468e71ef6d117ca6d28b358a185c92108649ad8d1131c71d893b407bedc",
+      "repair_region_count": 9,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1248,
+          "end": 1266,
+          "finding": "学生complex...data set原问两模型仍未恢复，讲者说稍后再讲，不能编明确问题。"
+        },
+        {
+          "start": 1573,
+          "end": 1596,
+          "finding": "small.en在低音量学生问题处幻觉重复I am not interested，应丢弃；讲者复述为RL为何或可降低幻觉，并明确只是folk story，非证明。"
+        },
+        {
+          "start": 2059,
+          "end": 2135,
+          "finding": "讲者承认无法精确知道行为是否已在pretraining，SFT/RL边界模糊尤其expert iteration。主要区别在监督反馈形式，不能绝对写SFT破坏/RL只激活特征。"
+        },
+        {
+          "start": 2320,
+          "end": 2495,
+          "finding": "字幕prompt误听problem需按loss masking上下文。decay通常强调更高质量是配方直觉，混合比例由小模型ablation外推也可能脆弱/试错，不编一个确定最优混合公式。"
+        },
+        {
+          "start": 3391,
+          "end": 3416,
+          "finding": "高质量标注者无机械gold标准，需要任务正确性/一致性等证据；不能用是否同意judge定义质量。"
+        },
+        {
+          "start": 3775,
+          "end": 3800,
+          "finding": "原字幕70有误，第二转写与成本幻灯片一致是7B小模型历史例，不是70B。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1248.25,
+          "end": 1265.93,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "320da177988f3f3ae614a0c1d62783778913b3677e080b21665f43fa9fa46143",
+          "second_asr_text_sha256": "08ae48af295ac4daa80e4ec6df4b182a89874d6a986bccc49bde86dc4732a1a9"
+        },
+        {
+          "start": 1573.35,
+          "end": 1595.6899999999998,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "92cd83c1268bccbd56c0a87feaf28f44f69efabf2c4475a8c2577a52c17e7ab6",
+          "second_asr_text_sha256": "46c10c61832731f5888eac9cd6db4a377f4810b5b9a5756b75c4295e69355690"
+        },
+        {
+          "start": 2059.27,
+          "end": 2080.53,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "48279bd69b275519ace0fbdfbec7e764c18a08fc8822855568e68d283ff3ceae",
+          "second_asr_text_sha256": "e49308252110ebb6eec259aefa98bf99c24d341bbe8b460210c5452ad23c2ea6"
+        },
+        {
+          "start": 2095,
+          "end": 2135,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "340f77de8591be4ac861ffb7ab36359ca5836d616958f7da81387c79089736ee",
+          "second_asr_text_sha256": "5ad27ec47a66c96db9817f581eb7ea7659f426b7a1de9e798925be7f724fc193"
+        },
+        {
+          "start": 2319.73,
+          "end": 2341.09,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "c2c5ca27733feb8fd299a850c7dd56b8947a42d3f7441cd9799ee6b91d5bcca0",
+          "second_asr_text_sha256": "4c62e1029f4efa6a28207782189bd835ac8965a0bb820547c292d86a124fc550"
+        },
+        {
+          "start": 2358.13,
+          "end": 2375.01,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "85159add992b0e646ed8b61e197962255e1b9a84619d6dc620ad8100ba05d76e",
+          "second_asr_text_sha256": "510326b33255cb6b47bc1cb2dc27c6ab3d854610ee76320c50870045533ea19d"
+        },
+        {
+          "start": 2455,
+          "end": 2495,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "51a82eaa5bdf1231af656bbb8c8414176cd04d50b22bcb51469661b073b08917",
+          "second_asr_text_sha256": "021f1034b0fa85819378a7ce2fe79722ea857e4921b173732d4fea914f052bd6"
+        },
+        {
+          "start": 3391.18,
+          "end": 3416.2200000000003,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "363663ea20ff995bf7cae1b551674a42f277e02657dfe14cdef89c6ba5f66c0e",
+          "second_asr_text_sha256": "fb68fed4f12f2e601efc5477e3614d5b2f0d43ca00d5724567264d2147eda1ba"
+        },
+        {
+          "start": 3775.24,
+          "end": 3799.6600000000003,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "74aacda7fc2cdc9e6adb4e391a20f60dfb2a121e89b92e9619b396eebba21e0e",
+          "second_asr_text_sha256": "254acd1e474d4ee42354b8a6be7c15d6fbdd60939dab8af53b910daa4ab742a1"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4786.96
+    },
+    {
+      "lecture": "2026-16",
+      "video_id": "dIFAi87Ws4E",
+      "url": "https://www.youtube.com/watch?v=dIFAi87Ws4E",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "9b831ec184041d2fa912ce954a4fb655bb59d5d6e4179cf54fa33e5d30a490a6",
+      "audio_bytes": 27694739,
+      "duration_seconds": 4550,
+      "format_id": "139-20",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "c82386a77f4b1a247449b6a7a5adf8920fbb652c0db16c9fd939695f533bd15b",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4542.73,
+      "comparison_windows": 152,
+      "windows_below_075": 1,
+      "elapsed_seconds": 205,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4550.275193,
+      "source_result_sha256": "07998d6f9b96364504b81f6e4aa634844561fcd0514cf5b21bd5234f20476751",
+      "comparison_sha256": "2dc9280a2ffa2efaa3d2cd4a551be67dce949e8fb7bc27f43770f24063dc2da6",
+      "repair_sha256": "fe92e733591f5995ac6b8296bc67d4e3952c971863a4cbfa4d90e2706c3ca255",
+      "repair_region_count": 5,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 2298,
+          "end": 2329,
+          "finding": "正advantage除长度会偏短，负advantage除长度可能偏长；不把length normalization一律称为鼓励更短。"
+        },
+        {
+          "start": 4223,
+          "end": 4272,
+          "finding": "同权重思考开关可通过prompt/token控制；学生问句部分缺失，不能泛化为所有服务端仅用prompt切换。"
+        },
+        {
+          "start": 4362,
+          "end": 4382,
+          "finding": "学生关于混合训练/蒸馏的问题small.en未恢复，保留字幕与原问缺口。"
+        },
+        {
+          "start": 4465,
+          "end": 4505,
+          "finding": "跨领域RL并行/顺序及遗忘问句有缺词，不编唯一最优流程。长上下文扩展的数据建议是配方例，不当完整复现实验。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 2298.37,
+          "end": 2328.5099999999998,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "94254777bb6321ee31fbbd1860a832c506708022e2107d2d0bf3ab46e5a42f9b",
+          "second_asr_text_sha256": "3cfe350a9cb9c2bc7fa3037450e188c71f043ff86af9ad74c8bbd892fc99302a"
+        },
+        {
+          "start": 4223.1,
+          "end": 4241.14,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "820df21f6c91dc363ddd127ff30957ed9fa59a57813174f81cd2f74925445d4f",
+          "second_asr_text_sha256": "0c05c0d6656096134084b1d859e3b17a350ce48b19312bea38ca3b992f655e1e"
+        },
+        {
+          "start": 4255.03,
+          "end": 4271.99,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "d2f6e660b18a40036c203e1df5ab541625906edf07aa06353396b0c5f0eafea8",
+          "second_asr_text_sha256": "2f84fc10db6ed66fbec3dc02c135f147072fac226c6a56db4db6f4c41edba96a"
+        },
+        {
+          "start": 4362.5,
+          "end": 4381.52,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "48fbe5356c047050af7305249b87d0b120933fa0ac1e4c578cc6b49eaafa5850",
+          "second_asr_text_sha256": "12ad95493f5955d30d0e4b381dc44a724b59318936c600aa2f170a5bd673df76"
+        },
+        {
+          "start": 4465,
+          "end": 4505,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "f58c311a0ea4d7e70671892a7f8a233a5d2e516777a609e0b50e540ede07f13c",
+          "second_asr_text_sha256": "9f142837c3d445078d04e7e5c16a933d608a79eb78614fbb9f44e5f3836b3011"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4542.73
+    },
+    {
+      "lecture": "2026-17",
+      "video_id": "26FtD08ZpOU",
+      "url": "https://www.youtube.com/watch?v=26FtD08ZpOU",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "ad95939073add78caa9955b6e9dc630431b13ce79639e609815355a5f348cd26",
+      "audio_bytes": 28358683,
+      "duration_seconds": 4659,
+      "format_id": "139-19",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "20dd5dcbc7b16bc1a38a556e128a94aabf84e08bac90d7002a1df0b4de764c3d",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4653.54,
+      "comparison_windows": 155,
+      "windows_below_075": 9,
+      "elapsed_seconds": 168,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4659.36254,
+      "source_result_sha256": "6cd29a311e07854cdcbd96108aa6f7426231efab71479b780d0cd6747824ef22",
+      "comparison_sha256": "37d0951b224d0645b947bfc722ceb46f02736e9acd5fa243ba7c705322f09c3a",
+      "repair_sha256": "68441f257abd35e5b9f7765cc50d735a57e60338278f8afc68a2a146bb11e287",
+      "repair_region_count": 11,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 655,
+          "end": 702,
+          "finding": "为何用图文对而非只用图像，可恢复讲者复述；学生原句仍不全。图像自监督augmentation是另一条路线，不是CLIP一定生成文字。"
+        },
+        {
+          "start": 925,
+          "end": 965,
+          "finding": "学生问2D位置编码，讲者对CLIP消融明确用I believe并提醒局限；不写成所有视觉任务1D与2D等效。"
+        },
+        {
+          "start": 1105,
+          "end": 1149,
+          "finding": "狗图像有多个合理caption会产生false negatives；零样本分类与生成caption分开。"
+        },
+        {
+          "start": 1225,
+          "end": 1265,
+          "finding": "bag-of-words/语言模型/对比目标的效率比较限所引实验，不是更强语言解码器永远更差。"
+        },
+        {
+          "start": 1435,
+          "end": 1475,
+          "finding": "SigLIP负例采样问题原问仍缺词，讲者说初始论文沿用矩阵，不补高级hard-negative方案。"
+        },
+        {
+          "start": 3558,
+          "end": 3731,
+          "finding": "此处VLM理解视频并输出文本，不能当视频生成系统。系统开销包含视频装载/预处理与更多视觉token；学生第二问部分只由讲者复述恢复。"
+        },
+        {
+          "start": 3773,
+          "end": 3812,
+          "finding": "预训练语言模型如何对齐的问题学生原话未恢复，仅保留讲者复述，不能捏造adaptive threshold。"
+        },
+        {
+          "start": 3833,
+          "end": 3881,
+          "finding": "视觉编码器参数通常比LLM小是此类架构一般观察；具体参数需对应原模型表，不写成数学必然。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 655,
+          "end": 701.66,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "ff1d95e56572031b732ed5b94c3a79cccaef0fa18acbcfc323198f4ffe56703f",
+          "second_asr_text_sha256": "f17dcaa5bcdcaf0fe7a7df1bccfc6dfa30e6c90f109a223c2e3d8c78a1ae09a7"
+        },
+        {
+          "start": 925,
+          "end": 965,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "cad82c337eafd7896db08d60e6dccd95f961a5b35e88eae8b56ebfea5b5cc071",
+          "second_asr_text_sha256": "8331702a5ef591c530fe487991aca3c42e1fcb47e1293262b7327fb3395f4be9"
+        },
+        {
+          "start": 1105,
+          "end": 1148.4699999999998,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "982e97211bddd5b715849817bb2f428807fac480a0405b33521dc60533751f8a",
+          "second_asr_text_sha256": "af1bf27edd30f754695568f94c65c41b2487e645bd6e3ac82aade772ff97e259"
+        },
+        {
+          "start": 1225,
+          "end": 1265,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "61db20e55b273be289e62ef7edb190f8b5041c095345311beab8ea527c7c76cb",
+          "second_asr_text_sha256": "f141e9ee8acc86943292ba01fbb66d6449f0a7ae3abc957ebadcbb29cce80a88"
+        },
+        {
+          "start": 1435,
+          "end": 1475,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "007c488678f92c3f06b735be57f1458369341db76083984724e25e01601791a2",
+          "second_asr_text_sha256": "3080d203142c0b68fd9e630e164bacd1b2388fef239cc4f6ff26de118a20f2e8"
+        },
+        {
+          "start": 3558.45,
+          "end": 3605,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "3ae134e09ddf583a1ec3de56c81a78d6478aed37a3f55611f30267b7a38e0c00",
+          "second_asr_text_sha256": "f329d5046ac592dd2ee88705bb08639c41f078434de4a9d0f79ae0d1996f5a82"
+        },
+        {
+          "start": 3625,
+          "end": 3695,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "c2f52de1f8dc5ca3c4fd83101b5c82e2261aa4f3229730fa8b0775f721e34308",
+          "second_asr_text_sha256": "feb2eae9b56a412e68290fedf5fa90df3410991b940ff27648305ba89f6d1486"
+        },
+        {
+          "start": 3714.2,
+          "end": 3730.8599999999997,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "bebf1b01ba3abd2afb9fe270f79bfdba1373457a84510682763a3b045d80e61f",
+          "second_asr_text_sha256": "85b483ca2556f3983b881f7f2427a7a7eedff02a4ddb2a6054b386fe74f9ed7e"
+        },
+        {
+          "start": 3773.37,
+          "end": 3811.0099999999998,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "8f0b2814fe5f2a1ad6d618f5609dd953b59a37521fdf6aae78aee8ed1ef58bd3",
+          "second_asr_text_sha256": "5aed15a56d918efe5bfca1fd8ce44b6052d6936a0fd351a30a974226a19aa8c3"
+        },
+        {
+          "start": 3833.61,
+          "end": 3880.34,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "30a2f93b1815b3a85ccedd045cd669d210f87f5c96fd776769e0da9cacb53423",
+          "second_asr_text_sha256": "688f66697738c80206d0735f248f0b690b646f846914fb0102e00283a7f96dff"
+        },
+        {
+          "start": 3994.58,
+          "end": 4011.62,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "3deb8298cf080e55d275cfcd5d388b97083ebd003dcf1d01aaf55970e03e19d3",
+          "second_asr_text_sha256": "de8b964d38f2f2b8c51a682d13b72b33e47cf26fdd2284e8d9a02bc0d9a2a05f"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4653.54
+    },
+    {
+      "lecture": "2026-18",
+      "video_id": "9EEm4iMAF5s",
+      "url": "https://www.youtube.com/watch?v=9EEm4iMAF5s",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "b5ab406a659c155ef92877cd188df88416ca07c963be80600f2461f7c40ff7ee",
+      "audio_bytes": 26174942,
+      "duration_seconds": 4300,
+      "format_id": "139-20",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "b9784db1940a9ea723de1a5b3f74ee7e88a492a78396897d023c6c49ecd10721",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4294.93,
+      "comparison_windows": 144,
+      "windows_below_075": 4,
+      "elapsed_seconds": 201,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4300.5678,
+      "source_result_sha256": "297f2b0b5f1d13bff229fe00a3f32265c297b9e5f7fdbe055ce7679de68cfd69",
+      "comparison_sha256": "5a105e232990cbea9138b268d9be21b762ccb2a2d4d450efce04ae0ed79a69dc",
+      "repair_sha256": "db554b14226b330722f8668b6593afdac241e563488aef514189c524352c8c9e",
+      "repair_region_count": 5,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 3428,
+          "end": 3449,
+          "finding": "学生问recurrence、data、parameters联合扩展，第二转写未恢复完整问题。讲者说有3D图，所取画面未显示，不能编图。"
+        },
+        {
+          "start": 3625,
+          "end": 3665,
+          "finding": "Parcae从头训练与复用预训模型的问答保留讲者复述；small.en把后文troll blog省略成一般判断，优先已上传字幕，不把两模型差异直接合并成新事实。"
+        },
+        {
+          "start": 3800,
+          "end": 3845,
+          "finding": "Megakernel主要代价是工程劳动与硬件/模型/batch特化，几模型/一年是讲者估计，不是保证产能或跨硬件自动通用。"
+        },
+        {
+          "start": 3955,
+          "end": 3995,
+          "finding": "MXFP4/NVFP4硬件差别与是否loop compute optimal分开；课堂说法不能当AMD只能支持一种格式的排他规范。"
+        },
+        {
+          "start": 4195,
+          "end": 4265,
+          "finding": "small.en把Megakernel/NCCL写作MagiColonel/nickel，应按代码/官方术语纠正。通信可融合仍有collective latency，讲者称初步工作，没有普遍killer use case；学生原问未完全恢复。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 3428.73,
+          "end": 3449.11,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "5fb852a12b4acfdf89fef6caabffd4827a888c35bd1a30c04246dbd88aa18d63",
+          "second_asr_text_sha256": "85e4d8f7d95e6ef8b2335291c7538bcb7f1b754fbf3c5aad794f7c6fe366bf3e"
+        },
+        {
+          "start": 3625,
+          "end": 3665,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "087864828cfdb7e29dae30852ed41140fa55a851e6596ff4cc85fbec16e06df2",
+          "second_asr_text_sha256": "cae41e8f422aaf7e7bb8140036594fa07dcbe8ca16f07d599463427694a471e3"
+        },
+        {
+          "start": 3800.14,
+          "end": 3845,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "c2efb70613db2ab9f50e694363c6a5ad000b0058c8c81d318cfa97de52a569f8",
+          "second_asr_text_sha256": "8740cb9ba5eedfc5f7460304d9905d896db7bbb2429e16cbccab2bca4fee2759"
+        },
+        {
+          "start": 3955,
+          "end": 3995,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "8e4836519be9cc9cb654b4c9e20356de94af62e6b62846b0e48b252ce37cf29f",
+          "second_asr_text_sha256": "0d6f2bf0c338ec51e94c22b691fcffb17bfc819c353b1fc44c036c787d2c0594"
+        },
+        {
+          "start": 4195,
+          "end": 4265,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "fdc91c132a194248fde78f933b1094bffdfcca5d5e5f737c63e4ac3d381e87c9",
+          "second_asr_text_sha256": "b3e2a3dbb6e30fc34878f0f29fecb58f0eab6bf338d22ef00da8eb6f634becdc"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4294.93
+    },
+    {
+      "lecture": "2025-01",
+      "video_id": "SQ3fZ1sAqXI",
+      "url": "https://www.youtube.com/watch?v=SQ3fZ1sAqXI",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "224d4a8d2f10899877eec9c0d295068c4835feae75f241278fc2570a166da332",
+      "audio_bytes": 28843720,
+      "duration_seconds": 4739,
+      "format_id": "139-20",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "7e4f970a643ff9e0dbe8c52cbe05c98f45c7ea885d3bc65be6708ee7f4732f7c",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4734.72,
+      "comparison_windows": 158,
+      "windows_below_075": 4,
+      "elapsed_seconds": 202,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4739.053424,
+      "source_result_sha256": "28ca1c864f5cc212397e1bddfc807763d9cd516452bfcb084348110bd4d7f777",
+      "comparison_sha256": "4b65a307cca3710dffaa10f8ebef1cb95dad68fd656d07163d56b9f08c712dd2",
+      "repair_sha256": "8ac349cb1ed53d514f84dda67c8afdc72cdc47335831f1e6fd2cc32f1b5036c2",
+      "repair_region_count": 6,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 55,
+          "end": 102,
+          "finding": "TA介绍低音量人名/导师姓名仍不清，不用ASR猜名。"
+        },
+        {
+          "start": 1170,
+          "end": 1189,
+          "finding": "毕业后带队建frontier model是课堂预期讨论，不能写成修完课程即可独立完成。"
+        },
+        {
+          "start": 1575,
+          "end": 1594,
+          "finding": "学分行政问答为当年校内安排，网上陪学无需遵循。"
+        },
+        {
+          "start": 2635,
+          "end": 2675,
+          "finding": "学生问旧作业链接是否更新；保存年度版本差异，不能把2024链接当最终2025作业。"
+        },
+        {
+          "start": 3295,
+          "end": 3335,
+          "finding": "讲者称A1/A2工作量大，供课程历史范围，不将作业难度变为本陪学门槛。"
+        },
+        {
+          "start": 3925,
+          "end": 3965,
+          "finding": "口述/字幕A maps97应为小写a，ASCII大写A是65；emoji127757是🌍码点，字节数与code point数分开。compression ratio1讨论后有修正，不照孤句结论。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 55,
+          "end": 101.6,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "3abe122086236978028af4998e262fa5ae0e677aa42bc7ce1da1f112d3df19ee",
+          "second_asr_text_sha256": "23800add4dcc24d05a7bbdd4a87eb448fc6e3d20f11be8e05fdd8136be32b7f2"
+        },
+        {
+          "start": 1170.88,
+          "end": 1189.3000000000002,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "faf15d0613a781b974f96fb3bebec7b1df241741756ef93e6cfb4de05b5c0542",
+          "second_asr_text_sha256": "17751561f1ecd7ac9c83ca5c22381da026f86297de93f67f1f4dc1ef3b182108"
+        },
+        {
+          "start": 1575.91,
+          "end": 1593.03,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "de07b17380f4d70e071f9d27aafb569580bee989431580c6847c5a1c0365c88a",
+          "second_asr_text_sha256": "003e6c1b39df5547abdb79830db486d3e6b08ef0f6262c543d42a30ded02d741"
+        },
+        {
+          "start": 2635,
+          "end": 2675,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "621a8e63960083aba3d431ebdab45ca3e8ddbb936997f818df3682cb03175a27",
+          "second_asr_text_sha256": "325ec01a5ecc9936bacac716e244a2714e37a4112cc23727c2f5fa1431187605"
+        },
+        {
+          "start": 3295,
+          "end": 3335,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "26c2620d42611149291eda18956ab6c34fd1f859d0984c0b5746d8d0c76c7a22",
+          "second_asr_text_sha256": "29b703d7a7b76cb2999f69523ec2fc823f8e964dee94d768b59aeca17709996d"
+        },
+        {
+          "start": 3925,
+          "end": 3965,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "4e5ca7f6f797799aa57a89cdcc97e9f4ec25aa45eb4c802a373cf18d01150062",
+          "second_asr_text_sha256": "031aed2c650b119b7f4287f48104a0b341b23f654513c104ce7f0366fd43a307"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4734.72
+    },
+    {
+      "lecture": "2025-02",
+      "video_id": "msHyYioAyNE",
+      "url": "https://www.youtube.com/watch?v=msHyYioAyNE",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "aa67add8dd11a4caa85818b3856aaa96adb5601dc6654c00d60d49a1f15f4737",
+      "audio_bytes": 28982436,
+      "duration_seconds": 4762,
+      "format_id": "139-drc",
+      "format_note": "low, DRC",
+      "language": "en",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "b08fbebab25ef60f8a1492c902ec39ab89a1627a9e4b8f3c80a4f20312bdcc9f",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4756.91,
+      "comparison_windows": 159,
+      "windows_below_075": 1,
+      "elapsed_seconds": 171,
+      "track_verification": "publisher_default_English_track_no_original_label",
+      "physical_audio_duration_seconds": 4761.85542,
+      "source_result_sha256": "3131598ea993285822a20fff0fdecd5118df1fd76f3af61bdcae9f9f1411165a",
+      "comparison_sha256": "201aa4d5c4614a9b3c8c77223d34c9446f9ec1ad8abf57c0a4540c6833a41892",
+      "repair_sha256": "50a5322af827568a06442e4a293d291761dccd9363114ad6114985adf46e9af3",
+      "repair_region_count": 1,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 2215,
+          "end": 2255,
+          "finding": "结构化2:4稀疏峰值依特定模式与硬件；课堂no one uses it为修辞，不能当行业全称事实。dense MFU分母不可擅用sparse宣传峰值。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 2215,
+          "end": 2255,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "a64f94635e544a046bff2ac0a4f1505fd029e5b4d402f078043ef7bb908a33fe",
+          "second_asr_text_sha256": "aedd5bab4f2a4c23dd636798fbfb48516663a37a1a91df9a946e2837d0723a89"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4756.91,
+      "track_metadata_sha256": "d5d5858c21c4eff61562ffd3c3f2bb1ce0cf0327414bfb8601e4ce00f97569db"
+    },
+    {
+      "lecture": "2025-03",
+      "video_id": "ptFiH_bHnJw",
+      "url": "https://www.youtube.com/watch?v=ptFiH_bHnJw",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "caf7d1146528cb7dc36722042953c3d460b9e21847431cb47beaeb564208fbc9",
+      "audio_bytes": 31788477,
+      "duration_seconds": 5223,
+      "format_id": "139-7",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "eba9ae3b69b5c4b5b859a0924b45c77e15c01db99f0bf0c01766f6d3df71b5d8",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 5246.36,
+      "comparison_windows": 175,
+      "windows_below_075": 2,
+      "elapsed_seconds": 218,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 5222.910839,
+      "source_result_sha256": "2f83308030ead43679ffbfcf5028814719cf830b3ca5f3022d2c042cbbdfc033",
+      "comparison_sha256": "e4d45f5eb5339f92e11c8075c86333454b9ac12bd0d2bb55e8fff771f74c1271",
+      "repair_sha256": "0161b90675dd01de793f518db1ac319cdc4b8184b47744eee9ccf75b2d2c79d4",
+      "repair_region_count": 5,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1583,
+          "end": 1603,
+          "finding": "RMSNorm搬运元素数与LayerNorm相近，省算术不保证同幅耗时降低；small.en未恢复末技术词，不补写。"
+        },
+        {
+          "start": 2833,
+          "end": 2855,
+          "finding": "head_dim/heads/model_dim ratio与效率问题原问仍缺词，需保持讲者复述和shape前提。"
+        },
+        {
+          "start": 3715,
+          "end": 3755,
+          "finding": "多语言词表对高资源英文的收益较小是课堂判断；一次epoch以内仍可能记忆，不能照口述推成无过拟合。"
+        },
+        {
+          "start": 3794,
+          "end": 3819,
+          "finding": "weight decay可能影响训练动态，即使该图validation差别小；不推成任何设置都只优化不泛化。"
+        },
+        {
+          "start": 5185,
+          "end": 5223,
+          "finding": "尾部RoPE局部+长程NoPE为特定混合架构例，不保证任意长上下文外推正确。base.en越过5223s源时长继续重复Okay至5246s，属无效转写尾，不纳入发言或覆盖计数。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1583.95,
+          "end": 1602.14,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "a434ef6245f225800b95fde3517a1cba16e13f20378e993f937f27e89792760a",
+          "second_asr_text_sha256": "2c866c7e6362322768cdcde5b9c0ebd555468d82f53b44b96c0710057aef1cf5"
+        },
+        {
+          "start": 2833.28,
+          "end": 2854.19,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "52212e1ac936b1a3c291fa703619d1b9697511f734066d63783cf42f9e1a3f7f",
+          "second_asr_text_sha256": "32f851195537f63122d80f5011f0e78b31329742c8c75c890f4159f291210e1e"
+        },
+        {
+          "start": 3715,
+          "end": 3755,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "3097e2f4014cab0437b4dfc99ceca66da06b49285fcaad55227a129e2ab184ac",
+          "second_asr_text_sha256": "ce6558475025a6771f11d67c989e14f8f20256bc2afc023f01a79e033c162d4c"
+        },
+        {
+          "start": 3794.99,
+          "end": 3818.96,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "a993d27d47849ef61aaed7f335aee45a34241586c3c3a7325e049d057084de89",
+          "second_asr_text_sha256": "2ce84747756025504312e3b65772a595651971b074e988165a72f768f0a2094e"
+        },
+        {
+          "start": 5185,
+          "end": 5223,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "75572a782cd2c857f9c0065037a14b97d92b91f5fc528d5af38a6bbfd7545305",
+          "second_asr_text_sha256": "e720a7f64b2e44f4c0d0f3f71f7b8ab0c0bf71f622ca93dd5179b4b11239d9a3"
+        }
+      ],
+      "out_of_duration_asr_segments": 23,
+      "effective_end_seconds": 5223
+    },
+    {
+      "lecture": "2025-04",
+      "video_id": "LPv1KfUXLCo",
+      "url": "https://www.youtube.com/watch?v=LPv1KfUXLCo",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "0854886bdd49b7d03d8da470ec3292a54861393c58aadc8cd5b47b2adc9c34d9",
+      "audio_bytes": 29967192,
+      "duration_seconds": 4924,
+      "format_id": "139-18",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "1145c904e00b485305f9a74aa011782493fcbbb24986944b893d3cc8ab84c886",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4917.87,
+      "comparison_windows": 164,
+      "windows_below_075": 5,
+      "elapsed_seconds": 212,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4923.652063,
+      "source_result_sha256": "8a94033f7e9cedd2c930405df31cb4bf33708f10ee97589cfec47d5193067ace",
+      "comparison_sha256": "3f6c5dd08677a7673507262c784ce3af504c76ad5ffcf5339f0fdd268e397960",
+      "repair_sha256": "50b33c005e98a97a3bc1527b855c19215ba98617547f8197f487156999201b12",
+      "repair_region_count": 11,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 355,
+          "end": 395,
+          "finding": "问MoE少FLOPs但wallclock是否可能仍贵，学生原问有缺字；small.en尾部幻觉重复不能采用。通信/搬运成本需另算。"
+        },
+        {
+          "start": 1236,
+          "end": 1259,
+          "finding": "学生明确K>1问输出组合，讲者复述K=1是口误；按Top-k加权合并公式，不沿错口述教学。"
+        },
+        {
+          "start": 1583,
+          "end": 1602,
+          "finding": "softmax+Top-k的直觉追问仍缺词；不能把softmax称为已使离散选择可导。"
+        },
+        {
+          "start": 1705,
+          "end": 1810,
+          "finding": "router e为独立可学习参数，不与FFN权重绑定。采样、Top-k与加权期望区别保留；学生bias/期望问句未完全恢复。"
+        },
+        {
+          "start": 2161,
+          "end": 2179,
+          "finding": "细粒度专家缩小每专家同时增加激活数量，可保持相近FLOPs但通信/路由不免费。"
+        },
+        {
+          "start": 2365,
+          "end": 2439,
+          "finding": "dense FFN宽度与细分专家ratio问题仍有缺失；讲者承认不知道某些exotic比例原因，不编最优性解释。"
+        },
+        {
+          "start": 2793,
+          "end": 2811,
+          "finding": "随机估计可改变目标梯度估计问题，但Top-k仍不连续，不能说stochastic就自动普通反传可导。"
+        },
+        {
+          "start": 3385,
+          "end": 3515,
+          "finding": "hash routing依输入确定路由，不是每次独立乱选；讲者从未测过纯随机且猜会差，标为猜测。多expert可共置GPU，不能按层×expert一一分配GPU。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 355,
+          "end": 395,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "420e4137857f6ed5a2ca076e73110126740533c55610ce57e37ccf731a79936c",
+          "second_asr_text_sha256": "10e83b175c965f3bde6970c5ae3d00b4656d28a66c7714c05a01330938c21760"
+        },
+        {
+          "start": 1236.55,
+          "end": 1259.63,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "07535fbb94f4bd1fb7d9dd19a1632d9062afe5bdc2fbf0c969f42b7ee456a821",
+          "second_asr_text_sha256": "debc1d31f22f61061abd2316a5b60ae9ad191cb5c415c0ae02b19e8ce8547144"
+        },
+        {
+          "start": 1583.74,
+          "end": 1601.28,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "498b411f80cd97b3b09d750cba136cc591d461353e2d0088c18d9013d2db4a9f",
+          "second_asr_text_sha256": "8148e1a7e044d9bd64303b5f172d286bfc53862c05282c9fd7dfda1cb0060b19"
+        },
+        {
+          "start": 1705,
+          "end": 1745,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "91b70017b4315bad8fc76bd63d6c6b1d2a557ec7cb8dc55b9f29b93346043bec",
+          "second_asr_text_sha256": "9eac17c74c06922abcb910a909917ba5d3b8bea764793685207d5e2810646d00"
+        },
+        {
+          "start": 1788.52,
+          "end": 1809.3500000000001,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "8b98cd6ed9859e894f33283739d7854d433bc296bf87425e21ff5de9de6cbfd1",
+          "second_asr_text_sha256": "ef844433681085abe37860987e396d885364d7a7fd41654a5a91edefc418e527"
+        },
+        {
+          "start": 2161.01,
+          "end": 2179.2200000000003,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "c9fb44ca98e8fd26709f926578bc7210c25571a9c16e185014c4c67dbac46154",
+          "second_asr_text_sha256": "4de61d77ec4dc6424982990a30f3e83006c1f273a264cb97306c0afe6c214160"
+        },
+        {
+          "start": 2365,
+          "end": 2405,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "5020f6c51f7eded7d0cebc62bfb3b61988df53739543f4380bf0306a926b41a9",
+          "second_asr_text_sha256": "a832a8cb1d023ee3452002bcb1c80064c8a890dbd879d7e383f3cfaea5f77dcb"
+        },
+        {
+          "start": 2419.34,
+          "end": 2438.21,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "8ee2967f2d6a1714d9a9e7232543daeddc352d77d68029a1f3921fcd09360fdb",
+          "second_asr_text_sha256": "9ebc547304c7d1be8e648c3cf4653252568c1d3d70f5168ad95195acfc51034c"
+        },
+        {
+          "start": 2793.48,
+          "end": 2810.75,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "96279d15e8284d67f31b9904b57a00ac5feccae60e0ee4215aab3e72f44a42ba",
+          "second_asr_text_sha256": "be060ea4ff11b9290e73edb5f9d1b172d6f14234cdaa7bf647fe8733849cda33"
+        },
+        {
+          "start": 3385,
+          "end": 3425,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "77f34cf5ec16b249fe0d41908c53c4fc5b3a54f25dfe95093ba716226c586ee1",
+          "second_asr_text_sha256": "467daeb67c278dd531fc7d090613d8f180abe4a98fdd841d2f557e910d24ad42"
+        },
+        {
+          "start": 3445,
+          "end": 3515,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "85e3c600b99e5fbfefb573e7c93430290f179014a723f8a01e70647d5d8bee6d",
+          "second_asr_text_sha256": "bf9f8fed8e967f9426f01f2fc6c82996890be22c5787a95403e6c32c21b21ed7"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4917.87
+    },
+    {
+      "lecture": "2025-05",
+      "video_id": "6OBtO9niT00",
+      "url": "https://www.youtube.com/watch?v=6OBtO9niT00",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "2a25c9a517e76a5390aa08d19e82c4d86e464e9f138de59eafaae8c7a0551e87",
+      "audio_bytes": 27152091,
+      "duration_seconds": 4461,
+      "format_id": "139-7",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "4411c90a18e0ca9e3df83b1c05c304a2379059a95840df55e18b517c433daff1",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4455.35,
+      "comparison_windows": 149,
+      "windows_below_075": 1,
+      "elapsed_seconds": 196,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4461.110567,
+      "source_result_sha256": "e7fb3120e74f6d472afebf438665c485ac459bbad1febb60f0de85c7e16e0094",
+      "comparison_sha256": "b03e57ee9c88fd7b6179893c0b4a892522be92050226365397b5daeef7cc02e2",
+      "repair_sha256": "d6b92fd81d1231e92b5eeb3fc1189d190a5e5d89657d4c73bad76369dd254f3b",
+      "repair_region_count": 5,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 595,
+          "end": 617,
+          "finding": "两GPU图分别卡通与芯片布局，同一抽象层次不同，不按卡通框数当物理SM数量。"
+        },
+        {
+          "start": 1116,
+          "end": 1135,
+          "finding": "Tensor Core可用于张量计算中的矩阵块运算，不代表硬件直接加速任意算子或任意形状而无需映射。学生末技术词仍缺。"
+        },
+        {
+          "start": 2875,
+          "end": 2915,
+          "finding": "coalesced按同warp线程同时访问的地址看，不仅按单线程逐次读取顺序；重复加载和不合并是两类开销。"
+        },
+        {
+          "start": 3082,
+          "end": 3104,
+          "finding": "图中重复M00访问为完整画法，可在片上复用，不解释成每次都再从HBM读。"
+        },
+        {
+          "start": 3283,
+          "end": 3316,
+          "finding": "prefetch/读算重叠是GPU优化能力，但异步拷贝/双缓冲需具体实现，不保证全部由硬件自动完成或完全隐藏等待。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 595.785,
+          "end": 616.54,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "aff4b418a880110c666925d4860e41d4c013fb0e177eacf93c35a01ade951118",
+          "second_asr_text_sha256": "ac0109522f62772f588fd5f79a3e605b7ea18fffbfbcd7de78ac09ec16687e6c"
+        },
+        {
+          "start": 1116.53,
+          "end": 1135.01,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "75d8233a1d74a30ca583da4ccc28322cb549de9a4530b624c79faadebdda8c79",
+          "second_asr_text_sha256": "5ba3f06c52175c9dc291be96ea4b10243302d89028ea48d33c4f88e12796c7a4"
+        },
+        {
+          "start": 2875,
+          "end": 2915,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "b56a52354b87eccf6b5f2828a88d46e9ec46d37bfeb6ccc29c2d0ee14f774660",
+          "second_asr_text_sha256": "b2f1eef5f7f023d1198ae94a115d3c3136e820abcd595f394d8fc8917c1cb1e5"
+        },
+        {
+          "start": 3082.83,
+          "end": 3103.47,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "1dd0285d9a21a490a5bbcddb4717f0cb9466238e6994267b37b39bd0b917206a",
+          "second_asr_text_sha256": "ba7baaed582bbfbc375b01cb2310b53f8a955f1e9ba43b736589998f9968a9d2"
+        },
+        {
+          "start": 3283.6,
+          "end": 3315.0899999999997,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "c2d5458a993f2b6b9a495766c6e3e8def769a60ef3ac4f107a45c4be81c01b23",
+          "second_asr_text_sha256": "0d4eeb7c613df858d3d66d4d12f4b23d4be7e79db35944ba4befefc0dd86d353"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4455.35
+    },
+    {
+      "lecture": "2025-06",
+      "video_id": "E8Mju53VB00",
+      "url": "https://www.youtube.com/watch?v=E8Mju53VB00",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "da255f039a2312e973e2b1593623c37ab58a349d43c0e4f24a4bc0854234eb38",
+      "audio_bytes": 29348502,
+      "duration_seconds": 4822,
+      "format_id": "139-13",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "c1d6ef72586385f48d71db743d24d64e4edca9c0de9c4985fd8a2622bf331907",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4816.74,
+      "comparison_windows": 161,
+      "windows_below_075": 4,
+      "elapsed_seconds": 220,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4821.995102,
+      "source_result_sha256": "fa995e26ca46b16f2369ccb37809f62f9d8d82bb830df763581a1e2186566083",
+      "comparison_sha256": "757f76b27ede2c4b3b0c4bf14271887bff91f2614d215fcefffc9134fbe4f936",
+      "repair_sha256": "85dc2e2b24146800496c99c80662027e51ea665dba6201e20e2bbb42c52df860",
+      "repair_region_count": 8,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1405,
+          "end": 1539,
+          "finding": "profiler CPU列的self/total比例不是CPU FLOPs利用率，也不保证CUDA时间必须小于其所列CPU算子时间。add换matmul CPU时间为何下降讲者不知；profiler有开销，不能编因果解释。"
+        },
+        {
+          "start": 1827,
+          "end": 1848,
+          "finding": "CPU在GPU计算时做什么问题交给后续Nsight时间线，学生原句缺词保留。"
+        },
+        {
+          "start": 2992,
+          "end": 3012,
+          "finding": "blockIdx/blockDim/threadIdx生成工作索引，数学坐标与物理线程调度不同。"
+        },
+        {
+          "start": 3351,
+          "end": 3370,
+          "finding": "学生问CUDA文件扩展名，不能把ASR dots猜成算法概念。边界判断避免无效访问。"
+        },
+        {
+          "start": 3546,
+          "end": 3607,
+          "finding": "contiguous是此示例kernel断言；transpose视图可非连续，不等于底层分配发生碎片。外层contiguous拷贝与通用stride实现是不同成本。"
+        },
+        {
+          "start": 3657,
+          "end": 3685,
+          "finding": "手写高层逐算子慢，不是每一步都GPU→CPU传输；中间HBM流量与多kernel launch分开。"
+        },
+        {
+          "start": 4428,
+          "end": 4456,
+          "finding": "能否胜过torch.compile需实测目标shape与正确性，课堂不提供无需benchmark的保证。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1405,
+          "end": 1475.99,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "47cda74136b534983ab9f4a0fc1fb6ba4d7510f4eb906acc33df0eb0159e2825",
+          "second_asr_text_sha256": "59a8416f7746386d8e451d9faab6ff51dae6c1f677fc7b2879627a09b56568b4"
+        },
+        {
+          "start": 1495,
+          "end": 1538.09,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "042c70d5d0b35e5c3cfa2819a3a8f720659e68ffb3dda55271bebb84923c0c9c",
+          "second_asr_text_sha256": "0dddcc1a2235d5211cd46d9b77e2accaf7f9f8221e98b51e9bad65020f343a1d"
+        },
+        {
+          "start": 1827.84,
+          "end": 1847.27,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "7c9aff77b5062a017856f27ad03de26998adabcc3cc8c99e9b71f8acc7c841fb",
+          "second_asr_text_sha256": "d7983d5c2822e987d38abecd529a19ea13887a8fa59ab7e482309aa634ace8bc"
+        },
+        {
+          "start": 2992.64,
+          "end": 3011.6299999999997,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "95c1f7e9aac473f800be0cededc9af383c2c7b36bc7b15fbac20d6ff5ce65902",
+          "second_asr_text_sha256": "46d5a21e66e9697a0a2e6408fdc781ea59ed56243e17ecfbfa9c05c6e993d1d4"
+        },
+        {
+          "start": 3351.535,
+          "end": 3369.2599999999998,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "d8735d6de79beeeea0892bec47ca99ced4ff0c1b34a17eb6c36d33f5c8d8f371",
+          "second_asr_text_sha256": "3a4efa0aebabd31ea6be7dd61e563a39c08f0b84af79fd65c7640e24caf012eb"
+        },
+        {
+          "start": 3546.663,
+          "end": 3606.4,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "385e659057212e7683b7984ce98da15a626dac8bbe8cfcc82e454299469d4df5",
+          "second_asr_text_sha256": "d488d76a934c056f2bff2ab038c7b14f76fc380726052c1c6638bc9ee5c272b5"
+        },
+        {
+          "start": 3657.61,
+          "end": 3684.04,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "5918c2b38465a7c1a6c588f8fdcfb7a02f328c7aeaf61a0de7086150cdc658af",
+          "second_asr_text_sha256": "1be88a5557b68a4483ad8d7e049107a7ee45221a35911b97c735c6d9538b9fff"
+        },
+        {
+          "start": 4428.92,
+          "end": 4455.26,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "ecbb34ccaecdd5f1294063115ad700697a7c46d4c66e20c1a01efa3e6403e305",
+          "second_asr_text_sha256": "973f7cfe4d980140b506fabd599195406c6f29065e8a974e02dbcbec68c9f938"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4816.74
+    },
+    {
+      "lecture": "2025-07",
+      "video_id": "l1RJcDjzK8M",
+      "url": "https://www.youtube.com/watch?v=l1RJcDjzK8M",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "33c7ce8bb5e6ba03f7ba31b4127e1efd1763491003069f5e39ed1071a81cbed4",
+      "audio_bytes": 30931586,
+      "duration_seconds": 5082,
+      "format_id": "139-1",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "2124ce3efcbed67bb09995b9fe218254ce36d00da88f793255da3b946aa18413",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 5077.64,
+      "comparison_windows": 170,
+      "windows_below_075": 5,
+      "elapsed_seconds": 278,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 5082.105034,
+      "source_result_sha256": "36d40152259c977157a7eba4f76bce0ade502340ca5cb7a0e2e06746327dd158",
+      "comparison_sha256": "3c0a86b8c4149ae7f7998063e7d79f0aff65710faf915026c333be50bcd7e89b",
+      "repair_sha256": "78ec08f81c335323af1f92c6aa786137f7e0fbafa3de3e7746b2748a42f3b01f",
+      "repair_region_count": 9,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1182,
+          "end": 1204,
+          "finding": "optimizer state按参数分片，先reduce-scatter得到完整求和梯度的shard、局部更新后all-gather参数；并非只能更新本rank最初那批数据的参数。"
+        },
+        {
+          "start": 1375,
+          "end": 1445,
+          "finding": "通信量问答把约2M口述成全系统total，需纠正记账：ring all-reduce每rank发送2(P−1)M/P元素，全系统发送2(P−1)M；P=4为每rank1.5M、全系统6M。必须注明元素/字节、发送/收发和拓扑，不能混两种分母。"
+        },
+        {
+          "start": 1585,
+          "end": 1632,
+          "finding": "分片省每卡状态让复杂优化器可能可行，但更多矩/矩阵状态有计算通信成本，不意味应无条件增加任意高阶矩。"
+        },
+        {
+          "start": 1885,
+          "end": 1925,
+          "finding": "baby FSDP图有整层归属教学画法；实际参数通常层内分片，前向该层前all-gather，不能当仅交换激活的PP。"
+        },
+        {
+          "start": 2268,
+          "end": 2286,
+          "finding": "prefetch需要额外buffer，显存满时不能无成本提前收集所有参数；small.en未恢复学生句，按原字幕保留。"
+        },
+        {
+          "start": 2432,
+          "end": 2498,
+          "finding": "FSDP交换参数与TP/PP交换激活及其梯度的区别保留；学生all-gather追问部分仍缺词。"
+        },
+        {
+          "start": 3729,
+          "end": 3747,
+          "finding": "TP与PP可组合，仍需选进程组/切分轴和调度，不是默认叠两个API就成立。"
+        },
+        {
+          "start": 4225,
+          "end": 4279,
+          "finding": "复杂DAG通信/流水并行追问讲者说未想过、猜测可能有更多并行，不能写成已证实无瓶颈。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1182.31,
+          "end": 1203.642,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "2015eb27ec984e796eabf2b2f666212dc62764e445e949ee239792afd858e78b",
+          "second_asr_text_sha256": "908fcdf324981075b1b16fb3adf1cc9b59297e04466459634f9fb705431f4642"
+        },
+        {
+          "start": 1375,
+          "end": 1445,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "431ba1bf1c158f6a4c67c1a0b5b522cfdfd56a734d14870c13d6209b3bbab146",
+          "second_asr_text_sha256": "b514afdb43d6b3f86079e2130bcf02ed3ad493af8ee0bd28312cf871df609049"
+        },
+        {
+          "start": 1585,
+          "end": 1631.82,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "33878669e6318912e729a0bc83e2802a578ec4a7fc59976310053cb88ab0d6eb",
+          "second_asr_text_sha256": "59fd0256669359a44c704c7cb92e9b926ca997a77f3da7d1cf73d51ac234fb6a"
+        },
+        {
+          "start": 1885,
+          "end": 1925,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "a29d1a7683f0df30bec4e140ba04db659bc727d9c1b3b518b673898ea4baddf6",
+          "second_asr_text_sha256": "c13e0945fcf482105dd10026d2c85588ef3ed56a36b4a03dcffa88032db63df1"
+        },
+        {
+          "start": 2268.14,
+          "end": 2285.67,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "a0c72eff1fd5209ae09e914be0abfac58d76b1fbb6c63539813b43a0a30e0f4c",
+          "second_asr_text_sha256": "17d7108edcd7c0e0fcfe5145a94645fbd60f3eac52a408bff96076f5065d3f69"
+        },
+        {
+          "start": 2432.51,
+          "end": 2461.68,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "66d2bdd32f8208efb4ea5ab6ab879e4fc93c4fe5b03c710de48f9be7e854b725",
+          "second_asr_text_sha256": "55ee186163588870f5ee5087866a7001b0b16cd587b3c45cd65b334959860ae0"
+        },
+        {
+          "start": 2477.01,
+          "end": 2497.6620000000003,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "84125bcae1342d735e956a82c33e66d0daa9ecf50de14b56a211569b5c74d961",
+          "second_asr_text_sha256": "86cbf77b6a4407742ba7a63c8cf2318111ac25c3881c050877d660de1e5380cb"
+        },
+        {
+          "start": 3729.33,
+          "end": 3746.11,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "2e422089fa0b4722da89a9d8327dfbfcde8986846b8d4a9483d9111158d770f3",
+          "second_asr_text_sha256": "6ccfe9ce3c2bb2fe067097725dc19872d2c8b59d92eabb1b48066b4a4bb58dea"
+        },
+        {
+          "start": 4225,
+          "end": 4278.76,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "db12f0f49dd6c92f2877719a277bdbdad5045f2d397583a0f432dbf7f1bdcec9",
+          "second_asr_text_sha256": "8e084068e531dabdd00638ae626062768f64828ac1c174c1eb6d49c3609559ad"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 5077.64
+    },
+    {
+      "lecture": "2025-08",
+      "video_id": "LHpr5ytssLo",
+      "url": "https://www.youtube.com/watch?v=LHpr5ytssLo",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "3311e4a336cd3a995b3c6645c5bcc8ceced6b2379290fc1ccdcec340df71e4d0",
+      "audio_bytes": 27449392,
+      "duration_seconds": 4510,
+      "format_id": "139-8",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "c7cb02c978636a58a0d885d42cc9c9e054a14f0691051bdc6f7b3dcc1d32aa4f",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4501.55,
+      "comparison_windows": 151,
+      "windows_below_075": 14,
+      "elapsed_seconds": 276,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4509.965351,
+      "source_result_sha256": "a6387eb5fa165ec33920fb51703e3cb3209100aa6d534f379835f22e02025ed7",
+      "comparison_sha256": "ce5ab5e57903195823810ee02e7d39df311f6c583916ddf3c8e92b3563b91020",
+      "repair_sha256": "7a9f211b6af003b8501e291f2bf875ebd19ec59c09314c5b53a180e694db820e",
+      "repair_region_count": 20,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 655,
+          "end": 695,
+          "finding": "PCIe是否经过CPU的问题原句有缺词；物理P2P拓扑与主机发起调度不同，不能由口述假定每次经过CPU内存。"
+        },
+        {
+          "start": 1825,
+          "end": 1925,
+          "finding": "reduce-scatter记账假设输入已在设备上，未计最初装载。它对各rank相应块归约再分片，输出一shard，不是单纯scatter或在单卡矩阵上做普通行归约。all-reduce约2倍环步骤口径另见L07修正。"
+        },
+        {
+          "start": 2259,
+          "end": 2375,
+          "finding": "rank需匹配collective调用顺序，漏一次可挂起；初始化参数应相同，rank参数只把模型放到相应GPU，不能据函数签名以为每rank初值不同。"
+        },
+        {
+          "start": 2754,
+          "end": 2825,
+          "finding": "TP backward未实现因课堂篇幅，不是已证明其数学困难；PP示例各rank可先生成同样输入用于演示，不是实际部署必须每rank持全数据。"
+        },
+        {
+          "start": 3015,
+          "end": 3065,
+          "finding": "event-driven类比中small.en重复mouse click，属幻觉不纳入。示例仍由程序控制send/recv依赖，不是后台自动推断全部调度。"
+        },
+        {
+          "start": 3153,
+          "end": 3348,
+          "finding": "异步send返回handle并须等待；多send顺序讲者明确不确定，不能写成跨后端/stream统一FIFO保证。无匹配recv可等待/超时，不能说所有后端必永久静默挂起。"
+        },
+        {
+          "start": 3359,
+          "end": 3378,
+          "finding": "最后rank持完整forward最终activation，不代表完成backward或同步了全部参数。"
+        },
+        {
+          "start": 3800,
+          "end": 3891,
+          "finding": "BatchNorm等数据相关buffer不能由参数同步直接推出一致。PyTorch niceties学生原问仍不可辨，不能补造完整API答复。"
+        },
+        {
+          "start": 3983,
+          "end": 4063,
+          "finding": "checkpoint API指定重算边界，字幕/ASR MAML应matmul。GPU会否被专用硬件替代是预测问答，不当确定未来事实。"
+        },
+        {
+          "start": 4135,
+          "end": 4240,
+          "finding": "这些并行机制可用于从checkpoint继续梯度训练，不会神奇免掉新数据的forward/backward计算；专用芯片物理限度追问仍有缺词。"
+        },
+        {
+          "start": 4405,
+          "end": 4510,
+          "finding": "collective是抽象语义，后端可CPU/GPU，主机调度与设备执行分开。尾部改口下次课日期非知识点。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 655,
+          "end": 695,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "742b4840003030a40f732c49c24f1373cf898fd4bb5efaa4c81a30860ec2829a",
+          "second_asr_text_sha256": "2af64a4a661dcec7ae40a9e60484a91df728110cda3e5542eb880b60edc90f59"
+        },
+        {
+          "start": 1825,
+          "end": 1925,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "b7eb665436a7b5df431d967fe6dec5f9459c96fad7b53ac30545c6efeb152b14",
+          "second_asr_text_sha256": "7daeeca783458ddb61cf836d01f2682185a3b956a66141609443e6e2590b50d0"
+        },
+        {
+          "start": 2259.58,
+          "end": 2293.795,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "cfef0d8912349d18793190702dffa25919014092647781968c364f4f6f3e4ba0",
+          "second_asr_text_sha256": "4ca8bfcc66bf7d6dd34b86409f00aad432c77faa1ec45fb289efe9fb34be7361"
+        },
+        {
+          "start": 2305,
+          "end": 2375,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "d694e59887b34c8ce8f376711e1b765ddaea3e51102540649377ccb848393e48",
+          "second_asr_text_sha256": "a2ae28372068ee019c2f0f90d739f8156d9a4d5bb33b2170bc8c40cdfa401e3a"
+        },
+        {
+          "start": 2754.1,
+          "end": 2772.19,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "ba016d03a0284884367d772731e210325a8b1280101626eba30e0fa026435fb0",
+          "second_asr_text_sha256": "3f9a6524c5cf45c04cc7a1209efb272a7f800d086701e6b665a735a2dece10af"
+        },
+        {
+          "start": 2785,
+          "end": 2825,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "a2468697745e38b6a35d8d1f272ff33cdc6babeaeac5d70508e986d6e389b863",
+          "second_asr_text_sha256": "4040fcc54d87bb0a591e2144b9eeaf711c6df1b841694d4e025cc17983084cb0"
+        },
+        {
+          "start": 3015.35,
+          "end": 3065,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "0d93e6a29531b9abd64193e190328e86ce896b541961da4a64204b04e4476c4e",
+          "second_asr_text_sha256": "4fe7525a8e2cb6654e92a9c1eeffb4a0ac590c051f0336faf3b03849f2bf33f3"
+        },
+        {
+          "start": 3153.28,
+          "end": 3173.965,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "917ebc0984e47bf182cb920b99be8dafaa173a6894fa35ceef2dc5da7218aa45",
+          "second_asr_text_sha256": "bddd0dfdf8e767d4c9b1eec9e395245398fad7f8dec79659116e1488843b4519"
+        },
+        {
+          "start": 3205,
+          "end": 3245,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "5dc1ac9022be408f2ae65f4670e33b7894d42e81ed6f4f3e741e9f9d51e585b4",
+          "second_asr_text_sha256": "588a4d4be669e9762173a5d0cffe870972664ccb091f90f5dc8d81e278638a90"
+        },
+        {
+          "start": 3265,
+          "end": 3305,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "ab400ba271e52e015950232c4ec46ef42a18e30b3d5c857dd275f201e4b57e5c",
+          "second_asr_text_sha256": "f97c83a9ebad0cb52e41a81c64390a876573fca4c7acdcf56cd8ca4481fe5a0f"
+        },
+        {
+          "start": 3326.99,
+          "end": 3347.94,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "6ad98f11dc54834d600a4c12bc2879ee6ed4a8a530b4867ddf8be545235245a2",
+          "second_asr_text_sha256": "e0ab392198f7c85aeadfc55d78bf1b6be5043d82d45e7c2c58acb7aab44e00f1"
+        },
+        {
+          "start": 3359.704,
+          "end": 3377.61,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "9de4ddc7921c31b2c14fc62f0b180a28ba5c1e0aa8f0d05570c02e3b39fcd00d",
+          "second_asr_text_sha256": "0decc51432477b75606c074a98fd14e4ff0288b57be0a32d1216707e9055a053"
+        },
+        {
+          "start": 3800.39,
+          "end": 3845,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "db86272fb44b6348846678f99ee465497353254708ede31e111c328031db9f65",
+          "second_asr_text_sha256": "8759d80b823b56b2c0619efc1d5784b145ab3462746f3fe8da12450f944968b6"
+        },
+        {
+          "start": 3873.72,
+          "end": 3890.85,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "9e459956db59d8c521ac28bc72d16ed5fb1a7160c00b65fb5461239bdc41a3de",
+          "second_asr_text_sha256": "4cc6915cdc14f63631a5d4f793d85d821699e37d011df29999fc881e9d9e4d37"
+        },
+        {
+          "start": 3983.49,
+          "end": 4025,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "76b12f13723b9e900f8518ab4220db468ea2ffe5fea6a069be0473d7b48133bd",
+          "second_asr_text_sha256": "377ac23b60963ee25959ba6ac24550a530560231e051193340b5e6c4a77bd1d1"
+        },
+        {
+          "start": 4045.84,
+          "end": 4062.445,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "567ec44f36411e1bcdc2177c5168e8094516bb60a90a0ea897664d435802c2ed",
+          "second_asr_text_sha256": "e4862afccf39acafa7426c4423a0cd4c6f7b1b80a6eb3d01f1b318055b7dea4d"
+        },
+        {
+          "start": 4135,
+          "end": 4205.77,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "12ef9bac9d137cd442f38132deb41dcb0ce09098f99e25b57e65f0100565cf4e",
+          "second_asr_text_sha256": "e3923978fe6ea1c75e7716cce276d86fc78513154f56d4bb0a386c367919e259"
+        },
+        {
+          "start": 4220.57,
+          "end": 4239.2,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "83a1b73dc901bd83a86bdc69845adbd95534691cd430669a31efddf3ee281772",
+          "second_asr_text_sha256": "d531d98264f0836282819d23d736fceba1be7d4625578a4e2c876d9a12dd3674"
+        },
+        {
+          "start": 4405,
+          "end": 4478.599999999999,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "61d712666a9bb8b1060fc0fd8dfaddc7400ebd1c2bee8103625157036c1a9103",
+          "second_asr_text_sha256": "b0eb541461135d340539a5901120623ce921ecf88bd35732ca34fd0efe5f1412"
+        },
+        {
+          "start": 4495,
+          "end": 4510,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "b51b8d05f2d1734e43cc24ca650febcb06e215ee505ab47c6add60b0b95d496b",
+          "second_asr_text_sha256": "392f639a166cb9dd349fa28584fb0b8c67466e727dd7b0a95307d8b40e716565"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4501.55
+    },
+    {
+      "lecture": "2025-09",
+      "video_id": "6Q-ESEmDf4Q",
+      "url": "https://www.youtube.com/watch?v=6Q-ESEmDf4Q",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "2a7172e790ec9b5d2bba6f0768a1230e3dd81a09cbef5f55e7a54b9041673be2",
+      "audio_bytes": 23844572,
+      "duration_seconds": 3918,
+      "format_id": "139-15",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "3ad0ebb153bf8747fdf3c690f6c75f321f61a6aceff081d64089df827dda3883",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 3912.92,
+      "comparison_windows": 131,
+      "windows_below_075": 0,
+      "elapsed_seconds": 285,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 3917.670748,
+      "source_result_sha256": "3718d12d6e3ceb6b112029522f723f2fc2582b28060996c1051e5f9f904cf11c",
+      "comparison_sha256": "c275a6144e439d66a6807e5513f4675cabb654551ee3a465e5c81d5dd86a2188",
+      "repair_sha256": "7fc3a353795ed5075a26807592f63768ad5ae99a99bca6ae464401e194d7a218",
+      "repair_region_count": 1,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1218,
+          "end": 1235,
+          "finding": "学生问仿真如何生成给定intrinsic dimension数据，后文均匀格点例只解释直觉；不能据此称LLM真实内在维度已被测得或幂律已证明。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1218.43,
+          "end": 1234.76,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "7b6d51a0ca575946b90354a3c954324ae64f6f46e551e81d5b102b6afc261ca6",
+          "second_asr_text_sha256": "8963024a7eeff029f7ea2b86ad771c3ef7bc15a6cfb368d4cafc9ce65513786f"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 3912.92
+    },
+    {
+      "lecture": "2025-10",
+      "video_id": "fcgPYo3OtV0",
+      "url": "https://www.youtube.com/watch?v=fcgPYo3OtV0",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "ce2a69404c5640def98e87599dca0a900a1bdb5dda7631e7ff1b5324818399e2",
+      "audio_bytes": 30258617,
+      "duration_seconds": 4972,
+      "format_id": "139-11",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "bfbe16a78aaa801341e6b527705e4ba2668c82dde89e7ce2f79b0574e533607f",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4966.15,
+      "comparison_windows": 166,
+      "windows_below_075": 5,
+      "elapsed_seconds": 328,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4971.53161,
+      "source_result_sha256": "222adb8ee3abc8b8f549b418b3ae4aa745daa115c31fa9d41e5648d055c5d7bc",
+      "comparison_sha256": "762e42e3020e3bca7898be72448c123eb0d3b801e4610d53d3047a9877052fd5",
+      "repair_sha256": "469cf8fa1dd68221306d517b23be6e7e872f0573d4c9bba43328c29b6ebbc5c0",
+      "repair_region_count": 5,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 2185,
+          "end": 2225,
+          "finding": "性能公式假设单GPU并忽略部分compute/开销；多用户不同到达/结束时间问题引到continuous batching，不能把静态batch模型当完整服务系统。"
+        },
+        {
+          "start": 2725,
+          "end": 2765,
+          "finding": "讲者明确所展示表不是原想说明MLA提升的表，不能以其证明提升；用后续对应原表限定结论。"
+        },
+        {
+          "start": 3055,
+          "end": 3103,
+          "finding": "CLA口述weights shared容易误解：原论文只让部分层产生K/V投影，另一些层复用之前的KV激活，不能说所有层全部权重共享，也不保证每层少一次KV读取。见[CLA原论文§2.2–2.3](https://arxiv.org/html/2405.12981v1#S2.SS2)。"
+        },
+        {
+          "start": 3115,
+          "end": 3155,
+          "finding": "gist tokens/上下文摘要可能压缩缓存但会丢信息，和无损分页管理不是同类优化；ASR just应gist。"
+        },
+        {
+          "start": 3265,
+          "end": 3305,
+          "finding": "S4在线性时不变设定有递推/卷积表示；长程合成任务强不保证语言建模强，是后续input-dependent结构的动机之一。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 2185,
+          "end": 2225,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "2241623f58a5e23f525c1d62b10a3bdb42dda1b1a7a205f576fddf34b03ecf7e",
+          "second_asr_text_sha256": "7d2695d33fd6ab93be0d3e843b0282852c15149838f9ba67427dc73c0280eea3"
+        },
+        {
+          "start": 2725,
+          "end": 2765,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "acfb4925f9889253bd7c66aab8cce681aa20a32084b13a4b0170f43c692c1130",
+          "second_asr_text_sha256": "a81481db2fffd10e1265a0fd43fc50c78a1542629c09e06702300c53ee7f8bb8"
+        },
+        {
+          "start": 3055,
+          "end": 3102.0049999999997,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "befac4a9a148c72b8f5e673187875e18d1220bcb1e8ff42e9d18bcff11f74876",
+          "second_asr_text_sha256": "33781e34723321ece0fbe10f627be7de03dfed329d10dae8027dd09989e80a9a"
+        },
+        {
+          "start": 3115,
+          "end": 3155,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "e24edd181cf5a5c3495fb08a1466ed5940f2206399d9802179a6e452bb932dfc",
+          "second_asr_text_sha256": "5e98e9c65b65bc6f57f1ff912065f0e6c04fbb80d6a413d498b66b46970a34e0"
+        },
+        {
+          "start": 3265,
+          "end": 3305,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "cb2fef25cfb7c05490e7110f1a10f5dcbaf3ea835039c2f51f89555ca85b28c3",
+          "second_asr_text_sha256": "1d79f89276aa2de6291a5dea2312b27726e1d091dea2f2599d34dd7668610075"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4966.15
+    },
+    {
+      "lecture": "2025-11",
+      "video_id": "OSYuUqGBQxw",
+      "url": "https://www.youtube.com/watch?v=OSYuUqGBQxw",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "6a853b12949c308a67daf195424690c11ade473720c8c3dc3908018e6dd0cb84",
+      "audio_bytes": 28563206,
+      "duration_seconds": 4693,
+      "format_id": "139-14",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "4bb3735c7fe947ce2c68899d98e5c1d67f623410b7836be3769072570fadc301",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4687.75,
+      "comparison_windows": 157,
+      "windows_below_075": 1,
+      "elapsed_seconds": 305,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4692.985034,
+      "source_result_sha256": "e79f6dd4e991007252ed6ff8f47023e69b575bce07f9f9ba5fb39bddb43189e3",
+      "comparison_sha256": "4db8dbed44763454a6e5391c65fd94eec7fb684c7146ba8827b0c670e48f2a77",
+      "repair_sha256": "dd46d01ee195c26c8129a2a3f4783956e1d971a9f2a5b23f81217ba2ed5af5f4",
+      "repair_region_count": 5,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1746,
+          "end": 1769,
+          "finding": "μP不只改初始化，还需分层学习率/输出等缩放，不能因学生提问只讲初始化。"
+        },
+        {
+          "start": 1807,
+          "end": 1836,
+          "finding": "稳定LR阶段曲线接近cosine是所示实验，不保证任意预算同loss；需比较最终decay尾和复用前缀的成本。"
+        },
+        {
+          "start": 2318,
+          "end": 2354,
+          "finding": "所引DeepSeek实验调全局LR/batch与完整μP规则分开。small.en重复global LR问句属转写重复；讲者不确定前沿实验室是否每次重做分析，不编业内惯例。"
+        },
+        {
+          "start": 3975,
+          "end": 3995,
+          "finding": "架构/宽度极限假设影响μP推导，不能自动迁移任意新架构/深度。"
+        },
+        {
+          "start": 4045,
+          "end": 4091,
+          "finding": "fanin/fanout指输入/输出维度，课中交换术语后自我澄清；矩阵存储方向与数学输入输出轴需先明确，再解释nl/nl−1。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1746.13,
+          "end": 1768.14,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "9c06d223916c292b3eb3aa79b8a4bba1e2756c3a7ca99aa2c0da1d71232325cc",
+          "second_asr_text_sha256": "7178a8dd257f926592ddd288017412d65dd96786029f1afb4b9ac259c0674da2"
+        },
+        {
+          "start": 1807.405,
+          "end": 1835.3300000000002,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "2622d3afc44ad090f048b49c477d51a6730fcade3d66efa51ea37d73f7cdfad8",
+          "second_asr_text_sha256": "3cc983250c2aba1a851847f265f76180007de1d4dc1d8d1d8978644df092315b"
+        },
+        {
+          "start": 2318.44,
+          "end": 2353.36,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "cbc69b4cfcde2563a2c8e59601506819e4626b1089c5519b39c09aa3c2d94124",
+          "second_asr_text_sha256": "fcf4a2cfd7f2c58915fb5f1bb1c81bf00cc121cbdd07e5019fa6bacc07ffd8dd"
+        },
+        {
+          "start": 3975.54,
+          "end": 3994.98,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "c8c642c85040096711028eb88c36bb9608f981440a8c6d5c0c4df2f715b3c79e",
+          "second_asr_text_sha256": "f59bd4f3085f9ab063eea2c006be6f9c55c85807b373545f6f16ad97ebeefc44"
+        },
+        {
+          "start": 4045,
+          "end": 4090.42,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "531af07c8ce20c87a13a995969d0d65c0c4179c82f1a2547cae9fb1eed186249",
+          "second_asr_text_sha256": "1cb411abcbf7d93d085b12a2a4229fac07bf377b337f56b7072abf0f244cbc4a"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4687.75
+    },
+    {
+      "lecture": "2025-12",
+      "video_id": "x-R5l2HsXqM",
+      "url": "https://www.youtube.com/watch?v=x-R5l2HsXqM",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "7ac686a262a1fc68418a590bc7ccefdf1d2c62b3a552c66a0cd9dae44ea8be8a",
+      "audio_bytes": 29507628,
+      "duration_seconds": 4848,
+      "format_id": "139-18",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "eb3244763ac24834b3cd2c9f4387c054019ca69e74b80ff30edeb707f7efaeaf",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4844.68,
+      "comparison_windows": 162,
+      "windows_below_075": 12,
+      "elapsed_seconds": 235,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4848.140771,
+      "source_result_sha256": "e1cce40cb485b2fc40c7ee3b989a801b03d67d94ee6c075d230a7db403548f40",
+      "comparison_sha256": "3e3fd31db77de44f4529c87ed9d983d18f7c33b02b4e458333958ea20d9bdfd2",
+      "repair_sha256": "15c885ea89bdc50f1175e0a735f96893a11fb8ab8b1515fced647642a50bb1a4",
+      "repair_region_count": 15,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 865,
+          "end": 935,
+          "finding": "perplexity与多种能力相关，不覆盖全部任务/偏好/工具能力；学生问边界而非证明统一能力尺度。"
+        },
+        {
+          "start": 1175,
+          "end": 1257,
+          "finding": "GPT-2不同规模评测表与Penn Treebank例需查污染；web训练不自动保证test未出现。"
+        },
+        {
+          "start": 1315,
+          "end": 1385,
+          "finding": "蒸馏/数据预算学生问句仍不全，不能补成明确可复现实验；比较benchmark需先规定模型/工具/算力预算。"
+        },
+        {
+          "start": 1606,
+          "end": 1666,
+          "finding": "同一上下文所有候选概率都.8会违反总和1，跨不同位置的真词各.8则可能成立。只有给定token logprob的黑盒接口难检查全词表归一，不能把低PPL当实现正确的充分条件。"
+        },
+        {
+          "start": 1855,
+          "end": 1895,
+          "finding": "HellaSwag此处模型输入全是文字，视频仅解释数据来源ActivityNet，不能因图中有播放图标称多模态评测。"
+        },
+        {
+          "start": 2185,
+          "end": 2225,
+          "finding": "few-shot被转为future；示例选择/相似性与格式会影响分数，测试答案泄漏不等于合法few-shot。第二问原句不全，只保留可恢复大意。"
+        },
+        {
+          "start": 2725,
+          "end": 2885,
+          "finding": "Google-proof不保证闭源模型无搜索/无污染，应控制工具；专家题与普通用户需求不同。small.en把模糊学生句转成cheat和重复长句，没有可靠证据不采纳。"
+        },
+        {
+          "start": 3025,
+          "end": 3095,
+          "finding": "HLE开放征题可能有参与者选择偏差，学生提出的是批评，不因此宣判基准无效。O3约20为课堂时点快照，非今天分数。"
+        },
+        {
+          "start": 3131,
+          "end": 3148,
+          "finding": "短问句两版均不可恢复，不为过渡到instruction benchmark编答案。"
+        },
+        {
+          "start": 4014,
+          "end": 4035,
+          "finding": "安全评测例把危险请求的拒绝行为当观察对象；两版对实体/细节不一致，不恢复操作细节或作为事实知识。"
+        },
+        {
+          "start": 4135,
+          "end": 4205,
+          "finding": "自动越狱suffix转移为特定历史实验，不等于所有模型都同样可绕过；拒绝所有问题可抬某些安全率却牺牲帮助性，须同时报过拒率。"
+        },
+        {
+          "start": 4825,
+          "end": 4848,
+          "finding": "结尾强调评测目的与游戏规则，尾段非未覆盖的新benchmark。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 865,
+          "end": 935,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "85ded5e05589b1a8192f37bdfc10b209d4ca29b7393fc6963d1aabb62a0037b9",
+          "second_asr_text_sha256": "a3dd25cd2612ce2b594e302bb2a0f0ec15b039b5f83d70f6816572c2e943f655"
+        },
+        {
+          "start": 1175.04,
+          "end": 1193.04,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "778c1974352465196a756993d0eb889702d545e5a0a254512cede26ff2fdc20f",
+          "second_asr_text_sha256": "45ccf4cbc36ceff057f798a4592199ca2be897c19f9f3a28d63e70d41fdd017a"
+        },
+        {
+          "start": 1240.23,
+          "end": 1256.98,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "dc13f7381249628823566a3a9aea92d3c3669c7d0275cd3be6fc599ed0696039",
+          "second_asr_text_sha256": "edb4e135b4b4a1423967036ec3a9914169f0a17c667042d57d43b875abbd137f"
+        },
+        {
+          "start": 1315,
+          "end": 1385,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "018a77125ccfc90707e9d9ee42264a1c62d580850b5f5743f708527fae54f9d9",
+          "second_asr_text_sha256": "282f85dedc1c28fa518f0541259d6f8056f51bd0726f2044d1b0d16fbab2af55"
+        },
+        {
+          "start": 1606.57,
+          "end": 1623.7,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "1be218fad21bed929836d8304ab87e7ea6253dbd3fb0912dc36b32dcb246d417",
+          "second_asr_text_sha256": "6b71b4abf321f6cac56f03e6123e0a6330298a99a2fe70ed32c05b99210d1f01"
+        },
+        {
+          "start": 1643.99,
+          "end": 1665.36,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "d1cbe37d2f0f36fd0b38150476b4f173fbb5748223c86c05ea4769a0379a8df0",
+          "second_asr_text_sha256": "38aa9745236bbfcd707add7e3dc545839825dd9328b3ce4bb9d59373d769101c"
+        },
+        {
+          "start": 1855,
+          "end": 1895,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "9e9b039ce00c05f48ee4d5cc58e4e54615b04ecd2c9bb4588379aa03e7889e0e",
+          "second_asr_text_sha256": "15c3ffca3566dc48200231625b7d76c737de0b4ded0fecbc43f22558c4da84a8"
+        },
+        {
+          "start": 2185,
+          "end": 2225,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "eee7a3cce2087d9d2cb3c6a317efbbb1f1c0114b46f2560316e4cc701e777aa6",
+          "second_asr_text_sha256": "79862d6f9ab68870bfe5fbfb28dded2031d572a36bf16b68971b9e7f6bec9005"
+        },
+        {
+          "start": 2725,
+          "end": 2781.6299999999997,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "ce3aa251c08ca29cdfce819224ace82a57a436f0fe5ee9439ce79b809b7db034",
+          "second_asr_text_sha256": "e7554a264fead18f1813167ad5ae5c690916d67413426e6c23543bcd4464a71b"
+        },
+        {
+          "start": 2838.58,
+          "end": 2885,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "4e42cf475be3ce2af38dd2dcaee260d54acb6f68397e53ad663c6d207c5b1130",
+          "second_asr_text_sha256": "7159e1c5df71ec12bf4c8064df8ed69f6e4da28b3e8dfacd60709b5a0d361a74"
+        },
+        {
+          "start": 3025,
+          "end": 3095,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "8051bdacd9722d551f38fdb6f191ca4b0893ca781c51be2ed4843dabfcf6600e",
+          "second_asr_text_sha256": "656adc976bb4c69463ca0aeae4a55115bd180d03790f82944773ee71f73d82f8"
+        },
+        {
+          "start": 3131.695,
+          "end": 3147.57,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "4eb20545696e7a5b4c223737293cc0e8bd5e939962e32c9f83f6b690ad96563c",
+          "second_asr_text_sha256": "f3ebb9bb3c2503fc4055c1de4c72c735e1e238a3742dfaa5122961eb97473759"
+        },
+        {
+          "start": 4014.84,
+          "end": 4034.8500000000004,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "d681e0c560bf07b9123bc7bec892969e59235d0d838a807a204f1d389c6d127d",
+          "second_asr_text_sha256": "e78d247847eda6bd8ea0a6e611c16e4a32705916538112473c2b65730d975194"
+        },
+        {
+          "start": 4135,
+          "end": 4205,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "862fbdb7c6563bad0584c9192016e1b062980adee689f915dfb11255f6858eb6",
+          "second_asr_text_sha256": "b06bc4788a8155d10f6f748a62fdd3420feca08051c1c1515829ef085d3f9ee9"
+        },
+        {
+          "start": 4825,
+          "end": 4848,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "f1a1d5462dc14bd52ffadd7684ec26bee3fa65b3ec92768aec4c0eacc48e0b37",
+          "second_asr_text_sha256": "096ac84cf65d772bbe353bbe4ca87b61cb65a195d4c2b76319717d1ff8fc2ada"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4844.68
+    },
+    {
+      "lecture": "2025-13",
+      "video_id": "WePxmeXU1xg",
+      "url": "https://www.youtube.com/watch?v=WePxmeXU1xg",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "b06aeb725f3c61826d326462bae32c1de7f27aec4b8485b7b9f2cf6729a532c8",
+      "audio_bytes": 28886645,
+      "duration_seconds": 4746,
+      "format_id": "139-16",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "1e80b15f38e14a4e4c512b448894bd1706d156a97a643ee44623a76c3d9d3dc9",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4740.38,
+      "comparison_windows": 158,
+      "windows_below_075": 4,
+      "elapsed_seconds": 305,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4746.11229,
+      "source_result_sha256": "81f44338ea928a212506c46e1b41ba19d557b4ba137ba8fc471c9f73acf9ce30",
+      "comparison_sha256": "9957fe314e7a480e70c35e82929b2d9bfefaa313053fa4d49dfb72be8ca3c4cf",
+      "repair_sha256": "6447c1e384f2f74fd0bb88c476920ddabdc9f5a964a1fb9e76e0bfae3aaf9cb8",
+      "repair_region_count": 7,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 25,
+          "end": 43,
+          "finding": "数据最重要是讲者hot take，不是可验证全任务定理；Tatsu之名第二转写可恢复但不扩大为完整观点引语。"
+        },
+        {
+          "start": 1099,
+          "end": 1116,
+          "finding": "Common Crawl默认宽松是讲者判断并明确不知所有过滤细节，不能当官方无过滤保证。"
+        },
+        {
+          "start": 1231,
+          "end": 1295,
+          "finding": "抓取响应可能含图像/其他媒体；偏文本不等于完全无非文本。copyright比例是口头概括而非逐项许可审计，不给通用授权结论。"
+        },
+        {
+          "start": 1975,
+          "end": 2015,
+          "finding": "学生提出xAI数据优势与长期公司格局假设，不能把问题中的预测作为讲者证实的事实。"
+        },
+        {
+          "start": 2815,
+          "end": 2855,
+          "finding": "RefinedWeb数据现场想展示但分辨率不足后放弃，不能编看到的样例；Trafilatura专名按讲义纠正。"
+        },
+        {
+          "start": 3595,
+          "end": 3635,
+          "finding": "本讲聚焦英语不代表Common Crawl无多语；未展开多语配方部分明确保留深度边界。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 25.729,
+          "end": 43.04,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "9d411f6cedb1361e742e627e9409d8b739650dd1b3a9a25fad419f926a5224ef",
+          "second_asr_text_sha256": "fbc1ddd7e2efbdf36b775673d46cc73492f283210c80c0af8ebb2422997d9426"
+        },
+        {
+          "start": 1099.544,
+          "end": 1115.44,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "7d6b9eb7876ddaba4317bb210b5c5d849b9fa3f3008253b6fe9e02048d955532",
+          "second_asr_text_sha256": "d4266faf709796acc4188a7d290a6017bdeb088a80e3685ed1e537adf11e7227"
+        },
+        {
+          "start": 1231.76,
+          "end": 1251.33,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "b00649c5a28cf2f227d0a872770c22be29ef7419fcf19aade51a8718614dd152",
+          "second_asr_text_sha256": "5099d855c3dc1946e6301d6932ceefb845866f83f719132489c82017c6fa22c6"
+        },
+        {
+          "start": 1255,
+          "end": 1295,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "c2c6f2bba7db15bb1e11436c034dbbb84cfe533689f89f5de06b6908d752959e",
+          "second_asr_text_sha256": "86a671fb50d4d0b69177883f890e441f1b8b6f794efd2e25447b37f7cf605faf"
+        },
+        {
+          "start": 1975,
+          "end": 2015,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "d850b9576d5b3dc62b1295bd6243af5dd23f8b2c479173243f9ba622805d9c76",
+          "second_asr_text_sha256": "baf4225917a32e50452086b05bece60ca34f574d8694d5df610552732d026318"
+        },
+        {
+          "start": 2815,
+          "end": 2855,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "bfd77feb75cf437c86ef2a49563607f67e3253e7700dfa622145ad2d7d6b800c",
+          "second_asr_text_sha256": "ec833b6fc8f436f03b685511000c8a094fae339c2af28060f66f36cbfb5b41c2"
+        },
+        {
+          "start": 3595,
+          "end": 3635,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "7e124c487b07bd20d3c4520087daee229855e43df41c88fcc6275893b0d874c3",
+          "second_asr_text_sha256": "a9e4fd27430f748c0617073848966174a8a8b97e06ceba57febd8d45249bd009"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4740.38
+    },
+    {
+      "lecture": "2025-14",
+      "video_id": "9Cd0THLS1t0",
+      "url": "https://www.youtube.com/watch?v=9Cd0THLS1t0",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "cdeee9ec817843b27da07bf2bcf435aab9b129243929ecb24b959876477fc7ae",
+      "audio_bytes": 28918018,
+      "duration_seconds": 4751,
+      "format_id": "139-17",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "6f5961ee3696de2781c66d09c368f1b3d33ba170b30ca9a4a2836f48a2404fe9",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4745.94,
+      "comparison_windows": 159,
+      "windows_below_075": 5,
+      "elapsed_seconds": 298,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4751.26712,
+      "source_result_sha256": "9362c2ee24c9e3c851218ef5dbf5e61ddeacdb9a15c1c5a19b3830574ecc9597",
+      "comparison_sha256": "94ae1772c467f2192a01f873ff9bd60677142da416d9f776edc71aa1914005dc",
+      "repair_sha256": "54fa2ef9a3968423af4a2005f4f0f571feb6e8ae1e933e2e12d073f09096f0f3",
+      "repair_region_count": 5,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 2065,
+          "end": 2105,
+          "finding": "昂贵LLM只标小规模约100k示例再蒸馏快速分类器，不是所有原始文档都用同一LLM打分，数字为课堂规模例。"
+        },
+        {
+          "start": 3235,
+          "end": 3275,
+          "finding": "hit/miss口述和字幕互换，LSH按b个band每band r行推导：同band全中概率s^r，所有band未中(1−s^r)^b，至少一个候选1−(1−s^r)^b；不照混乱文字抄公式。"
+        },
+        {
+          "start": 3715,
+          "end": 3755,
+          "finding": "MinHash随机排列例A={1,2,3,4}、B={1,2,3,5}，共享最早元素概率为Jaccard=3/5；small.en最后误重复A，实际比较A与B。"
+        },
+        {
+          "start": 4433,
+          "end": 4475,
+          "finding": "合成数据改写需语义去重，讲义相关SemDeDup嵌入路线不同于字节精确/MinHash词集合；不把所有改写保证检出。"
+        },
+        {
+          "start": 4735,
+          "end": 4751,
+          "finding": "尾部是下周alignment/RL预告，非缺教学内容；不把下一单元补编成本节演示。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 2065,
+          "end": 2105,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "1b421b5e457f8715a0af8e43eaef509662609f8214fdc6e8e79a3971a3388dfc",
+          "second_asr_text_sha256": "1b3abc795808871121a51fac4ef3718c391771c04f0089cdd5b470c05d56634a"
+        },
+        {
+          "start": 3235,
+          "end": 3275,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "66e4caee49e4db0ad4fc781c5d4c4a5a14b5943e48858e90c14e00cbea043025",
+          "second_asr_text_sha256": "fbafdf11e6e234433b99806e73db1b637eacd412ce84fd3fa10204a0e510b1cb"
+        },
+        {
+          "start": 3715,
+          "end": 3755,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "efd54ef615fb287344be4aa369850a0f1381965db5362347b875ebcdc76b5076",
+          "second_asr_text_sha256": "ceaa99b7fa01bcdb6ca08038f2df1c74ed83f6346fc85b9515bd4e33b9277b18"
+        },
+        {
+          "start": 4433.18,
+          "end": 4475,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "aaeca49398658d29370033649f12ebb3bb394660fdd4894279d38e4f249930e4",
+          "second_asr_text_sha256": "7381306a16bd74d32f026b64c23d7176fd93b3b31b2566548e2298234a270150"
+        },
+        {
+          "start": 4735,
+          "end": 4751,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "37adc58b2dd6cae2fb0745886defec1f66689f37e6317fdab53b999231ce3efd",
+          "second_asr_text_sha256": "c826abe72cce860b83772d3c9aadd807fd2da8ecde3ea3891826b5c629127219"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4745.94
+    },
+    {
+      "lecture": "2025-15",
+      "video_id": "Dfu7vC9jo4w",
+      "url": "https://www.youtube.com/watch?v=Dfu7vC9jo4w",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "bcba83add19d3dc12e9cf8f955bdc2abd7e189e8692815dc951e5767bb295f49",
+      "audio_bytes": 27332343,
+      "duration_seconds": 4491,
+      "format_id": "139",
+      "format_note": "low",
+      "language": "en",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "584b80368afd4620bc48e8018976f5160580ac4b77352f0380a23a690d8ad7e1",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4485.88,
+      "comparison_windows": 150,
+      "windows_below_075": 8,
+      "elapsed_seconds": 332,
+      "track_verification": "publisher_default_English_track_no_original_label",
+      "physical_audio_duration_seconds": 4490.739229,
+      "source_result_sha256": "bedf6e250ce009fa1220fccff6c137ddae99b588dd7e22af78faa870c7950a97",
+      "comparison_sha256": "c596cc4e8454c5b41da94d4585dafda422e660add1a59e5b40f90416104f681b",
+      "repair_sha256": "f05f81405b9534187f80fa6a9bcc85144dbd1087094c95c2dbacd37d974713b8",
+      "repair_region_count": 12,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1940,
+          "end": 2002,
+          "finding": "decay阶段换精选混合是两阶段配方动机，loss下降同时受LR与数据分布影响，不把混合独立贡献由单曲线读出。遗忘/幻觉双问题有缺词。"
+        },
+        {
+          "start": 2065,
+          "end": 2105,
+          "finding": "Schulman引用例在讨论模型不知引用时如何受示范激励；知识是否已在参数里难直接判定，不把该故事当已证明幻觉唯一原因。"
+        },
+        {
+          "start": 2155,
+          "end": 2195,
+          "finding": "自检thought tokens与Quiet-STaR/RL相关，不保证自我一致即事实正确。学生提出方案不是课程已实现的演示。"
+        },
+        {
+          "start": 2335,
+          "end": 2383,
+          "finding": "预训没见emoji而后训练加入的问句只能恢复大意，取决编码与组成性，不能一律断言能/不能学习新知识。"
+        },
+        {
+          "start": 3073,
+          "end": 3091,
+          "finding": "较长回答被学生指出事实错误，课堂偏好投票不能当正确性标签；不恢复未辨认具体错误内容。"
+        },
+        {
+          "start": 3426,
+          "end": 3446,
+          "finding": "GPT-4与human win-rate相关性图限该样本与judge版本，不意味模型评判与人工完全可替代；同源judge自偏好需检查。"
+        },
+        {
+          "start": 3578,
+          "end": 3665,
+          "finding": "on/off-policy后续展开，不能仅按是否人类给标签定义。利用已有有答案数据做对齐的提问可保留，但现有答案也须核对正确性与目标形式。"
+        },
+        {
+          "start": 3715,
+          "end": 3846,
+          "finding": "公共价值来源/投票与UI干预不能一次解决规范差异。模型自偏好是评估风险；自反馈可迭代多少讲者称经验问题，无固定信息收益/最优迭代次数。"
+        },
+        {
+          "start": 3880,
+          "end": 3935,
+          "finding": "字幕SRT应SFT；有参考答案监督与偏好/奖励反馈形式不同。学生问题含糊，讲者继续方法slides，不能编完整额外答复。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1940.875,
+          "end": 1968.79,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "e8b7e11b1a316db3ddbfa80937c6729e430394765ee9f97c8f9f4c4a9665a47c",
+          "second_asr_text_sha256": "b5bdb6e9916e4b514730ed044a56997e69f240bca0b24f25da30daf80b908e50"
+        },
+        {
+          "start": 1982.95,
+          "end": 2001.67,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "773a914397c544a0e5b14cc0ac507ef529cd0216bd14d5f60d7124dfe4a63466",
+          "second_asr_text_sha256": "f4b350285cf0bf587e867c90e044c647faa35c259a8c4b4126c526251e21ca0e"
+        },
+        {
+          "start": 2065,
+          "end": 2105,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "69d5ca9c7d5b97d6cc1ab8524b716f5eb1b0f24a7ebde3782ef616ebf0633484",
+          "second_asr_text_sha256": "9e4698cc8c0a46d1a0bdec1eed6a465e814a1795f7a4e973a1038c29f7fc4399"
+        },
+        {
+          "start": 2155,
+          "end": 2195,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "801b722c95b0c37487d5320fe69da636a36b0924fee1f92dd8d7bebf7c7f7614",
+          "second_asr_text_sha256": "db4d51e8ed93b34234c7588919da934a7a3dd8e840bf236a9c641d740bd477d6"
+        },
+        {
+          "start": 2335,
+          "end": 2382.19,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "eb33566b4988a0f76fab68e213ee5e602d3cbc247b5556f9a2f495381de6ebe8",
+          "second_asr_text_sha256": "31d1ed2df5fe815193ff41685011094a1a29eeddcd198b6041945460b0322807"
+        },
+        {
+          "start": 3073.36,
+          "end": 3090.26,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "ce2306f26454a0b39cb1458b05030b898f630cf4c0230b4862cc18242610493e",
+          "second_asr_text_sha256": "58cd7b3600d9125cca831c49c372300183f20c3a0a4ab46c2928c08585935eb1"
+        },
+        {
+          "start": 3426.995,
+          "end": 3445.41,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "e09b126040629b1104f65b4a74ca39dcc5f07270aea6d06883377d73b695e1c2",
+          "second_asr_text_sha256": "68e56cb8a502510bdba39f81d2b7184072ff8fa11bba239ea578be8652da5981"
+        },
+        {
+          "start": 3578.14,
+          "end": 3596.5899999999997,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "b11a6215d7f8d8ba5ce55ee609d8ba5683860949d35531a96f9f11a1c2259c57",
+          "second_asr_text_sha256": "124f652092525a37fe7cfe7f8eed6b5033332f8c0f1b839f54389d2b65e2d113"
+        },
+        {
+          "start": 3625,
+          "end": 3665,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "d8d69f141d3ed2486c8213268760b57dc34617f8ed844bced59c0e1b0dd36437",
+          "second_asr_text_sha256": "cd6573f5bf6df0ef9a22bff8e4d0b59615940916547172f0747d57be95839d3a"
+        },
+        {
+          "start": 3715,
+          "end": 3755,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "a0ee1d91f798ce44a14308e45792523f323c76bc93f94091e19cc50cbbe5d239",
+          "second_asr_text_sha256": "bcd63f42ac889c0aecab751a5afaeb6a40a5717273b1287cd29c786e8b69493f"
+        },
+        {
+          "start": 3775,
+          "end": 3845.8500000000004,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "d1c2340764cf69a1c7334a4e42baab8ee17a64ea2ae4c43b4143927e5be398c0",
+          "second_asr_text_sha256": "8d6ac7d5fc6fb0327554da2422730ce77dd62733c85c5f3f68ffb5de52a2d535"
+        },
+        {
+          "start": 3880.66,
+          "end": 3935,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "9c19cb9815572d4648af9bd35c1d6457a9b3f84869930129eb1f20bc99fe642b",
+          "second_asr_text_sha256": "441117f91c311dbe34cb4145d67cdebf5a3877eb3539ab520f3dd995f0a6ece7"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4485.88,
+      "track_metadata_sha256": "b8463dfb9fa17b8245ae5d9da8188f671b64968beb189624fec2244971aade26"
+    },
+    {
+      "lecture": "2025-16",
+      "video_id": "46f2QTDB08Q",
+      "url": "https://www.youtube.com/watch?v=46f2QTDB08Q",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "e0ca830c54abf87ad88aeda293f0c4a28d55f2ea42ccf516919c1327f6d89a71",
+      "audio_bytes": 29407550,
+      "duration_seconds": 4832,
+      "format_id": "139",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "aa673c4271119ea0a8ddfce9a5b0fc369c57da3219149bb6d55f3c7690b6e347",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4826.31,
+      "comparison_windows": 161,
+      "windows_below_075": 5,
+      "elapsed_seconds": 354,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4831.701043,
+      "source_result_sha256": "b97a7b66770b3e347ea33575f543ffcbcf16d494f6907324622dceab4b76d5be",
+      "comparison_sha256": "59109684a16cde6c84e2b5a1c48b56e0876b35db3590989e2677a18f7e3e3e4b",
+      "repair_sha256": "1359fe93f98494f7360398ae36fc11c631ecd058cecac859ba7dd708ce0448ce",
+      "repair_region_count": 7,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 595,
+          "end": 695,
+          "finding": "RL代理reward上涨不保证真实偏好上涨；图中oracle/人类反馈是新鲜独立评估，不能让同一拟合RM兼任ground truth。DPO对数分式展开的问题原句缺词，不凭ASR添加新目标。"
+        },
+        {
+          "start": 1855,
+          "end": 1895,
+          "finding": "GRPO需每个问题采多个回答，再按问题分组算基线；batch可含多个问题，不能用全batch均值替代各问题组。"
+        },
+        {
+          "start": 3434,
+          "end": 3457,
+          "finding": "学生提醒GRPO是优化法、PRM是奖励/评判方式，讲者承认忘讲该区别；两者不互斥。"
+        },
+        {
+          "start": 3481,
+          "end": 3499,
+          "finding": "语言一致性消融问答small.en重复幻觉需丢弃；原字幕/表支持特定性能与可读性取舍，不把一致语言等于faithfulness。"
+        },
+        {
+          "start": 3505,
+          "end": 3545,
+          "finding": "翻译/摘要可改善人类可读性但不是忠实原始推理的证明；讲者半个百分点为随口举例，不写精确实验损失。"
+        },
+        {
+          "start": 4255,
+          "end": 4355,
+          "finding": "Kimi长度平台不证明所有RL都无长度偏差。训练权重须同步到vLLM rollout服务；当年experimental NCCL API有未文档参数，是课程时点经验，不能当今日API使用指南。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 595,
+          "end": 635,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "6106f81d45e7350d2e6e24fc8481cc266da870629ce8da5c6db5e335bbb137bf",
+          "second_asr_text_sha256": "4ec616bcb02dbf52ccd5d181cab01a7bb306b6f529a8784a900204cdc06bc0e9"
+        },
+        {
+          "start": 655,
+          "end": 695,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "bed99b505e8b00105a3ca89342270b4038e19fe94c4347d6af223afbd77a6579",
+          "second_asr_text_sha256": "3293c4c361e88349d130aa8541af6632bc08ec054b2731178c38d296181eda4e"
+        },
+        {
+          "start": 1855,
+          "end": 1895,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "1c04ee165f30e4b0742b14df7398482ad9f567043f74fdb4d86b2b957c6b9085",
+          "second_asr_text_sha256": "e8b44b7c020fa4c804c300688e59808fc0b1db39fbf54457d25d94ddc5641789"
+        },
+        {
+          "start": 3434.278,
+          "end": 3456.3799999999997,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "aa03c624867cef102a35daa270dd64988f62a5840b97eb9cfd0680f7ba262a85",
+          "second_asr_text_sha256": "d208bd23b843e34094360a8b9aee403bd87afa13fa0d1bf77aa566185d34e658"
+        },
+        {
+          "start": 3481.04,
+          "end": 3499.06,
+          "reasons": [
+            "inaudible"
+          ],
+          "caption_text_sha256": "d357203ba2d65a71262100bf910adbe2553399b6aa57ec747a36b812c8ee89ce",
+          "second_asr_text_sha256": "05094ebd83c526534cc111d6ee27094bf0266b2460d29d99c904db95b2602e1c"
+        },
+        {
+          "start": 3505,
+          "end": 3545,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "5b20896f81d38ea856c9ae73ac41ef8131fca2138be4e1a4dc26df84c75f95a2",
+          "second_asr_text_sha256": "e25e5530befbfa43dae3cf302607755a9f2de7dc75c7af0659c4908f44899c1d"
+        },
+        {
+          "start": 4255,
+          "end": 4355,
+          "reasons": [
+            "disagreement_or_low_confidence",
+            "inaudible"
+          ],
+          "caption_text_sha256": "8b42fbbfbdbd86e93f97d3bb27017028fc66f1f52bca1fa33ba555d97521d7ae",
+          "second_asr_text_sha256": "7fab63a273bc00a3ece151010227d8f70a8f6513fea75f8f7061aadee16a5d17"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4826.31
+    },
+    {
+      "lecture": "2025-17",
+      "video_id": "JdGFdViaOJk",
+      "url": "https://www.youtube.com/watch?v=JdGFdViaOJk",
+      "status": "full_audio_automatically_compared",
+      "manual_listening_complete": false,
+      "audio_sha256": "de49960db5b3cb52b8e9862c40d9e4a42ab1559fe17ee94b8d6c5450fe06057a",
+      "audio_bytes": 27805203,
+      "duration_seconds": 4568,
+      "format_id": "139-6",
+      "format_note": "English (US) original (default), low",
+      "language": "en-US",
+      "publisher": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "caption_file_sha256": "a46413a620b6220f9221818274cf0e92b63128512162060560f8986bd3350383",
+      "model": "faster-whisper base.en int8 CPU beam1",
+      "asr_last_end": 4563.02,
+      "comparison_windows": 153,
+      "windows_below_075": 6,
+      "elapsed_seconds": 186,
+      "track_verification": "publisher_English_original_labeled_track",
+      "physical_audio_duration_seconds": 4568.433197,
+      "source_result_sha256": "1015062c6a3f71f588d43940fecc9072a5d2d7e9094f6a47f4dddabf3baa0124",
+      "comparison_sha256": "155ded115c09bf55331ba09b53d557bdb197142009862cb2fb36b6854fcfbbfb",
+      "repair_sha256": "b3f47bc3d3692ab4c3a2fa90ed501ad6957d218435b16842fde21fb88ab90537",
+      "repair_region_count": 6,
+      "textual_candidate_review_complete": true,
+      "findings": [
+        {
+          "start": 1315,
+          "end": 1355,
+          "finding": "口述variance5→1与代码不一致：代码是标准差5.3229→1.1547，不能平方量混用。学生关于baseline依策略的原问仍不全；action无关baseline需在score-function项正确处理梯度，不要求它是精确最优V。"
+        },
+        {
+          "start": 1795,
+          "end": 1835,
+          "finding": "Chelsea Finn深度RL课被ASR写成Josie；baseline在此为仅依状态/问题的函数，和任意依当前动作的奖励扣分不同。"
+        },
+        {
+          "start": 3145,
+          "end": 3185,
+          "finding": "末尾100token更重要只是学生假设；outcome reward的credit assignment不能靠距离答案近就证明贡献大，折扣会改变目标。"
+        },
+        {
+          "start": 3895,
+          "end": 4055,
+          "finding": "old策略约束更新幅度，reference约束偏离起点/行为目标，两者职责不同。首步ratio=1仍有梯度，旧分母须冻结；不把相同数值两边都随theta变化。clipping不保证严格KL上界。"
+        },
+        {
+          "start": 4555,
+          "end": 4568,
+          "finding": "课程末尾可提供指针，未包含额外嘉宾实录或演示；不据预告反推问答。"
+        }
+      ],
+      "regions": [
+        {
+          "start": 1315,
+          "end": 1355,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "b1fe3f29d34462266547e848976ccc513d36832b077cd2e49f553fe5dea11928",
+          "second_asr_text_sha256": "4831a9a0d0b9d90b8fb1e5db3549bdbf2d315cbbb2a75861f4db9f59de5b8b4a"
+        },
+        {
+          "start": 1795,
+          "end": 1835,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "ef67aecfd68ae8eec9912c5d0dfb0076d263dadc3cebc64eaaf698dabdf9036d",
+          "second_asr_text_sha256": "641e975d11c38877834708b20ba0e2a5c1f0ece322283ef34379c1a06688f116"
+        },
+        {
+          "start": 3145,
+          "end": 3185,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "2cf7f1af13c004e2272b15440a8281241680000a4ecdac56a55f57170028dc64",
+          "second_asr_text_sha256": "a66abb0387cf7aaac56ab66e0d7a0c7642abf8a3fdfe3b4591af1e70ade223b1"
+        },
+        {
+          "start": 3895,
+          "end": 3935,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "80ae98adb166082d4ad1a2aca226371df16f131b62fb0a2040cf155796a06b96",
+          "second_asr_text_sha256": "81fef75fc9f8d2598af517f93f62adbca39e96a45bd28159b26e0da1e4900c4d"
+        },
+        {
+          "start": 4015,
+          "end": 4055,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "158dcd1b3979d4b317834d48589880475177462fc9eea072697134b10d325eb7",
+          "second_asr_text_sha256": "4e9c42af469c5c71c946ee2279d715ebc8579b179295d735a1ceff26159f7e1e"
+        },
+        {
+          "start": 4555,
+          "end": 4568,
+          "reasons": [
+            "disagreement_or_low_confidence"
+          ],
+          "caption_text_sha256": "8389a5dc2295f2cb11466dd69ac3ca57442d757b09c0694888a92d1f927d96d5",
+          "second_asr_text_sha256": "6280443c3538753f24e8d7041aa89593e5b6eec4b98967dab6e640a2bef6d361"
+        }
+      ],
+      "out_of_duration_asr_segments": 0,
+      "effective_end_seconds": 4563.02
+    },
+    {
+      "lecture": "2026-08",
+      "source_audio_sha256": "1c0201b2bc61b04df5c421716209bae99f2ae2ee7991daaa33ba5000455a7f45",
+      "legacy_ledger": "CS336-音频核验记录.json",
+      "manual_listening_complete": false,
+      "method": "Full original audio twice transcribed; 161 comparison windows, largest 35 windows textually reviewed, remaining inaudible questions documented.",
+      "findings": [
+        {
+          "start": 240,
+          "end": 270,
+          "finding": "两个模型仍未清楚还原学生问句。只保留讲者明确解释：分解方式不唯一，reduce-scatter加all-gather是为后续分片算法服务。",
+          "status": "student_wording_unresolved"
+        },
+        {
+          "start": 1560,
+          "end": 1650,
+          "finding": "small.en使FSDP与pipeline的追问更易辨认，但仍是机器候选。讲义支持的概念是各rank仍计算完整模型，按需收集每层参数；不是每卡只计算一段层。总参数已经对层求和，不能重复乘层数。",
+          "status": "concept_crosschecked_pdf_student_wording_not_listened"
+        },
+        {
+          "start": 2160,
+          "end": 2190,
+          "finding": "第二版更像是在追问PP相对FSDP的通信优势。只按p35、p43解释激活规模bsh与参数规模之别；具体大小仍依模型与batch，不保证任何配置都更小。",
+          "status": "concept_crosschecked_pdf_student_wording_not_listened"
+        },
+        {
+          "start": 2790,
+          "end": 2850,
+          "finding": "base把sbh转成SVH/SPH，small更接近sbh。以p46可见公式为准：s是序列长度，b是microbatch，h是隐藏维度，a是注意力头数；不能按字幕字母抄公式。",
+          "status": "formula_crosschecked_rendered_pdf"
+        },
+        {
+          "start": 3150,
+          "end": 3210,
+          "finding": "涉及MLP重算的学生问句仍不可靠。p47说明24/t来自Attention和MLP里可被TP切分的部分，不能只由口述把24全部归为MLP。可重算更多激活，但需要增加实际运算，不能把重算称为免费。",
+          "status": "concept_crosschecked_pdf_student_wording_unresolved"
+        },
+        {
+          "start": 3780,
+          "end": 3810,
+          "finding": "两个模型对MoE能否套用其他并行方式的学生问句仍含残缺。保留p52–53的可核概念：策略能组合，但EP分组与attention/FFN切法有额外约束。",
+          "status": "student_wording_unresolved"
+        },
+        {
+          "start": 4080,
+          "end": 4140,
+          "finding": "SP/CP命名追问仍不够清楚；small额外识别出闭源模型循环结构传闻，讲者明确不确定。传闻不作为模型结构事实。SP与CP按p48、p54的实际切分对象区分。",
+          "status": "student_wording_and_closed_model_rumor_unresolved"
+        },
+        {
+          "start": 4530,
+          "end": 4590,
+          "finding": "Llama 405B被small转成4/5B，Gemma被两个模型转成Gamma；这说明更大ASR也会制造错误。型号按p66–68及作者报告核对。148是故障类别计数，不是所有中断；原论文百分比不一致另列PDF纠错。",
+          "status": "names_and_counts_crosschecked_primary_sources"
+        },
+        {
+          "start": 4650,
+          "end": 4680,
+          "finding": "Mixtral、DeepSeek V3、Nemotron等专名两版仍有误拼。p69–72的Megatron截图表示文档配置案例，不当成作者已经用该配置训练的证明。",
+          "status": "names_and_evidence_scope_crosschecked_pdf"
+        }
+      ]
+    }
+  ],
+  "manual_listening_complete": false,
+  "scope": "Full original English audio machine transcription/caption comparison with all flagged region second-model candidates textually reviewed (34 recordings), plus existing full dual-ASR L08 audit. Not an independent human listening signoff; both Whisper variants may share errors. Out-of-duration ASR text is invalid and excluded from teaching.",
+  "counts": {
+    "recordings": 35,
+    "new_full_audio_machine_comparisons": 34,
+    "flagged_regions_reviewed": 267,
+    "comparison_windows": 5588,
+    "duration_seconds": 167329
+  }
+}

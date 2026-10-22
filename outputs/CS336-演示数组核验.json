@@ -1,0 +1,4707 @@
+{
+  "date": "2026-10-22",
+  "scope": "Full finite-value and recorded tensor-shape inventory; selected algebraic relationships recomputed. Random model outputs and GPU benchmark timings are not independently reproduced.",
+  "checks": {
+    "finite_compound_values": 405,
+    "bpe_vocab_snapshots": 6,
+    "nonnegative_timing_snapshots": 128,
+    "softmax_arrays": 3,
+    "lsh_probability_tables": 6,
+    "tensor_shapes": 57,
+    "row_sum_arrays": 2,
+    "symbolic_stats": 6
+  },
+  "records": [
+    {
+      "file": "2025-lecture_01.json",
+      "function": "look_at_web_data",
+      "line": 383,
+      "variable": "urls",
+      "kind": "list",
+      "shape": null,
+      "index": 0,
+      "value_sha256": "8ead41a72d835f1c334cea0b7369a04ee03f96681cc4a09e5cf8a368fe8225e2",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "tokenization_examples",
+      "line": 604,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 1,
+      "value_sha256": "78b75ea08903b575d2cf90dff6629f2169c0a5a455d63da536c3a33b208c2c55",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "character_tokenizer",
+      "line": 624,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 2,
+      "value_sha256": "09acd1f5ffe8c08832baa719965ac53933fcba291ec75aa5e35ffa5d1963a4b9",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "encode",
+      "line": 524,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 3,
+      "value_sha256": "7968b7e11b450ca8fb3ba579457e31cb170c31e04dc8e4ee50faf7f9e6ac267f",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "word_tokenizer",
+      "line": 668,
+      "variable": "segments",
+      "kind": "list",
+      "shape": null,
+      "index": 4,
+      "value_sha256": "ee0c36f12b2ee025faa1839007d3b5874e478e435992020829e970ef500af253",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "word_tokenizer",
+      "line": 673,
+      "variable": "segments",
+      "kind": "list",
+      "shape": null,
+      "index": 5,
+      "value_sha256": "7abfcf802d2e844c26d4f2a170f4db1ddfd7242e4e8d6e3ad54e704f2079161b",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 724,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 6,
+      "value_sha256": "94c6ef53bfd964a2ea11890b1959043b1c309594394cf42a02657aa1acfe5ffb",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 7,
+      "value_sha256": "f6c59fae96c99bab3afe1786297c9c1a7b5d99dec29371a072dec0970a5e4e48",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 8,
+      "value_sha256": "f7d07ee30a780f98c596149bb4430706ade6f44c7c2f74ea1baef7162e8f7598",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 9,
+      "value_sha256": "64aa08e268a808f468b36069c0ca742070616c4d80b4effeafeef00fb2d34cee",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 10,
+      "value_sha256": "780551bc0efd73ca1caaed12e4bb8df4068aa831169c7b690022d31710d3e740",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 11,
+      "value_sha256": "0e4ccf7a37ed39897ce121b0c3d6a7ff40839a5e40d3248cfc8ac096c329b3d7",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 12,
+      "value_sha256": "84d64fc3c92ea380ee358793b8fd41537b90395da9ab55a0efecb30134433cbf",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 13,
+      "value_sha256": "a60c76d77082f01396442e9411a2007b1d5e0c26a43eea2e63cdc12114c15c49",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 14,
+      "value_sha256": "adcca480f34e9dc1963e7cb01d98bb76bd29b800edb0007533da1a92d6ebb285",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 15,
+      "value_sha256": "573409cd1fcc99608b34b604ca36254dbbc85714d1d0122674664be830fc61e2",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 16,
+      "value_sha256": "326e09fde5a2bbf7de018f9d0c11788568d4bf1e61223801815a121ffa3d20fb",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 17,
+      "value_sha256": "55c06f45b0552921017d9d8864d633a9d065e55587b31cc9b203c4f44a9d6fea",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 18,
+      "value_sha256": "a6fbeba46db62458d568a5f8f6855a7b8eb4dc75cd89a4c2e8336dd80efcd0d0",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 19,
+      "value_sha256": "ede0fd7bb247c65e545df5b14c6e1e5f1a2185b538475f5250f21d18120057c2",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 20,
+      "value_sha256": "526c38655db1aaa1b6d005ed7073f5f0d3a21f4203d56836cdd325f3320d91b3",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 21,
+      "value_sha256": "c21453eaab67f1e7f76f4529384db75b16611aa68e45ac4df0b8793564566213",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 22,
+      "value_sha256": "9ef3b23282c245466e2dd74efba5082272323c6c857733e32d8f8a6cff83d7d2",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 23,
+      "value_sha256": "9f78fe2cc98d08cb557129f29f14a9a67f390c48e80e133453c0068b0b26eb92",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 740,
+      "variable": "merges",
+      "kind": "dict",
+      "shape": null,
+      "index": 24,
+      "value_sha256": "959b3b5eb9aaba286e16fe8dce26ac869836ebf36d123e22a7f2f9f470bb7fa1",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 741,
+      "variable": "vocab",
+      "kind": "dict",
+      "shape": null,
+      "index": 25,
+      "value_sha256": "3e1d15ac5d6814083f4a7f4a761242b88f899b4a51408fd30c40a3bc02125786",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "merge",
+      "line": 535,
+      "variable": "new_indices",
+      "kind": "list",
+      "shape": null,
+      "index": 26,
+      "value_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 742,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 27,
+      "value_sha256": "4dfac33bd2a1f91b8547966578de825c21ca1dd5f74becaebea83755de4155d0",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 28,
+      "value_sha256": "812b7729215c3f1c3528e8e36ae7293cc05772190d0998063b2ee470c4347e11",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 29,
+      "value_sha256": "dc6eba5d6d84aac7cb386005b416e0771b003e4895a5aef18be5767a55ee82de",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 30,
+      "value_sha256": "f3a26071396cc16c92e9dc7111704e80e81498e483d6d28f8aae033aa7a77bf1",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 31,
+      "value_sha256": "d1bda24cf441dd1dded546981371c13b3711e8814147f36a0202d63545cdd873",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 32,
+      "value_sha256": "4f6412a889d3d003ed9d10bc46c2136dc137769874b81ab58fce7f4331418c51",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 33,
+      "value_sha256": "1b10902e9152f92333f4aef3c2e4975a3d1aa83c7732c6fb0c8057607a4d6581",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 34,
+      "value_sha256": "e8d732069da37049621774300ec86b8fb6e3f9d578945b5210465ab0f79f74cb",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 35,
+      "value_sha256": "bb83e69ada70c5b13c70a32d334a6415b00dca156a4e9870bee437a9a1420923",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 36,
+      "value_sha256": "96a7dba825e64803c42c00f4557520061e47fd586b1e31c988ab3f46e955f3a2",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 37,
+      "value_sha256": "cc1bf858015da98c7fd27412e87d7bf3c5710ab10641481b3521d71b997d9f78",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 38,
+      "value_sha256": "e298b00ee4014c3ed618c0068a783345954ef9aaccc8d7160614b9dbf37adb7f",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 39,
+      "value_sha256": "c30a589ddc6fb8ece0c2710b8b852b4b8801e87f39b8365294e9c501119ff81f",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 40,
+      "value_sha256": "5d87f319a457243aa812761fbcb7550d0f2de6c955091f81aaa4a84343a3ff0d",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 41,
+      "value_sha256": "463aa53ceeff2f53ce2efca333cd5a552b4e05db581139996393416363cfc1e0",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 42,
+      "value_sha256": "0dd799e5edf5a68c1634e8d2bc58d78cf0db7f707d67cd20e840fd4dd4a1cbad",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 740,
+      "variable": "merges",
+      "kind": "dict",
+      "shape": null,
+      "index": 43,
+      "value_sha256": "f92793aab6e3bb09621944b48e57ee5e05db5b1323622d65e44bd43138e0f00d",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 741,
+      "variable": "vocab",
+      "kind": "dict",
+      "shape": null,
+      "index": 44,
+      "value_sha256": "e1b36c41d62c506daa439a56bd330ff77b83da3a232efb0c650305825fe7acba",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 742,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 45,
+      "value_sha256": "30168c3fd702980748ed6c061cd9af670e7d498b6cbc2fecbe6552717f4bda78",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 46,
+      "value_sha256": "dec8f9ddd1cba23e047bb454da1a419a718e449a4f560725348cd48c1713c95f",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 47,
+      "value_sha256": "f73b71eccebc1f2a0d9f63632e75be7ca4a34ad509bb18d4946112915628baab",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 48,
+      "value_sha256": "432a462290b6b1e71bd34f5b7ea9dd490bbfd994375c885687cc717621f3aa95",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 49,
+      "value_sha256": "d798200f1dec8a2e8cb038645374c2c1516709e6b9ad615d2bfb11f328ab4471",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 50,
+      "value_sha256": "51c78bd35db0a6f5ef4eccca40c79fd821b2fbdc7fcdfbd8a49de62646f60c56",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 51,
+      "value_sha256": "a6b50720b4d65e9f3c266e5ed18fe7dea70e8ed4711f523a0dd22c6c8ab7e6c5",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 52,
+      "value_sha256": "3f97f928f60f3e02bfb37e29382520d312fad9f201f22992056e14ffb12e8158",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 53,
+      "value_sha256": "9180a60672dc0e046ac9326a5836b351334c6a5d598b3ce5b189bd97b461a250",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 54,
+      "value_sha256": "c09ff83ef76f5d42c94ad231e8de69057d419370f128b6fb8630b8586aed170f",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 55,
+      "value_sha256": "adcb4b1fa1b576c42fbba4de12b54fbc4f9d05238cf8cdb0dd1d8f8132c12f9a",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 56,
+      "value_sha256": "397834d4d7a6034eb42ff965156703a8ccde19e79d5044d97793bf70bc3305c3",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 57,
+      "value_sha256": "9a8c8cccfd224c2d51f88505385222f707a5d2bd7c4c4fb6dbcd342def1d6b66",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 732,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 58,
+      "value_sha256": "4adb7f2d962217bf60b629c6ef393ae831b8617ad66243253a1714e533f4be4c",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 740,
+      "variable": "merges",
+      "kind": "dict",
+      "shape": null,
+      "index": 59,
+      "value_sha256": "6128596c357db4dc4e0e89c85a3a889967ad31092e9e7954b06cab49e5455734",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 741,
+      "variable": "vocab",
+      "kind": "dict",
+      "shape": null,
+      "index": 60,
+      "value_sha256": "894a4bd0bb066958747ecb5a0b8111e9f6a301ef4b3ff6bac7d0f6eb577bff67",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "train_bpe",
+      "line": 742,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 61,
+      "value_sha256": "2248c6a8d42c99c172d2e1cc7932d99b5e4f189b09d4709ad57a38609a8a75a7",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "encode",
+      "line": 553,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 62,
+      "value_sha256": "6d59b958d988b22998fa8ee002db727087fa56628a41366ca2e5d4c6742880f7",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "merge",
+      "line": 533,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 63,
+      "value_sha256": "47ab07d137545aabb8215576383185331caa889920e27a2458968990baccccd9",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "merge",
+      "line": 533,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 64,
+      "value_sha256": "3f392402e70c2a30d1ac154ea3e6b68a93a9db2468cf6f97b8daff6cc42f6d01",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "bpe_tokenizer",
+      "line": 711,
+      "variable": "indices",
+      "kind": "list",
+      "shape": null,
+      "index": 65,
+      "value_sha256": "e3c86d8a45ea39377ebf19e8970fb527b22cf3fe3766bf93bebf812e846bde61",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_01.json",
+      "function": "decode",
+      "line": 560,
+      "variable": "bytes_list",
+      "kind": "list",
+      "shape": null,
+      "index": 66,
+      "value_sha256": "f5d3c473bc24734a870ac197f7b400b24f0fc13b82ea2c556d561854c849bfe3",
+      "source_trace_sha256": "196e9a35cc6e8e36c2d8062056c2c89de7eaa688c1b20325b218e5ee7274fcfc"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensors_basics",
+      "line": 93,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 67,
+      "value_sha256": "41a45c83277317adbb24d6ef53a66eb0cd8a62260493ce7772527a73823f4ffb",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensors_basics",
+      "line": 94,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 68,
+      "value_sha256": "d13951610a8d7a66f44d049a17128889d5e372f1db8523ab171f308868a19835",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensors_basics",
+      "line": 95,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 69,
+      "value_sha256": "cdd42a9f0670c03dda328b90c9dc6c142e087ae100b33d470e6827f5515ae276",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensors_basics",
+      "line": 96,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 70,
+      "value_sha256": "a932b879a1b93b1b34d750d2594ad2eadff5bf47c528cca59cd189cc6afc3a59",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensors_basics",
+      "line": 99,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 71,
+      "value_sha256": "40adb7df6787e56ae958ab020485156ff5d4535d3eec7e3c61c9507f9638cd4b",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensors_basics",
+      "line": 101,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 72,
+      "value_sha256": "6a3574c820d8fadd72e05175c0100904b0610f8058c32a84c35915c3b174871f",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensors_memory",
+      "line": 133,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 73,
+      "value_sha256": "37aed087d1cfac1ac1185c1622819ee5100567b178df43d6c00e8a7db4bc244b",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensors_memory",
+      "line": 143,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 74,
+      "value_sha256": "d7bc1228dcd07d43f326b00412e7ee6895739483360cfa6a5c0329e3c9003083",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensor_slicing",
+      "line": 237,
+      "variable": "y",
+      "kind": "list",
+      "shape": null,
+      "index": 75,
+      "value_sha256": "d4ab5ad55f1dc0ffe69d38b31485c73e876a35d927e8659d701a83e1777e1941",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensor_slicing",
+      "line": 242,
+      "variable": "y",
+      "kind": "list",
+      "shape": null,
+      "index": 76,
+      "value_sha256": "ec5543603e863e7d267e645afca6091862cc2b719c5c79799646799640551df6",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensor_slicing",
+      "line": 247,
+      "variable": "y",
+      "kind": "list",
+      "shape": null,
+      "index": 77,
+      "value_sha256": "7f28497ec970cd8c1dac202d9b198c2722be94b73199e7728a9686871dd3ff08",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensor_slicing",
+      "line": 252,
+      "variable": "y",
+      "kind": "list",
+      "shape": null,
+      "index": 78,
+      "value_sha256": "de02e3f0e7970009afcc17134b7649acb1b87d12f02473479f08a98fa79e2ef6",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensor_slicing",
+      "line": 257,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 79,
+      "value_sha256": "05162748c56e8e023cb31d387ab29e766dfb5c88c3f7f3f4baf1eac6e499b9e8",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensor_slicing",
+      "line": 257,
+      "variable": "y",
+      "kind": "list",
+      "shape": null,
+      "index": 80,
+      "value_sha256": "c7e65b3b9dd68183b88689f62431ca0becdd79d7fc78d2d2b8018d9837ebb867",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensor_slicing",
+      "line": 271,
+      "variable": "y",
+      "kind": "list",
+      "shape": null,
+      "index": 81,
+      "value_sha256": "c7184077a86f3ea36457272c292b8ad88ce92934bef33c231311f8944e18baf8",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "tensor_elementwise",
+      "line": 290,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 82,
+      "value_sha256": "90ecc77c966f29a099b50b68cb0edc593ec42481351824d1e3ad71f6500e46e3",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_motivation",
+      "line": 330,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 83,
+      "value_sha256": "1532bce5cd39648e94f2a7f12bef24faafeb73969850854b06c6f7797cda8eda",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_motivation",
+      "line": 331,
+      "variable": "y",
+      "kind": "list",
+      "shape": null,
+      "index": 84,
+      "value_sha256": "1532bce5cd39648e94f2a7f12bef24faafeb73969850854b06c6f7797cda8eda",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_motivation",
+      "line": 332,
+      "variable": "z",
+      "kind": "list",
+      "shape": null,
+      "index": 85,
+      "value_sha256": "190df44c2e10a30dd013cc672fe49bb89b3402646846a40a4b96f507133537dd",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "jaxtyping_basics",
+      "line": 340,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 86,
+      "value_sha256": "e27e44c0d07f579937311ee7309e9a74f3827ad74b334f7cda188a0a61c102fd",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_einsum",
+      "line": 351,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 87,
+      "value_sha256": "08aae20b0e8af5ae9ef56b279cba41792e1e3ac393da42fbf62ce2a26c68b029",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_einsum",
+      "line": 352,
+      "variable": "y",
+      "kind": "list",
+      "shape": null,
+      "index": 88,
+      "value_sha256": "08aae20b0e8af5ae9ef56b279cba41792e1e3ac393da42fbf62ce2a26c68b029",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_einsum",
+      "line": 355,
+      "variable": "z",
+      "kind": "list",
+      "shape": null,
+      "index": 89,
+      "value_sha256": "16d46c30fdc34ab3b772f7ae60805bf5f92842fb1e2f39372291efdf4f45bd96",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_reduce",
+      "line": 370,
+      "variable": "y",
+      "kind": "list",
+      "shape": null,
+      "index": 90,
+      "value_sha256": "adb561069646f39bd20589e6224d9d06d214ff2137ab78f9d26557c7f9f3988a",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_reduce",
+      "line": 373,
+      "variable": "y",
+      "kind": "list",
+      "shape": null,
+      "index": 91,
+      "value_sha256": "be3b3e1a2e3bc50b57716d2e535969f1c74744bf0c57b06d2ec476d937ae349c",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_rearrange",
+      "line": 380,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 92,
+      "value_sha256": "92839c870ae819e834bfb505a6731db5caeb100f7059886e1a05bf99214237b1",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_rearrange",
+      "line": 385,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 93,
+      "value_sha256": "f30bc7b1cc7a24a938faf5d9d715e501958425103f99e8c2049aea6edc8e0c0b",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_rearrange",
+      "line": 388,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 94,
+      "value_sha256": "47c04378a8944630a55e816a3bdbda8b67c6554712c0eee60d748f959a0eaedc",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "einops_rearrange",
+      "line": 391,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 95,
+      "value_sha256": "2c7c8671c5646fcd158b22877ad944715613719688d51328850255de9b0fcac7",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "module_parameters",
+      "line": 591,
+      "variable": "output",
+      "kind": "list",
+      "shape": null,
+      "index": 96,
+      "value_sha256": "e21827db95fcb26cf906b36c298eb83fddcd4a0bd7e1eb3c605519b229069ce1",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "module_parameters",
+      "line": 599,
+      "variable": "output",
+      "kind": "list",
+      "shape": null,
+      "index": 97,
+      "value_sha256": "70622eb3a87a9990965c8398b4d9508c47654dc6ad8d458f9fec7b3b7fb3c358",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "optimizer",
+      "line": 792,
+      "variable": "state",
+      "kind": "dict",
+      "shape": null,
+      "index": 98,
+      "value_sha256": "6d9e331fbd858b6c1a583ba55f38e5b490295662af8f610ed7c1d558370b9825",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "function": "optimizer",
+      "line": 803,
+      "variable": "state",
+      "kind": "dict",
+      "shape": null,
+      "index": 99,
+      "value_sha256": "9bff40a265c3fc5fb7acac2059662345f3ac2f95b903c2abc74b86917a3be6d1",
+      "source_trace_sha256": "d2ff85b53bcb7704b5a53e5395f2cbdbf07c4c5a6c6757dfb27652f489786c05"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 244,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 100,
+      "value_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 101,
+      "value_sha256": "e5933ded60a5c759b5dd6c036b7ac738258ff2f375982b4c3f5ce9ce2edd3dc9",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 102,
+      "value_sha256": "4fdad4bcdb504264a4420e16c14ee34fecd64cd3ffc15bd6e8413d6baf5210e8",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 103,
+      "value_sha256": "8ed09538ba92d2ff297b26361413e8d7c33518abea2181de880e3196d0649314",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 104,
+      "value_sha256": "e65dbdee077f345097ebf36f2155a52b39f8b08476d8ebcfd11844007be3947c",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 105,
+      "value_sha256": "e5b738c901febdce1d2148e867cc333758a38bad699cddadd6936f8428245c60",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 106,
+      "value_sha256": "dd424e04a7a0c5308daaa31164956f64e539f8732e87e3afc14721ceeefac0fd",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 184,
+      "variable": "matmul_results",
+      "kind": "list",
+      "shape": null,
+      "index": 107,
+      "value_sha256": "cad3e4f2be2ea359cc7bd33f18fd2cc8d1143e3c1360949e90f26ae9cf75e77b",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 108,
+      "value_sha256": "de924c2b1570bae9fc521fdb851611dc0fdbd0a94cb123bdc6b8383f000c21df",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 109,
+      "value_sha256": "dbc1805c8d7448bc08bbbfa6bca84ac358a266e5462e42d0e554501304af0d9d",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 110,
+      "value_sha256": "d19796d8f0067f96d3ef78a3017cee2cb3e4134ab07f2eff281fb50ff2b5ea40",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 184,
+      "variable": "matmul_results",
+      "kind": "list",
+      "shape": null,
+      "index": 111,
+      "value_sha256": "3d851989d41f827f4f4ebfa18b99c3d8f95c8ba2b96adde2d0694929d90a5993",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 112,
+      "value_sha256": "fa8125ab7d3018d05bc0e3b06b4d94d98662f207d184b9966d97d9c56d50a67f",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 113,
+      "value_sha256": "7933e78b1bd99d29b0e2a44b24bfdd68bf3661e3e9a01e04e36626446d675592",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 114,
+      "value_sha256": "95c74ac1f95927c7b58baf5761e05c4a4c62bbb5e187e831642df3b624ab3734",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 184,
+      "variable": "matmul_results",
+      "kind": "list",
+      "shape": null,
+      "index": 115,
+      "value_sha256": "32a41952f2ea4ba7562fdb16818ed659764d37cefabc2d7bc8240f1b913fc49d",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 116,
+      "value_sha256": "b70b744abe41488ef5d3956352a6ad537036827837bc5c93b2efa946ffb8b89e",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 117,
+      "value_sha256": "9d00fb73ea90192d25210a0969621a33a0c57fc668b9c0a34422f76ed1274fd6",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 118,
+      "value_sha256": "7335c31a167c9b1a9337afdf09501065efe8d6bccd478ba43ba2b14757546005",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 184,
+      "variable": "matmul_results",
+      "kind": "list",
+      "shape": null,
+      "index": 119,
+      "value_sha256": "244edf3b13f8ecdec099c5fc2efece547992cb86613a8f3db4cea99b512d4f3f",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 120,
+      "value_sha256": "0a6b419f1aa22979749e55896fa6b234c10455bad1b9de518493f33b4276f263",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 121,
+      "value_sha256": "cf1dea96d108108e2898f5ac03ad78945a98a57fe93b222fe26c4cfbdd9f46fb",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 122,
+      "value_sha256": "e72cab6dce7c8a3451443ef4e2d8cceebfe8da29afd439cf2512b60735fe7ab4",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 184,
+      "variable": "matmul_results",
+      "kind": "list",
+      "shape": null,
+      "index": 123,
+      "value_sha256": "ad0e2c9c1a38956af02af5f25b4e697599e89ef8dabdd5f01f2368cb3ae480e7",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 124,
+      "value_sha256": "40e488d99ac3ce85dad10c2fe75c28822974dd8467e7fc6f7d2c716d082f4629",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 125,
+      "value_sha256": "2acfe35a31c03e70eba5457a46e4d3cf9c4918c5a11f95b0198e694fe0ce6bcb",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 126,
+      "value_sha256": "5bac98c84d35e4639d7846355fbabcb3536124890ab1c5f9a75f29aad6f593bc",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 127,
+      "value_sha256": "ae144f1f10d8ca91ec9a8615c7e70b8485fda38e68a69bc36777d3e02437db3b",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 128,
+      "value_sha256": "7a8a10a53dbe61df819acea0304e752bc7d923ab62058d1e84007b31953c2ac6",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 129,
+      "value_sha256": "460351d887f2847f6064723a1bbed97fbbc6a0a2d97beae9e06dae3a86647be3",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 201,
+      "variable": "step_results",
+      "kind": "list",
+      "shape": null,
+      "index": 130,
+      "value_sha256": "f6fbf005ed37cbd5c1b5b8080301c96bf017600ddd34ea107ae3579bf3d9aeae",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 131,
+      "value_sha256": "5f1dc1996a3debc16b09a4c3966d079fc2394c6dbbd454ebe850adb1e4c645d0",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 132,
+      "value_sha256": "ac8b30801a4988500e877b0b3295847fe50481a0cc757c57470c3c81a019bc79",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 133,
+      "value_sha256": "68939655e7c6632177f77c5788d561053e316bcc61fd7fc9fe75ad6d15417d2a",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 201,
+      "variable": "step_results",
+      "kind": "list",
+      "shape": null,
+      "index": 134,
+      "value_sha256": "49a8924cac3eab07328b3dcfb71f29eefe2e71767a8d6d221bb7ed68616580d0",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 135,
+      "value_sha256": "fd0dfa7c4616b5d3cb3edbabace3c10393d3d5c5ba750a7e1f8bb00b73ab7ab8",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 136,
+      "value_sha256": "319c3c93658cbe4a395a64750504228c7350e380979e65fddee1e23a3c5c3618",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 137,
+      "value_sha256": "3e3efda69392ac776bc97bbd8163625fbf74d1ea9bff6b5b9ad060426f08434a",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 201,
+      "variable": "step_results",
+      "kind": "list",
+      "shape": null,
+      "index": 138,
+      "value_sha256": "ae25514b01d6f7915862e7404ef472ce16e9a015b1e0087e6a2fd6d9c974842a",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 139,
+      "value_sha256": "0f6c0d86a912870f62c6776ab4ac7aa711bcfbb9b190fc026eaf004a03c59bd3",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 140,
+      "value_sha256": "32da9b8571c3f613b2cd51f86828544bc08794907c0997cd050c1b67f7f68997",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 141,
+      "value_sha256": "440e0fc948541922da4d1142a711c1e83187cc13346088ae7db030c741d633c2",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 201,
+      "variable": "step_results",
+      "kind": "list",
+      "shape": null,
+      "index": 142,
+      "value_sha256": "ca47afd0e4f4c473108d2c2470c3e1b2fe1f5124246b69436cb81c89cd0ecaee",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 143,
+      "value_sha256": "e23584f83112f86d9c27a5f81403c36f94a98d8f6c258607e2e4c3a314084751",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 144,
+      "value_sha256": "b236aaaf9ded273a20d2b267b103aaea186cd474de63b2243d2527173d2d0a5b",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 145,
+      "value_sha256": "e99e34325461495bd225bce477c0213e7a33f27d2d6d826f311cfa1be983fafe",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 209,
+      "variable": "layer_results",
+      "kind": "list",
+      "shape": null,
+      "index": 146,
+      "value_sha256": "d4a1f7c1d49dcd9f5c9ec5b9bf637c5393b3d011c437570cadf2d903376089c4",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 147,
+      "value_sha256": "b3d191319f1610f192dc12d28a095a9db5ac7939d34ea97dc9c1b4b1e09b8e73",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 148,
+      "value_sha256": "1953fa1a7bc7eccd30ab34fda44ccbfea95576e778f2c9ae9191ef7f07e9fe3b",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 149,
+      "value_sha256": "7fd6099c0668430b7f904839b7f8b31c22d0c726ad3c419d1e3083d9f9d30bae",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 209,
+      "variable": "layer_results",
+      "kind": "list",
+      "shape": null,
+      "index": 150,
+      "value_sha256": "7f9864e9f7a356e40479826d339e6ae93103a53fba83947a54cd1ce5ef94d281",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 151,
+      "value_sha256": "79efd12d7c4c3fc38f07e216ee46668f942c6eeff53724fedc2b57a62b70167e",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 152,
+      "value_sha256": "06eda7691fa3085d4eb91f39580738fe618843b277d9788fd980480cb9da5b09",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 153,
+      "value_sha256": "22af4b8db3b68bc944206bb4f5bb59699beb9ec608d62ac701480032703ba3dc",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 209,
+      "variable": "layer_results",
+      "kind": "list",
+      "shape": null,
+      "index": 154,
+      "value_sha256": "88c7ba25412808472d8ae62ebe6caf14e14f17af9d9fa4cc60c82ff30509184e",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 155,
+      "value_sha256": "92c143e2663f7f722baf80a5fc2d5a336ac30a0e7da916ce8fb3d373bc6700d0",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 156,
+      "value_sha256": "a583aef563ef4c095fe8abfeb529ae86ea6046d36a80cb241b388b15f01f3439",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 157,
+      "value_sha256": "228e94f2c50279f34cde79cfafaaeef985f5a065ae02f7a787a30e04b4c12a41",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 209,
+      "variable": "layer_results",
+      "kind": "list",
+      "shape": null,
+      "index": 158,
+      "value_sha256": "f55ee314781360a751f330dc79c6cdbc386c011d306687567536fa5a1755a8c0",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 159,
+      "value_sha256": "4e87c2fe348f04140c166c18368cc918c1b4e002bdd32a3006e2aab6aa766081",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 160,
+      "value_sha256": "bb619db595d92bcb4d870b4aacbf802ab018cace589740bdd7ed5876840418df",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 161,
+      "value_sha256": "a3d7393d5284103fa3655695cd7663afc423af428b8a45da6be904e75c9da344",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 217,
+      "variable": "batch_results",
+      "kind": "list",
+      "shape": null,
+      "index": 162,
+      "value_sha256": "b1f2ecc30969ce6d1712c2d48d840b01f2039a762ef1db1b42f2f1f333671e70",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 163,
+      "value_sha256": "007dfc34d8cae44c72ef4258fe30a8db96b78d3feb348e768d070f6d556d08fe",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 164,
+      "value_sha256": "c7b5ab7bc2c509c703810f3e80b942becb16936162275b2c9880c1fb4814c5ce",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 165,
+      "value_sha256": "d882805b1a41b0939ee721d223ee8de561812d7b5363a3683b9124e2388092bf",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 217,
+      "variable": "batch_results",
+      "kind": "list",
+      "shape": null,
+      "index": 166,
+      "value_sha256": "609013f894d71ee6acaa4c1f1b40c6107cd929f0cd36e9eacdf36ebf3e146957",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 167,
+      "value_sha256": "acf9c9979d4be6cfce1dec252bb07cacfbe43aa5a091c339d2105e84e402f58c",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 168,
+      "value_sha256": "ae677823a486f3bf6aedf23e9287cd2703f6925206bd2e981d24687130ae2de5",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 169,
+      "value_sha256": "260f86754ea769463aac556c263ed3bae80f294846bed35bbaccc374ed7be419",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 217,
+      "variable": "batch_results",
+      "kind": "list",
+      "shape": null,
+      "index": 170,
+      "value_sha256": "058a503f377f75fe04d147f7e490848dd4e5b93a5c62eae752d4d4339b962abc",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 171,
+      "value_sha256": "0d6f6ca57b11db2e663632656d08feaf8f8a311e50c119b034d85524fc9133b9",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 172,
+      "value_sha256": "0bfa5f3fb120e34958844183d85db271d7259a076f585671415f6f93065175ef",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 173,
+      "value_sha256": "91b960fdefe14a8c383ed20e21f79c59c6ddf5295cbe7a39a0e0e670f750d2e8",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 217,
+      "variable": "batch_results",
+      "kind": "list",
+      "shape": null,
+      "index": 174,
+      "value_sha256": "ab7888a84d5aa79af15345da3fe7950023afc1e2f7a67582de53848597f01ecd",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 175,
+      "value_sha256": "b44c513dc0d6346fccda15720963bf10c0740eec6b044e713ffcebe92525c48f",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 176,
+      "value_sha256": "9c6c6d3ae7e812045dfe0bbbf3174f67e696988ef4705ee5afce7c59ae75d062",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 177,
+      "value_sha256": "c30db3e3bb8e2cd27291d94700c4b64735e7f5924b9a6caa34ccc225d435c693",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 225,
+      "variable": "dim_results",
+      "kind": "list",
+      "shape": null,
+      "index": 178,
+      "value_sha256": "2c58dc3523d020d811f7696b93e1c2cb3cc8e4394df1ed57e43d7be9a17133f4",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 179,
+      "value_sha256": "ff75b666695bffcb854753597fbb96a8cf010d57c1ed982dee9dbc7e5a9b4923",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 180,
+      "value_sha256": "041aa1d66cb6f9b428dd3d29f1f2ba336e8af8b574012ec8d4883a13e8c7f0b2",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 181,
+      "value_sha256": "8c081d2605d64b3a2ca99c8cfcb5499a833ffae05469887d38aa791dad1373d7",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 225,
+      "variable": "dim_results",
+      "kind": "list",
+      "shape": null,
+      "index": 182,
+      "value_sha256": "7bfdd05d583fb8dc3e3eb58df24df5b36c64186109aa8c9b64495dcf0935c045",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 183,
+      "value_sha256": "bcb17acf45a9d8de52df44ec63fde6559d6c365f51c616ca64a05ea41b84b590",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 184,
+      "value_sha256": "d383e29dac237e47f83df1bb7adf7917adc9ca415713a2756346035ce3015e26",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 185,
+      "value_sha256": "331c4807051293ffccdacf4e24e261ed1d5775a0473ac985e9bfe97ea9e51810",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 225,
+      "variable": "dim_results",
+      "kind": "list",
+      "shape": null,
+      "index": 186,
+      "value_sha256": "3cd062c37a67a10f7a5b8b836e7f0f8e5a25833e842f569a200c0526d0695a43",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 187,
+      "value_sha256": "c976099ea671407ca14d32cd09fdb310b5bdbb4d472b7916f8204ec9dca06d3e",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 188,
+      "value_sha256": "d5b320a404e6c2f5c4df022af30a9482c69291603d839e441612db5e5b8f5c48",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 189,
+      "value_sha256": "cff6b548800108a84fcc7a527514023c73d875051623e89c644c8bddb72fe93a",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmarking",
+      "line": 225,
+      "variable": "dim_results",
+      "kind": "list",
+      "shape": null,
+      "index": 190,
+      "value_sha256": "7d61c93d52dc6e3a9eaa8c6d27aa758a3e0297efbf45d334d239e65b51025208",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "kernel_fusion_motivation",
+      "line": 373,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 191,
+      "value_sha256": "c2272c0a862f11de35da66ec8be34349001ddebae43b85ab1dafb188f8ad7b30",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "kernel_fusion_motivation",
+      "line": 376,
+      "variable": "y1",
+      "kind": "list",
+      "shape": null,
+      "index": 192,
+      "value_sha256": "b0bbd17a9cb8375a463f5a4cd4b7b935ca2f233f558c78de0eac8adbf545e236",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "kernel_fusion_motivation",
+      "line": 379,
+      "variable": "y2",
+      "kind": "list",
+      "shape": null,
+      "index": 193,
+      "value_sha256": "b0bbd17a9cb8375a463f5a4cd4b7b935ca2f233f558c78de0eac8adbf545e236",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 194,
+      "value_sha256": "41ef02f1cd043207f4ba54d2dbd949bdb785028603a461237825958ecad86ec1",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 195,
+      "value_sha256": "300bfad6531e8906c095a67cc45c5c6ad707636e8c7d97b1e824272264479538",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 196,
+      "value_sha256": "2286551eebb932403846ad7b9ac8e10e28b45d1bdade37e58b301da5ce775d9e",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 197,
+      "value_sha256": "ff95dda988f6b1dc435aaaff001cdc3b5acc1be95b132dab18fb131baa9eb7e7",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 198,
+      "value_sha256": "423b13f26d24a1c1ba6dc9129c13376fcc61c5113a797197a2b51cdf88731e02",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 199,
+      "value_sha256": "a0d836eeded0ecce3dfff949a889ee9a3dba961b89b28708a15a82f3920d3130",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 200,
+      "value_sha256": "9c3d137aa3ab155e7641da284d173400463d90f0f78d71b3365bcabae56d7eeb",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 201,
+      "value_sha256": "7e5677aa35af441a5a5717ef81674b45a039932be4d1e06f8a0e22bf98968271",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 202,
+      "value_sha256": "b236eeed717f789f90a505fa681058078a7f1beb0bd7e8bef4dbc55552fdb748",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 203,
+      "value_sha256": "74e7b5dcb2dd7a61287af97de99e313b79c86962caf0fc6824f665d77ac804bd",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 204,
+      "value_sha256": "3b81c4f9e7284333196ef0b4606782ff03593caf8c115da917a4f66d4d0efdda",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 205,
+      "value_sha256": "b74e5bec6a0dbcd9efd06011b84f9efd284b8640e4d1ebc77585200dbcb837da",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 206,
+      "value_sha256": "dab543a7272baaa54a6ea5690be9fe79ade5df31e592fb7194f7925c6b057c90",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 207,
+      "value_sha256": "4f4d9373ac9ee3492e80274e5711ca521aa0f6c5568327eb0c95618159955b5d",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 208,
+      "value_sha256": "0e893fd0378f7290961538df5659d9bc8ebc430d21407032771517be9eff1cb3",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 209,
+      "value_sha256": "e961e7fcecf4f74cd7a383b59e98dd4f69538352df01286ef11d55e697796677",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 210,
+      "value_sha256": "9be4ecf7e697c8bdb2709d01d71c173bb9473f626c0394ecf122f67d5c292fcd",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 211,
+      "value_sha256": "69a23edc045b5170c059804f3d5f2d4c0cf9fa95158b508a2420bafc281cd030",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 212,
+      "value_sha256": "c9796bca4ca0282fb66506e63a44e86713af5d9993101140ac5bc404f657954a",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 213,
+      "value_sha256": "cf30f0ac2677c1770acc5aa6dc1e161c420e096686b33b12c5c4883755d996f7",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 214,
+      "value_sha256": "5a6b2778e93b159cf6a900f3d839b6c3c3f20eb1643a2d5ea0af34f194c6950b",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 215,
+      "value_sha256": "3a07535c532334c18694e32de77f5c6e20d25788b9e680a06e02ec23540f28fb",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 216,
+      "value_sha256": "f5db6482b9f04785a4fecd5ee0bf746436b2c355fa66cd6991a43f6e960dfb8a",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 217,
+      "value_sha256": "7e7b5fc4b2022c2a672489906eda54f76e63d4703efc67effb65ac5fc642efaa",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 218,
+      "value_sha256": "aea0f132b0aeae399f671ec83bcf0f5dc093188289380e527e7f3fe3d66d599c",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 219,
+      "value_sha256": "9cda1133ff20297aed6810e10abdd310895616760b031432632e891f152e5434",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 220,
+      "value_sha256": "bc3c7a4d4df26c16fbdb9a4c5994252f64663c10425d31aef83289e13f57fd9b",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 221,
+      "value_sha256": "a22fccf694210279704e4d4695f01b68031bd16cfbc75f429804806394131bc8",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 222,
+      "value_sha256": "f388575c1ecdd193d74206e78d4dc6739f2cfad7cc5701e98b588a0a197dbd63",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 223,
+      "value_sha256": "9f45be5e2fdb56a72a1007efa4eb22f723033fc2f22d27938dab09384d0d36aa",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 224,
+      "value_sha256": "4f133ceb61c931110cef9bbd03953d7b8dcad0ff9321a812005e04b3b9d822d9",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 225,
+      "value_sha256": "afd914540819747cbd1ebcce700eeb3712bacacf30a32c104345ddda95210aca",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 226,
+      "value_sha256": "18bf646b96a8afd6b20faf858734a2218073d7188fb3d97f4b4989dc8a97e639",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 227,
+      "value_sha256": "1eb3f993fa00f601512edde0ccefbea9087881a38e91f6c4ba93f57ebd96598d",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 228,
+      "value_sha256": "e9640238c3ade06c779ad74aea098c49fb31c25c35d7677a279d955ee24fb88c",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 229,
+      "value_sha256": "ea29e07dd6021af7fe32990a088d96ba013e51d334e24893a314870289dab83f",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 230,
+      "value_sha256": "f87936588b5d2774d53d608bf4196c8984a6a257a0e123a9d2ee4d2ef241cc20",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 231,
+      "value_sha256": "55b0a54944c34546dce7580c993dc8e657e74c19e154897e459c624fba6b8e48",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 232,
+      "value_sha256": "e27952ddb75db84bb575993b9f26308a17c38367fdca1299736e222e33ef2281",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 233,
+      "value_sha256": "09c3e3760eff3b998bdcebe24875795f29e312f39807ade99dce4187ca018327",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 234,
+      "value_sha256": "3606e790748f49c2ba01a7ef6a47a29e43b7f8643fd19460efec381e7188f666",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 235,
+      "value_sha256": "9745b9ab7d0a4aa3528231b0dd1dd258d3133e047c4dac22a457d93a44429c07",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "triton_softmax_main",
+      "line": 657,
+      "variable": "y1",
+      "kind": "list",
+      "shape": null,
+      "index": 236,
+      "value_sha256": "c6710316871fe61d012c1a2eb78c7193c934ca045979ec922872bf606b6014c4",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 237,
+      "value_sha256": "2b55942adf594ecb90dacf8f380eeff25b740d7eac4ba26195a7cc1f18afd4f8",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 238,
+      "value_sha256": "c3394c3998333bc97b07a6b25d473c1e36ba28552eee8608f6bd3f9bd015487a",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 239,
+      "value_sha256": "bdb855ec701bde2bcef54e30b5a0ff3b3681d57e8ed8f05eb6c1197e9a1241f3",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 240,
+      "value_sha256": "8d09fe609ec8ad2208ed0bc6997242fcba7e22bc7eac8e3e549b6af6d61e285e",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 241,
+      "value_sha256": "aca0f0271d7b1cc7b9d66e5d7ab14f61aab4d7c51dee74a679ba1d5a02f7123d",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 242,
+      "value_sha256": "995e517104276653cc6b525e6dfeeddc36d26dcc35fff60c8a1d555fe440cb6a",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 243,
+      "value_sha256": "062845dd5d106e4558c6019d8bbe7e7fe0318e1cad47c1207a5e15ad4034247a",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 244,
+      "value_sha256": "4b898d564828cbfc14f64d3842423603b2a6f2f3a5d0bb7cf1c0b37d9100bdf5",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 245,
+      "value_sha256": "d2ced88f5a1e67eacbcb92e784824d1819fdd1f17cebf40fd637e4a64b8067c8",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 246,
+      "value_sha256": "3960302b288c3142c5d33983616d5dfd3f7856b87c62a551aa9d00203d44823b",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 247,
+      "value_sha256": "03b4e214ae7118cad2db064be53576c20bffacc84c78b5c21c1fb1682a658a86",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "function": "benchmark",
+      "line": 253,
+      "variable": "times",
+      "kind": "list",
+      "shape": null,
+      "index": 248,
+      "value_sha256": "ca7f18ecb2db6cfb622407c94c4c274c2d85627b6c484367e7a385f24f17946f",
+      "source_trace_sha256": "a4a7f38d92610618e69c2e029e781e9f0f751b64a345ea585b25a4cbb1ca09b6"
+    },
+    {
+      "file": "2025-lecture_10.json",
+      "function": "compute_transformer_stats",
+      "line": 233,
+      "variable": "config",
+      "kind": "dict",
+      "shape": null,
+      "index": 249,
+      "value_sha256": "61efb2d915a2e719add29f8f534f2e68add6293e5d0578922eaec1b1f539630a",
+      "source_trace_sha256": "011bd0a31e1374a6634e7d722b2ae6c3445f23a4d3fddd3404ed1fd8a703f406"
+    },
+    {
+      "file": "2025-lecture_10.json",
+      "function": "compute_transformer_stats",
+      "line": 233,
+      "variable": "config",
+      "kind": "dict",
+      "shape": null,
+      "index": 250,
+      "value_sha256": "584bc525009e58310cdf44bd475f327c04fcd51a7509f572e96a3cfa7735aedd",
+      "source_trace_sha256": "011bd0a31e1374a6634e7d722b2ae6c3445f23a4d3fddd3404ed1fd8a703f406"
+    },
+    {
+      "file": "2025-lecture_10.json",
+      "function": "compute_transformer_stats",
+      "line": 233,
+      "variable": "config",
+      "kind": "dict",
+      "shape": null,
+      "index": 251,
+      "value_sha256": "df200d841ddaac2f773bfa21b1b88ed8372d5d99fa3836a5933dd7b432eed712",
+      "source_trace_sha256": "011bd0a31e1374a6634e7d722b2ae6c3445f23a4d3fddd3404ed1fd8a703f406"
+    },
+    {
+      "file": "2025-lecture_10.json",
+      "function": "compute_transformer_stats",
+      "line": 233,
+      "variable": "config",
+      "kind": "dict",
+      "shape": null,
+      "index": 252,
+      "value_sha256": "58fa3eea182eaacbf458d61dcf3a8dae20f438d7f6af9504bf1da0c1750f6fb2",
+      "source_trace_sha256": "011bd0a31e1374a6634e7d722b2ae6c3445f23a4d3fddd3404ed1fd8a703f406"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "fasttext_main",
+      "line": 131,
+      "variable": "x",
+      "kind": "list",
+      "shape": null,
+      "index": 253,
+      "value_sha256": "0e9343e5d81e4c6038425a04bd19eb78c0d7a92242697f64a4290d47f81095a8",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "fasttext_main",
+      "line": 135,
+      "variable": "hashed_x",
+      "kind": "list",
+      "shape": null,
+      "index": 254,
+      "value_sha256": "0359dd5cfe824b2176c43a9c5fa382608d5cc771a2cd2dbbec2e0b3dd593269e",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "importance_sampling",
+      "line": 200,
+      "variable": "w",
+      "kind": "list",
+      "shape": null,
+      "index": 255,
+      "value_sha256": "b5fbf2b730f53730be5edd753f3a76fd12709156150afcdb633a9579842b408d",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "importance_sampling",
+      "line": 202,
+      "variable": "w",
+      "kind": "list",
+      "shape": null,
+      "index": 256,
+      "value_sha256": "626753f3a7b9396052408df80778c767ee39167f7c67f4554d0964e463c0f223",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "dsir_main",
+      "line": 168,
+      "variable": "training_hashed_ngrams",
+      "kind": "list",
+      "shape": null,
+      "index": 257,
+      "value_sha256": "5d21bf60e4b950118075b70d1d32f68287aa1c732367af15b189bce499e3bee4",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "dsir_main",
+      "line": 171,
+      "variable": "probs",
+      "kind": "list",
+      "shape": null,
+      "index": 258,
+      "value_sha256": "ab0a912092eb008d6e07dd09c45546b923589496ed83a91e42f8e455e4d46119",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "dsir_main",
+      "line": 174,
+      "variable": "hashed_ngrams",
+      "kind": "list",
+      "shape": null,
+      "index": 259,
+      "value_sha256": "91fc78418764335becda2e07ebf3632ee870d3ff448ddad334f31fd76c5310ab",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "exact_deduplication",
+      "line": 423,
+      "variable": "items",
+      "kind": "list",
+      "shape": null,
+      "index": 260,
+      "value_sha256": "1bbc8d91673bf188186746abde868678267a171c2391623ee441e58d5bc9dac7",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "exact_deduplication",
+      "line": 429,
+      "variable": "deduped_items",
+      "kind": "list",
+      "shape": null,
+      "index": 261,
+      "value_sha256": "b5e9422616532cda071c447fbc3b98ae58c754837ec99bc2b2b5bc3cbb615f6b",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "bloom_filter",
+      "line": 460,
+      "variable": "result",
+      "kind": "dict",
+      "shape": null,
+      "index": 262,
+      "value_sha256": "a44978b204f369b6630805f8a9a74814a0166bbce772feceda29f3693c5eb431",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "bloom_filter",
+      "line": 473,
+      "variable": "result",
+      "kind": "dict",
+      "shape": null,
+      "index": 263,
+      "value_sha256": "8029416a1d129e86dde06058162a5f091850927173b55a85883dfcc49da702ac",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "locality_sensitive_hashing",
+      "line": 635,
+      "variable": "probs",
+      "kind": "dict",
+      "shape": null,
+      "index": 264,
+      "value_sha256": "864fdb91c108e9360d70d84347d6803881407ccb451f4d04ed23362582db6c9f",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "locality_sensitive_hashing",
+      "line": 638,
+      "variable": "probs",
+      "kind": "dict",
+      "shape": null,
+      "index": 265,
+      "value_sha256": "13f2b87cd059fa04ac0eceaf7ee93759e52f24b2fb1d2a6c2ec39aced64c2889",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "function": "locality_sensitive_hashing",
+      "line": 641,
+      "variable": "probs",
+      "kind": "dict",
+      "shape": null,
+      "index": 266,
+      "value_sha256": "d2f513e00a0d9732c67f9691c561472d89a81f073974b1cf641cf38ac097e3c8",
+      "source_trace_sha256": "588a552124e1bcd8f9ca44f01124c328a36e913e0b0a5d615effa190ba83aaf9"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_distance_reward",
+      "line": 254,
+      "variable": "prompt",
+      "kind": "list",
+      "shape": null,
+      "index": 267,
+      "value_sha256": "667313095d073da5f8298daceebf30ee4d29d57fbb5c894cfd993a1786ab59aa",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_distance_reward",
+      "line": 254,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 268,
+      "value_sha256": "02b6deebe10f247a39a1f40c6e045af149df9c96491adce129613e8b30480780",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "simple_model",
+      "line": 180,
+      "variable": "responses",
+      "kind": "list",
+      "shape": null,
+      "index": 269,
+      "value_sha256": "7e7595df3c1cb6261c8c31271a06f150e5d1fccca8e2a589243020216262563c",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "prompt",
+      "kind": "list",
+      "shape": null,
+      "index": 270,
+      "value_sha256": "7fcc04283f610cd619421880ec74d1608294f55bd917f8dec7858248d3b2b359",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 271,
+      "value_sha256": "7fcc04283f610cd619421880ec74d1608294f55bd917f8dec7858248d3b2b359",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 272,
+      "value_sha256": "89cd101d2cf55a2761e438a85669324a841c0e3ee224041f487dc3025e6bd929",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "simple_model",
+      "line": 183,
+      "variable": "rewards",
+      "kind": "list",
+      "shape": null,
+      "index": 273,
+      "value_sha256": "d7d0d47dfa2b903b4dedb0c0d536999b35390f2a3812ea5ce3dd8670a3e6bcfd",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "simple_model",
+      "line": 186,
+      "variable": "deltas",
+      "kind": "list",
+      "shape": null,
+      "index": 274,
+      "value_sha256": "d7d0d47dfa2b903b4dedb0c0d536999b35390f2a3812ea5ce3dd8670a3e6bcfd",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "compute_deltas",
+      "line": 369,
+      "variable": "mean_rewards",
+      "kind": "list",
+      "shape": null,
+      "index": 275,
+      "value_sha256": "514974a3d9377d8750a779ae309fc4825b8653990da0d709f593d9f93224d33a",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "compute_deltas",
+      "line": 370,
+      "variable": "centered_rewards",
+      "kind": "list",
+      "shape": null,
+      "index": 276,
+      "value_sha256": "c13430c5b79c4f02b2e86f7cb99a95113d8fa14c3526c36a80feafaec0b76beb",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "simple_model",
+      "line": 187,
+      "variable": "deltas",
+      "kind": "list",
+      "shape": null,
+      "index": 277,
+      "value_sha256": "c13430c5b79c4f02b2e86f7cb99a95113d8fa14c3526c36a80feafaec0b76beb",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "compute_deltas",
+      "line": 375,
+      "variable": "std_rewards",
+      "kind": "list",
+      "shape": null,
+      "index": 278,
+      "value_sha256": "556e9ba980f18a40120c8c3ef6a388cfc694aa7d95be0fce0014a947788fc839",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "compute_deltas",
+      "line": 377,
+      "variable": "normalized_rewards",
+      "kind": "list",
+      "shape": null,
+      "index": 279,
+      "value_sha256": "5222d6158eabb204d18f236596961a7901bbd615f580ed26a391c8b400380f09",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "simple_model",
+      "line": 188,
+      "variable": "deltas",
+      "kind": "list",
+      "shape": null,
+      "index": 280,
+      "value_sha256": "5222d6158eabb204d18f236596961a7901bbd615f580ed26a391c8b400380f09",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "simple_model",
+      "line": 189,
+      "variable": "deltas",
+      "kind": "list",
+      "shape": null,
+      "index": 281,
+      "value_sha256": "2f09d45eb9193656634adc8ceff38811cde783507563f6e829c82d0a1e15bf69",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "simple_model",
+      "line": 192,
+      "variable": "log_probs",
+      "kind": "list",
+      "shape": null,
+      "index": 282,
+      "value_sha256": "0f72b256cb28bd43b053f795fa1c4e70df5d644681a1eb8d5119a39744324791",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 283,
+      "value_sha256": "57f422a516aa08837b970a56d8cf80930e758d5d6aa1f20574fdafdddbfb1959",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 284,
+      "value_sha256": "eedac35ddcf60187d0b78b0e6e57d9ebaefdf496036a974ea9654ed60f9974fb",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 285,
+      "value_sha256": "41086629cbe25ab692bce1c295a217aef9eca08c0d6b34c747bbec0d1c415c32",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 286,
+      "value_sha256": "e44bb105fa58e522cf2097d297e8248f49752966b5e2e1d5e31758ec6b000bd4",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 287,
+      "value_sha256": "0722ca49593bab24d06b73ed56b8805883bede4a402c09d5849884df61a2b5a3",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "prompt",
+      "kind": "list",
+      "shape": null,
+      "index": 288,
+      "value_sha256": "74a64f31e1c34d28ce1b89e0d231fbb2f76ba30d529b8ad9d28eca7e59501757",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 289,
+      "value_sha256": "ef07a1fd1a788f2e516b8b90e6ce1b52186dc315adee7321b5cc79e6c0c2805f",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 290,
+      "value_sha256": "72005f25c213e13407fe3fb9884bf0ded5d3eb3e601c4a70c63b86b90c17ad9f",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 291,
+      "value_sha256": "70af46429c5403bb5485cefabfd94cd17a5f1b2fe22e0f847d82912539d59572",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 292,
+      "value_sha256": "7a13f7e6095d2692a8bf6a8a6731c9b3a53b767fb6857ef8a36e6eb1fe79e892",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 293,
+      "value_sha256": "c9f4320c86359dc6332e7258891f647fe594bf3d17da318c9e3d60b2d87a1b53",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "prompt",
+      "kind": "list",
+      "shape": null,
+      "index": 294,
+      "value_sha256": "a36b1f2c3f84522dd1005145646617d7054c0851e97c72a039c0bdfac9fa07f3",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 295,
+      "value_sha256": "d1af7a11c49c22be072f01255cb0443268506d4db2a57c0c9e95095ca83cfe54",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "sort_inclusion_ordering_reward",
+      "line": 264,
+      "variable": "response",
+      "kind": "list",
+      "shape": null,
+      "index": 296,
+      "value_sha256": "672981554b806ef27c4c29ce46f7cfed5de2e7c45b93d245a78d5731edd04e1e",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "function": "compute_deltas",
+      "line": 357,
+      "variable": "rewards",
+      "kind": "list",
+      "shape": null,
+      "index": 297,
+      "value_sha256": "e8afc4cac7746431ca886d104f5e936ec5cced6187aacb5f49d0777c24ca55ff",
+      "source_trace_sha256": "5e1e556408e3ff3f114a92a701c8fde55b7359af912277e44edf72486746094e"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "tokenization_examples",
+      "line": 604,
+      "variable": "indices",
+      "kind": "dict",
+      "shape": null,
+      "index": 298,
+      "value_sha256": "39a61a910da9cda89e2900eb1295d0b5896b5a992e1d1d7b1c6909c3d9504d85",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "character_tokenizer",
+      "line": 639,
+      "variable": "indices",
+      "kind": "dict",
+      "shape": null,
+      "index": 299,
+      "value_sha256": "2c5edc1de69db70e0fb4dcc558c2849e76c3e2f0bf5e23ace188b846e9498101",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "byte_tokenizer",
+      "line": 663,
+      "variable": "indices",
+      "kind": "dict",
+      "shape": null,
+      "index": 300,
+      "value_sha256": "ff5d56d12f41fecc90a6007b6dd63587e8eb71778f321f208aa0ff3fd02f2195",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "word_tokenizer",
+      "line": 680,
+      "variable": "chunks",
+      "kind": "dict",
+      "shape": null,
+      "index": 301,
+      "value_sha256": "45fc272500516fa50e09fee6c4216e1f1404cf1e1e75808610ee9cecdd9ff009",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 731,
+      "variable": "indices",
+      "kind": "dict",
+      "shape": null,
+      "index": 302,
+      "value_sha256": "26aa454179dd6ce6b438d0777425df367bfc5248434113874c96fd7f0c9a130d",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 737,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 303,
+      "value_sha256": "1a8d4e35e47d262f7838a6f3fb67c0d92bfe74c1459c097351f810c56750ea76",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 740,
+      "variable": "pair",
+      "kind": "dict",
+      "shape": null,
+      "index": 304,
+      "value_sha256": "4b5d226000147477973704583be16f3481428e6dec0caa150db6ff746ce7dcdf",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 744,
+      "variable": "merges",
+      "kind": "dict",
+      "shape": null,
+      "index": 305,
+      "value_sha256": "8791b645ee87390a734ef2d7a3c33aebe5bd6186ab53830f8f785f7d18c46cc6",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 745,
+      "variable": "vocab",
+      "kind": "dict",
+      "shape": null,
+      "index": 306,
+      "value_sha256": "8df399560bd4286da7c5fe0f8e0e0e45c74ecdce2937cdbf2fecaaefac824211",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 746,
+      "variable": "indices",
+      "kind": "dict",
+      "shape": null,
+      "index": 307,
+      "value_sha256": "77c4ba7073128e5297a118b6ff2a4a737675a00df09dba76642093d719c2fb8e",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 737,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 308,
+      "value_sha256": "4ed9c3c064ad32087f9c19594d5d9901098e0fdfe388540b4fb808a5a3c64d8e",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 740,
+      "variable": "pair",
+      "kind": "dict",
+      "shape": null,
+      "index": 309,
+      "value_sha256": "447d3a2e44716f421ba324bfad45798652022e744317f2a3765b8c7c0d6f57dd",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 744,
+      "variable": "merges",
+      "kind": "dict",
+      "shape": null,
+      "index": 310,
+      "value_sha256": "f09be65fc71148b3c51b4c50ca1680c97c2873c978a8d1c5a07a2c07049b90c2",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 745,
+      "variable": "vocab",
+      "kind": "dict",
+      "shape": null,
+      "index": 311,
+      "value_sha256": "53fd7ce72c52898ca98bf0f9c150ecb3e0ba6fd271bcad7e6bd870500c522a6e",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 746,
+      "variable": "indices",
+      "kind": "dict",
+      "shape": null,
+      "index": 312,
+      "value_sha256": "03ee5d6937d165b77916895b472ddf5ca3d69c981fc7971db3e03435388887ea",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 737,
+      "variable": "counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 313,
+      "value_sha256": "34c13b86b230091867f16b36b684d9c3adab66540c1d44c965ecbb8b79779b8c",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 740,
+      "variable": "pair",
+      "kind": "dict",
+      "shape": null,
+      "index": 314,
+      "value_sha256": "54081cac6dfee20be751647ddcb2bf361ce279226889cffeee87f581907909e2",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 744,
+      "variable": "merges",
+      "kind": "dict",
+      "shape": null,
+      "index": 315,
+      "value_sha256": "ccda65386e3f06d7610312e920c3d9b745d685f91e4a98af2b7a583a1f357a2b",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 745,
+      "variable": "vocab",
+      "kind": "dict",
+      "shape": null,
+      "index": 316,
+      "value_sha256": "80134fb5b69deae787357a6b50c1553d10281ebc751474146bfde86712986849",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "train_bpe",
+      "line": 746,
+      "variable": "indices",
+      "kind": "dict",
+      "shape": null,
+      "index": 317,
+      "value_sha256": "f29c7ce1daa93d30e6e2d6a49d9f905053895f868f7ce6785dc92f7db648287c",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "encode",
+      "line": 555,
+      "variable": "indices",
+      "kind": "dict",
+      "shape": null,
+      "index": 318,
+      "value_sha256": "dcf3f7566648a56debe8259b4466ff570f7c2b17ab29e79bf5d78391642052b2",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "merge",
+      "line": 529,
+      "variable": "new_indices",
+      "kind": "dict",
+      "shape": null,
+      "index": 319,
+      "value_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "function": "bpe_tokenizer",
+      "line": 718,
+      "variable": "indices",
+      "kind": "dict",
+      "shape": null,
+      "index": 320,
+      "value_sha256": "f5b98ec0b12aa50e0c945ec2a039a2473a2a2ca9448811153c99c5c0cbdc61ab",
+      "source_trace_sha256": "6f3fdd61e5f87be9284e3c04bef9173ac2ea0b300ed06e83109a787999c47104"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "tensors_basics",
+      "line": 101,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        4
+      ],
+      "index": 321,
+      "value_sha256": "b9214157569bc11bf33d8756325c1f55cdeab2ec1ee472c6dbccad562d045aa5",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "tensors_basics",
+      "line": 102,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        4,
+        8
+      ],
+      "index": 322,
+      "value_sha256": "d13951610a8d7a66f44d049a17128889d5e372f1db8523ab171f308868a19835",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "tensors_basics",
+      "line": 103,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        4,
+        8,
+        2
+      ],
+      "index": 323,
+      "value_sha256": "9be52c523770b67266559f1b564efb2f73579a39fe69f5db837caf6c3d720271",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "tensors_memory",
+      "line": 138,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        4,
+        8
+      ],
+      "index": 324,
+      "value_sha256": "d13951610a8d7a66f44d049a17128889d5e372f1db8523ab171f308868a19835",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "tensors_memory",
+      "line": 141,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        1
+      ],
+      "index": 325,
+      "value_sha256": "37aed087d1cfac1ac1185c1622819ee5100567b178df43d6c00e8a7db4bc244b",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "tensors_memory",
+      "line": 151,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        1
+      ],
+      "index": 326,
+      "value_sha256": "d7bc1228dcd07d43f326b00412e7ee6895739483360cfa6a5c0329e3c9003083",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_motivation",
+      "line": 216,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        2,
+        2,
+        3
+      ],
+      "index": 327,
+      "value_sha256": "1532bce5cd39648e94f2a7f12bef24faafeb73969850854b06c6f7797cda8eda",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_motivation",
+      "line": 217,
+      "variable": "y",
+      "kind": "dict",
+      "shape": [
+        2,
+        2,
+        3
+      ],
+      "index": 328,
+      "value_sha256": "1532bce5cd39648e94f2a7f12bef24faafeb73969850854b06c6f7797cda8eda",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_motivation",
+      "line": 218,
+      "variable": "z",
+      "kind": "dict",
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "index": 329,
+      "value_sha256": "190df44c2e10a30dd013cc672fe49bb89b3402646846a40a4b96f507133537dd",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_einsum",
+      "line": 225,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        3,
+        4
+      ],
+      "index": 330,
+      "value_sha256": "cb9050ddd274a5f59b674865e1b53f12c8280ffd2adc3b07881eff8f124b972c",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_einsum",
+      "line": 226,
+      "variable": "y",
+      "kind": "dict",
+      "shape": [
+        4,
+        3
+      ],
+      "index": 331,
+      "value_sha256": "4a6adc859022ca133ea841d6c68d3aaccacc562ce68f74a81c6b71a31a3d6dd7",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_einsum",
+      "line": 229,
+      "variable": "z",
+      "kind": "dict",
+      "shape": [
+        3,
+        3
+      ],
+      "index": 332,
+      "value_sha256": "66fa1fc453125e0368d6a94df609022a77ce86d476fcd00e1ff81935ed698ee9",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_einsum",
+      "line": 236,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        2,
+        3,
+        4
+      ],
+      "index": 333,
+      "value_sha256": "08aae20b0e8af5ae9ef56b279cba41792e1e3ac393da42fbf62ce2a26c68b029",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_einsum",
+      "line": 237,
+      "variable": "y",
+      "kind": "dict",
+      "shape": [
+        2,
+        3,
+        4
+      ],
+      "index": 334,
+      "value_sha256": "08aae20b0e8af5ae9ef56b279cba41792e1e3ac393da42fbf62ce2a26c68b029",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_einsum",
+      "line": 240,
+      "variable": "z",
+      "kind": "dict",
+      "shape": [
+        2,
+        3,
+        3
+      ],
+      "index": 335,
+      "value_sha256": "16d46c30fdc34ab3b772f7ae60805bf5f92842fb1e2f39372291efdf4f45bd96",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_reduce",
+      "line": 255,
+      "variable": "y",
+      "kind": "dict",
+      "shape": [
+        2,
+        3
+      ],
+      "index": 336,
+      "value_sha256": "be3b3e1a2e3bc50b57716d2e535969f1c74744bf0c57b06d2ec476d937ae349c",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_rearrange",
+      "line": 265,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        3,
+        8
+      ],
+      "index": 337,
+      "value_sha256": "640158f2ced70e8abf3f2f1ea73476b03d8a13868404bff1721d3223c7608420",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_rearrange",
+      "line": 267,
+      "variable": "w",
+      "kind": "dict",
+      "shape": [
+        4,
+        4
+      ],
+      "index": 338,
+      "value_sha256": "16a3cd40e1e8998a9ed9264fba69858d6335ff17573736fae366ea92abee16d9",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_rearrange",
+      "line": 270,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        3,
+        2,
+        4
+      ],
+      "index": 339,
+      "value_sha256": "63f1a6ab78664d2daaa3146276628a3404d9006a39e6f3ffa6a0cd827712b320",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_rearrange",
+      "line": 273,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        3,
+        2,
+        4
+      ],
+      "index": 340,
+      "value_sha256": "b6b7f857dcb9a800fdbda5a41d5b8b80eaecc1fd1e90893d1ca64f14b1623684",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "einops_rearrange",
+      "line": 276,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        3,
+        8
+      ],
+      "index": 341,
+      "value_sha256": "843e3230f976cd3760e7215e123ee0b50f65c8847273f490b5088d48cd3a0eb5",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "deep_network",
+      "line": 573,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        4,
+        8
+      ],
+      "index": 342,
+      "value_sha256": "1683c905bbbaac8cb2ec0090ef6e58bed8ddd6a730733688366af9d0f2683d57",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "deep_network",
+      "line": 574,
+      "variable": "y",
+      "kind": "dict",
+      "shape": [
+        4,
+        8
+      ],
+      "index": 343,
+      "value_sha256": "200f17ef56cdbe26bce6d034bff77ff6db06749cb36f7bc4470e336555f62d43",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "gradients_basics",
+      "line": 499,
+      "variable": "w.grad",
+      "kind": "dict",
+      "shape": [
+        3
+      ],
+      "index": 344,
+      "value_sha256": "d4ab5ad55f1dc0ffe69d38b31485c73e876a35d927e8659d701a83e1777e1941",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "optimizer",
+      "line": 617,
+      "variable": "state",
+      "kind": "dict",
+      "shape": null,
+      "index": 345,
+      "value_sha256": "652e8564d8ef4ab264b1ebcd28eb3f358b4e7674aedd212781da3aa878d0ba75",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "function": "optimizer",
+      "line": 628,
+      "variable": "optimizer_state",
+      "kind": "dict",
+      "shape": null,
+      "index": 346,
+      "value_sha256": "ed7ae866e7253e49a020fe0b7c1289c9aa5e96b4dd269fa80a641cf58a8327d5",
+      "source_trace_sha256": "dea0edc07279ec3469c8d9f2e48165d5c0eca362c82b3243b5c33bc829505486"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "tensors_basics",
+      "line": 95,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        4
+      ],
+      "index": 347,
+      "value_sha256": "b9214157569bc11bf33d8756325c1f55cdeab2ec1ee472c6dbccad562d045aa5",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "tensors_basics",
+      "line": 96,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        4,
+        8
+      ],
+      "index": 348,
+      "value_sha256": "d13951610a8d7a66f44d049a17128889d5e372f1db8523ab171f308868a19835",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "tensors_memory",
+      "line": 125,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        4,
+        8
+      ],
+      "index": 349,
+      "value_sha256": "d13951610a8d7a66f44d049a17128889d5e372f1db8523ab171f308868a19835",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "tensors_memory",
+      "line": 128,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        1
+      ],
+      "index": 350,
+      "value_sha256": "37aed087d1cfac1ac1185c1622819ee5100567b178df43d6c00e8a7db4bc244b",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "tensors_memory",
+      "line": 138,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        1
+      ],
+      "index": 351,
+      "value_sha256": "d7bc1228dcd07d43f326b00412e7ee6895739483360cfa6a5c0329e3c9003083",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_motivation",
+      "line": 214,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        2,
+        2,
+        3
+      ],
+      "index": 352,
+      "value_sha256": "1532bce5cd39648e94f2a7f12bef24faafeb73969850854b06c6f7797cda8eda",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_motivation",
+      "line": 215,
+      "variable": "y",
+      "kind": "dict",
+      "shape": [
+        2,
+        2,
+        3
+      ],
+      "index": 353,
+      "value_sha256": "1532bce5cd39648e94f2a7f12bef24faafeb73969850854b06c6f7797cda8eda",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_motivation",
+      "line": 216,
+      "variable": "z",
+      "kind": "dict",
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "index": 354,
+      "value_sha256": "190df44c2e10a30dd013cc672fe49bb89b3402646846a40a4b96f507133537dd",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_einsum",
+      "line": 223,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        3,
+        4
+      ],
+      "index": 355,
+      "value_sha256": "cb9050ddd274a5f59b674865e1b53f12c8280ffd2adc3b07881eff8f124b972c",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_einsum",
+      "line": 224,
+      "variable": "y",
+      "kind": "dict",
+      "shape": [
+        4,
+        3
+      ],
+      "index": 356,
+      "value_sha256": "4a6adc859022ca133ea841d6c68d3aaccacc562ce68f74a81c6b71a31a3d6dd7",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_einsum",
+      "line": 227,
+      "variable": "z",
+      "kind": "dict",
+      "shape": [
+        3,
+        3
+      ],
+      "index": 357,
+      "value_sha256": "66fa1fc453125e0368d6a94df609022a77ce86d476fcd00e1ff81935ed698ee9",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_einsum",
+      "line": 234,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        2,
+        3,
+        4
+      ],
+      "index": 358,
+      "value_sha256": "08aae20b0e8af5ae9ef56b279cba41792e1e3ac393da42fbf62ce2a26c68b029",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_einsum",
+      "line": 235,
+      "variable": "y",
+      "kind": "dict",
+      "shape": [
+        2,
+        3,
+        4
+      ],
+      "index": 359,
+      "value_sha256": "08aae20b0e8af5ae9ef56b279cba41792e1e3ac393da42fbf62ce2a26c68b029",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_einsum",
+      "line": 238,
+      "variable": "z",
+      "kind": "dict",
+      "shape": [
+        2,
+        3,
+        3
+      ],
+      "index": 360,
+      "value_sha256": "16d46c30fdc34ab3b772f7ae60805bf5f92842fb1e2f39372291efdf4f45bd96",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_reduce",
+      "line": 253,
+      "variable": "y",
+      "kind": "dict",
+      "shape": [
+        2,
+        3
+      ],
+      "index": 361,
+      "value_sha256": "be3b3e1a2e3bc50b57716d2e535969f1c74744bf0c57b06d2ec476d937ae349c",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_rearrange",
+      "line": 263,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        3,
+        8
+      ],
+      "index": 362,
+      "value_sha256": "640158f2ced70e8abf3f2f1ea73476b03d8a13868404bff1721d3223c7608420",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_rearrange",
+      "line": 265,
+      "variable": "w",
+      "kind": "dict",
+      "shape": [
+        4,
+        4
+      ],
+      "index": 363,
+      "value_sha256": "16a3cd40e1e8998a9ed9264fba69858d6335ff17573736fae366ea92abee16d9",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_rearrange",
+      "line": 268,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        3,
+        2,
+        4
+      ],
+      "index": 364,
+      "value_sha256": "63f1a6ab78664d2daaa3146276628a3404d9006a39e6f3ffa6a0cd827712b320",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_rearrange",
+      "line": 271,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        3,
+        2,
+        4
+      ],
+      "index": 365,
+      "value_sha256": "b6b7f857dcb9a800fdbda5a41d5b8b80eaecc1fd1e90893d1ca64f14b1623684",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "einops_rearrange",
+      "line": 274,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        3,
+        8
+      ],
+      "index": 366,
+      "value_sha256": "843e3230f976cd3760e7215e123ee0b50f65c8847273f490b5088d48cd3a0eb5",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "deep_linear_network",
+      "line": 584,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        4,
+        8
+      ],
+      "index": 367,
+      "value_sha256": "5d5393da2fda9a52bb7f791b61c25b45e977a807c3b2175e84359456de78cc0d",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "deep_linear_network",
+      "line": 585,
+      "variable": "y",
+      "kind": "dict",
+      "shape": [
+        4,
+        8
+      ],
+      "index": 368,
+      "value_sha256": "7c6a53cc160ef7f278a4583b0749c67f62bc1a99c15a6cb02f852904a16e4cba",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "gradients_basics",
+      "line": 368,
+      "variable": "w.grad",
+      "kind": "dict",
+      "shape": [
+        3
+      ],
+      "index": 369,
+      "value_sha256": "d4ab5ad55f1dc0ffe69d38b31485c73e876a35d927e8659d701a83e1777e1941",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "optimizer",
+      "line": 628,
+      "variable": "state",
+      "kind": "dict",
+      "shape": null,
+      "index": 370,
+      "value_sha256": "8ff789f520c45e46d3eb4a589a2fbf85226e1f0e9a1c84643f2d819b61d817e8",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "function": "optimizer",
+      "line": 639,
+      "variable": "optimizer_state",
+      "kind": "dict",
+      "shape": null,
+      "index": 371,
+      "value_sha256": "66cd646675bece0d3cb1a13427c80f646ed2b56d862fb3ee5a6e5bbd1de1391f",
+      "source_trace_sha256": "90a7c53791b2317d945a4126520f518131131ae11e2f9019c863f5ec9d26504e"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "benchmark",
+      "line": 189,
+      "variable": "times",
+      "kind": "dict",
+      "shape": null,
+      "index": 372,
+      "value_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "benchmark",
+      "line": 201,
+      "variable": "times",
+      "kind": "dict",
+      "shape": null,
+      "index": 373,
+      "value_sha256": "897dd3e0c05e38d7fd5a6216fca9ca8e613656fb1a3cfe9c5f838e573f7c936e",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "benchmark",
+      "line": 201,
+      "variable": "times",
+      "kind": "dict",
+      "shape": null,
+      "index": 374,
+      "value_sha256": "0b564c082b75055874a05773b41e05328664c7cbc3e96280e149450db1a76a33",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "benchmark",
+      "line": 201,
+      "variable": "times",
+      "kind": "dict",
+      "shape": null,
+      "index": 375,
+      "value_sha256": "dda30695b426bc5dfd18e372d6b90b52a5a840197b5d0e38ad4a225758b93248",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "benchmarking",
+      "line": 175,
+      "variable": "results",
+      "kind": "dict",
+      "shape": null,
+      "index": 376,
+      "value_sha256": "d360a037e47c4e877296653076835ede632303d9a6cafc75c78c25e5738810a3",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "benchmarking",
+      "line": 175,
+      "variable": "results",
+      "kind": "dict",
+      "shape": null,
+      "index": 377,
+      "value_sha256": "8f566c577941fe42e9d1d6895da1f9824dbcb00891deb567145c2d712cc7f9f3",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "benchmarking",
+      "line": 175,
+      "variable": "results",
+      "kind": "dict",
+      "shape": null,
+      "index": 378,
+      "value_sha256": "299f9e5645c698f55f169404533e0ba374510960b0d02bcb6adfd4ac8b2b6a77",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "benchmarking",
+      "line": 175,
+      "variable": "results",
+      "kind": "dict",
+      "shape": null,
+      "index": 379,
+      "value_sha256": "4172c5e37f3048c49a708d07cbdc00563968f0cca03f79ca5c507cd1251fe300",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "benchmarking",
+      "line": 175,
+      "variable": "results",
+      "kind": "dict",
+      "shape": null,
+      "index": 380,
+      "value_sha256": "7ba8fa349b4bc36d5b17c6e861eecccd2ec0f3e00bd162586c5aff795b56337d",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "benchmarking",
+      "line": 175,
+      "variable": "results",
+      "kind": "dict",
+      "shape": null,
+      "index": 381,
+      "value_sha256": "7ef49d856522cf508ee4a0e0e42b13863f48a08efc40abc6f905492610a41a0d",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "naive_vs_builtin_vs_compiled_gelu",
+      "line": 266,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        1
+      ],
+      "index": 382,
+      "value_sha256": "c2272c0a862f11de35da66ec8be34349001ddebae43b85ab1dafb188f8ad7b30",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "naive_vs_builtin_vs_compiled_gelu",
+      "line": 269,
+      "variable": "y1",
+      "kind": "dict",
+      "shape": [
+        1
+      ],
+      "index": 383,
+      "value_sha256": "b0bbd17a9cb8375a463f5a4cd4b7b935ca2f233f558c78de0eac8adbf545e236",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "naive_vs_builtin_vs_compiled_gelu",
+      "line": 272,
+      "variable": "y2",
+      "kind": "dict",
+      "shape": [
+        1
+      ],
+      "index": 384,
+      "value_sha256": "b0bbd17a9cb8375a463f5a4cd4b7b935ca2f233f558c78de0eac8adbf545e236",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "naive_vs_builtin_vs_compiled_gelu",
+      "line": 277,
+      "variable": "y3",
+      "kind": "dict",
+      "shape": [
+        1
+      ],
+      "index": 385,
+      "value_sha256": "b0bbd17a9cb8375a463f5a4cd4b7b935ca2f233f558c78de0eac8adbf545e236",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "triton_softmax_example",
+      "line": 409,
+      "variable": "y1",
+      "kind": "dict",
+      "shape": [
+        2,
+        3
+      ],
+      "index": 386,
+      "value_sha256": "c6710316871fe61d012c1a2eb78c7193c934ca045979ec922872bf606b6014c4",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "triton_softmax_example",
+      "line": 413,
+      "variable": "y2",
+      "kind": "dict",
+      "shape": [
+        2,
+        3
+      ],
+      "index": 387,
+      "value_sha256": "c6710316871fe61d012c1a2eb78c7193c934ca045979ec922872bf606b6014c4",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "triton_row_sum_example",
+      "line": 499,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        2,
+        4
+      ],
+      "index": 388,
+      "value_sha256": "af854bd58ba039442c53afc9ca08d7ec0b9ed81574e83499f04fa942ee933981",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "triton_row_sum_example",
+      "line": 500,
+      "variable": "y1",
+      "kind": "dict",
+      "shape": [
+        2
+      ],
+      "index": 389,
+      "value_sha256": "c74d7eeee6bbac8174d774022b92bb4044913b0fcc612e1fea141b69cc224d74",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "triton_row_sum_example",
+      "line": 504,
+      "variable": "y2",
+      "kind": "dict",
+      "shape": [
+        2
+      ],
+      "index": 390,
+      "value_sha256": "c74d7eeee6bbac8174d774022b92bb4044913b0fcc612e1fea141b69cc224d74",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "function": "triton_matmul_relu_example",
+      "line": 593,
+      "variable": "x",
+      "kind": "dict",
+      "shape": [
+        2,
+        4
+      ],
+      "index": 391,
+      "value_sha256": "96654d262addf4e36de42e7a707b87128eb787c1bebd592e1d65bb294fbda703",
+      "source_trace_sha256": "13fe17130634f625c838a3715b3f201d59a1d29540babd661450a61d63ded48f"
+    },
+    {
+      "file": "2026-lecture_10.json",
+      "function": "compute_transformer_performance_stats",
+      "line": 287,
+      "variable": "config",
+      "kind": "dict",
+      "shape": null,
+      "index": 392,
+      "value_sha256": "a773bac991fd0caa853ed75264fce8473c28a2a2fb41d7c2962bc9fab19bc504",
+      "source_trace_sha256": "b9229447c3042f34bd6e307c2f2c34ba294d10708f208e8d1237be080d683cb6"
+    },
+    {
+      "file": "2026-lecture_10.json",
+      "function": "throughput_and_latency",
+      "line": 342,
+      "variable": "b1",
+      "kind": "dict",
+      "shape": null,
+      "index": 393,
+      "value_sha256": "572bcacfea1af8609f62f2e30ca1ab430479c894a32e6dc278b4dcfaeca20db8",
+      "source_trace_sha256": "b9229447c3042f34bd6e307c2f2c34ba294d10708f208e8d1237be080d683cb6"
+    },
+    {
+      "file": "2026-lecture_10.json",
+      "function": "throughput_and_latency",
+      "line": 345,
+      "variable": "b64",
+      "kind": "dict",
+      "shape": null,
+      "index": 394,
+      "value_sha256": "1bfe8da230e7a3e70a287be2ebbb69fc498ce1727c6338b51dfae775063be643",
+      "source_trace_sha256": "b9229447c3042f34bd6e307c2f2c34ba294d10708f208e8d1237be080d683cb6"
+    },
+    {
+      "file": "2026-lecture_10.json",
+      "function": "throughput_and_latency",
+      "line": 349,
+      "variable": "b256",
+      "kind": "dict",
+      "shape": null,
+      "index": 395,
+      "value_sha256": "dabab4a0657ee6a923aa7a1f35d3e1c5d354a8fdc3277593a9c9783620c93684",
+      "source_trace_sha256": "b9229447c3042f34bd6e307c2f2c34ba294d10708f208e8d1237be080d683cb6"
+    },
+    {
+      "file": "2026-lecture_10.json",
+      "function": "reduce_kv_cache_size",
+      "line": 392,
+      "variable": "k40_b64",
+      "kind": "dict",
+      "shape": null,
+      "index": 396,
+      "value_sha256": "358a6ad9bd5f53cb3b01f493e8a0745c73acf549258a6f23759d6af9245a4c18",
+      "source_trace_sha256": "b9229447c3042f34bd6e307c2f2c34ba294d10708f208e8d1237be080d683cb6"
+    },
+    {
+      "file": "2026-lecture_10.json",
+      "function": "reduce_kv_cache_size",
+      "line": 396,
+      "variable": "k8_b64",
+      "kind": "dict",
+      "shape": null,
+      "index": 397,
+      "value_sha256": "03ded84b8923e8b23b01ddcd8c9d040aa240acb830cdab80fcb6278344d71e7e",
+      "source_trace_sha256": "b9229447c3042f34bd6e307c2f2c34ba294d10708f208e8d1237be080d683cb6"
+    },
+    {
+      "file": "2026-lecture_10.json",
+      "function": "reduce_kv_cache_size",
+      "line": 401,
+      "variable": "k8_b256",
+      "kind": "dict",
+      "shape": null,
+      "index": 398,
+      "value_sha256": "f48805243c2866a84079a6f19481578653a096a704e33d8a0fcfb6d2119587a1",
+      "source_trace_sha256": "b9229447c3042f34bd6e307c2f2c34ba294d10708f208e8d1237be080d683cb6"
+    },
+    {
+      "file": "2026-lecture_14.json",
+      "function": "exact_deduplication",
+      "line": 198,
+      "variable": "items",
+      "kind": "dict",
+      "shape": null,
+      "index": 399,
+      "value_sha256": "958e51e5dfe4ed1bbe55cf0149dabd03af1c34356f2f9435e1d44a659ba57127",
+      "source_trace_sha256": "08f5e49a794a94e20423eb4edf7908f3b0b8969c3d0c31fa7d3c6b176aa0bddb"
+    },
+    {
+      "file": "2026-lecture_14.json",
+      "function": "exact_deduplication",
+      "line": 204,
+      "variable": "deduped_items",
+      "kind": "dict",
+      "shape": null,
+      "index": 400,
+      "value_sha256": "f363582e3e3b8a21085105df4bfb44a35ccde492a9256d5c4ce9b6e1397f76fe",
+      "source_trace_sha256": "08f5e49a794a94e20423eb4edf7908f3b0b8969c3d0c31fa7d3c6b176aa0bddb"
+    },
+    {
+      "file": "2026-lecture_14.json",
+      "function": "locality_sensitive_hashing",
+      "line": 303,
+      "variable": "probs",
+      "kind": "dict",
+      "shape": null,
+      "index": 401,
+      "value_sha256": "a9aa44f1d7abf93b02a4ea35848f03baf15aef4b7cac0eacd47c5b24291b52e1",
+      "source_trace_sha256": "08f5e49a794a94e20423eb4edf7908f3b0b8969c3d0c31fa7d3c6b176aa0bddb"
+    },
+    {
+      "file": "2026-lecture_14.json",
+      "function": "locality_sensitive_hashing",
+      "line": 306,
+      "variable": "probs",
+      "kind": "dict",
+      "shape": null,
+      "index": 402,
+      "value_sha256": "763dfcdf1fe773dec021b1adaaeff42abb37afcda0e14072b6a470dabcc48c9d",
+      "source_trace_sha256": "08f5e49a794a94e20423eb4edf7908f3b0b8969c3d0c31fa7d3c6b176aa0bddb"
+    },
+    {
+      "file": "2026-lecture_14.json",
+      "function": "locality_sensitive_hashing",
+      "line": 309,
+      "variable": "probs",
+      "kind": "dict",
+      "shape": null,
+      "index": 403,
+      "value_sha256": "48e82d5b070a42dfbd12e82e7719c6150010ac877a9e9a0fa1cc59beda7839aa",
+      "source_trace_sha256": "08f5e49a794a94e20423eb4edf7908f3b0b8969c3d0c31fa7d3c6b176aa0bddb"
+    },
+    {
+      "file": "2026-lecture_14.json",
+      "function": "data_mixing",
+      "line": 398,
+      "variable": "downsampled_source_token_counts",
+      "kind": "dict",
+      "shape": null,
+      "index": 404,
+      "value_sha256": "2c6f220c245b51d5f7bb72b8a4220f8c06b3554fd144ca7c3aa0775197c8442f",
+      "source_trace_sha256": "08f5e49a794a94e20423eb4edf7908f3b0b8969c3d0c31fa7d3c6b176aa0bddb"
+    }
+  ],
+  "notes": [
+    {
+      "file": "2025-lecture_01.json",
+      "topic": "tokenizer/BPE",
+      "finding": "字符与字节表示逐例核对。45个counts值是循环的中间字典快照，不能把每一步的1当最终频次；最终merge为th/the/the空格，推理按rank重放。词表前256为单字节，新增256–258拼接可逆。"
+    },
+    {
+      "file": "2025-lecture_02.json",
+      "topic": "tensor/optimizer",
+      "finding": "切片别名使x首元素变100；转置后reshape顺序与原flatten不同。einsum缩并4维得全4，reduce mean全1/sum全4。随机初始化输出只作数值规模示例；两optimizer state快照约±.01更新，不证明所有后续步同幅。"
+    },
+    {
+      "file": "2025-lecture_06.json",
+      "topic": "benchmark/GELU/softmax",
+      "finding": "124个times列表是多次benchmark逐步累积，非124独立完整实验。matmul1024–16384耗时非单调线性；batch/dim小shape约6ms平坦受launch/框架影响。GELU手写与融合小例同为.841192不保证所有输入逐位相同。softmax全100第一行1/3，第二行极小非零与1，不能把显示1理解为无穷精度。"
+    },
+    {
+      "file": "2025-lecture_10.json",
+      "topic": "symbolic stats",
+      "finding": "配置K40→8改变KV头与参数，固定其他shape比较；B256模型内存超过80GB只是假设统计，非单卡成功运行。"
+    },
+    {
+      "file": "2025-lecture_14.json",
+      "topic": "data filtering/dedup/LSH",
+      "finding": "importance权重归一化后和为1。DSIR示例probs=[0,.4,0,.6]含未平滑零桶，因此两候选权重零；不全归因underflow。set去重不保顺序且Hello!/hello保留，和A4整行重复全删的任务不同。Bloom有false positive而无本例false negative。LSH表按各(b,r)重算。"
+    },
+    {
+      "file": "2025-lecture_17.json",
+      "topic": "RL arrays",
+      "finding": "reward[4,4,3,4,4]均值3.8；std采用样本修正sqrt(.8/4)=.4472136，normalization含1e-5，故约.4472037非无epsilon值。第三个prompt组全reward3→中心化全零。独立位置log_probs不能称完整自回归排序策略。"
+    },
+    {
+      "file": "2026-lecture_01.json",
+      "topic": "tokenizer/BPE",
+      "finding": "2026 tokenizer不同使首例token IDs变化；UTF8与码点列表仍一致。三次merge按pair计数重算并可逆解码。不把merge函数入口空new_indices当最终空输出。"
+    },
+    {
+      "file": "2026-lecture_02.json",
+      "topic": "tensor/current code",
+      "finding": "typed contents内shape已与值递归比较；einsum2D/3D和rearrange全1/全4符合缩并维。深网络y有ReLU全非负；w.grad=[1,2,3]。Adagrad g2非负并含零，不能叫Adam一二阶矩。"
+    },
+    {
+      "file": "2026-lecture_02_recording.json",
+      "topic": "recording code",
+      "finding": "录制版本输入/权重随机样本与当前不同，不能逐数强行相等。ReLU输出非负、梯度[1,2,3]、einsum缩并/reshape关系一致；分支代码差异另在逐讲说明。"
+    },
+    {
+      "file": "2026-lecture_06.json",
+      "topic": "Triton arrays",
+      "finding": "全1矩阵/小shape计时仍是原作者缓存。三GELU结果小例一致；两softmax数组一致且每行和约1；row sum[1..4]/[5..8]=[10,26]，不能把这一正确性检查当GPU速度重跑。"
+    },
+    {
+      "file": "2026-lecture_10.json",
+      "topic": "symbolic memory/latency",
+      "finding": "每个统计条目latency=memory/3.35e12，throughput=B/latency，依完美带宽和忽略开销假设。B64/K40内存79.7GB几乎满，未加临时buffer；K8/B25665.6GB也不保证真实程序必能放入。"
+    },
+    {
+      "file": "2026-lecture_14.json",
+      "topic": "dedup/LSH/mixing",
+      "finding": "typed set去重同旧版，3组LSH概率与1-(1-s^r)^b一致。混合示例high仅1e8 unique与low1e11不同，固定total若提高high比例须记录重复epochs，不能自动看作增加unique高质数据。"
+    }
+  ]
+}

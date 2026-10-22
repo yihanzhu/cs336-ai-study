@@ -1,0 +1,6176 @@
+{
+  "version": "3.1",
+  "expected": 299,
+  "actual": 299,
+  "chapters": [
+    {
+      "id": "00",
+      "title": "随用随补的基础",
+      "goal": "读懂课程中必要的数学和程序表示。",
+      "count": 8
+    },
+    {
+      "id": "01",
+      "title": "语言模型在做什么",
+      "goal": "区分预测概率、生成文字和训练。",
+      "count": 9
+    },
+    {
+      "id": "02",
+      "title": "文字如何变成 token",
+      "goal": "理解分词的作用和取舍。",
+      "count": 9
+    },
+    {
+      "id": "03",
+      "title": "张量与最小训练程序",
+      "goal": "能跟随模型中的数据形状。",
+      "count": 9
+    },
+    {
+      "id": "04",
+      "title": "模型怎样从错误中学习",
+      "goal": "走通一次参数更新。",
+      "count": 11
+    },
+    {
+      "id": "05",
+      "title": "从零理解 Transformer",
+      "goal": "跟随一个 token 通过整个模型。",
+      "count": 12
+    },
+    {
+      "id": "06",
+      "title": "现代模型结构与超参数",
+      "goal": "理解每种设计解决的问题。",
+      "count": 11
+    },
+    {
+      "id": "07",
+      "title": "Attention 的成本与替代路线",
+      "goal": "理解长上下文带来的问题。",
+      "count": 11
+    },
+    {
+      "id": "08",
+      "title": "混合专家 MoE",
+      "goal": "区分总参数和每次激活的参数。",
+      "count": 11
+    },
+    {
+      "id": "09",
+      "title": "计算量、显存与性能",
+      "goal": "能判断主要资源花在哪里。",
+      "count": 11
+    },
+    {
+      "id": "10",
+      "title": "GPU、TPU 与硬件执行",
+      "goal": "建立硬件性能的直觉。",
+      "count": 10
+    },
+    {
+      "id": "11",
+      "title": "性能分析、编译与 GPU kernel",
+      "goal": "理解怎样定位并改善慢操作。",
+      "count": 11
+    },
+    {
+      "id": "12",
+      "title": "FlashAttention 与重计算",
+      "goal": "理解精确注意力怎样节省内存。",
+      "count": 10
+    },
+    {
+      "id": "13",
+      "title": "多设备通信",
+      "goal": "先理解设备怎样交换数据。",
+      "count": 10
+    },
+    {
+      "id": "14",
+      "title": "分布式训练",
+      "goal": "理解每种并行方式分割什么。",
+      "count": 12
+    },
+    {
+      "id": "15",
+      "title": "推理与服务",
+      "goal": "理解模型生成答案时的成本。",
+      "count": 14
+    },
+    {
+      "id": "16",
+      "title": "Scaling laws 的基础",
+      "goal": "会读曲线，并理解外推的限制。",
+      "count": 12
+    },
+    {
+      "id": "17",
+      "title": "把小实验扩展到大模型",
+      "goal": "理解超参数迁移与实验设计。",
+      "count": 10
+    },
+    {
+      "id": "18",
+      "title": "怎样评价模型",
+      "goal": "先定义能力，再选评价方法。",
+      "count": 10
+    },
+    {
+      "id": "19",
+      "title": "训练数据从哪里来",
+      "goal": "认识数据来源及其局限。",
+      "count": 6
+    },
+    {
+      "id": "20",
+      "title": "数据转换与过滤",
+      "goal": "理解数据质量的操作含义。",
+      "count": 11
+    },
+    {
+      "id": "21",
+      "title": "数据去重",
+      "goal": "分清完全重复和近似重复。",
+      "count": 9
+    },
+    {
+      "id": "22",
+      "title": "数据混合与训练阶段",
+      "goal": "理解训练数据怎样随目标变化。",
+      "count": 11
+    },
+    {
+      "id": "23",
+      "title": "监督微调 SFT 与参数高效微调",
+      "goal": "理解模型怎样学会遵循指令。",
+      "count": 11
+    },
+    {
+      "id": "24",
+      "title": "人类偏好与 RLHF",
+      "goal": "理解奖励怎样改变模型输出。",
+      "count": 10
+    },
+    {
+      "id": "25",
+      "title": "推理强化学习 RLVR",
+      "goal": "理解可验证奖励、长推理和测试时计算。",
+      "count": 14
+    },
+    {
+      "id": "26",
+      "title": "用一个小例子走通强化学习",
+      "goal": "把抽象算法对应到一次更新。",
+      "count": 10
+    },
+    {
+      "id": "27",
+      "title": "多模态模型",
+      "goal": "把文字模型的认识扩展到图片与视频。",
+      "count": 10
+    },
+    {
+      "id": "28",
+      "title": "嘉宾讲座与课程后的更新",
+      "goal": "保留公开内容入口，并明确材料缺口。",
+      "count": 6
+    }
+  ],
+  "method": "Exact ID/title comparison with the pre-existing curriculum; six authored teaching fields plus source/boundary mapping. Author review, not independent external peer review. Structural checks cannot establish all semantic claims.",
+  "fields": [
+    "objective",
+    "explanation",
+    "worked_example",
+    "question",
+    "answer_criteria",
+    "repair"
+  ],
+  "author_sources": [
+    {
+      "file": "lesson_cards_a.py",
+      "sha256": "2bd640048bb08e3c0579f829882e1a6ae1c993bb21b805cb8e90f8a58c7c8bf2"
+    },
+    {
+      "file": "lesson_cards_b.py",
+      "sha256": "9e8ee80a2542e9f1421288ecbdbf3b2156dd5cb785ebd8354af59857e6fc844a"
+    },
+    {
+      "file": "lesson_cards_c.py",
+      "sha256": "a457fadb45bfba116e921510d12ee48f928ce7d11db6e4abe80b84c27777f75d"
+    },
+    {
+      "file": "lesson_cards_d.py",
+      "sha256": "2af69d6faac95bdad7f99eeec81ec894311d9ad2e1664a732fdad08cbe9c78dc"
+    },
+    {
+      "file": "lesson_cards_e.py",
+      "sha256": "cc2f4018ff6a78eb22219a5d964df8efdef4c891295000138e8fb260988b4db5"
+    },
+    {
+      "file": "lesson_card_extensions.py",
+      "sha256": "e80c19cee5b6b36d923d8ecd1fc981e7195a0f9f9eceea403fdf8a2b0e9b73c8"
+    },
+    {
+      "file": "lesson_review_notes.py",
+      "sha256": "0e88e66b3a2ae42bbc6c0b2002c7cf3da82d84416f236356bd904c9b79916295"
+    }
+  ],
+  "points": [
+    {
+      "id": "00.01",
+      "title": "数字与变量",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本章为补基础的原创教学重排，非官方单独一讲；不伪造课堂例子。",
+      "sha256": "9742fc4625cfc9855bd1a9c0b11d14a62ea33c094df4e0dec486ef79df9e4530"
+    },
+    {
+      "id": "00.02",
+      "title": "函数和参数",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本章为补基础的原创教学重排，非官方单独一讲；不伪造课堂例子。",
+      "sha256": "0ae6bbe895836e5a0d1ee849b28a98883c88cb7343f535077b5fe68db4c0f7d9"
+    },
+    {
+      "id": "00.03",
+      "title": "向量与矩阵",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本章为补基础的原创教学重排，非官方单独一讲；不伪造课堂例子。",
+      "sha256": "ae0a7409ae5d914667d6186895ab77b7779dff6253a62b25e473e747e8fe1f80"
+    },
+    {
+      "id": "00.04",
+      "title": "矩阵乘法",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本章为补基础的原创教学重排，非官方单独一讲；不伪造课堂例子。",
+      "sha256": "4c98e30a845fc12e43a652e33fe53f49cb35435c00b737a83598ef93b21b97a2"
+    },
+    {
+      "id": "00.05",
+      "title": "概率分布与条件概率",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本章为补基础的原创教学重排，非官方单独一讲；不伪造课堂例子。",
+      "sha256": "ca805e34080465b40299caf1756d6277a27a1155e986200c5fe294719e10fde9"
+    },
+    {
+      "id": "00.06",
+      "title": "对数与指数",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本章为补基础的原创教学重排，非官方单独一讲；不伪造课堂例子。",
+      "sha256": "2fcf280f2f4d4f7caa3341c81306905967411d834af3296423ad9448b57f1fb4"
+    },
+    {
+      "id": "00.07",
+      "title": "导数、梯度与链式法则",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本章为补基础的原创教学重排，非官方单独一讲；不伪造课堂例子。",
+      "sha256": "68db91605db0c845d49741c6e0964e5ce6fb138e0cb8b39216d77b7b34c18242"
+    },
+    {
+      "id": "00.08",
+      "title": "训练集、验证集和测试集",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本章为补基础的原创教学重排，非官方单独一讲；不伪造课堂例子。",
+      "sha256": "58b971ebb47b1beca8294fc2db5fc80d2c0f28a273aaa3bb5e49c2b137c687ae"
+    },
+    {
+      "id": "01.01",
+      "title": "下一 token 预测",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "990a5ac4e5b4421949985a81d36caf60d7e3760c7525ef6f362b9f80b387b805"
+    },
+    {
+      "id": "01.02",
+      "title": "条件概率",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f1a670e78abde50e360352550bbab72a18f66eb1c17f8db625cf9c82da01fd91"
+    },
+    {
+      "id": "01.03",
+      "title": "序列概率",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "fb7939c1a9d4ba201e89ef94ad06cdb47149cb2f83f0e0924fb66895ff95b154"
+    },
+    {
+      "id": "01.04",
+      "title": "训练与推理",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "131996a8c815601000eab95d0486409a36e68dea3e5477a64fc74d573e9e6ecb"
+    },
+    {
+      "id": "01.05",
+      "title": "自回归生成",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "99fc6dd6cf98e32c97790c47379cab53f34683bd38cefeca962a6a60c7da3b3e"
+    },
+    {
+      "id": "01.06",
+      "title": "预训练与后训练",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "995cdb64aa9b2ee1271c95f0e962abd296648d22028df46788eea1c3c94dc784"
+    },
+    {
+      "id": "01.07",
+      "title": "模型历史和开放程度",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "067b307aae104b26a5385a939c94c14a35e59ea0d8c81876949b00c5b0384bad"
+    },
+    {
+      "id": "01.08",
+      "title": "固定数据与算力下的效率问题",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "9857c089bc9e4b72c3e8fb32352565393fdf3ae7e6b29e7df9f8db239699f6e1"
+    },
+    {
+      "id": "01.09",
+      "title": "小模型经验的适用边界",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "1de87f07a13aad45a01975feb72cd8cab788c3a08ff74bec36876782f1b7116b"
+    },
+    {
+      "id": "02.01",
+      "title": "Unicode 与 UTF-8",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2024-03",
+        "2024-04",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "6b268c5db39bcaccba0be7abb01dd97ae3241a460b65671866208704f7613717"
+    },
+    {
+      "id": "02.02",
+      "title": "字符、字节、词和子词",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2024-03",
+        "2024-04",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "3d027554f37033850a5e87b3c77c37d9ac690ebba7a2c41712c4e66001522da1"
+    },
+    {
+      "id": "02.03",
+      "title": "token ID 与词表",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2024-03",
+        "2024-04",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "709d66be16b1c13eb6f3bd50293f8ed66b16d3813f57705e0ece31b077ac7be2"
+    },
+    {
+      "id": "02.04",
+      "title": "BPE 的训练与编码、解码",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2024-03",
+        "2024-04",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "52b67ca67d64c9ab871c35c236e8b7efd9f3d750e5d07f75781bd33525bf18b1"
+    },
+    {
+      "id": "02.05",
+      "title": "特殊 token 和预分词",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2024-03",
+        "2024-04",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "998bc57e097ce53c991748c95a50c7eafd96ae54fa1b631770fa67dca36f3143"
+    },
+    {
+      "id": "02.06",
+      "title": "Unigram 与 SentencePiece",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2024-03",
+        "2024-04",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f15236d824a7207ce5f983b780eea0ce39c037c04f6818c7ff138a6ec5c6129c"
+    },
+    {
+      "id": "02.07",
+      "title": "规范化、空格、数字和多语言",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2024-03",
+        "2024-04",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "2da0ee2e84552cfbe4b2cd7e3d6d99cfc2f6a3d75634b2e2e53c6b9cca62c0ce"
+    },
+    {
+      "id": "02.08",
+      "title": "压缩率与词表大小",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2024-03",
+        "2024-04",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f33aa79e91798ab13127da2a77cbe974daed216a87b2639a9cb3027bafcf24bb"
+    },
+    {
+      "id": "02.09",
+      "title": "字节级和无分词器路线",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-01",
+        "2024-03",
+        "2024-04",
+        "2025-01",
+        "2026-01"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "a3ab98bb8a1f2d0733adb6e2ae02c6b0ffa1794ecbe6cb96e0ab8584ac013dde"
+    },
+    {
+      "id": "03.01",
+      "title": "形状、维度与 batch",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "8a9349e3a7640a256a35976b59fb0fb2dce1144208e9121fa531b8743c11c797"
+    },
+    {
+      "id": "03.02",
+      "title": "dtype 和设备",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d7eb31b73c82bbdc46b221310ebf6e34b7ea18b18596091b601222f0f74eea61"
+    },
+    {
+      "id": "03.03",
+      "title": "存储、stride、view 与切片",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "a2e5ab0f842e5c3298a1f7c2d62393e196562ea40ad82553740f6d59a47825a0"
+    },
+    {
+      "id": "03.04",
+      "title": "广播、逐元素运算和矩阵乘法",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "ab9589f76ee260aaed6344fab1018179e1f54d58ef2b082362c063cba927f583"
+    },
+    {
+      "id": "03.05",
+      "title": "einsum、einops 和形状标注",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "ab149d4849b9c2134ffcb855937fc6abce978293e41ad7ed830d06a1d19a00cb"
+    },
+    {
+      "id": "03.06",
+      "title": "参数、Embedding 与 Module",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "bcff65e9b5e3e9ad7670b23f216aeb9d15d624639c695690e1d4700a7407c97f"
+    },
+    {
+      "id": "03.07",
+      "title": "自动求导",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "580f51e5730a461e01d2d7e3fe3a65505c7f1ba2d14c7ee17774a99d856297f5"
+    },
+    {
+      "id": "03.08",
+      "title": "数据加载、随机种子与复现",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "8f9ffbc9fb40208e561e96d2be4380204999fbd54670a6f1f183809386f3e145"
+    },
+    {
+      "id": "03.09",
+      "title": "保存与恢复 checkpoint",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "63cc003dda13276904447b46783c70c08c54a09cff6e5eabb1de2fa8d881dd2e"
+    },
+    {
+      "id": "04.01",
+      "title": "logits 与 softmax",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b32369380e8ca57197050bbb5656d632b6914af6cf5cbf4225e421a967999889"
+    },
+    {
+      "id": "04.02",
+      "title": "交叉熵及数值稳定",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b7dc39565179f7a9bce0bf0b7428d533c1ccc6728d5a18fa13c5ec43f6b19c50"
+    },
+    {
+      "id": "04.03",
+      "title": "梯度下降与反向传播",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "3020c521c8bf3b85875d6a4cbd00c17bdf7828c1f3ef690dd4013632b3560e6b"
+    },
+    {
+      "id": "04.04",
+      "title": "SGD、动量、AdamW",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "79ed551190bb7bdcca4d01bbe45a1bcbc40b8b443ad162869041c1bdd6e02fcd"
+    },
+    {
+      "id": "04.05",
+      "title": "初始化",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "0fa0cbd3c8b8029da958059eb5e245b81f4505b83204956c1e8abbd0230a596d"
+    },
+    {
+      "id": "04.06",
+      "title": "学习率 warmup、cosine 与 WSD",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f69b2f98785e509dff2f89c26cb2157bef1e5f5ed5a418b676f4d177e70ead84"
+    },
+    {
+      "id": "04.07",
+      "title": "梯度裁剪",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "abcead6ab24add197c0481b1af22a720ca50f61c356e522fc6b95fbb4f4a3622"
+    },
+    {
+      "id": "04.08",
+      "title": "batch 和梯度累积",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "1bad0ca4db210d21cb6ddafe3d49a01d39e4e1d70cb2f141fd670b931dab4cf8"
+    },
+    {
+      "id": "04.09",
+      "title": "训练循环",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "0f32250b217d3d658b77f4b71f644981c85894d0228cba05fbd39f9b4f8bb9ac"
+    },
+    {
+      "id": "04.10",
+      "title": "验证曲线、过拟合与调参",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "eaa3d5f1f47dc9c50f589005d44a9867ba22d3fee925b96287a2824d90b9aecc"
+    },
+    {
+      "id": "04.11",
+      "title": "消融实验",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "a6cef5c3be0d592f450f250fc491cb6befaa16a1619e0fc2084888865dbc530b"
+    },
+    {
+      "id": "05.01",
+      "title": "Embedding 与线性层",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "84ce193c3c6c83377f477009486bb80ef0576f8cb6f307ebf6eb8e58249bae52"
+    },
+    {
+      "id": "05.02",
+      "title": "Q、K、V",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "af6171ce49129c3522eebaf3b815dd09cf82ae46aa1775e05b695ae65cd9f5a9"
+    },
+    {
+      "id": "05.03",
+      "title": "点积、缩放和 softmax",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "0c222fab2794c465c44a9ddbcbc8c9531c1a6f2bd6bfc7221ab98121bc024423"
+    },
+    {
+      "id": "05.04",
+      "title": "因果 mask",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "aa265c0c70cc8782ff5fc7abaeb0bd71e45f49e03a21a6fe4cf4eefcf2289092"
+    },
+    {
+      "id": "05.05",
+      "title": "多头自注意力",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "57dbcbbd92e408714df1e7631bddaaf0db5310be5f32503f743550dc891d9fb8"
+    },
+    {
+      "id": "05.06",
+      "title": "位置表示",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b02a5d8d127aa8617e9a9478046b6a9cc23d9871d98622747c410b34c263298e"
+    },
+    {
+      "id": "05.07",
+      "title": "MLP／FFN",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "988579e47bae8a222cfeeeb2aeae09e28eb62f0ccacfd4ed957af7068190363f"
+    },
+    {
+      "id": "05.08",
+      "title": "残差连接",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "c0ad4f92100cd773ff68362a5657706a9375e37153c4596d9345c8fa3de4214a"
+    },
+    {
+      "id": "05.09",
+      "title": "归一化",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "15b6779bb80c022f50f6837be9cd3725fa7b03d6ade6f4f6cf3203907bcca9f9"
+    },
+    {
+      "id": "05.10",
+      "title": "Transformer block 的堆叠",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "ba8ec3f3aeeac670f2826296efc30504a61fad73986d97ff871290eb914d52da"
+    },
+    {
+      "id": "05.11",
+      "title": "输出投影与概率",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "76f0f02aa4b4b9cedc8f33f1d568a8892ac53b72d0506c47c996b27fa27763e6"
+    },
+    {
+      "id": "05.12",
+      "title": "并行训练与逐步生成",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "81ab22ab4e4c876c2301babcc7b02492a729d4ac6e794d256965a7d00b6ec5f3"
+    },
+    {
+      "id": "06.01",
+      "title": "pre-norm 与 post-norm",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "65268b5251f836100ebfcb53b88e27ca216b5b8d8c64b0c26036ac6a4f330393"
+    },
+    {
+      "id": "06.02",
+      "title": "LayerNorm 与 RMSNorm",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b95829c79260fd7e863fa9700d09136c69725939072e67ba14813b8924e3bdd5"
+    },
+    {
+      "id": "06.03",
+      "title": "double norm 和非残差 post-norm",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "e9a56faa94b14b96562c1883bf902c1584a2b8902c25b62f3e46bc95d8a06168"
+    },
+    {
+      "id": "06.04",
+      "title": "ReLU、GELU、GLU 与 SwiGLU",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "9101cbbf55b6bf7d3ce38f430b148908ec18a3a3dd97dbcba13c4d580dd7bd03"
+    },
+    {
+      "id": "06.05",
+      "title": "移除 bias",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "9be230cb3199719dfd37994ee4c76df1c4282c5b58e846d18a325be9fea5c600"
+    },
+    {
+      "id": "06.06",
+      "title": "串行与并行 block",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f537868018372192a72685b0baa480b0a8ef5517e5902417a551c3c139485ffd"
+    },
+    {
+      "id": "06.07",
+      "title": "RoPE",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "addfdd2c34445275281cac13b73e8e640321608433fea2f289c5fd6342ad2e44"
+    },
+    {
+      "id": "06.08",
+      "title": "模型深度、宽度、头数和 FFN 比例",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "1681df9f6203675be777735659335731efc0ecf919da4721a8975fe060afb319"
+    },
+    {
+      "id": "06.09",
+      "title": "词表大小",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "59608d5d2b8390ac29b4ef3651a9656c417e5ed71628e7a2f3adbe70f2f3b75f"
+    },
+    {
+      "id": "06.10",
+      "title": "dropout 与 weight decay",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "e08cfdb9ee309d7b7ea61475c52c5e5886ef1c65feb340e053a9783bfa12f7cd"
+    },
+    {
+      "id": "06.11",
+      "title": "z-loss、QK norm 和 logit soft-capping",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-03",
+        "2026-03"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "1c5f33666aae9a197d5a4080cc2d0db6eada210a44822a6b96d36769a5cf9507"
+    },
+    {
+      "id": "07.01",
+      "title": "全注意力的计算和缓存成本",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "05db2c2a9a91848ad0d2928d67663f1589c86ca8f7d641966640ed1a405a8269"
+    },
+    {
+      "id": "07.02",
+      "title": "MQA 与 GQA",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "cbdc1adc800ad1e0461c8c46fcf9310ac9622885561ec8c14d04b24665512d76"
+    },
+    {
+      "id": "07.03",
+      "title": "MLA 与跨层缓存共享",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "de723149cfd20aa7bebf43622901e87a6a367c6fcc711a8294bb0e340ade41d5"
+    },
+    {
+      "id": "07.04",
+      "title": "滑动窗口和稀疏注意力",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f7932971d677bab2a55a9dc57b220add804dd0112566b2af577e382edf785e49"
+    },
+    {
+      "id": "07.05",
+      "title": "全局与局部层交错",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "53dc02006df9e582f8b7949bbc112667e906936804341bd99360c68170c58750"
+    },
+    {
+      "id": "07.06",
+      "title": "线性注意力及递推形式",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "02119672e146b1aa67b0f186bd24f4590f58bab79f170bc289ebd45f093a59a5"
+    },
+    {
+      "id": "07.07",
+      "title": "Mamba／状态空间模型",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f7d5431a71650f2809d10ab6dd30ca1ef991b4d45ec33fba6ef6fcb84fb89013"
+    },
+    {
+      "id": "07.08",
+      "title": "Gated DeltaNet",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10",
+        "paper-07.08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "1e2a2af0af20cbbe6ea84b9d8f8267eaa25933f27c4c14e29a9f97590a4ebf54"
+    },
+    {
+      "id": "07.09",
+      "title": "混合结构",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "c9fd075daf8e4d9a7d02cb8f61579ec0740c577842e0d6c2d54f018debcf2c36"
+    },
+    {
+      "id": "07.10",
+      "title": "稀疏索引器与动态稀疏注意力",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b4447002cac4456c25b70dbbd2855e72b0642e30a2f512f6a938d31fa665c194"
+    },
+    {
+      "id": "07.11",
+      "title": "质量、内存和速度的取舍",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-03",
+        "2024-04",
+        "2025-04",
+        "2025-10",
+        "2026-03",
+        "2026-04",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f7b654460288822763b45f678ac576c4aa578a121daa9721b04484f5199e4253"
+    },
+    {
+      "id": "08.01",
+      "title": "稠密与稀疏计算",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "fd42125b1a713e25f0ca7a076c9c66367a32675ac6e758305f667a2f9a37a738"
+    },
+    {
+      "id": "08.02",
+      "title": "router、top-k 与专家选择",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "13a50401219022877a39d0f1a59286c105c9e1337bc69a3883e0785627f68818"
+    },
+    {
+      "id": "08.03",
+      "title": "token-choice 和 expert-choice",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "6caaa0e960d59d870983a029e462bbce1d434593a3e10a78e34b8fb4626dac8d"
+    },
+    {
+      "id": "08.04",
+      "title": "细粒度和共享专家",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "db9de675f911afe791ba8dbacb0ca4d2b0779cf65a80984e8a9592a4b4ffbd31"
+    },
+    {
+      "id": "08.05",
+      "title": "路由噪声与可微训练",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "4813a02a8024d7a31ec5e0f9d2342b35966993b31ed9befef3370edc30d3a92a"
+    },
+    {
+      "id": "08.06",
+      "title": "负载均衡辅助损失",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "4fabe4914368392dc54ac737d0ea782009c6d28a423172ba52dd686ca25594d1"
+    },
+    {
+      "id": "08.07",
+      "title": "无辅助损失的偏置调整",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "d58bb45e952b30010b35faee30314a82fff7bd447958f88b9c8ae4d0b3336c39"
+    },
+    {
+      "id": "08.08",
+      "title": "capacity、通信和专家并行",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "f987be091fe602d3961752fdde72885a6aa6079d0fad8a41e96930b9f7c3ae6a"
+    },
+    {
+      "id": "08.09",
+      "title": "路由稳定性",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "e5a8bcf50df6a4d53ff63b1b96b293e29a5d7ed3b9b95320f86fac76c258e2bf"
+    },
+    {
+      "id": "08.10",
+      "title": "upcycling",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "5087f50c3949a84e342471a07f135695630f5dfd4346413785ca589b7eb46a79"
+    },
+    {
+      "id": "08.11",
+      "title": "DeepSeek 等公开案例及经验边界",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-04",
+        "2025-04",
+        "2026-04",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "91a4e5b77ebfa60392178e47251d4493031e6028ec9e55c06cc30e0579775301"
+    },
+    {
+      "id": "09.01",
+      "title": "参数量与 FLOPs",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "bed9e6dae7540f5e3823fb4a60b8bc629e255fb3134c47e9a94c1b148dd5912e"
+    },
+    {
+      "id": "09.02",
+      "title": "前向和反向的成本",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f14ea9ae56bd3bd545fe6ff97fc71348ce8120b3b9c287990ac2ff41aac66970"
+    },
+    {
+      "id": "09.03",
+      "title": "训练计算量估算",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "cab0c9619c1074855085d6fd20bd908aec82f755647779bc31253ad7df854a8c"
+    },
+    {
+      "id": "09.04",
+      "title": "参数、梯度、优化器状态和激活内存",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "fc34906f8d45bd8ffebd3ff307e4abf8d50bf0f00f00d9df6596e33b86447fe0"
+    },
+    {
+      "id": "09.05",
+      "title": "FP32、FP16、BF16、FP8 和 FP4",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "ce3233906a6e8dea69292958ba3fcb8f4969c9e3e0b3d7c0df5684f53ddd45c9"
+    },
+    {
+      "id": "09.06",
+      "title": "混合精度",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "fdecfcfe304df975115fc181a1dda0ccfeba87544f2932d0729a28356190f588"
+    },
+    {
+      "id": "09.07",
+      "title": "算术强度",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "dd9dff68782928640e6c370883a9c54a2688f3bdd828e1733277f615a8fc6365"
+    },
+    {
+      "id": "09.08",
+      "title": "带宽瓶颈与算力瓶颈",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "dcf71de399bb41159fc4d662d98c30fc84008d7d41f750b39de413d459742ba5"
+    },
+    {
+      "id": "09.09",
+      "title": "roofline",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "eb06003e9b3a46f8d8e5de48faa2774133033076b4da69d9207596306c4ff787"
+    },
+    {
+      "id": "09.10",
+      "title": "MFU",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "912fdf4e0831a4adc5921382152138c6660082a3fd684ba9569ad4e59cacc6a8"
+    },
+    {
+      "id": "09.11",
+      "title": "重计算和梯度累积的成本",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-02",
+        "2025-02",
+        "2026-02",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "fb8dfce46762bb9c34bde447989da74c83b74133fe55120e7ab617a3050dabe0"
+    },
+    {
+      "id": "10.01",
+      "title": "CPU 与 GPU",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d3b98921c74b4f80215333d5a55ff373e5fc420a0ab0a69b5536385477849d76"
+    },
+    {
+      "id": "10.02",
+      "title": "SM、warp、thread 和 block",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "af457223017111b5e168741b89f0e792ef295a4b2b1d4bcf44ec0b6807a9368d"
+    },
+    {
+      "id": "10.03",
+      "title": "SIMT 和分支分歧",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "7c250981c5bb66aee24a1f46f589ad81e955fdcba7d67539fc23f30be297c2f5"
+    },
+    {
+      "id": "10.04",
+      "title": "寄存器、共享内存、缓存和 HBM",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "e0e5e10d2b27b17beb16bdbffad39ac8a1ed82b7982a0345322cd4b090faa7c3"
+    },
+    {
+      "id": "10.05",
+      "title": "Tensor Core",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "e148b1cadce9edd65e6c0ae11a492346c5c6ad8a1e4513aef6c1d8d2982d7182"
+    },
+    {
+      "id": "10.06",
+      "title": "TPU 与矩阵计算",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f618489f234eae49436ac0ac2e7e2c2aa6ee0fac125e31259dd78d523014c5f8"
+    },
+    {
+      "id": "10.07",
+      "title": "低精度硬件",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "dd22b3e13148ff47c421397282f4e998a9cb65fac9c4f1e17f261670c40beb04"
+    },
+    {
+      "id": "10.08",
+      "title": "算力与带宽增长不一致",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "95acd1e5cef78ecd67d51d9204064fc70454cf1fbb8bdcfb03db38b3843b70a5"
+    },
+    {
+      "id": "10.09",
+      "title": "内存合并访问",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "dc574593501e650422c62ce81eebac9738cbfab41bac45f676d37d5cf46ab8d0"
+    },
+    {
+      "id": "10.10",
+      "title": "tiling、对齐和 wave quantization",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "776ee27d26dd1a292ec0c14940f92ec6886479fd83e83cf09257dc90e599c93d"
+    },
+    {
+      "id": "11.01",
+      "title": "可靠计时、预热和同步",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "9c89c963d8dc1aca8384925f2acac3c76b7d9b6b1a4b95810c65f4f465420554"
+    },
+    {
+      "id": "11.02",
+      "title": "端到端基准与 profiler",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "fbc5cc41f5e2ed724138da34e4acb19e1334530911ccf0f8da9efc9fd92c7b4e"
+    },
+    {
+      "id": "11.03",
+      "title": "Nsight、火焰图和内存剖析",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "464b7602ab2924d6f8381a9d7ab9751f74824ad03be6b0fbb33483f5cef85085"
+    },
+    {
+      "id": "11.04",
+      "title": "算子融合",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "61252e52b75494740b0dad014e851278c733b02ea916aacee0198519a97adcca"
+    },
+    {
+      "id": "11.05",
+      "title": "CUDA、PTX 与 Triton 的层次",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "c51db73a49a9bd2605612c49e0d7bfa7b32df77c5c46d1b313ad3c1093573a62"
+    },
+    {
+      "id": "11.06",
+      "title": "torch.compile",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "51823d0ec7125068972a48a937995d5ae97bd0e29f2b7165b0be8498bcdabe5e"
+    },
+    {
+      "id": "11.07",
+      "title": "GELU、softmax、行求和和矩阵乘示例",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b0f1015c3fad45a5a04cb0ad6cff79007d03126cae44e1eef27f481bc5364a0b"
+    },
+    {
+      "id": "11.08",
+      "title": "分块与 mask",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "8ccc87421723916d65e179ddc4b9267fc25c2f2706e2dc7b6d49858a810a166b"
+    },
+    {
+      "id": "11.09",
+      "title": "自定义 autograd",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "85093ccd2f6c5996c541a5046ec527aa66febbae9c42b522186c80b2adb232eb"
+    },
+    {
+      "id": "11.10",
+      "title": "RMSNorm 前向与反向",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "cfc32fc99609c3780cf3d21be98ea6ea5ba30fcd68cbc5c172071fbe14f2f752"
+    },
+    {
+      "id": "11.11",
+      "title": "正确性和速度分开验证",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-06",
+        "2025-06",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "5ab369c9945183bc04880fbcf563f20cde1fd30e1a6b042e0f561c69ea085a71"
+    },
+    {
+      "id": "12.01",
+      "title": "普通 Attention 的中间矩阵",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "04bd8ff1fd07f5d434c504cfe1a2b8db0342cd3cde48e497d57dd2005e085e0a"
+    },
+    {
+      "id": "12.02",
+      "title": "HBM 与片上内存",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "472e55b68a6492c0573fa39118855070983174761892556ef69347434c5781fe"
+    },
+    {
+      "id": "12.03",
+      "title": "分块",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "31951fa19f71579a6b6d9659c4b359e5325cb909ea1b4a2fcad484becb07721f"
+    },
+    {
+      "id": "12.04",
+      "title": "在线 softmax",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "0af30aa6e74661e91a3bbc7daebd6abe31655eb7c08fea268e4abb6d85668f85"
+    },
+    {
+      "id": "12.05",
+      "title": "数值稳定的增量统计",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "4590dee91bae12285883eb0374e3a7dd61174ab83893653992644d035877dd24"
+    },
+    {
+      "id": "12.06",
+      "title": "融合前向计算",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "4e5a03a295dcd543d78b6a08784c06e8ab1bf225371da4fc7d8f2534a757cb80"
+    },
+    {
+      "id": "12.07",
+      "title": "保存必要统计量",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "36c187426f93723d9913b587da096bcba17d58f6406aecc03cf9dc2ab4489575"
+    },
+    {
+      "id": "12.08",
+      "title": "反向重计算",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "05ebabe72839541b402c64785524eb158206cbefa320287d4758410c6e6d93cc"
+    },
+    {
+      "id": "12.09",
+      "title": "FlashAttention-2 的工作划分",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "fdc2b195740df383118f353ae315da46c8366f031ae72fcd36b0dc765e4ea150"
+    },
+    {
+      "id": "12.10",
+      "title": "精确计算与近似注意力的区别",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-05",
+        "2025-05",
+        "2026-05",
+        "2026-06"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "124fe1ed74177f43a653bfc25b8b9253e795effd987f5316521637d2afd71a88"
+    },
+    {
+      "id": "13.01",
+      "title": "rank、world size 和进程组",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d3cf634d39f8cc56f013e3314ea7db68a671efc0cc37b6dabc49a627c59e1983"
+    },
+    {
+      "id": "13.02",
+      "title": "broadcast、reduce、all-reduce",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d98758afac8562b1de6895acd11fa9e225db919d70e9015c18546365708f168d"
+    },
+    {
+      "id": "13.03",
+      "title": "all-gather、reduce-scatter 和 all-to-all",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "22cbc158afe004a60e5e55177fe81f9dfcdfb27b0f55505abf1186ddbe25dae1"
+    },
+    {
+      "id": "13.04",
+      "title": "环式通信",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "63a12dff93f5aa2f86cc1d09a9e36883c604a6369b746c360ad26077ac4af4c9"
+    },
+    {
+      "id": "13.05",
+      "title": "延迟与带宽",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "552af8adcc2295a5da61bf113a452cd073d76e741582f0cd509bfe5e66e6403e"
+    },
+    {
+      "id": "13.06",
+      "title": "NCCL 和 torch.distributed",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f5303274234d582cca50ccf2fe03947a0bf816f26b429c1e5e11ca87dd2521a4"
+    },
+    {
+      "id": "13.07",
+      "title": "同步与异步",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "338e594a9ac7be380d57b755483850db41a4b09df0df1b2763af8ee3d4e0c8bc"
+    },
+    {
+      "id": "13.08",
+      "title": "通信和计算重叠",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f8f9b6bdf07cc45858986e3f17ff0fa9ed28e33b50b816f85a816467d7c7f220"
+    },
+    {
+      "id": "13.09",
+      "title": "节点内与节点间互连",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "7190e596de8e2439d008442bd89e1e3649e0ac61d200f07a0c8400a2d78d4e8a"
+    },
+    {
+      "id": "13.10",
+      "title": "拓扑与 TPU／GPU 网络差异",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "1c633c3b741907acf3a389e998d75b2b6aedeed546d2abb1a76a3b670b59d36e"
+    },
+    {
+      "id": "14.01",
+      "title": "数据并行 DDP",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "6d0e95fd477ea5e0f909888e7044a66ed635a68c58b4b44ef7fb62dd99613618"
+    },
+    {
+      "id": "14.02",
+      "title": "梯度平均与通信 bucket",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "e8d38dd49cba7131f0391e8a0202c430f0557ccba970f362862eba22ae5128fd"
+    },
+    {
+      "id": "14.03",
+      "title": "ZeRO 1／2／3 与 FSDP",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "8d61452f8e5e75d8721133cfb684b6c1c0f63e2e432c4a8c28877d6346ab7ee3"
+    },
+    {
+      "id": "14.04",
+      "title": "优化器、梯度和参数分片",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "82cb078d894be1c33d8f29b795a77680173bd541031211ab42b00a8bbdd84cc1"
+    },
+    {
+      "id": "14.05",
+      "title": "张量并行的行列切分",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "9dca67433a2a00132227403f1a86f745101da9c5c38f5d72648914debb36db27"
+    },
+    {
+      "id": "14.06",
+      "title": "流水线、microbatch 和气泡",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "e94330a7cccfb9348781256faa3182dbcc82f1fc6101a2f005000a78fece7d3e"
+    },
+    {
+      "id": "14.07",
+      "title": "1F1B 与 zero-bubble",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "119c5be0035f0d905844a67338cf0ea51c02486017e7a59bb3563aed0b2bd87b"
+    },
+    {
+      "id": "14.08",
+      "title": "序列和上下文并行",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "8782b788c4a4f6565f6b68cde95cb61ff4ab62a2938082337a88ea7f19807dcb"
+    },
+    {
+      "id": "14.09",
+      "title": "专家并行",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "99c0bb3c3e2d669c6a9fa9e3403ef1d97f483ee66dbb3b29ae8a1464e36cd420"
+    },
+    {
+      "id": "14.10",
+      "title": "激活重计算",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "77e8c05a78e6c4a32d8f595fe372c2b17a527581a92813a13ba364dd469197dc"
+    },
+    {
+      "id": "14.11",
+      "title": "组合并行和公开模型案例",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "84f7ac5639df57c429eb03c5003d22076965af76837caffebf6ce3407a650719"
+    },
+    {
+      "id": "14.12",
+      "title": "通信量与显存估算",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-07",
+        "2024-08",
+        "2025-07",
+        "2025-08",
+        "2026-07",
+        "2026-08"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 2026 L08官方字幕未取得，现有本地转写中部分学生原问无法恢复。",
+      "sha256": "c2ab2389107099583d5e67497c2be0c7dc9e425b86fd3a3c64d69c9d184c3823"
+    },
+    {
+      "id": "15.01",
+      "title": "自回归采样",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "2fc9289f7190048a532b8d3795476fb7dfac8e541ba0d62ffe93e8e957107b3f"
+    },
+    {
+      "id": "15.02",
+      "title": "temperature、top-k 和 top-p",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "166783cfb554abbba47f650cb48974f93d809215ff97f5aa622556489ab76c94"
+    },
+    {
+      "id": "15.03",
+      "title": "prefill 与 decode",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "544fa04d78b676e0ff8523c48ebf5edd1e0b57ec0bc90f06bf1ca5110258c725"
+    },
+    {
+      "id": "15.04",
+      "title": "KV cache",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "3cbef9499f9c948714e2918fe80f4cb6c1b6b59e1d159136da3d1450ef161c90"
+    },
+    {
+      "id": "15.05",
+      "title": "延迟与吞吐量",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "3d89e5017c8adf117b02ceb77ad81987154c99d96839699b0a5f558d305d3d86"
+    },
+    {
+      "id": "15.06",
+      "title": "批量大小和内存带宽",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "cb8540bf6f7a1cd149c77d77a56761739dccbd3147b57cb740de4fcc9e9d5306"
+    },
+    {
+      "id": "15.07",
+      "title": "量化及 AWQ",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "baa0c360298ee6a022e2660922962f58c7f25404f8c8a4d21401bccf75c5ff20"
+    },
+    {
+      "id": "15.08",
+      "title": "剪枝",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "2ce8ee9e6d6bfb56c77dc26c77f396606b8f3b3f64a8da2ea37ee62a5abd7450"
+    },
+    {
+      "id": "15.09",
+      "title": "缓存压缩与结构改动",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "2322c5478c332e2925488c65c439f1959b117f3e9cf1f5c78513feaa24418cde"
+    },
+    {
+      "id": "15.10",
+      "title": "推测采样及验证",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "9e68cab481d22e09fc112fb72352b5af1a29e79132cb7875913a5bd4def8ef3e"
+    },
+    {
+      "id": "15.11",
+      "title": "连续批处理",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "46f7b8cb25dd9d6e63d1251aeb55d7724341b86f526fc63ae5bb895ec914de40"
+    },
+    {
+      "id": "15.12",
+      "title": "PagedAttention",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "cefeb9159d395a6fc9d2230c31cf8b16f6463f16614d601a273b62885d0faf7b"
+    },
+    {
+      "id": "15.13",
+      "title": "动态请求管理",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "2c81e3f7f2e97be0d9eb679153af4b96084665291bea1747a70dddf438c1bc92"
+    },
+    {
+      "id": "15.14",
+      "title": "vLLM 的用途",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-10",
+        "2026-10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "da581474696251e43cafc91c5e52d834b80e68718efe72b54db7de559453560a"
+    },
+    {
+      "id": "16.01",
+      "title": "幂律和对数坐标",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "5365d1a92935168fee0602fd55ba84376eccdce92b32ead3102b7cda7fbbbf53"
+    },
+    {
+      "id": "16.02",
+      "title": "数据、参数和计算量的关系",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "14acf3e5956648484c33a8430a6e7a903ed3fadcadf66a833c3b2cc4fdcca9de"
+    },
+    {
+      "id": "16.03",
+      "title": "样本复杂度和均值估计",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d3a186673806fc9b715b8ab823270364ac545d00d11723b98b02d8180802b2bb"
+    },
+    {
+      "id": "16.04",
+      "title": "内在维度解释",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "cce2567465996b9def46cb288e4a6d1ce99c2a550759cfb687971a9e44408119"
+    },
+    {
+      "id": "16.05",
+      "title": "分布变化",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "3d38fe0cc475950980997a9e47a3768daf342acc9690b0ed9398ef7ca429e48b"
+    },
+    {
+      "id": "16.06",
+      "title": "数据重复和有限数据",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "0627d2c9964f373a36e94ffdcbc415e46e7f1a7f3c05fde9ad751e04a56182de"
+    },
+    {
+      "id": "16.07",
+      "title": "模型结构、深宽比及优化器的 scaling",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "2137450b6601662ba1a7506b86496145c3d83daeebcd20660c9c6d67710f80e7"
+    },
+    {
+      "id": "16.08",
+      "title": "临界 batch",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "5c256a3af3ad198f876a3e93c1056a52e403e979fec76c697bdc676ff518c3b3"
+    },
+    {
+      "id": "16.09",
+      "title": "Kaplan 与 Chinchilla",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "23b87d2ba7512d82f2c13c4ea399e36353346bd4a7ab0a16e371d97811e89515"
+    },
+    {
+      "id": "16.10",
+      "title": "最小包络、IsoFLOPs 和联合拟合",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b994c09787df0ff96cc08f9ed13a096796c2c1b7166f1ccb05a5fe1275b8f735"
+    },
+    {
+      "id": "16.11",
+      "title": "拟合误差",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "0ad2658c7fb0553656ac9a427c4b6c41d9c1e90d1e2560c77451298a506167cb"
+    },
+    {
+      "id": "16.12",
+      "title": "训练最优与部署最优",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-09",
+        "2025-09",
+        "2026-09"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "7aa2a823988d445199d18329745b6a6fe1cbb9f0f7e4a28ebb29afd4e9425eaa"
+    },
+    {
+      "id": "17.01",
+      "title": "初始化、学习率和 batch 的共同变化",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-10",
+        "2025-11",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "45e3d40100036e855a41eff949179806ab144413f0acf43691c1a6239bb2e673"
+    },
+    {
+      "id": "17.02",
+      "title": "μP 的基本条件与推导",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-10",
+        "2025-11",
+        "2026-11",
+        "paper-17.02"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d6d08b1ac4ec91d1f58cd566f8a051da1814f7bf8f14293167658925269e0dbc"
+    },
+    {
+      "id": "17.03",
+      "title": "宽度迁移",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-10",
+        "2025-11",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "968263f0cdae9adcdd39379ad78df4d220ed9d2a37e182bc278d377e1398284f"
+    },
+    {
+      "id": "17.04",
+      "title": "标准参数化对照",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-10",
+        "2025-11",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b49ef2e6e7b5c69d2d706672aacf4b54ca8b4f5bc6797c10a1b4c86e67b3be0c"
+    },
+    {
+      "id": "17.05",
+      "title": "RMSNorm、优化器和 weight decay 的适用边界",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-10",
+        "2025-11",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b78b491eba3933815ca12bddd7ceeedeadf09aef7158a2142eed23c0c503c68e"
+    },
+    {
+      "id": "17.06",
+      "title": "MiniCPM、DeepSeek、CerebrasGPT 等公开配方",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-10",
+        "2025-11",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "71277da0e4c054f5a95aba32ff32401fee5744aed059ffeddfdeb74f2097cdc4"
+    },
+    {
+      "id": "17.07",
+      "title": "WSD 和训练复用",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-10",
+        "2025-11",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "5be83151d2b09dfabfceb8e92b559a320036de7131576a7e1459f2a1fe37e005"
+    },
+    {
+      "id": "17.08",
+      "title": "Muon 的尺度依赖",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-10",
+        "2025-11",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "239d5baabc7e077ec41eb7d8653deac4a4bea28ac55271c587292a687c5ee33c"
+    },
+    {
+      "id": "17.09",
+      "title": "多尺度实验与预算分配",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-10",
+        "2025-11",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "bd7738d479a8b38edf08e2143aa8583a076f8076685332bd56ce10c46a157426"
+    },
+    {
+      "id": "17.10",
+      "title": "误差和外推风险",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-10",
+        "2025-11",
+        "2026-11"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "4d23fa3f4e774217b29eccd8de1460adb185dcd9ef0cd84b1db1b03510808f0a"
+    },
+    {
+      "id": "18.01",
+      "title": "负对数似然、perplexity 和分词依赖",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-17",
+        "2025-12",
+        "2026-12"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "ccf9ce81cacbd10b4c578fa5685e7616ff2c9a50ecd1447490177e058d7b6df1"
+    },
+    {
+      "id": "18.02",
+      "title": "选择题、知识、数学和代码测试",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-17",
+        "2025-12",
+        "2026-12"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "16e30093dd92311ced8adfebe0644f096821317a5fe67c20e0518507cf5eb89f"
+    },
+    {
+      "id": "18.03",
+      "title": "few-shot 与提示敏感性",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-17",
+        "2025-12",
+        "2026-12"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f30e54236d90b06fa7ff9e966a8dd0b1797c0c59ea0ae321e76da5954ff497fe"
+    },
+    {
+      "id": "18.04",
+      "title": "指令遵循、聊天偏好和 Arena",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-17",
+        "2025-12",
+        "2026-12"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "e0d896725cde276495d6147b0605ab3be204a09f8b2b7b743c534aa2f8b8efe0"
+    },
+    {
+      "id": "18.05",
+      "title": "LLM-as-judge",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-17",
+        "2025-12",
+        "2026-12"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "a117c3fdf72109a49989a34da245a96b258a7d5f9866bb4c40409341c8bf7c7b"
+    },
+    {
+      "id": "18.06",
+      "title": "长度、位置和风格偏差",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-17",
+        "2025-12",
+        "2026-12"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "fb674f6586c192a033c58412830cd762207efff86564259095a7902b248dba0f"
+    },
+    {
+      "id": "18.07",
+      "title": "推理和智能体评测",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-17",
+        "2025-12",
+        "2026-12"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "67bd8fc9e0b1990ddc3c02789625446df65e099ca73657d06f2fb94b1ad0cc93"
+    },
+    {
+      "id": "18.08",
+      "title": "安全、偏见与公平",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-17",
+        "2025-12",
+        "2026-12"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "997d4e551ade25ccf27d93fdbb3d4822829cefd82899d1f939e3e2fa743debbf"
+    },
+    {
+      "id": "18.09",
+      "title": "训练测试污染及检测局限",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-17",
+        "2025-12",
+        "2026-12"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "4168f5e9a3e60abced2a82ff56c5ab8ae80bc75c46eda2b9ed98c71601922202"
+    },
+    {
+      "id": "18.10",
+      "title": "饱和、效度、真实任务和统计不确定性",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-17",
+        "2025-12",
+        "2026-12"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "55a75e67e5dd7e3a719033c74b24f6daadfb93e453198bf3c26500131c096c5d"
+    },
+    {
+      "id": "19.01",
+      "title": "网页、Common Crawl 与 WARC",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-11",
+        "2024-13",
+        "2025-13",
+        "2026-13"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f4670aca06094f3f2415f1bca09bb306387c001b4c5379cb6e920b9581f17f6a"
+    },
+    {
+      "id": "19.02",
+      "title": "Wikipedia、代码、论文、书籍和问答",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-11",
+        "2024-13",
+        "2025-13",
+        "2026-13"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "c29dc43fdbd0fb8f09197a2003e9da72d3d52f9c4184ca30c7ef77499a4999fe"
+    },
+    {
+      "id": "19.03",
+      "title": "WebText、C4、The Pile、MassiveText、RefinedWeb、Dolma、DCLM、Nemotron-CC、Common Pile 与 The Stack",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-11",
+        "2024-13",
+        "2025-13",
+        "2026-13"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "e423d35f9deff5c8d89a8f0ed044b0487c27cda64db1a099deccd554dec88bd4"
+    },
+    {
+      "id": "19.04",
+      "title": "来源、语言、领域和时间",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-11",
+        "2024-13",
+        "2025-13",
+        "2026-13"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "e0bceca7371228c77f6bf0a5dc258bcca9ccbe16312423cf41c800d2ca4ff58b"
+    },
+    {
+      "id": "19.05",
+      "title": "开放权重与开放数据的区别",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-11",
+        "2024-13",
+        "2025-13",
+        "2026-13"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "765c6176b468abb7ce590ff75c08f5cc340d05d4d8b00b0b5101d5f6d7a8b2fe"
+    },
+    {
+      "id": "19.06",
+      "title": "版权、许可、隐私与可追溯性问题",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-11",
+        "2024-13",
+        "2025-13",
+        "2026-13"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "3d1ab1b805a0228678ad9220159613587b8088167a77d39db376cf360af0c7f0"
+    },
+    {
+      "id": "20.01",
+      "title": "HTML 转文本与正文抽取",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "1f6764f0eca52de286fd9d00db869c95f3e9a2c53bb030cc541440635ae66559"
+    },
+    {
+      "id": "20.02",
+      "title": "语言识别",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "1fead45b9fbedb07de8eba832ec80cb36208b497c62f06d7e470dd9691435c29"
+    },
+    {
+      "id": "20.03",
+      "title": "规则过滤",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "ec97bb68666e10b5cec942d3cf2fc40c8e87520dc8f37639162b318d3bf5e42d"
+    },
+    {
+      "id": "20.04",
+      "title": "质量与有害内容分类",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d8591f13e2eac8172d66c927c4d2629e63554fd1cdee3dfe737659228db016d0"
+    },
+    {
+      "id": "20.05",
+      "title": "个人信息处理",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "fd4c52b278a6da8a55ea1546b69a0c9b8a06d1373afc373cc4ab9778732386cc"
+    },
+    {
+      "id": "20.06",
+      "title": "KenLM、fastText 和 DSIR",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "20a943d3de3667c960d6ff72b4f71b2ad43490f22734201560b96dcdcdb5c2fd"
+    },
+    {
+      "id": "20.07",
+      "title": "重要性采样",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "4c34e95a6573aa3bf43de6f28f742736fd1ccc4bcde4dca1ab43b1dc59304b33"
+    },
+    {
+      "id": "20.08",
+      "title": "模型评分",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b326b6b909b423ce55529ad900f348b43361e4161051e4e4c225deeee1a32c3e"
+    },
+    {
+      "id": "20.09",
+      "title": "误删与漏删",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "c56617639df3b8d28bac8c7d6a56c15c5bd8354bf6dfe359710f7eb3434f71dd"
+    },
+    {
+      "id": "20.10",
+      "title": "过滤对领域和人群的影响",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "13890c5d0248ccc4c1cf5b3f3d3e4b6a575bf0e849227e06754e7f1c76f90fe2"
+    },
+    {
+      "id": "20.11",
+      "title": "通过训练实验验证过滤效果",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-12",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "dae8d0aa7bf41bd8c47a156f1ef20835d436834da681468af79c4b413b11f4b2"
+    },
+    {
+      "id": "21.01",
+      "title": "哈希及碰撞",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-13",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "a1d747ca8fbf15e1c775ba76a1c813e33878dce778be6b07b39e27ffc0275246"
+    },
+    {
+      "id": "21.02",
+      "title": "文档、段落和行级精确去重",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-13",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "3e39341f3a3f4f60d06a31a2d5edf4504af384e041c3264ffa8f5ff5c0d7c376"
+    },
+    {
+      "id": "21.03",
+      "title": "Bloom filter 和误判率",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-13",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "ece5c003df0839d455a04953d204ae4196f6efd33e75811e979ef6fdde8b8d51"
+    },
+    {
+      "id": "21.04",
+      "title": "后缀数组与重复子串",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-13",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f1011a89a27594f8b44e95fdf0c11b62bcf36c8d36c5cebff11f2b1963a66c50"
+    },
+    {
+      "id": "21.05",
+      "title": "集合、n-gram 和 Jaccard",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-13",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f37973664901162239f33a8072b20a85af6bdded5184d297913a3d13aae7c54a"
+    },
+    {
+      "id": "21.06",
+      "title": "MinHash",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-13",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "592f182e8b81fa06ffb66db2cb8e267e23c7b75967803beff96679edc2ebe6f7"
+    },
+    {
+      "id": "21.07",
+      "title": "LSH 的 band／row 参数",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-13",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "679efc0b9612f611787cca46c7eedef06e649ec6282a61c03c6ffe7a1120fba3"
+    },
+    {
+      "id": "21.08",
+      "title": "扩展到大数据的计算成本",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-13",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b91071063eda72585529e2474bb44052505327079318164f3d5639facf7c07da"
+    },
+    {
+      "id": "21.09",
+      "title": "去重与评测污染的关系",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-13",
+        "2025-14",
+        "2026-14"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "5137c9d01a354a8b44d3ebed094b8d8a2b18eb55ad1101c1308e53cf6e46ca17"
+    },
+    {
+      "id": "22.01",
+      "title": "数据配比与消融",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "93b4f2e377b8396fe428f9f03fbcc39ae8b372632f35217172d06234ec6b1578"
+    },
+    {
+      "id": "22.02",
+      "title": "领域重采样",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "13b1a8b30b5bab6400f0680bdeb73e538c065bf8f50bd8ec8d05249519713813"
+    },
+    {
+      "id": "22.03",
+      "title": "数据选择和 scaling",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "768f378571b7f228fd8cb1ca65fcdb2ae988374126deb75c4591a2407807cc0a"
+    },
+    {
+      "id": "22.04",
+      "title": "数据混合估计",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "57d871f531c7919290c0cdf5a137bb4f0bf25f003d4bf7f071691b2cc5ed755d"
+    },
+    {
+      "id": "22.05",
+      "title": "重复数据与训练轮次",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "7dbeb8f3bbbb0bdb5ae4db58d70887af959e47ab085b3e92de308be77b63c8df"
+    },
+    {
+      "id": "22.06",
+      "title": "长上下文数据",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。 官方2026 L16未给出完整长上下文扩展配方，本点不补写成已验证配方。",
+      "sha256": "7547f191f86d9fd5fbb3c6acf7506b00aedbc49e71fbb3c9faba1b3efc723d4f"
+    },
+    {
+      "id": "22.07",
+      "title": "代码 infilling",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f00f3e62bd1136ec4b07e62388b84a4a4ce1bbdd32e965d92f42b44167bb2db4"
+    },
+    {
+      "id": "22.08",
+      "title": "特定领域与推理数据",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "c3ad70889bbf15325a3387021b9cf85e552095f285286ec497ba6f22aecd4511"
+    },
+    {
+      "id": "22.09",
+      "title": "合成数据与自蒸馏",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "61060649afa5bc3edf178bbd0e470ef98788154bde87160fe4508860c0a04ebf"
+    },
+    {
+      "id": "22.10",
+      "title": "midtraining",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b225788a3f5532c60c183a380c539f0c470594794d69be478bf9fef1833cb5ec"
+    },
+    {
+      "id": "22.11",
+      "title": "后训练数据质量及验证",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2025-13",
+        "2026-14",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "8f10911dcd1fdc8af94ab6e20e6fdf7f276fc640fb779b7b87cf121f296ae0f4"
+    },
+    {
+      "id": "23.01",
+      "title": "预训练目标与指令目标",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "41aef2e7b982dfede9dacb90319b4c0c3e86c2fc876ea3323969f061c8c11574"
+    },
+    {
+      "id": "23.02",
+      "title": "FLAN、Alpaca、OpenAssistant 等数据",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f369ed9977c9a8eb11100db8b4eca8f8e17f4786216dc5e08c6aff2ba0e05ad0"
+    },
+    {
+      "id": "23.03",
+      "title": "对话格式与 loss mask",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "ee5078c221c62afdf6dec6d7332bc6741dfe44948f0c6ec91e8aaca5547f644a"
+    },
+    {
+      "id": "23.04",
+      "title": "小量高质量数据",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "4cc209398cfdc93c2579608f2ffa884d6bbc43ff8b5496e6835c2f802ef042bd"
+    },
+    {
+      "id": "23.05",
+      "title": "风格、事实与知识提取",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "da12837cfc3afc5dd2917dd47ce3eb034d2bc4ee8a5bbfe43e0acd271ad7bcf4"
+    },
+    {
+      "id": "23.06",
+      "title": "幻觉与安全微调",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "a9c6cc8506978077956b551272c22ad9cf636cbdcf7c5403c0247dca276f51ea"
+    },
+    {
+      "id": "23.07",
+      "title": "训练设置和评估",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "597ffe0f7c1310ce3a1fc4e81dae2cf37def6089e3c58bbb4976f95ef70b4464"
+    },
+    {
+      "id": "23.08",
+      "title": "PEFT",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d0bb72c9c98ca640c02ec1b333a5b125f840d8f1d0abb8538cfa446f736d643f"
+    },
+    {
+      "id": "23.09",
+      "title": "LoRA 的低秩更新",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "858f921489ccc87a8480fadb41a4639b9007e5243e46a6032756321305236ed7"
+    },
+    {
+      "id": "23.10",
+      "title": "QLoRA、NF4 与双重量化",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15",
+        "paper-23.10"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d42f30b0e96e009820f2b973f6e92972053dfe64a0640cf45566871bafb7f93b"
+    },
+    {
+      "id": "23.11",
+      "title": "冻结参数与完整微调的取舍",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-14",
+        "2024-15",
+        "2025-15",
+        "2026-15"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "485242bffb8fdd9e5b9fb1e31f274818253f5b2372250d535422793e76a02e97"
+    },
+    {
+      "id": "24.01",
+      "title": "成对偏好与奖励模型",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-16",
+        "2025-15",
+        "2025-16",
+        "2026-15",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b6ccdd88f69d888d673bac7096ffa982e921b53939a7e4c1851016ac6e42359d"
+    },
+    {
+      "id": "24.02",
+      "title": "标注者、众包伦理和人口差异",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-16",
+        "2025-15",
+        "2025-16",
+        "2026-15",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "afa28360bd8db5ebb08b79f6256d261d55c5c0606f2432d371927129603b8e34"
+    },
+    {
+      "id": "24.03",
+      "title": "AI 反馈与 Constitutional AI",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-16",
+        "2025-15",
+        "2025-16",
+        "2026-15",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "173f8db0ab696233c2222adb34569d23c281621db00f7dc9e039624452308d8f"
+    },
+    {
+      "id": "24.04",
+      "title": "生成和评价的差距",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-16",
+        "2025-15",
+        "2025-16",
+        "2026-15",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "936e7694434e8448388f01faa7441c8ba73663b36f3b1e77625e3e70c86222b7"
+    },
+    {
+      "id": "24.05",
+      "title": "策略、回报和 KL 约束",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-16",
+        "2025-15",
+        "2025-16",
+        "2026-15",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "ea878c4a713fa58dfc2b4d3cd2fde1e1066dddfadbd2ca395d34a6ace8b1a5d2"
+    },
+    {
+      "id": "24.06",
+      "title": "PPO、value、advantage 和 GAE",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-16",
+        "2025-15",
+        "2025-16",
+        "2026-15",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "7b88e092f4a629e0cc8a4c7b87bf66122340b52573abdd06c3ca6883b1f6abc0"
+    },
+    {
+      "id": "24.07",
+      "title": "DPO 的目标和推导",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-16",
+        "2025-15",
+        "2025-16",
+        "2026-15",
+        "2026-16",
+        "paper-24.07"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "137cde032a3e2ff577a8173bade7750b578170a451feaf8e39ebb0ef61d96929"
+    },
+    {
+      "id": "24.08",
+      "title": "变体与比较",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-16",
+        "2025-15",
+        "2025-16",
+        "2026-15",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "df8b7313b60c3b2e0ac478daf774d4cea399059b2edcefab7d6d3158a9732755"
+    },
+    {
+      "id": "24.09",
+      "title": "奖励过优化、长度偏差、模式坍塌和校准",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-16",
+        "2025-15",
+        "2025-16",
+        "2026-15",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "157b15057ad9c599c294dd5cced17ecc2b554be3f91f9d393da74794cb7e5ea3"
+    },
+    {
+      "id": "24.10",
+      "title": "安全红队测试",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-16",
+        "2025-15",
+        "2025-16",
+        "2026-15",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "46aa43cef025a6f9f4fdea6c6c3384fc55793b2bef9b0146f9735263b51c78b9"
+    },
+    {
+      "id": "25.01",
+      "title": "可验证奖励与评分器",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "eea67ef774d81c2b9b543d47b270f7168cf3e9d3a21f19817606981de780d4f4"
+    },
+    {
+      "id": "25.02",
+      "title": "语言模型作为策略",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f75011701fe5fe9e919577e6f2edc19eea0ef3e066676b7792e1da98f9252d54"
+    },
+    {
+      "id": "25.03",
+      "title": "轨迹、回报与策略梯度",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "dc270b427d5fe468a4fe4e57fcb6047d1f134ce41c61874fbe20bce81b82cd0b"
+    },
+    {
+      "id": "25.04",
+      "title": "baseline 与方差",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "2aa6bde633a484500f11e9954d9fda8ff4bb544021b5e468b58b7723e3e89ea5"
+    },
+    {
+      "id": "25.05",
+      "title": "GRPO 及组内归一化",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "2cefd912048fbd2dfbb9d651105b1ff7dd676939438d69db55d7f862818358de"
+    },
+    {
+      "id": "25.06",
+      "title": "序列长度和难度偏差",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "b1f3d6dfe49df16aecb7a79173fd9428d1fee4449c9882041d37f73caf7814e7"
+    },
+    {
+      "id": "25.07",
+      "title": "on-policy 与 off-policy",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "f0f6e756c9d737123cc3152ad0b99ef5453fd1048435f4ab18597788bd1605da"
+    },
+    {
+      "id": "25.08",
+      "title": "重要性重加权和 clipping",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "1c77eb82e4ae751fdd872c073a5ac25a196507cdcdbe93e53a3c1983b0a48381"
+    },
+    {
+      "id": "25.09",
+      "title": "Dr. GRPO、GSPO、MaxRL",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16",
+        "paper-25.09",
+        "paper-25.09",
+        "2026-A5"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "8e61aa56f3d829b8d2f467d73851d2e99060e6bbbcc6c8401e88a7ea6d65e777"
+    },
+    {
+      "id": "25.10",
+      "title": "拒绝采样与 expert iteration",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "920a4610fb9d1530be056460e104b7413fcaf9dc822cd86b7e6881c3c951752c"
+    },
+    {
+      "id": "25.11",
+      "title": "R1／R1-Zero、Kimi、Qwen 案例",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "617fab2b79da3367b1528967b1bc9814b07ae13061712dcd23ed45406139f1ee"
+    },
+    {
+      "id": "25.12",
+      "title": "蒸馏",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "82a0a362dd85a28e778a40db9301fa9462021f26b4328a0a0fec128a3ba49c26"
+    },
+    {
+      "id": "25.13",
+      "title": "test-time scaling",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "dd7e3470cfe60f911b9180b204b991e914ab6b38f94539afe22bc1ac2eaf0946"
+    },
+    {
+      "id": "25.14",
+      "title": "智能体环境、轨迹和 RL 基建",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-16",
+        "2025-17",
+        "2026-16"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "bf8aba5cb7bccd1f992a4b570a2f0628a71beb3848976f4252bcae10540ed0d8"
+    },
+    {
+      "id": "26.01",
+      "title": "2025 年官方排序玩具任务",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "db255f221794dd587136590b5ac228118b584a86dddf76bf8110f38930153a13"
+    },
+    {
+      "id": "26.02",
+      "title": "生成回答",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d1411456953ffb69ed8480990ade7ee041fa19f3deeab72b4306e7cd693b2eef"
+    },
+    {
+      "id": "26.03",
+      "title": "计算 token log-prob",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "39f0996796e5ef20abe597c46ab2fdee4b9baca3b5e6d646a2d8476c11797ef9"
+    },
+    {
+      "id": "26.04",
+      "title": "设计排序奖励",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "9a00782152c135f3344867367c5fec392115fade98957db5a101b2eb539968ff"
+    },
+    {
+      "id": "26.05",
+      "title": "策略梯度 loss",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "7049860b58cce9a45b240d7a1594159c55de8d6f17498787f080eac04cebd56e"
+    },
+    {
+      "id": "26.06",
+      "title": "KL penalty",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "2e76a8170af4b409ce80ed3baa1ee6fc5b6ca6a2e83e0dea74b5784d63a33929"
+    },
+    {
+      "id": "26.07",
+      "title": "参数冻结",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "492bda71f23fa5321910a3262b521ab5e59f6eeef5f266f7d9a06a26324c6794"
+    },
+    {
+      "id": "26.08",
+      "title": "训练前后概率变化",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "352eafb89aa154c34460989e650250a510702123bac4b9ce4e84904c97608362"
+    },
+    {
+      "id": "26.09",
+      "title": "采样与更新循环",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "4a6f08b073e6a5c3e61ba89dd50e011f74fabf9577e29a31613a22bd9a623388"
+    },
+    {
+      "id": "26.10",
+      "title": "不同实验设置的比较",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2025-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "1efa1ca7d98a4ecf0caebb38044edb615f0deb61d759843a9d851e96b9db696b"
+    },
+    {
+      "id": "27.01",
+      "title": "图像编码器",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2026-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "044375ed8642d8a7832cee4670962b1e51749bd231a04f66709f1a649c9c142e"
+    },
+    {
+      "id": "27.02",
+      "title": "图文对比学习",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2026-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "cb9d7bb4c9be5c57ac52f5e865c97f4c0e7e0edc25a3dbbce93e5539ed3988e4"
+    },
+    {
+      "id": "27.03",
+      "title": "CLIP 与 SigLIP",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2026-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "4704c33f4c6f933e2b557e528e1d3adf1ee94a849fd991df829bb9bfe941b3b7"
+    },
+    {
+      "id": "27.04",
+      "title": "视觉 token 和连接器",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2026-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "d89c12a71bfebb1ba3667bbeff27311b8eabe5494b35d0775e3fd9f55fcdaa7c"
+    },
+    {
+      "id": "27.05",
+      "title": "LLaVA 与视觉指令微调",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2026-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "ac8b2b632c5ae248ed87d95de746f95cfd3742ce614bc3a8da69dbc93cbc6917"
+    },
+    {
+      "id": "27.06",
+      "title": "OneVision 与可变分辨率",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2026-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "70ba05d14f8621a3bd86c81e26faea836bc5c98b3807e3303b96ad6d8038d7ec"
+    },
+    {
+      "id": "27.07",
+      "title": "Qwen-VL 系列",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2026-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "2f33ba65a9667792215321c92239484ee27f1cfb6b788ebb1368ee9998f6eac1"
+    },
+    {
+      "id": "27.08",
+      "title": "视频与时间位置",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2026-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "12eb8a6a7770e618c71cf0a08e9a211234ab13972da16ff6ca9669799b63070a"
+    },
+    {
+      "id": "27.09",
+      "title": "原生多模态与 Chameleon",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2026-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "05a4091f3fa1136c073dcf1f3dc372708d3abf2d5b475d06df83ab43906da31d"
+    },
+    {
+      "id": "27.10",
+      "title": "理解与生成目标的差异",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2026-17"
+      ],
+      "gap": "本点已有可教学的公开来源。原课堂音视频仍受全局核验限制；不声称恢复所有学生问答。",
+      "sha256": "8a8a1c944cbfa296abb3c69c0fd9ad0f56811fbbbdc845e132f36c02f64a6e6a"
+    },
+    {
+      "id": "28.01",
+      "title": "六场历年嘉宾讲座逐项登记",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-18",
+        "2024-19",
+        "2025-18",
+        "2025-19",
+        "2026-18",
+        "2026-19"
+      ],
+      "gap": "六场具体缺口见28.01和逐讲对照记录guest_checks；未取得的课堂不重建问答/演示。Dan Fu有录像字幕，独立本场幻灯片未取得。",
+      "sha256": "98586424526c838f8c5e9f57b0a2e3a033798b19ea605f17afa5ae721a34884e"
+    },
+    {
+      "id": "28.02",
+      "title": "已取得材料后再拆知识点",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-18",
+        "2024-19",
+        "2025-18",
+        "2025-19",
+        "2026-18",
+        "2026-19",
+        "paper-28.02",
+        "paper-28.02"
+      ],
+      "gap": "六场具体缺口见28.01和逐讲对照记录guest_checks；未取得的课堂不重建问答/演示。Dan Fu有录像字幕，独立本场幻灯片未取得。",
+      "sha256": "90ef707666285e715a64bb7d906cb595bd98bbee579028e90334754b40b51365"
+    },
+    {
+      "id": "28.03",
+      "title": "更新按架构、数据、系统、评估和后训练归位",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-18",
+        "2024-19",
+        "2025-18",
+        "2025-19",
+        "2026-18",
+        "2026-19"
+      ],
+      "gap": "六场具体缺口见28.01和逐讲对照记录guest_checks；未取得的课堂不重建问答/演示。Dan Fu有录像字幕，独立本场幻灯片未取得。",
+      "sha256": "eca3fbe5ebe4eca34319ec503d164a7ce6d03b7665de9f51b072ae8b6050ba7a"
+    },
+    {
+      "id": "28.04",
+      "title": "区分课程当时的说法和后续证据",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-18",
+        "2024-19",
+        "2025-18",
+        "2025-19",
+        "2026-18",
+        "2026-19"
+      ],
+      "gap": "六场具体缺口见28.01和逐讲对照记录guest_checks；未取得的课堂不重建问答/演示。Dan Fu有录像字幕，独立本场幻灯片未取得。",
+      "sha256": "403eaa53913f42b008e43862dfb18ab20fa0dd023f2cd5575858bf26cd217c9b"
+    },
+    {
+      "id": "28.05",
+      "title": "不开列没有读过的讲座细节",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-18",
+        "2024-19",
+        "2025-18",
+        "2025-19",
+        "2026-18",
+        "2026-19"
+      ],
+      "gap": "六场具体缺口见28.01和逐讲对照记录guest_checks；未取得的课堂不重建问答/演示。Dan Fu有录像字幕，独立本场幻灯片未取得。",
+      "sha256": "6dd3e7ccfcbd3fcb77607d8ee9fba74bd76fd856b472d97371f8093cd26142f0"
+    },
+    {
+      "id": "28.06",
+      "title": "不把模型排行榜当作长期知识",
+      "authored_fields": [
+        "objective",
+        "explanation",
+        "worked_example",
+        "question",
+        "answer_criteria",
+        "repair"
+      ],
+      "source_ids": [
+        "2024-18",
+        "2024-19",
+        "2025-18",
+        "2025-19",
+        "2026-18",
+        "2026-19"
+      ],
+      "gap": "六场具体缺口见28.01和逐讲对照记录guest_checks；未取得的课堂不重建问答/演示。Dan Fu有录像字幕，独立本场幻灯片未取得。",
+      "sha256": "3359b608e3bf0e68f7546551bc08c7e9729ea045ac0cbd29347b6fea2e1d7605"
+    }
+  ],
+  "limits": [
+    "No assertion that missing guest classes were recovered",
+    "No external independent review of all 299 lessons",
+    "No new GPU experiments",
+    "Mechanical acceptance is not proof of complete semantic accuracy"
+  ],
+  "author_review_notes": {
+    "00": "复核条件概率分母、ln符号、梯度更新方向；补上链式法则的中间量推导。数据拆分同时覆盖按测试结果选方案的间接泄漏。",
+    "01": "区分条件输入变化、采样随机和权重学习；序列概率按不同前缀相乘。历史开放程度按组件说明，不给无日期产品排名。",
+    "02": "分开码点、UTF-8、可见字符与token；BPE训练/编码/解码、Unigram与SentencePiece不混称。规范化可逆性限定到规范化文本。",
+    "03": "逐条检查张量形状、广播尾轴、stride与共享存储；修正einsum示例为无歧义btd,dv->btv。复现不只依赖seed。",
+    "04": "检查softmax平移、交叉熵稳定性、AdamW二阶矩与裁剪方向；不等长小批示例按有效token加权。",
+    "05": "补QKV完整形状链；区分mask与标签移位。FFN逐位置作用、参数通常不跨层共享等条件已保留。",
+    "06": "按计算图区分pre/post及分支post-norm；RMSNorm保留1/D且不减均值。补激活公式，SwiGLU门值不限定0到1。",
+    "07": "分开全序列平方计算与单步线性缓存；线性注意力不是softmax恒等替换。Gated DeltaNet明确矩阵方向、门与投影解释条件。",
+    "08": "总量/激活量分账；token-choice与expert-choice约束不同。DeepSeek路由不统一误写softmax，均衡偏置不等于无均衡。",
+    "09": "参数、训练FLOPs、显存、算术强度与MFU各用独立单位。6ND与前反向倍数明确为近似，不用于保证墙钟时间。",
+    "10": "warp/thread/block/SM层级不混用。低精度区分存储和计算，wave quantization用有限槽位尾波例解释，不给未经核实当前硬件规格。",
+    "11": "区分异步提交与完成；融合不等于减FLOPs。RMSNorm完整反向已用独立有限差分核对，不把前向正确当反向正确。",
+    "12": "在线softmax同时缩放指数和与value累积；整行全mask处理边界明示。分块覆盖全部合法配对，精确指同一数学式而非逐位相等。",
+    "13": "sum all-reduce不自动等于平均；明确reduce-scatter最终仅持分片。异步缓冲区使用与集合调用顺序均有约束。",
+    "14": "DDP不自动分参数；ZeRO阶段、暂时all-gather和峰值显存分开。张量并行内轴切需求和，输出轴切可拼接。",
+    "15": "top-p例0.7阈值保留概率0.8的前两项；贪心不保证联合最优。推测采样保分布需拒绝修正，PagedAttention不等于无限扩容。",
+    "16": "幂律不可约项、独立样本误差和重复数据边界已核对；Kaplan/Chinchilla限定实验条件，部署最优另计推理成本。",
+    "17": "μP补A1/A2及相关外积更新推导；局部SGD示意不当作完整层级实现规则。WSD分叉成本计总执行，Muon不是每步完整SVD。",
+    "18": "困惑度的分词单位、偏好与事实、pass@k与最终成功分开；未发现精确重复不声明无污染，单点差不当确定能力差。",
+    "19": "逐项保留10个语料项目并说明主要角色；不以公开可访问推定再分发授权，不给当前法律结论。",
+    "20": "质量、风险、语言与目标相似性分开；重要性采样有支持覆盖条件。误删/漏删及群体影响需抽样和下游验证。",
+    "21": "Bloom的假阳性/无假阴性限定正常不删除实现；MinHash和LSH为概率摘要，候选概率按至少一带命中复算。",
+    "22": "混合比例先写token/样本单位；重采样不新增独立信息。长上下文配方明确原课未充分展开，合成数据不保证新增事实。",
+    "23": "loss mask与可见性mask分开；LoRA限制增量而非整个矩阵秩。QLoRA区分4bit基座、计算dtype及二重量化常数。",
+    "24": "奖励偏好非真值；PPO/GAE各量和clip语义展开，DPO说明参考、β、序列log概率与推导条件。红队不实施真实越权。",
+    "25": "组均值baseline的有限样本相关性不省略。GRPO标准差约定、长度权重、完整序列重要性比与近似有别；MaxRL作业和论文分母差异明确。",
+    "26": "排序保元素多重集合与有序是两性质；原创CPU反例不冒称课堂。单样本KL项可负，正优势不保证共享更新后每token必涨。",
+    "27": "patch数示例注明不计额外特殊token；CLIP/SigLIP比较目标而非生成功能。不同VL版本和课程算术错保留边界。",
+    "28": "六场逐项状态与已有嘉宾清单一致；只对Dan Fu取得内容教学。Euler离散稳定反例是原创示意，不写成Parcae原公式。"
+  },
+  "author_review_role": "Same author; not independent external review",
+  "bilingual": {
+    "default_language": "en",
+    "lessons_per_language": 299,
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "shared_sources": true,
+    "shared_progress": true
+  }
+}

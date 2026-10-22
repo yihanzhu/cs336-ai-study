@@ -1,0 +1,35 @@
+{
+  "checked_date": "2026-10-22",
+  "results": [
+    {
+      "video_id": "r3DC_gjFCSA",
+      "url": "https://www.youtube.com/watch?v=r3DC_gjFCSA",
+      "title": "Meta Announces Llama 3 at Weights & Biases’ conference",
+      "channel": "CoreWeave",
+      "upload_date": "20240422",
+      "duration_seconds": 1575,
+      "caption_error": "IpBlocked",
+      "decision": "rejected_wrong_speaker_and_event",
+      "reason": "Speaker in description is Joe Spisak; event is Weights & Biases Fully Connected 2024, not CS336 Mike Lewis classroom."
+    },
+    {
+      "video_id": "6-cXp-aOmdg",
+      "url": "https://www.youtube.com/watch?v=6-cXp-aOmdg",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 8: Parallelism",
+      "channel": "Stanford Online",
+      "upload_date": "20260428",
+      "duration_seconds": 4810,
+      "caption_error": "IpBlocked",
+      "decision": "official_source_confirmed_captions_still_unavailable",
+      "reason": "Stanford Online official lecture, but caption request returned IpBlocked."
+    }
+  ],
+  "remaining_guest_classrooms_unobtained": [
+    "2024 Ce Zhang",
+    "2024 Aakanksha Chowdhery",
+    "2025 Junyang Lin",
+    "2025 Mike Lewis",
+    "2026 Daniel Selsam"
+  ],
+  "negative_search_scope": "Course sites, official playlists and repositories, speaker/course/date variants in public search. A failed search is not evidence of nonexistence."
+}

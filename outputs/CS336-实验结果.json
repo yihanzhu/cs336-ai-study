@@ -1,0 +1,289 @@
+{
+  "D01_BPE": {
+    "initial_byte_tokens": 21,
+    "merges": [
+      {
+        "merge": "an",
+        "remaining_tokens": 15
+      },
+      {
+        "merge": "ban",
+        "remaining_tokens": 12
+      },
+      {
+        "merge": "ana",
+        "remaining_tokens": 9
+      },
+      {
+        "merge": " ban",
+        "remaining_tokens": 7
+      },
+      {
+        "merge": "ana ban",
+        "remaining_tokens": 5
+      },
+      {
+        "merge": "dana",
+        "remaining_tokens": 4
+      }
+    ],
+    "final_tokens": 4,
+    "round_trip": true,
+    "limitation": "Toy corpus; merges across spaces; no production pretokenizer or special tokens."
+  },
+  "D02_Attention": {
+    "causal_output": [
+      [
+        10.0,
+        0.0
+      ],
+      [
+        3.302384506733431,
+        6.697615493266569
+      ]
+    ],
+    "future_value_changed_output": [
+      [
+        10.0,
+        0.0
+      ],
+      [
+        672.3941722840636,
+        669.0917877773302
+      ]
+    ],
+    "first_output_unchanged": true,
+    "without_mask": [
+      [
+        6.697615493266569,
+        3.302384506733431
+      ],
+      [
+        3.302384506733431,
+        6.697615493266569
+      ]
+    ]
+  },
+  "D03_Stability_and_loss": {
+    "stable_softmax_1000_1001": [
+      0.2689414213699951,
+      0.7310585786300049
+    ],
+    "naive_exp_1000_overflows": true,
+    "loss_if_true_probability_0_8": 0.2231435513142097,
+    "loss_if_true_probability_0_2": 1.6094379124341003
+  },
+  "D04_Gradient_accumulation": {
+    "averaged_gradient": 4.0,
+    "full_batch_w": 0.6,
+    "accumulated_w": 0.6,
+    "update_each_microbatch_w": 0.5599999999999998,
+    "assumptions": "Same parameters during accumulation; mean loss; no dropout/batch-dependent layer; one optimizer step."
+  },
+  "D05_Collectives": {
+    "inputs": [
+      [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      [
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      [
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ]
+    ],
+    "all_reduce_sum": [
+      6.0,
+      10.0,
+      14.0,
+      18.0
+    ],
+    "reduce_scatter_shards": [
+      [
+        6.0
+      ],
+      [
+        10.0
+      ],
+      [
+        14.0
+      ],
+      [
+        18.0
+      ]
+    ],
+    "then_all_gather": [
+      6.0,
+      10.0,
+      14.0,
+      18.0
+    ],
+    "limitation": "List arithmetic illustrates semantics; no actual distributed processes or performance measurement."
+  },
+  "D06_LSH_and_mixture": {
+    "bands": 3,
+    "rows_per_band": 4,
+    "candidate_probability": {
+      "0.2": 0.004792324096000167,
+      "0.5": 0.176025390625,
+      "0.8": 0.794202996736,
+      "0.99": 0.999938818432369
+    },
+    "assumptions": "Independent ideal MinHash values; candidate collision is not proof of duplicate identity.",
+    "mixture_example": {
+      "total_tokens": 1000,
+      "source_tokens": 10,
+      "source_weight": 0.1,
+      "expected_source_epochs": 10.0
+    }
+  },
+  "D07_Policy_gradient": {
+    "rewards": [
+      0.0,
+      1.0,
+      1.0,
+      2.0
+    ],
+    "mean": 1.0,
+    "centered_advantages": [
+      -1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "old_policy_detached_ratio_value": 1.0,
+    "derivative_with_frozen_denominator": 0.11920292202760584,
+    "derivative_if_both_depend_on_current_w": 0.0,
+    "equal_rewards_center_to": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "D08_Recurrence": {
+    "scalar_recurrences": {
+      "0.5": [
+        1.0,
+        0.5,
+        0.25,
+        0.125,
+        0.0625,
+        0.03125,
+        0.015625,
+        0.0078125,
+        0.00390625
+      ],
+      "-0.5": [
+        1.0,
+        -0.5,
+        0.25,
+        -0.125,
+        0.0625,
+        -0.03125,
+        0.015625,
+        -0.0078125,
+        0.00390625
+      ],
+      "-2.0": [
+        1.0,
+        -2.0,
+        4.0,
+        -8.0,
+        16.0,
+        -32.0,
+        64.0,
+        -128.0,
+        256.0
+      ]
+    },
+    "point": "A negative coefficient alone does not guarantee stability; for x[t+1]=a*x[t], |a|<1 ensures convergence to 0.",
+    "matrix_counterexample": {
+      "A": [
+        [
+          0,
+          100
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "spectral_radius": 0,
+      "spectral_2_norm": 100,
+      "A_squared": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "limitation": "Does not reproduce Parcae dynamics or prove stability of nonlinear Transformer loops."
+  },
+  "D09_Reward_counterexample": {
+    "prompt": [
+      1,
+      1,
+      2
+    ],
+    "correct": [
+      1,
+      1,
+      2
+    ],
+    "incorrect": [
+      1,
+      2,
+      2
+    ],
+    "reward_correct": 5,
+    "reward_incorrect": 5,
+    "point": "Membership without multiplicity plus adjacent ordering can give maximum reward to a wrong multiset.",
+    "provenance": "Original counterexample to the reward rule in 2025 lecture_17.py; not asserted to have been discussed by the lecturer."
+  },
+  "D10_Online_attention": {
+    "dense": [
+      -0.8810706583637985,
+      3.7736455751762352
+    ],
+    "tiled": {
+      "1": [
+        -0.8810706583637985,
+        3.7736455751762352
+      ],
+      "2": [
+        -0.8810706583637984,
+        3.773645575176236
+      ],
+      "3": [
+        -0.8810706583637985,
+        3.7736455751762352
+      ],
+      "5": [
+        -0.8810706583637985,
+        3.7736455751762352
+      ]
+    },
+    "point": "Rescale both the running denominator and weighted-value numerator when a later tile raises the maximum.",
+    "limitation": "One fixed query, precomputed scores, tiny CPU vectors; demonstrates exact algebra up to floating-point roundoff, not GPU FlashAttention performance."
+  }
+}

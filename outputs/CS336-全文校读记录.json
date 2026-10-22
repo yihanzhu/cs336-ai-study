@@ -1,0 +1,1697 @@
+{
+  "version": "1.2-public-audit",
+  "checked_date": "2026-10-22",
+  "method": "Previously reviewed interaction contexts plus chronological reading of every remaining caption segment. This ledger records authored review attestations and source identity; hash/count checks do not independently prove semantic correctness. No claim of full listening or all-frame inspection.",
+  "entries": [
+    {
+      "lecture": "2026-01",
+      "video_id": "JuoVZkPBiKk",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "6fb35b84a48a0ad17c4828dcf0698180c9f0f7748678bcd0062cc481d54ebf69",
+      "segments": 1509,
+      "previous_context_segments": 69,
+      "chronological_remaining_segments": 1440,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 510,
+          "end": 635,
+          "finding": "Bitter Lesson 的课堂解释是重视可扩展算法，不能简化为算法不重要、只堆算力。效率和资源相乘是直觉示意，不是准确率的物理定律。"
+        },
+        {
+          "start": 1050,
+          "end": 1140,
+          "finding": "讲者想打开 agent trace 时网络未通，现场没有完成这个在线展示。资料保留代码/链接入口，不声称已经看到完整 agent 演示。"
+        },
+        {
+          "start": 1290,
+          "end": 1390,
+          "finding": "开课时讲者说不深入多模态/agents，最终日程和 L17 实际加入多模态概览。覆盖范围按最终授课材料登记，不能只凭开场承诺删掉后续内容。"
+        },
+        {
+          "start": 1495,
+          "end": 1640,
+          "finding": "课堂对 AI 的规则旨在保留学生自己的实现学习；本资料采用用户已选的概念陪学目标。课堂学分、集群额度和当年 AI 使用政策只是背景，不要求网上学习者获得 Stanford 身份。"
+        },
+        {
+          "start": 2825,
+          "end": 2980,
+          "finding": "Scaling recipe 不只是拟合一条线，也包括超参数随预算怎样变化。讲者把可预测性与小规模最优性并列；大跑之前先预测，再看真实结果，可减少事后解释。"
+        },
+        {
+          "start": 3060,
+          "end": 3200,
+          "finding": "课程用预先训练模型的结果缓存模拟训练 API；提交配置得到 loss 不等于现场真的启动新训练。此练习教预算下的试验设计，不要求陪学者购买算力。"
+        },
+        {
+          "start": 3270,
+          "end": 3400,
+          "finding": "内部开发看稳定、可比较的指标；外部决策还看真实任务代表性。单一平均分可能隐藏能力差异；即使使用未上网数据，也仍需检查来源和泄漏。"
+        },
+        {
+          "start": 4070,
+          "end": 4210,
+          "finding": "字符词表的精确 Unicode 数量与版本有关；课堂只需理解稀有字符导致词表利用不均。字节词表固定 256，但 UTF-8 多字节会使 token 序列变长。"
+        },
+        {
+          "start": 4390,
+          "end": 4635,
+          "finding": "示例 BPE 的并列频次采用第一个候选，现实实现需固定 tie-break；预分词、特殊 token 和索引加速都还需处理。玩具算法能运行，不代表满足大作业的全部规范与性能。"
+        },
+        {
+          "start": 4650,
+          "end": 4757,
+          "finding": "结尾提出替代 tokenizer 的抽象表示与可变计算粒度要求，属于讲者的设计判断。不能把它说成已经证明所有 byte-level 模型必须采用同一种机制。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-02",
+      "video_id": "kuYAsz7zspQ",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "d0052528d2b2d5ec09b0c562517079fd521dd451592e4163881afe7e2edb8bd7",
+      "segments": 1425,
+      "previous_context_segments": 408,
+      "chronological_remaining_segments": 1017,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 1040,
+          "end": 1080,
+          "finding": "讲者明确录制版在笔记本 CPU 上执行，部分 GPU 代码只讲不跑。这解释 trace 中占位峰值，不将图示代码当现场 GPU 性能验证。"
+        },
+        {
+          "start": 1790,
+          "end": 1830,
+          "finding": "讲者现场发现“两周”代码实际只算一周；当前源稿已补 ×2。预算估算用数值、单位和文字三者交叉检查。"
+        },
+        {
+          "start": 2600,
+          "end": 2690,
+          "finding": "时间约取搬运与计算两者最大值，假设能充分重叠；若无重叠、启动或同步开销大，实际时间可更长。roofline 给上界直觉，不是准确秒表。"
+        },
+        {
+          "start": 3075,
+          "end": 3230,
+          "finding": "正方形矩阵例子用两字节元素得算术强度约 n/3；一般非方形矩阵要重新计数。大 matmul 才可能计算受限，不能据最后总结断言所有矩阵乘法都 compute-bound。"
+        },
+        {
+          "start": 3690,
+          "end": 3985,
+          "finding": "6ND 的 2 来自乘加而非 BF16 两字节，前向两倍参数触达、反向两条梯度路径。长上下文的 Attention 额外项不在这个近似里；N/D 的命名按讲义统一定义。"
+        },
+        {
+          "start": 4185,
+          "end": 4275,
+          "finding": "讲者现场纠正 gradient_memory 与 optimizer_state_memory 用了 parameter_memory 的单位错误；应按参数个数乘每参数字节。该口头修正与当前源稿一致。"
+        },
+        {
+          "start": 4350,
+          "end": 4420,
+          "finding": "梯度累积主要省激活显存；口述 save compute 不作结论。正确缩放 microbatch 损失后累计一次更新，不能每个 microbatch 都更新再说完全等价。"
+        },
+        {
+          "start": 4490,
+          "end": 4610,
+          "finding": "按层 checkpoint 与按 sqrt(L) 间隔切段不同；在简化等成本链上，后者激活峰值 O(sqrt(L))、额外重计算总量 O(L)。口述“额外计算 sqrt(L)”混了每段长度和总工作量，按当前源稿纠正。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-03",
+      "video_id": "lVynu4bo1rY",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "a6d6e43efb4e2a628f00275859ac36000b406a580a95902f4a3a71903e57695e",
+      "segments": 2020,
+      "previous_context_segments": 372,
+      "chronological_remaining_segments": 1648,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 750,
+          "end": 900,
+          "finding": "pre/post 的命名需画残差加法位置。F(LN(x))+x、LN(F(x))+x、LN(F(x)+x) 是不同结构；“post-norm”这个词单独出现不足以判定是否规范化残差主路。"
+        },
+        {
+          "start": 835,
+          "end": 905,
+          "finding": "LayerNorm 按方差加 epsilon 的平方根归一化，RMSNorm 按均方加 epsilon 的平方根归一化。口述 divide variance 是简化；经验上质量相近不能当严格函数类包含关系。"
+        },
+        {
+          "start": 1300,
+          "end": 1545,
+          "finding": "Swish 是 x·sigmoid(x)；SwiGLU 还包含另一条线性分支的逐元素乘法。保持参数量时，三矩阵门控 FFN 的中间宽度常取原两矩阵 FFN 的 2/3；这只对相同外维度和忽略 bias 等条件成立。"
+        },
+        {
+          "start": 1970,
+          "end": 2335,
+          "finding": "二维旋转例子 We know 与 Of course we know 使用相同相对距离。字幕将“reduce to 2D”说成 3D 属误差；对每一对坐标旋转，Q/K 点积的相对位置性质不代表上下文相关 hidden state 对位置完全不敏感。"
+        },
+        {
+          "start": 2980,
+          "end": 3295,
+          "finding": "常用 head_count×head_dim≈model_dim 与宽深比 model_dim/layers≈100 是课程调查的经验区间；不是两者各自等于 model_dim，更不是所有模型的硬约束。"
+        },
+        {
+          "start": 3580,
+          "end": 3785,
+          "finding": "单遍训练减少传统重复遍历的过拟合，但不能保证不记忆，语料内也可重复。训练 loss≈验证 loss 的经验不替代独立验证；weight decay 与学习率日程交互是此处重点。"
+        },
+        {
+          "start": 3990,
+          "end": 4190,
+          "finding": "z-loss 惩罚 logZ 偏离零，利用 softmax 对全体 logit 同移不变的自由度约束数值尺度。它和减最大值的稳定 softmax 是不同措施，不把 z-loss 作为防 overflow 的唯一必要条件。"
+        },
+        {
+          "start": 4230,
+          "end": 4470,
+          "finding": "QK norm 控制 Q/K 尺度，soft-capping 直接限制进入 softmax 的 logits。它们不等同，也不保证质量只升不降；有可学习增益时尤其不能简单断言所有分数绝对≤1。"
+        },
+        {
+          "start": 4570,
+          "end": 4830,
+          "finding": "KV cache 保存过去各层的 K、V，通常不保存整个 QK 注意力矩阵。口述提到 queries 和 QK submatrix 时不能照抄成缓存定义。讲义算术强度公式带整体倒数 −1，字幕只说括号内之和会把大小方向颠倒。"
+        },
+        {
+          "start": 5090,
+          "end": 5349,
+          "finding": "局部层仍可利用前面全局层汇总的信息；交替全局与 SWA 或状态空间层并不等于每层都能直接访问所有原始 token。NoPE、RoPE 和层间结构需按具体模型区分。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-04",
+      "video_id": "cKSwj_qZ8Jg",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "e10a31998384093c96b2beb98238469202a19a50260f41ba87160456efdf7621",
+      "segments": 1938,
+      "previous_context_segments": 390,
+      "chronological_remaining_segments": 1548,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 325,
+          "end": 590,
+          "finding": "去 softmax 后可以结合矩阵乘法，但自回归仍需因果约束：状态只累积到当前位置。不能把 Q(KᵀV) 对整段无掩码计算，冒充因果递推。线性状态可训练时并行、推理时递推，是同一改写模型的两种执行形式。"
+        },
+        {
+          "start": 730,
+          "end": 1060,
+          "finding": "Mamba-2 的遗忘门与 Gated DeltaNet 的写入/擦除门控制不同动作；I−βkkᵀ 只有在特定规范化与 β 条件下才是严格投影。这里讲关联记忆直觉，不把所有状态空间理论都声称已展开。"
+        },
+        {
+          "start": 1380,
+          "end": 1700,
+          "finding": "轻量 indexer 仍可能有 O(n²) 候选打分，选 k 个历史位置后的逐 query 注意力为 O(k) 项、整段约 O(nk)（忽略头维度等）。课堂说“小段仍 quadratic”是口头概括，不能用于精确复杂度账本。"
+        },
+        {
+          "start": 2940,
+          "end": 3180,
+          "finding": "token-choice、expert-choice、全局 assignment 是不同选择约束；全局分配只优化已定义分数与容量，不证明训练质量全局最优。固定哈希路由也与每次随机路由不同。"
+        },
+        {
+          "start": 3530,
+          "end": 3970,
+          "finding": "Top-k 索引本身不提供普通连续导数；选择固定时，梯度可流过被选专家及其连续门权重。负载损失帮助避免塌缩，并没有使离散 arg-top-k 突然变为处处可导。"
+        },
+        {
+          "start": 4350,
+          "end": 4495,
+          "finding": "把专家计算打包为 grouped/block-sparse matmul 可提高实现效率；这不意味着其任意稀疏结构都享受 GPU 规格表中的 2:4 峰值倍数。通信前低维投影以表示能力换搬运成本，要把投影成本计入。"
+        },
+        {
+          "start": 4495,
+          "end": 4600,
+          "finding": "有容量上限和 token dropping 的 MoE 可能使同一请求受其他 batch 请求影响；dropless 实现消除这种丢弃机制，但不保证消除所有并发相关数值差异或非确定性。"
+        },
+        {
+          "start": 4665,
+          "end": 4790,
+          "finding": "MoE 小数据微调可能过拟合，可选择只调部分层/注意力或增加数据。Dense-to-MoE upcycling 是已有 dense 权重转为专家初值再训练，不是复制权重就自动得到更高质量。"
+        },
+        {
+          "start": 5050,
+          "end": 5165,
+          "finding": "MLA 缓存低维表示，但 RoPE 的位置部分需要相容处理，不能只说存一个潜变量就等价恢复全部 K/V。MTP 是额外训练目标，也可帮助构造草稿，不保证未经验证便能并行接受全部未来 token。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-05",
+      "video_id": "izZba4UA7iY",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "530d7e24f9d1eea157187c75c4ef91a16620e48fe89fb495fb64432e9a6db60e",
+      "segments": 1925,
+      "previous_context_segments": 498,
+      "chronological_remaining_segments": 1427,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 590,
+          "end": 730,
+          "finding": "口述中的 A100 SM 数混杂了不同型号，硬件数值不作背诵事实；性能解释只需实际设备的 SM 数、块数和资源限制。具体规格从设备查询或厂商文档取得。"
+        },
+        {
+          "start": 960,
+          "end": 1040,
+          "finding": "CUDA local memory 的 local 指线程私有作用域，物理存储可在全局设备内存，不能按口述理解成必在 SM 上的快内存。寄存器溢出也可能落到这里。依据 NVIDIA CUDA Guide 的 Local Memory 小节：https://docs.nvidia.com/cuda/archive/13.2.1/cuda-programming-guide/02-basics/writing-cuda-kernels.html 。"
+        },
+        {
+          "start": 1980,
+          "end": 2090,
+          "finding": "同一 warp 中发生路径分歧可能分别执行两侧并屏蔽无关 lane；若所有 lane 走同一路径，不必执行另一侧。编译器还可能谓词化，不能把 GPU 上任何 if 都视为同样慢。"
+        },
+        {
+          "start": 2320,
+          "end": 2540,
+          "finding": "按块缩放量化时，转置后分组方向改变，简单换 stride 不一定保持所需量化布局；可能需要分别量化两种方向并保留副本。速度与存储账本必须算上 scale 和副本，不能只算每元素 8 bits。"
+        },
+        {
+          "start": 3000,
+          "end": 3155,
+          "finding": "连续 sigmoid 的重计算例子比较的是简化图的 HBM 读写次数，并未证明反向 FLOPs 不变或所有重算更快。多做计算换少搬数据是条件性收益。"
+        },
+        {
+          "start": 3170,
+          "end": 3450,
+          "finding": "Coalescing 关注同一 warp 各 lane 的地址能否合并为少量内存事务；不是所有 thread 必须读同一元素。事务大小、对齐、元素类型依设备而变，128 字节只是图中示意。"
+        },
+        {
+          "start": 3760,
+          "end": 3910,
+          "finding": "tile 选择同时受共享内存、并发块数、矩阵形状和内存对齐影响。autotune 会花编译/测试时间，不能把课堂的十五分钟当所有程序的固定开销。"
+        },
+        {
+          "start": 4050,
+          "end": 4165,
+          "finding": "wave quantization 示例从 98 个块跨过 108 个 SM 到 120 个块，多出一次不足额执行波；这是设定每块资源和 SM 驻留条件的简化例，不是每次加一维都必慢一倍。"
+        },
+        {
+          "start": 4350,
+          "end": 4640,
+          "finding": "Attention 核心为 QKᵀ 和归一化权重乘 V 两次矩阵乘，另有生成 Q/K/V 的投影。FlashAttention 省 HBM 中间矩阵，仍计算精确注意力；在线累积需同时重缩放分母与加权值分子，D10 已验证。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-06",
+      "video_id": "xnDHaNUvHBg",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "1dd6bc50bcd28e56fd05dc491e93700a202e83829c5b0a8d65bc5934e504c866",
+      "segments": 1552,
+      "previous_context_segments": 380,
+      "chronological_remaining_segments": 1172,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 660,
+          "end": 845,
+          "finding": "寄存器示例按 128×160=20480 个/块，在 65536 个/SM 的简化约束下最多三块、12 个 warp，12/64=18.75%。真实驻留还受共享内存、分配粒度和其他上限影响；occupancy 更高不必然更快。"
+        },
+        {
+          "start": 855,
+          "end": 1000,
+          "finding": "共享内存 bank conflict 与全局内存 coalescing 是不同约束；同地址读取可广播，不可用“每 bank 永远只能一个线程”覆盖所有情况。swizzling 改变布局是减少冲突的一种方法。"
+        },
+        {
+          "start": 1450,
+          "end": 1565,
+          "finding": "CUDA event 用于设备时间，主机计时配同步也有用途；预热、重复和分位数取决于要测稳定吞吐还是首次延迟。不能把编译开销对任何用户场景都排除。"
+        },
+        {
+          "start": 1830,
+          "end": 2100,
+          "finding": "朴素、内置、compiled GELU 应先用相同公式/近似与容差比较。多个 kernel 之间可能有缓存，HBM 搬运示意不是对每次真实 DRAM 事务的逐条实测。"
+        },
+        {
+          "start": 2420,
+          "end": 2740,
+          "finding": "Triton 的 BLOCK_SIZE 表示逻辑处理元素数，不必等于 CUDA 线程数；编译器可能让每线程处理多元素。program_id 对应逻辑 program，不能把逻辑块的每个元素当独立线程。"
+        },
+        {
+          "start": 3050,
+          "end": 3290,
+          "finding": "PTX 是虚拟指令层，还要经后续编译为具体 GPU 指令；讲者称“实际执行代码”用于解释底层，不表示芯片直接执行 PTX 文本。寄存器/共享内存具体落点应看编译和 profiler。"
+        },
+        {
+          "start": 3700,
+          "end": 3885,
+          "finding": "softmax 的无效 lane 填 −∞，使 exp 项为 0；整行都无效仍需单独处理。按列改 stride 在数学上可行，但访存、布局和资源占用也可能不同。"
+        },
+        {
+          "start": 3940,
+          "end": 4310,
+          "finding": "讲者从长行 softmax 切换为 row sum，只示范多 tile 归约，不代表已经给出长行 softmax 的完整稳定算法。sum 的无效元素为 0，与 softmax 的 −∞ 不同。"
+        },
+        {
+          "start": 4410,
+          "end": 4920,
+          "finding": "matmul+ReLU 先沿 K 轴累积完全部乘积，再做 ReLU，才能保持原语义。不能在每个部分积后先 ReLU 再相加；较大 tile 的复用收益还需权衡并发和资源。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-07",
+      "video_id": "SzpOcwdIL0Y",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "fefa1066e0bf59c667f918d6dba2dcc8138e9623b920ce3dc47b06a7166a3da3",
+      "segments": 1312,
+      "previous_context_segments": 454,
+      "chronological_remaining_segments": 858,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 600,
+          "end": 675,
+          "finding": "字幕把 scatter 的逆操作仍写为 scatter，按随后定义纠正为 gather。scatter 分片发送，gather 在指定 rank 拼接；reduce 是逐元素归约而非普通拼接。"
+        },
+        {
+          "start": 900,
+          "end": 1050,
+          "finding": "all-reduce 可由 reduce-scatter 加 all-gather 实现，表示结果和常见通信账本等价，不保证所有尺寸、拓扑、实现的耗时严格相等。"
+        },
+        {
+          "start": 1350,
+          "end": 1775,
+          "finding": "NVLink domain 不总等于单机八卡；本讲也提 NVL72 和 RoCE。八卡以内做 TP 是课堂配置的经验，不是拓扑无关硬限制；双向链路规格与单向 HBM 带宽不能直接当同口径精确比值。"
+        },
+        {
+          "start": 2250,
+          "end": 2330,
+          "finding": "讲者为可步进展示绕开真实 multiprocessing，笔记本用 Gloo；网页单进程轨迹与另外的多进程 stdout 要分开。master 地址端口负责初始化协调，不是所有 NCCL GPU 数据流必经 CPU 的证据。"
+        },
+        {
+          "start": 2800,
+          "end": 3190,
+          "finding": "effective bus bandwidth 常按 S×2(p−1)/(p×t) 计 all-reduce，reduce-scatter 少一个 2。这个归一化定义不能证明真实带宽与 GPU 数或拓扑无关。平均各 rank 时间也不能替代训练关键路径慢 rank 的时间。"
+        },
+        {
+          "start": 3450,
+          "end": 3740,
+          "finding": "DDP 参数持续一致需要相同初始化、更新规则和正确平均梯度；每卡等样本数时均值梯度直接平均成立。不同有效 token 数、丢弃样本或不同 loss 归一化时应加权。"
+        },
+        {
+          "start": 3900,
+          "end": 4515,
+          "finding": "本讲 column TP 每层 all-gather 激活，PP 分 microbatch 并点对点传递。示例省略完整反向及通信计算重叠，不应当生产训练框架；DP 的梯度 bucket 也可在反向途中发送。"
+        },
+        {
+          "start": 4650,
+          "end": 4820,
+          "finding": "临界 batch 是优化效率边界，不能靠无限扩大 DP 永久换取等比例收益。复制、切片、重算和跨设备存储是在计算、显存、通信之间交换资源。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-08",
+      "video_id": "6-cXp-aOmdg",
+      "source_type": "local_asr_unverified",
+      "source_file_sha256": "854e400ee25e0e39cc2564989621cdd50e32f10c7125c14a444f33c82b82c23d",
+      "segments": 1702,
+      "previous_context_segments": 184,
+      "chronological_remaining_segments": 1518,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 0,
+          "end": 675,
+          "finding": "本地 ASR 的 PPU、paralyze、map mole、cancer parallel 等是识别错误；术语按官方讲义统一为 TPU、parallelize、matmul、tensor parallel。新硬件名称、功耗倍率与临时发布消息不凭这个转写确认，保留讲义来源与时点。"
+        },
+        {
+          "start": 750,
+          "end": 910,
+          "finding": "16 bytes/parameter 是一组混合精度训练状态的简化账本，依参数、梯度、master weights、Adam 两矩精度而变。DDP 在固定每卡 batch 的强弱扩展设定下解释内存；固定全局 batch 时每卡激活可因本地 batch 变小而减少。"
+        },
+        {
+          "start": 1050,
+          "end": 1540,
+          "finding": "ZeRO-1/2 的“免费”指理想通信量与 DDP 同阶/相同账本，不是无同步和调度成本。ZeRO-3/FSDP 按需聚合参数，前后向各 gather、反向 reduce-scatter；预取并重叠可隐藏部分代价，不保证任意网络下零开销。"
+        },
+        {
+          "start": 1740,
+          "end": 1840,
+          "finding": "ASR 将 ZeRO-3 误作 stage two；参数切片对应第三阶段。ZeRO-1/2 仍有完整参数副本，但不能说它们完全不节省任何显存，它们分别节省优化器状态及梯度。"
+        },
+        {
+          "start": 1950,
+          "end": 2120,
+          "finding": "流水线 bubble 随 microbatch 数增加而占比下降；microbatch 数和每个 microbatch 的样本数需分开。简化 GPipe 占比可写 (p−1)/(m+p−1)，不是任意调度都恰等于 p/m。"
+        },
+        {
+          "start": 2240,
+          "end": 2320,
+          "finding": "zero-bubble 将反向的输入梯度 B 和权重梯度 W 分离。B 优先解锁上游，W 可在空隙计算，但仍须在对应 optimizer 更新前完成；“随时”不能跨越正确更新边界。"
+        },
+        {
+          "start": 2400,
+          "end": 2580,
+          "finding": "相邻 column/row 分片可避免朴素每层全激活聚合；前向 identity 与 all-reduce 的反向角色对换。高频 TP 通信与 MoE token all-to-all 不是相同 collective，不能因“所有 GPU 参与”混用名称。"
+        },
+        {
+          "start": 2700,
+          "end": 3140,
+          "finding": "34SBH、10SBH、5AS/H 等激活公式依指定 Transformer、精度和存储策略；FlashAttention 去掉二次矩阵存储不去掉二次计算。34SBH/T 是该简化方案的账本，不是所有实现的数学下界；MLP 仍可再重算但增加成本。"
+        },
+        {
+          "start": 2950,
+          "end": 3650,
+          "finding": "sequence parallel 在此指配合 TP 切 LayerNorm/dropout 等逐 token 部分；context parallel 切长上下文注意力，两者不可仅按名字合并。EP 主要切 FFN，attention 和 MoE 可用不同 TP/EP 分组，这就是 parallel folding 的动机。"
+        },
+        {
+          "start": 3890,
+          "end": 4805,
+          "finding": "组合策略先满足显存，再尽量 DP，快互联用于 TP/EP，慢互联多用 PP，并受有效 batch 限制。八卡是示例硬件域；本讲同时给跨节点 EP 的例外。NVIDIA 推荐配置不自动等于原模型作者真实训练配置；故障次数和具体表格数字只在一手报告确认后教学引用。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-09",
+      "video_id": "Q15rhEWZPQ4",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "8fa328e90ee60efe50d80069152775f9cc63acc0d31caaf9426ff80a45a4d05b",
+      "segments": 1812,
+      "previous_context_segments": 196,
+      "chronological_remaining_segments": 1616,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 900,
+          "end": 1220,
+          "finding": "均值估计的 sigma²/n 对应均方误差，不是任意误差都此速率。非参数例子的指数依维度、光滑度和风险定义；课堂 n^(−1/d) 用于直觉，不把神经 scaling 指数直接认成已测出的唯一内在维度。"
+        },
+        {
+          "start": 1350,
+          "end": 1790,
+          "finding": "数据混合可能改截距，也可能跨尺度改排序；小模型选配比是实验方法而非定理。重复四轮近似无损只属所引研究条件，不能推广到所有语料；图的横轴看似线性却按倍增，原课已当场说明。"
+        },
+        {
+          "start": 2250,
+          "end": 2450,
+          "finding": "MoE 的总参数和活跃参数应同时列出；未被当前 token 选中的专家仍可服务其他 token。横轴去掉 embedding/output 参数会改变小模型区间拟合，不能只说参数天然同质。"
+        },
+        {
+          "start": 2500,
+          "end": 3140,
+          "finding": "临界 batch 取决于目标 loss 和训练状态，是步数与样本数之间折中。梯度噪声近似不是到全局最优的保证；学习率是否按宽度缩放还取决于参数化和优化器，不能统一记为1/width。"
+        },
+        {
+          "start": 3600,
+          "end": 3760,
+          "finding": "讲者当场把 Kaplan 的 N、D 说反后纠正：N 参数约 C^0.73，D token 约 C^0.27；Chinchilla 两者近 C^0.5。20 token/parameter 是相应预训练计算目标与配方下的经验比例。"
+        },
+        {
+          "start": 3810,
+          "end": 4480,
+          "finding": "下包络、IsoFLOP、联合曲面是不同估计法；平滑、参数口径、warmup、batch 与非线性拟合可改变答案。外推需验证范围与不确定性，scaling law 不是数学保证的性能下界。"
+        },
+        {
+          "start": 4480,
+          "end": 4660,
+          "finding": "将部署成本计入后，更小模型训练更多 token 可能更合算；这里 overtrained 不等于验证误差已经恶化的 overfitting。预训练 perplexity 的优劣也不保证下游任务排序相同。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-10",
+      "video_id": "EfM546A79aM",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "df5aa89e39ffa6444bb0b2b9ee53d590407bcd4666bba377e145cee9cdacde53",
+      "segments": 1509,
+      "previous_context_segments": 299,
+      "chronological_remaining_segments": 1210,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 0,
+          "end": 310,
+          "finding": "开场将服务 token 数与训练 token 数比较，只能说明数量级；训练每 token 有反向，推理受上下文、batch 和架构影响，不能推出相同 token 数就等于相同算力。行业量与框架热度只作当年背景，不作当前推荐。"
+        },
+        {
+          "start": 750,
+          "end": 1220,
+          "finding": "本讲 N=KV groups×每组 query heads，现场承认符号需改；F=4D 是示例约定，SwiGLU 参数匹配常用其他倍数。BF16 是本账本的假设，不是所有推理必用格式。"
+        },
+        {
+          "start": 1560,
+          "end": 2100,
+          "finding": "MLP 可跨请求复用同一权重，因此 batch 有助算术强度；decode Attention 的各请求 KV 不同，batch 项会在理想比值中相消。GQA、缓存共享、量化或不同内核可改比值，不能说所有 Transformer 都绝对无从改善。"
+        },
+        {
+          "start": 2100,
+          "end": 2720,
+          "finding": "latency≈(参数字节+B×每序列KV字节)/带宽是忽略其他瓶颈的理想估计；TPOT、端到端延迟与 TTFT 分开。TTFT 实际还包括排队、分词和调度，不总等于纯 prefill。trace 的超容量 batch 只属公式预测。"
+        },
+        {
+          "start": 2850,
+          "end": 3210,
+          "finding": "MQA 是 KV head=1 的端点，讲者“没人用”是过强概括；GQA 质量需看具体训练。MLA 的 RoPE 常作用 Q/K 的位置部分，不是简单说对 K/V 都旋转。"
+        },
+        {
+          "start": 3900,
+          "end": 4060,
+          "finding": "AWQ 图里保留少量 FP16 是说明显著权重的对照，不是最终 AWQ 必须混合精度。作者方法按激活选择每通道缩放以降低低比特误差，避免低效混合精度；依据原论文：https://arxiv.org/abs/2306.00978 。"
+        },
+        {
+          "start": 4320,
+          "end": 4600,
+          "finding": "精确 speculative sampling 用草稿 p、目标 q，接受 min(1,q/p)，拒绝后从归一化正部 (q−p)+ 重采样。整段接受时再取额外目标 token，序列首次拒绝后不继续接受旧草稿后缀；同分布不等于同随机种子输出逐字相同。"
+        },
+        {
+          "start": 4650,
+          "end": 5118,
+          "finding": "continuous batching 允许迭代间换请求；选择性 batching、paged KV 管理、prefix sharing 各自解决不同问题。copy-on-write 在共享块被不同续写修改时分配副本，不把文本相同自动当跨模型缓存可共用。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-11",
+      "video_id": "vTfEyOyzV9E",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "fcd0bd0acc1d76cad50534d9c8bf092f65a10fd1d68ede13c7a13bca91ed8429",
+      "segments": 1808,
+      "previous_context_segments": 247,
+      "chronological_remaining_segments": 1561,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 300,
+          "end": 600,
+          "finding": "muP 不只是换初始化，还可能改每层学习率、输出及残差缩放。原始宽度极限与 MiniCPM 深度缩放配方应分清，不能把一种实现的超参直接搬到任何优化器/深度。"
+        },
+        {
+          "start": 600,
+          "end": 925,
+          "finding": "WSD 从 stable checkpoint 分叉，继续稳定学习率后再 decay；不是把已衰减终点随意续跑就等同同一长跑。终值取零或峰值10%取决于具体日程；每条分支仍花 decay 的算力。"
+        },
+        {
+          "start": 950,
+          "end": 1700,
+          "finding": "DeepSeek 拟合最佳超参，MiniCPM 尝试使超参跨规模稳定；二者都需要小跑验证。粗网格存在离散误差，跨 MoE/语料转移只是实验观察，不把 StepFun 的平方根 batch 规则当通用定律。"
+        },
+        {
+          "start": 2550,
+          "end": 2960,
+          "finding": "优化器比较应分别调学习率和 weight decay，并同时检查算力轴、token/parameter 轴。小规模 speedrun 收益不能直接外推大跑；Marin 失败例显示漂亮幂律也可能在外推后偏离/发散。"
+        },
+        {
+          "start": 3000,
+          "end": 3210,
+          "finding": "Muon 对矩阵动量更新近似做谱方向归一化；Newton–Schulz 是计算近似，不是精确 SVD。矩形矩阵不能两侧都成为方阵单位正交，零奇异值也不能无条件说被扩成1；向量/embedding 等是否用 AdamW按具体实现。"
+        },
+        {
+          "start": 3600,
+          "end": 4350,
+          "finding": "muP 推导的 O(1) 指每坐标激活/变化，向量 L2 范数可随 sqrt(width) 增长。示意只处理深线性网、单样本 SGD、无抵消等假设；operator-norm 上界不能普遍换成等式。更新展开包含 W·delta_h、delta_W·h、delta_W·delta_h 三项。"
+        },
+        {
+          "start": 4350,
+          "end": 4600,
+          "finding": "宽度转移成功不保证深度、batch、注意力变体等任意改变都能共用最优超参；本讲最终结论是两套工具并用、验证尺度边界，研究尚无一套保证外推成功的配方。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-12",
+      "video_id": "JpAxdTWQJxM",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "15a723513eeec4c1cd30e1725f82660e61dfb12abb21c2dfb7a57708c16cbddf",
+      "segments": 1376,
+      "previous_context_segments": 173,
+      "chronological_remaining_segments": 1203,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 300,
+          "end": 755,
+          "finding": "交叉熵下界是目标分布的熵，perplexity 下界是其指数；两者不能直接说同一个数。达到文本分布并不自动证明解开所有真实世界任务，“perplexity all you need”在课堂本来就是供讨论的信念。"
+        },
+        {
+          "start": 750,
+          "end": 1070,
+          "finding": "conditional perplexity 只统计回答部分，仍受 tokenizer、长度和数据分布影响。多选题按答案概率选最大值是评价规则，不等于整段 perplexity；对黑箱回传 logprob 需验证归一化和模型实现。"
+        },
+        {
+          "start": 1380,
+          "end": 1510,
+          "finding": "GPQA Diamond 的筛选口述有误：保留两位专家均答对、且多数非专家答错的198题；不是非专家能答对才入选。65% 为原研究整体专家结果口径，不能无条件套在 Diamond 上。依据原论文：https://openreview.net/pdf?id=Ti67584b98 。"
+        },
+        {
+          "start": 2220,
+          "end": 2600,
+          "finding": "偏好可受讨好、长度、位置与裁判自身偏差影响。稀疏比较图连通是排名识别的重要条件，有限样本/完全分离仍可能影响估计。0.98 相关只适用那批模型，不能推出现有所有更强模型也等价。"
+        },
+        {
+          "start": 2700,
+          "end": 3520,
+          "finding": "Agent 成绩评价的是模型、scaffold、工具权限与预算的组合。单元测试通过可能漏掉正确性问题；ARC 的目标是减少知识依赖，不能凭设计目标就断言已完全分离知识与推理。榜单值保留课堂日期，不当当前事实。"
+        },
+        {
+          "start": 3620,
+          "end": 4110,
+          "finding": "安全评价包含多种风险；拒答率只覆盖一种目标。真实职业任务不等于已经证明实际部署收益；让模型汇总敏感对话也不自动提供隐私保证，仍需实际数据流程与保护机制。"
+        },
+        {
+          "start": 4200,
+          "end": 4660,
+          "finding": "新时间戳和私有测试都只是减少污染的手段，复制来源、反复调试和服务端留存仍需检查。比较方法与比较最终模型是不同目标；每次测评先说明对象、用途、预算、置信区间，再抽读真实输出。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-13",
+      "video_id": "-qm0ln33G24",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "1b910cff9de67ddd713bfc71e7d74b0ad3c8779679582565280068580a3354bb",
+      "segments": 1419,
+      "previous_context_segments": 135,
+      "chronological_remaining_segments": 1284,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 300,
+          "end": 900,
+          "finding": "互联网、公开网页、爬取快照和最终训练集是不同对象。动态服务、登录、robots、限流、使用条款与作品许可分别处理；能访问不自动表示可再分发或可训练，robots 也不能独自给出全部法律结论。"
+        },
+        {
+          "start": 900,
+          "end": 1220,
+          "finding": "版权不是统一75年：美国1978年后作品通常作者终身加70年，匿名/雇佣作品另有95年首次发表或120年创作取先等规则；旧作品还需另查。依据：https://www.copyright.gov/help/faq/faq-duration.html 。"
+        },
+        {
+          "start": 1140,
+          "end": 1420,
+          "finding": "Creative Commons 是带具体条件的许可系列，不等于公有领域。需区分署名、相同方式共享、非商业、禁止演绎等条款，不能只看到CC就宣称任意使用；依据：https://creativecommons.org/cc-licenses/ 。"
+        },
+        {
+          "start": 900,
+          "end": 1850,
+          "finding": "事实/思想与表达不同，汇编的原创选择编排可能受保护；本讲后面自己也收回“汇编都不受保护”的过强说法。fair use 按具体事实综合四因素；诉讼进展只按课堂历史叙述，不写成所有AI训练均已合法或当前案件状态。"
+        },
+        {
+          "start": 1930,
+          "end": 2700,
+          "finding": "Common Crawl 的 WARC 保存抓取记录，WET 是有损文本产物；页面数、总历史数和某次 crawl 数不可混算。GitHub 仓库内容、事件元数据、论文 PDF/LaTeX 是不同数据对象，各自需转换及检查来源。"
+        },
+        {
+          "start": 2700,
+          "end": 3390,
+          "finding": "BERT、GPT-2、CCNet、C4、GPT-3、Pile 的链条展示采集和过滤策略如何变化，不能凭缺少明确细节推断 Books1/2 的实际来源。PG-19 是以1919年前出版书籍形成的长文本语料（作者仓库：https://github.com/google-deepmind/pg19 ），不能按字幕误当2019年前书籍。"
+        },
+        {
+          "start": 3500,
+          "end": 4250,
+          "finding": "Llama 的 Wikipedia引用页 classifier 与 CCNet 的 Wikipedia相似度 LM 不同。RefinedWeb/FineWeb、Dolma、DCLM、Nemotron 以不同规则或模型取舍质量、规模、合成；数据集包装许可不能替每个来源作品授权。"
+        },
+        {
+          "start": 4260,
+          "end": 4810,
+          "finding": "代码需处理重复、二进制、机器人事件、PII与补丁上下文；低资源代码与中间表示配对是特定数据设计，不表示所有语言都能无损编译成LLVM。Common Pile 对原始作品许可逐项处理，集合上写Apache并不足以证明底层内容可用。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-14",
+      "video_id": "5sxHosTLPF8",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "a602733c5780201f0757850f21ee47d373a29ea3d0030b77da66ea50844e538d",
+      "segments": 1448,
+      "previous_context_segments": 191,
+      "chronological_remaining_segments": 1257,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 150,
+          "end": 450,
+          "finding": "PDF比HTML更高质量是讲者经验判断，不是格式自带可靠性。OCR/VLM可恢复阅读顺序，也会错公式、合并列或漏标点，需抽查；表格转纯文本或Markdown会丢布局与嵌套信息。"
+        },
+        {
+          "start": 450,
+          "end": 1350,
+          "finding": "KenLM是n-gram工具，不固定只能5-gram；fastText可用词/子词及监督分类结构，不能把所有配置简化为同一种线性模型。过滤阈值依语言、目标、算力和可用数据，去掉毒性可能同时改变方言/群体覆盖；无限算力也不自动消除安全或数据分布需求。"
+        },
+        {
+          "start": 1610,
+          "end": 2250,
+          "finding": "精确哈希需要处理碰撞；近似去重需定义分片单位和规范化。随机排列的MinHash碰撞概率等于Jaccard有理想随机性假设，100次估计偶得0.6不等于每次都精确；通用快速hash只是近似。"
+        },
+        {
+          "start": 2250,
+          "end": 2890,
+          "finding": "LSH概率为1−(1−s^r)^b，候选仍有误报/漏报，通常再算相似度。s≈b^(−1/r) 是转折位置近似，概率约1−e^(−1)≈0.632而非严格0.5；课堂12=3×4图与5×10数值另属两组参数。"
+        },
+        {
+          "start": 2890,
+          "end": 3600,
+          "finding": "去重要跨合并后的来源，否则同文本在不同集合仍重复；近似删除不保证零信息损失。epoch_i=p_i×训练token总数/源token数，示例低质源0.05轮、高质源50轮；epoch cap约束应乘以源token数才能保持单位一致。"
+        },
+        {
+          "start": 3600,
+          "end": 4230,
+          "finding": "RegMix等先拟合小跑混合权重到loss，再优化权重；优化器可能钻代理模型外推误差。simulated epoching 按小/大token预算比例缩小每个源，保留稀缺性；只把模型缩小而保留全部小优质源会得过乐观配比。"
+        },
+        {
+          "start": 4420,
+          "end": 5000,
+          "finding": "强模型未必最好老师，多次回答数与独立问题数分开。SWE-smith生成任务，SWE-Zero减少执行依赖，SWE-rebench收集真实PR/环境；未执行的轨迹不等于已经通过测试。字幕重复说两次SWE-Zero和“120”数量有歧义，不据此编造第二阶段数据或精确规模。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-15",
+      "video_id": "2oH6PWPrYFo",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "5c0b85c35bb877a1ce69cad302044487d100bc88713975cc99833509e4f206f7",
+      "segments": 1872,
+      "previous_context_segments": 530,
+      "chronological_remaining_segments": 1342,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 450,
+          "end": 1090,
+          "finding": "FLAN任务模板与后来的多轮chat/工具轨迹不同，课堂“FLAN不好”针对用户分布匹配，不能删掉其指令泛化贡献。Alpaca 原版52k指令来自 text-davinci-003，不应按口述统称为直接蒸馏ChatGPT；Vicuna和OpenAssistant来源另列。"
+        },
+        {
+          "start": 1200,
+          "end": 1660,
+          "finding": "训练正确但模型未知的引用，可能同时教知识与输出引用格式；泛化时只学会格式会幻觉。这是需实验检验的机制，不是SFT绝不能学新知识或RL必能校准的定理。"
+        },
+        {
+          "start": 1670,
+          "end": 2140,
+          "finding": "安全SFT需同时看违规率与误拒率，小规模例子只证明一定幅度可被少量数据改变；不证明500例足够覆盖真实使用。专家薪资、数据量与供应商调查只属所引年份和样本，不作当前行情。"
+        },
+        {
+          "start": 2150,
+          "end": 2450,
+          "finding": "mid-training可把指令数据混入衰减期，“base”名称不足以确认从未见过chat数据。用衰减阶段快速比较配比是代理试验，仍需检查能否转移回完整预训练。"
+        },
+        {
+          "start": 2550,
+          "end": 3940,
+          "finding": "SFT拟合示范分布，纯期望奖励最大化可能集中到少数答案；有KL/entropy约束时不应说必然完全塌缩。人偏好和模型偏好均受格式/长度影响，合成反馈不能独立证明真实用户收益。"
+        },
+        {
+          "start": 4050,
+          "end": 4530,
+          "finding": "PPO旧策略与KL参考策略是不同角色。DPO的指数倾斜最优策略先来自KL正则奖励目标；将隐式奖励代入Bradley–Terry偏好似然才得DPO，不能只说直接代回原RL目标就自动得到同一损失。"
+        },
+        {
+          "start": 4350,
+          "end": 4770,
+          "finding": "DPO增加偏好对的相对对数概率裕量，不保证每个chosen样本绝对概率都升、rejected都降。数据覆盖、参考策略支持和神经模型约束仍重要；原课对RFT等的负面评价限所引比较，不删除本课下一讲的有效基线。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-16",
+      "video_id": "dIFAi87Ws4E",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "c82386a77f4b1a247449b6a7a5adf8920fbb652c0db16c9fd939695f533bd15b",
+      "segments": 1687,
+      "previous_context_segments": 205,
+      "chronological_remaining_segments": 1482,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 450,
+          "end": 730,
+          "finding": "PPO展示中的逐样本log-ratio可为负，真实KL期望非负；截断样本估计会改目标，课堂自己说并非推荐实现。token级KL可以看作稠密reward，不意味着无法从序列级bandit角度等价组织。"
+        },
+        {
+          "start": 900,
+          "end": 1110,
+          "finding": "on-policy初始ratio值为1仍有梯度，旧策略分母和优势需detach；把新旧概率都当同一个可微变量会使梯度消失，D07验证。G=1时样本std常为NaN，加epsilon不能自动修好，需明确std定义及组大小。"
+        },
+        {
+          "start": 1200,
+          "end": 1540,
+          "finding": "action-independent baseline保持策略梯度期望；同组均值含自身回报时有限组会有缩放偏差，leave-one-out不同。除以组内std和序列长度又改变权重。所有reward相同的组中心化后为0，不能说除零方差就必产生巨大正负信号。"
+        },
+        {
+          "start": 1650,
+          "end": 2250,
+          "finding": "R1-Zero无专门冷启动SFT不表示没有强预训练或完全没见过指令。长CoT和aha字样不是独立推理能力证明；过程监督/MCTS未奏效是特定研究结果，不是全部任务下不可能有效。"
+        },
+        {
+          "start": 2530,
+          "end": 2600,
+          "finding": "Kimi best-of-8筛的是不写CoT直接猜答案仍能猜中的易hack题，不是把所有能解出的RL题都删除。另用SFT模型高温采样10次估难度，二者不同；依据原报告2.1：https://arxiv.org/html/2501.12599v1 。"
+        },
+        {
+          "start": 2700,
+          "end": 3310,
+          "finding": "Kimi相似最优点启发的平方损失是代理目标；相同最优点不自动保证所有梯度相同。缩短错误CoT不能压至毫无探索空间；数学等价检查模型和代码单元测试均可能误判，verifiable不是不可hack。"
+        },
+        {
+          "start": 3330,
+          "end": 3670,
+          "finding": "Qwen thinking/non-thinking融合、预算提前终止与通用RL分别作用，性能降幅是所引实验结果。Qwen3-Coder-Next名称在课堂最后纠正，不凭口头混用3.5/Next-Coder建立新模型来源。"
+        },
+        {
+          "start": 3800,
+          "end": 4450,
+          "finding": "专家agent分别训练再蒸馏回单模型，与MoE层内专家不是同一概念。Git未来提交泄漏说明奖励上升可能是环境漏洞；Lean案例是讲者项目经验，不据此泛称所有Lean内核均不可靠。截断rollout、权重同步和策略陈旧度需一起考虑。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-17",
+      "video_id": "26FtD08ZpOU",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "20dd5dcbc7b16bc1a38a556e128a94aabf84e08bac90d7002a1df0b4de764c3d",
+      "segments": 1264,
+      "previous_context_segments": 266,
+      "chronological_remaining_segments": 998,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 0,
+          "end": 220,
+          "finding": "本讲临时从RL改为多模态概览，正式资料应按实际内容而非原日程标题。连续视觉token指向量序列，不必对应文本词表中的某个离散词；语义单元只是设计目标，BPE也不保证每片有完整语义。"
+        },
+        {
+          "start": 300,
+          "end": 1050,
+          "finding": "CLIP用归一化图/文向量和温度形成双向对比交叉熵。ViT与ResNet变体的pooling方式不能混为一谈；讲者把注意力池化说进ViT描述，教学时以原模型实现确认。32k是训练设置，不是小于某固定batch就数学上不能训练。"
+        },
+        {
+          "start": 1300,
+          "end": 1660,
+          "finding": "SigLIP对图文配对做二元sigmoid分类，正例在对角、负例在非对角，字幕重复“diagonal”有误。它取消跨batch softmax归一化耦合，但仍要考虑负例采样、类别不平衡与分布式传输。"
+        },
+        {
+          "start": 1800,
+          "end": 2140,
+          "finding": "LLaVA用已有图像caption/框的文本描述让文本教师生成对话，不能声称原始GPT-4直接看过每张图。适配器学习把视觉特征接入LM，不是已证明输出向量变成真实文本token。阶段冻结范围按具体版本。"
+        },
+        {
+          "start": 2150,
+          "end": 3150,
+          "finding": "高分辨率裁块、动态视觉token及2×2合并是不同模型的处理细节，不把所有Qwen2-VL处理等同固定224裁块。AnyRes版本归属、token数口述有歧义，精确配置需回对应论文/代码，不按字幕66等数背诵。"
+        },
+        {
+          "start": 3150,
+          "end": 3520,
+          "finding": "M-RoPE分配时间/高/宽的位置维度，interleaving改善频率分配；时间戳token又是显式文本线索。DeepStack把多层视觉特征注入LM不同深度，来源归属不按口头猜测。平方根loss归一化在讲者原话也不确定，不补写成已确认实现。"
+        },
+        {
+          "start": 4070,
+          "end": 4510,
+          "finding": "VQ-VAE以码本量化得到图像离散token，训练不仅重建损失，还有codebook/commitment与梯度估计等项。Chameleon统一token空间仍有模态统计和稳定性差异；没有adapter不等于没有图像编码/解码器。"
+        },
+        {
+          "start": 4500,
+          "end": 4590,
+          "finding": "闭源omni结构是讲者推测。音频、视频生成和diffusion没有在本讲展开，不得声称已经教完完整omni系统；视频信息密度比较也依采样和任务，不是通用物理事实。"
+        }
+      ]
+    },
+    {
+      "lecture": "2026-18",
+      "video_id": "9EEm4iMAF5s",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "b9784db1940a9ea723de1a5b3f74ee7e88a492a78396897d023c6c49ecd10721",
+      "segments": 1533,
+      "previous_context_segments": 408,
+      "chronological_remaining_segments": 1125,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 0,
+          "end": 340,
+          "finding": "开场模型规模、历史类比和产业预测属于演讲背景或讲者判断。未公开的 frontier 参数量不是已知事实；陪学不需要背诵这些猜测，也不据字幕确认并购等时事。"
+        },
+        {
+          "start": 750,
+          "end": 1230,
+          "finding": "服务负载应包含输入/输出长度、会话间隔和首 token/后续 token 的时延要求。prefill 常偏计算、decode 常偏带宽，是工作负载相关判断；大 batch 或特殊架构会改变瓶颈，不能当绝对分类。"
+        },
+        {
+          "start": 1050,
+          "end": 1170,
+          "finding": "跨请求 prefix cache 复用需要相同前缀和兼容的模型/位置等条件。相同一句问候若前面系统提示不同，不自动意味着 KV 相同；命中的是 token 前缀及相应状态，而非所有文本相似请求。"
+        },
+        {
+          "start": 1350,
+          "end": 1760,
+          "finding": "重复 token、超长 tool loop、语言切换三个例子展示系统 bug 如何表现为模型行为。不能凭症状就认定同一根因；未初始化读等需具体代码证据。缓存可逐级放在 GPU、CPU、SSD，预取与淘汰需计搬运时间。"
+        },
+        {
+          "start": 1870,
+          "end": 2020,
+          "finding": "cache-aware P/D disaggregation 将低命中冷请求与高命中续聊路由到不同 prefill 池；讲者报告的最高约 40% 改善受原实验负载制约，不是任意请求下保证收益。"
+        },
+        {
+          "start": 2090,
+          "end": 2450,
+          "finding": "Megakernel 以依赖粒度调度多个操作，既减 launch gap 也允许提前加载。QKV 未完成时可开始读旧 KV，attention 未完成时可读 O 权重；这不允许使用尚未产生的新 Q 做完整 attention。72% 是该实验的带宽利用率，不是所有模型吞吐统一上限。"
+        },
+        {
+          "start": 2550,
+          "end": 3120,
+          "finding": "looped transformer 用同一组参数增加重复计算。线性化分析将复杂非线性当扰动；谱半径不是矩阵范数的同义词。连续时间负对角 A 经适当离散化得到收缩的 A_bar；不能把任意负数反复幂都趋零，D08 已给反例。"
+        },
+        {
+          "start": 3150,
+          "end": 3620,
+          "finding": "实验中的训练稳定、验证损失和任务分数是不同证据。固定参数比较可允许 FLOPs 增长，固定 FLOPs 的曲线则在数据和循环次数之间分配；两张图的控制变量不能混在一起。"
+        },
+        {
+          "start": 3720,
+          "end": 4055,
+          "finding": "小参数量可释放 KV cache 或减少跨 GPU 分片，但重复计算仍有成本。把循环块直接塞进更小 Megakernel 是讲者尚未实现的愿景，不能写成已发布演示；训练大小还需考虑将来谁能部署。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-01",
+      "video_id": "SQ3fZ1sAqXI",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "7e4f970a643ff9e0dbe8c52cbe05c98f45c7ea885d3bc65be6708ee7f4732f7c",
+      "segments": 1498,
+      "previous_context_segments": 246,
+      "chronological_remaining_segments": 1252,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 300,
+          "end": 700,
+          "finding": "旧版用MLP/attention算力占比和突变准确率说明小规模结果未必代表大规模；同样不能把accuracy阶跃直接当底层能力已不连续。Bitter Lesson强调适合扩展的算法；效率×资源只是直觉。"
+        },
+        {
+          "start": 1050,
+          "end": 1600,
+          "finding": "可执行讲义是可步进的Python及缓存展示，课堂题、集群额度和AI规则属于2025学分背景。本资料保留概念、跳过强制重作业，不假定初学者已具备课上默认先修知识。"
+        },
+        {
+          "start": 2850,
+          "end": 3000,
+          "finding": "随机Common Crawl文档展示确有渲染异常，不能说每个文档都已清晰读出；垃圾样本用于说明清洗必要性，不代表整个web内容比例的随机统计结论。"
+        },
+        {
+          "start": 3630,
+          "end": 4650,
+          "finding": "byte取值0到255，256是词表大小；Unicode字符可能多字节，不能把字节/字符压缩率混用。BPE新token编号256不等于此时总词表256，已是257项；依序回放merge、特殊token和预分词边界仍需单独处理。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-02",
+      "video_id": "msHyYioAyNE",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "b08fbebab25ef60f8a1492c902ec39ab89a1627a9e4b8f3c80a4f20312bdcc9f",
+      "segments": 1291,
+      "previous_context_segments": 244,
+      "chronological_remaining_segments": 1047,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 0,
+          "end": 210,
+          "finding": "144天是6ND、给定硬件峰值和0.5MFU下的预算估计。八卡总HBM除16bytes给40B只是总容量账本，隐含能切片/分配状态，朴素每卡完整复制不能训练40B；还没算激活和临时峰值。"
+        },
+        {
+          "start": 300,
+          "end": 780,
+          "finding": "dtype表示动态范围与精度的不同交换，BF16保留FP32级指数范围但尾数更短。讲者“参数/优化器必须全FP32”是保守配方，不是所有现代低精度方案的不可能性证明；训练与推理量化边界不同。"
+        },
+        {
+          "start": 1050,
+          "end": 1530,
+          "finding": "tensor metadata还应有storage offset；view可共享存储，reshape是否复制取决于布局，非连续也并非所有view都绝不可行。逐元素操作可有原地/out版本，不能说任何逐元素操作必分新storage。"
+        },
+        {
+          "start": 1950,
+          "end": 2850,
+          "finding": "FLOPs数量和FLOP/s速率分开，峰值要匹配dtype/稀疏模式。原课“两周”实际一周已当场指出；MFU对模型有用工作计数，HFU可能含重算，两者都不能仅看速度快慢评价。"
+        },
+        {
+          "start": 3000,
+          "end": 4360,
+          "finding": "反向包括参数梯度和输入激活梯度两条矩阵路径；原始输入不需梯度时可省一路。AdaGrad累积梯度平方而非普通均值；状态跨step保留，zero_grad只清梯度不清累计优化器状态。"
+        },
+        {
+          "start": 4500,
+          "end": 4700,
+          "finding": "恢复训练需模型、优化器、step，若要重现还需随机数、数据位置、日程及混合精度状态。固定seed有助调试，不保证跨硬件/并行算法逐位一致。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-03",
+      "video_id": "ptFiH_bHnJw",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "eba9ae3b69b5c4b5b859a0924b45c77e15c01db99f0bf0c01766f6d3df71b5d8",
+      "segments": 1990,
+      "previous_context_segments": 379,
+      "chronological_remaining_segments": 1611,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 150,
+          "end": 750,
+          "finding": "字幕emit bias应按主线理解为omit bias；pre-norm稳定性对比也有口头把pre/post重复说反。教学以残差路径图及公式为准，区分子模块后规范化和残差相加后规范化。"
+        },
+        {
+          "start": 750,
+          "end": 1900,
+          "finding": "RMSNorm、无bias、GLU和parallel block都是经验有效的设计，并非模型成功的必要条件。占FLOPs很少的归一化仍可因访存占不少时间；0.17%/25%是所引实验，非所有实现固定比例。"
+        },
+        {
+          "start": 2000,
+          "end": 3320,
+          "finding": "RoPE相对位置性质对给定Q/K旋转成立，不消除上下文hidden state对位置的全部依赖。4D/8D÷3、heads×head_dim≈model_dim、宽深比约100都为默认经验，T5等例外保留，不能变成自然定律。"
+        },
+        {
+          "start": 3400,
+          "end": 4530,
+          "finding": "单遍训练不保证不记忆。weight decay在所引实验改善优化过程；z-loss、QK norm和softcap分别干预不同数值项，不能推出规范化必改善所有任务或无需稳定softmax。"
+        },
+        {
+          "start": 4570,
+          "end": 5218,
+          "finding": "推理算术强度公式需按讲义变量和整体倒数核对，字幕若漏平方/下标不能直接照写。SWA的层间感受野扩大不等于直接完整全局访问；全局NoPE仍有因果mask等位置线索，长上下文泛化并无自动保证。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-04",
+      "video_id": "LPv1KfUXLCo",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "1145c904e00b485305f9a74aa011782493fcbbb24986944b893d3cc8ab84c886",
+      "segments": 1953,
+      "previous_context_segments": 641,
+      "chronological_remaining_segments": 1312,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 0,
+          "end": 1000,
+          "finding": "2025本讲专讲MoE，2026同编号加入其他架构；年度编号不能直接当相同范围。稀疏活跃参数可降低核心FLOPs，但总显存、路由与通信仍计入；GPT-4架构传闻不当官方确认。"
+        },
+        {
+          "start": 1350,
+          "end": 1940,
+          "finding": "加权专家输出是确定的稀疏加权组合，不必理解为对随机专家的数学期望。softmax前后top-k及门权重归一化不同，正如课堂问答所指，未归一化门权重和可能小于1。"
+        },
+        {
+          "start": 1950,
+          "end": 2700,
+          "finding": "fine-grained缩小FFN中间宽度，可在相近总/活跃账本下组合更多专家；shared expert每token都会用，不能漏进active count。表中专家大小是讲者从配置反推的近似，不作为精确规格。"
+        },
+        {
+          "start": 2890,
+          "end": 3350,
+          "finding": "Switch平衡项f·P里f为离散分配比例，P为连续router概率均值，梯度主要经P。DeepSeek偏置只影响选择，实际门权重不直接加偏置；“loss-free”还保留小的序列级辅助损失。"
+        },
+        {
+          "start": 3600,
+          "end": 4200,
+          "finding": "MegaBlocks块稀疏打包不等于规格表2:4稀疏峰值。容量丢token使输出依batch同伴变化，是非确定性的一种机制，原课未声称证实GPT-4因此不确定。upcycling复制dense初值后仍须训练。"
+        },
+        {
+          "start": 4350,
+          "end": 4890,
+          "finding": "device-limited routing先限制设备候选再选总top-k，不是每个设备都无条件选k个。MLA通过结合投影减少缓存/重复上投影，RoPE独立部分仍需处理；MTP额外一步指比普通next-token再多预测一步，而非总共只有一个token目标。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-05",
+      "video_id": "6OBtO9niT00",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "4411c90a18e0ca9e3df83b1c05c304a2379059a95840df55e18b517c433daff1",
+      "segments": 1725,
+      "previous_context_segments": 290,
+      "chronological_remaining_segments": 1435,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 300,
+          "end": 1050,
+          "finding": "CPU低延迟、GPU高吞吐是设计取向。SM/warp/block与TPU TensorCore不是同一层级名词；A100开头128SM口述与后面108例不一致，不作型号规格结论。local memory的逻辑私有不保证物理在SM快存储。"
+        },
+        {
+          "start": 1500,
+          "end": 2000,
+          "finding": "roofline按算术强度而非仅矩阵大小解释上界。低精度可同时减少字节和提高特定硬件吞吐，但指数、归约、累加与状态需独立选精度；不能保证所有输入减半bit就恰快两倍。"
+        },
+        {
+          "start": 2000,
+          "end": 2450,
+          "finding": "融合减少中间写回和launch开销，重算以额外算术换访存，三sigmoid示意从8降5是简化读写账本，不是所有真实HBM事务或FLOPs总量相同。"
+        },
+        {
+          "start": 2550,
+          "end": 3860,
+          "finding": "coalescing看同一warp同一时刻不同线程地址，不能只看单线程沿行/沿列。tile尾部、对齐与wave是不同离散效应；引用nanoGPT词表精确数在字幕漏位，教学只保留padding到合适倍数的原则，不照错数。"
+        },
+        {
+          "start": 3900,
+          "end": 4440,
+          "finding": "注意力核心是QKᵀ与softmax(QKᵀ)V两次矩阵乘，投影另计，口述“三次”不混入核心。在线softmax维护max和归一化量；FlashAttention还要同步重缩放加权V累积量，反向重算未保存的二次中间矩阵，D10补足数值验证。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-06",
+      "video_id": "E8Mju53VB00",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "c1d6ef72586385f48d71db743d24d64e4edca9c0de9c4985fd8a2622bf331907",
+      "segments": 1860,
+      "previous_context_segments": 434,
+      "chronological_remaining_segments": 1426,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 150,
+          "end": 425,
+          "finding": "32线程一组是warp，wave是多个block按驻留资源分批完成的性能概念；原课此处混说wave需纠正。block内线程可共享内存/同步，跨block特殊机制另论，不把教学简化当所有CUDA绝无跨block协作。"
+        },
+        {
+          "start": 600,
+          "end": 1120,
+          "finding": "基准预热测稳态，若关心冷启动须另报首次开销；cuda.synchronize主要让主机等待设备工作，不是CPU和GPU都停止成某统一状态。口述秒/毫秒混用，以trace原数和单位为准。"
+        },
+        {
+          "start": 1230,
+          "end": 2600,
+          "finding": "profiler的CPU self time、GPU kernel time、重叠和端到端时间不同，不能直接加总。打印CUDA标量会同步而普通CPU字符串未必；“CPU永远不是瓶颈”过强，Python调度、tokenization/数据加载都可能成为瓶颈。"
+        },
+        {
+          "start": 2700,
+          "end": 3550,
+          "finding": "GELU统一tanh近似和allclose后再比速度，公式根号是sqrt(2/pi)，字幕sqrt(pi/2)错误。缓存记录里内置约1.1ms，手CUDA/Triton约1.8ms，不能说手写一定更快。"
+        },
+        {
+          "start": 3750,
+          "end": 4420,
+          "finding": "Triton逻辑BLOCK_SIZE不等于线程数，一个线程可管多元素；向量化加载四值和整个warp coalescing相关但不同，不是DRAM永远四字节burst。PTX仍需编译到机器指令；exp2换底用log2(e)。"
+        },
+        {
+          "start": 4520,
+          "end": 4805,
+          "finding": "softmax每program一行仅适合行能驻留的场景，mask无效lane应填负无穷；全mask行需边界处理。compile在此softmax结果较好、在此GELU仍慢于内置，保留具体形状/版本差异，不推广为统一排名。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-07",
+      "video_id": "l1RJcDjzK8M",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "2124ce3efcbed67bb09995b9fe218254ce36d00da88f793255da3b946aa18413",
+      "segments": 1969,
+      "previous_context_segments": 400,
+      "chronological_remaining_segments": 1569,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 300,
+          "end": 750,
+          "finding": "all-reduce和reduce-scatter+all-gather的通信量等价基于大消息等假设；256GPU、8GPU是所引拓扑设置，不是通用阈值。TPU只能直接连邻居不表示不能经路由与远端交换数据。"
+        },
+        {
+          "start": 900,
+          "end": 1290,
+          "finding": "16byte状态账本需列精度，120→31.4→16.6→1.9GB表示该示例每GPU状态，不是64卡总内存。Adam第二矩是梯度平方均值，不是已减均值的严格方差。"
+        },
+        {
+          "start": 1680,
+          "end": 2420,
+          "finding": "ZeRO-1/2确实省优化器/梯度显存，课堂结尾“不能scale memory”指仍有完整参数瓶颈，不等于零收益。ZeRO-3持久切片仍需临时完整层和激活，2×/3×通信是简化账本，重叠不保证任意网络下免费。"
+        },
+        {
+          "start": 2850,
+          "end": 3700,
+          "finding": "PP bubble/有效计算≈(p−1)/m，和bubble/总时间不同；零bubble拆输入梯度和权重梯度，W仍必须更新前完成。TP前向/反向collective对偶，all-reduce不是MoE的all-to-all。"
+        },
+        {
+          "start": 3820,
+          "end": 4350,
+          "finding": "34SBH激活公式来自特定实现/精度，不是所有训练最低限。Megatron sequence parallel切逐token部分，ring/context parallel切长注意力序列；两者区别保留。重算可释放batch资源，但不必然缩短端到端时间。"
+        },
+        {
+          "start": 4500,
+          "end": 5000,
+          "finding": "先fit内存再DP的组合是经验起点，需测吞吐、优化效率和故障恢复。Llama3的148是其报告里归因faulty GPU的中断，不是所有年份硬件平均故障率；上个2026口述也不能泛化成模型总共仅失败148次。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-08",
+      "video_id": "LHpr5ytssLo",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "c7cb02c978636a58a0d885d42cc9c9e054a14f0691051bdc6f7b3dcc1d32aa4f",
+      "segments": 1250,
+      "previous_context_segments": 454,
+      "chronological_remaining_segments": 796,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 0,
+          "end": 930,
+          "finding": "本讲配合独立stdout演示，多进程不能在单个可执行讲义界面完整步进。Gloo可检逻辑而不是替代NCCL性能；rank通常映射一个GPU进程，在一般分布式程序也不必等同物理设备。"
+        },
+        {
+          "start": 1050,
+          "end": 1940,
+          "finding": "empty输出的初值无含义；all-reduce确实原地改张量，reduce-scatter/all-gather另分配输出。四rank结果6/10/14/18已由stdout核对。通信归一化和900GB/s双向规格不是同口径实测；讲者自己未解释清277对70差异，不能替他归因硬件加速。"
+        },
+        {
+          "start": 1950,
+          "end": 2980,
+          "finding": "DDP需相同初始化及按样本/token正确加权，示例只多一处梯度平均。TP/PP在本讲仅forward骨架，FSDP实现明确省略，不能声称课程已现场跑了完整TP/PP训练。"
+        },
+        {
+          "start": 2980,
+          "end": 3650,
+          "finding": "同步send/recv例子没有通信计算重叠；用异步版本还需依赖、buffer寿命和顺序。JAX/Levanter声明式分片是另一抽象层，十行展示不代表底层通信消失。"
+        },
+        {
+          "start": 3750,
+          "end": 4300,
+          "finding": "固定静态数据流有助编排，MoE路由、形状和现实任务也可能动态。更大片上内存可少搬运，但制造、容量、功耗及灵活性有取舍，不能据此推断某专用芯片普遍优于GPU。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-09",
+      "video_id": "6Q-ESEmDf4Q",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "3ad0ebb153bf8747fdf3c690f6c75f321f61a6aceff081d64089df827dda3883",
+      "segments": 1462,
+      "previous_context_segments": 201,
+      "chronological_remaining_segments": 1261,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 150,
+          "end": 1220,
+          "finding": "理论泛化上界和经验loss曲线不同；均值估计标准差是sigma/sqrt(n)，MSE是sigma²/n，log-log斜率−1。课堂口述除n及斜率1有符号/量纲简化；非参数维度指数还依光滑度、风险定义。"
+        },
+        {
+          "start": 1650,
+          "end": 2110,
+          "finding": "具体架构/优化器曲线平行只是实验现象，不保证任意替换只改截距。宽深比100、FFN multiplier4是不同超参，口述4到16不能误挂到宽深比。"
+        },
+        {
+          "start": 2110,
+          "end": 2510,
+          "finding": "临界batch在目标loss降低时可增大，讲者一处说smaller后下一句更正bigger。相同最优学习率跨宽度转移需正确muP参数化，不保证随意改深度或数据仍成立。"
+        },
+        {
+          "start": 2850,
+          "end": 3480,
+          "finding": "C≈6ND中不能漏6，IsoFLOP扫N时D应随预算约束变化。cosine中段checkpoint可用，但不等同已经按更短日程衰减完的模型；不是“中途模型无效”的绝对判断。"
+        },
+        {
+          "start": 3480,
+          "end": 3905,
+          "finding": "联合曲面拟合依损失函数和优化，残差均值为零只是特定回归条件，不是所有鲁棒/非线性拟合的必然条件。Chinchilla20比1是训练最优近似，服务总成本可能偏向更小模型多token训练。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-10",
+      "video_id": "fcgPYo3OtV0",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "bfbe16a78aaa801341e6b527705e4ba2668c82dde89e7ce2f79b0574e533607f",
+      "segments": 1464,
+      "previous_context_segments": 162,
+      "chronological_remaining_segments": 1302,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 450,
+          "end": 820,
+          "finding": "口述前向6ND应纠正：常用前向约2ND，训练前反合计约6ND。H100带宽3.3是TB/s不是bytes/s；计算条件是BT远小于D、F，字幕BD为误差。SymPy能核代数，不能保证人工写入的建模假设正确。"
+        },
+        {
+          "start": 1660,
+          "end": 2200,
+          "finding": "Llama2_13B的240GB batch256只是公式结果且原课说放不下；16/64口述不一致按trace配置。latency模型是理想下界，TTFT还包括排队等；多副本吞吐线性要求请求、资源及负载均衡足够。"
+        },
+        {
+          "start": 2290,
+          "end": 3100,
+          "finding": "GQA/MQA/MLA/CLA/SWA各减少不同维度的KV存储。讲者MLA性能表展示错并明确承认，不能把画面当其质量结论直接证据；更换架构后需要训练或适配，不能只改head数就保证质量不降。"
+        },
+        {
+          "start": 3160,
+          "end": 3850,
+          "finding": "S4/Mamba/linear attention以固定状态换有限回忆能力，合成关联回忆用来暴露特定瓶颈。有限特征映射近似softmax核与直接改模型不同；diffusion多token并行仍需多轮去噪和质量/步数折中。"
+        },
+        {
+          "start": 3900,
+          "end": 4250,
+          "finding": "LLM.int8把outlier路径单独高精度处理；AWQ主要按激活做通道缩放，不是简单把所有显著权重保留FP16，依据原论文：https://arxiv.org/abs/2306.00978 。压缩会省容量，但转换/内核开销可能令延迟不降。"
+        },
+        {
+          "start": 4350,
+          "end": 4900,
+          "finding": "speculative精确分布需要min(1,q/p)接受及正部残差重采样，拒绝时不是直接无校正采q。原课只讲小词表推导，完整证明由陪学另展开；continuous batching和PagedAttention分别管理调度与KV布局。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-11",
+      "video_id": "OSYuUqGBQxw",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "4bb3735c7fe947ce2c68899d98e5c1d67f623410b7836be3769072570fadc301",
+      "segments": 1743,
+      "previous_context_segments": 161,
+      "chronological_remaining_segments": 1582,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 300,
+          "end": 1100,
+          "finding": "Cerebras与MiniCPM通过muP减少重复超参搜索，DeepSeek直接拟合最佳batch/LR；成功案例不证明从40M任意外推永远可靠。初始化1/width须分清方差与标准差，不能按一行口述把所有层设同缩放。"
+        },
+        {
+          "start": 1160,
+          "end": 1840,
+          "finding": "WSD共用stable前缀、不同终点各自decay，仍需多个模型尺寸跑。把“n² runs”改为重复前缀增加总工作量的直觉，精确复杂度取决于采样终点；192比1只是MiniCPM特定拟合。"
+        },
+        {
+          "start": 1950,
+          "end": 2850,
+          "finding": "DeepSeek二维网格有离散误差，学习率线比IsoFLOP曲线更不稳。Llama3约39、Hunyuan96依总/活跃参数及配方口径，不能排成统一自然常数；loss→accuracy的sigmoid也是经验映射。"
+        },
+        {
+          "start": 3000,
+          "end": 3900,
+          "finding": "muP示意推导仅固定深度扩宽、单样本深线性SGD并加额外假设；随机矩阵operator范数乘输入范数是上界，独立性也不使它一般恰等号。SGD与Adam的层LR缩放不同，不能混用。"
+        },
+        {
+          "start": 4200,
+          "end": 4660,
+          "finding": "learnable norm gain和bias是不同参数，字幕remove biases不能代替移除gain的实验。Lion是sign不是sine，特定优化器、强weight decay会破坏该研究中的LR转移；单次大跑验证也不证明任意深度/batch稳健。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-12",
+      "video_id": "x-R5l2HsXqM",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "eb3244763ac24834b3cd2c9f4387c054019ca69e74b80ff30edeb707f7efaeaf",
+      "segments": 1510,
+      "previous_context_segments": 579,
+      "chronological_remaining_segments": 931,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 300,
+          "end": 780,
+          "finding": "先确定用户选型、科学比较或开发反馈的目标，再定义输入、调用、输出评分和解释。Pass@1/多次采样、工具权限、延迟和费用要同时说明，单一91分不足以决定部署。"
+        },
+        {
+          "start": 990,
+          "end": 1800,
+          "finding": "跨域零样本perplexity与同分布split不同。交叉熵下界H、perplexity下界exp(H)分开；逼近文本分布是否带来通用智能是课堂讨论，不是已证明结论，测试集还应避训练与反复调试泄漏。"
+        },
+        {
+          "start": 1960,
+          "end": 3000,
+          "finding": "HELM现场查看了题目、预测和few-shot完整prompt，能看见标准prompt与厂商榜单设置有别。GPQA非专家使用Google，字幕一处without后自改with；65%整体专家值不自动对应Diamond。"
+        },
+        {
+          "start": 3220,
+          "end": 3600,
+          "finding": "Arena协议争议是所引论文观点与当年事件，不能泛断所有分数无效。IFEval检验可验证形式约束，不保证语义质量；LLM judge相关性不是另一裁判的绝对真值。"
+        },
+        {
+          "start": 3600,
+          "end": 4805,
+          "finding": "agent测的是模型+scaffold+预算，CyBench可攻防双用；能力和实际倾向不同。医疗真实任务数据与隐私之间有约束，考试通过不代表临床部署有效。错误标注可能解释部分剩余错误，但原课“half”没有统一数据依据，不泛化。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-13",
+      "video_id": "WePxmeXU1xg",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "1e80b15f38e14a4e4c512b448894bd1706d156a97a643ee44623a76c3d9d3dc9",
+      "segments": 1422,
+      "previous_context_segments": 170,
+      "chronological_remaining_segments": 1252,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 0,
+          "end": 1800,
+          "finding": "预训练、中训练和后训练的数据边界有重叠。现场随机打开网页/Wikipedia，随机GitHub展示未成功，不能把计划展示当成实际展示。Common Crawl只是网络快照的一部分，学习时区分来源、抓取快照与加工后的数据集。"
+        },
+        {
+          "start": 1877,
+          "end": 2100,
+          "finding": "Gutenberg口述“75年”不能当美国版权期限；常见个人作品为作者终身加70年，雇佣等作品有不同规则，依据https://www.copyright.gov/help/faq/faq-duration.html 。PG-19选出版于1919年以前的书，依据https://github.com/google-deepmind/pg19 ，不是2019年以前。"
+        },
+        {
+          "start": 2250,
+          "end": 2490,
+          "finding": "Stack Exchange除问答正文还含投票等元数据；GitHub含目录、文件与提交历史，切分和去重单位须明确。字幕的“137 repositories”缺少数量级，未核准前不把它作为仓库规模教学数字。"
+        },
+        {
+          "start": 2550,
+          "end": 3560,
+          "finding": "Llama1发表于2023年。Cerebras去重后的627B指tokens，不是模型参数，依据https://www.cerebras.ai/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama 。RedPajama V2的数据构建方式不同于V1；DCLM约240T指候选pool，不是3.8T-token基线数据集，项目入口https://www.datacomp.ai/dclm/ 。保留来源和单位，不能把各数据集规模混排成同口径排名。"
+        },
+        {
+          "start": 3708,
+          "end": 4200,
+          "finding": "公开访问、版权许可、网站合同是不同问题。Creative Commons不等于公有领域；具体许可可有限制。课堂登记费及诉讼进展属于历史时点，不用来推导当前可训练来源清单。"
+        },
+        {
+          "start": 4200,
+          "end": 4650,
+          "finding": "长上下文中训练介绍了书籍、数学与合成数据等方向，没有给出完整配方。Super-NaturalInstructions、Alpaca和Vicuna的数据产生方式不同；教师模型输出的使用条件需查对应条款，不能说开放模型输出都任意可用。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-14",
+      "video_id": "9Cd0THLS1t0",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "6f5961ee3696de2781c66d09c368f1b3d33ba170b30ca9a4a2836f48a2404fe9",
+      "segments": 1394,
+      "previous_context_segments": 233,
+      "chronological_remaining_segments": 1161,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 150,
+          "end": 460,
+          "finding": "n-gram从计数估条件概率，Kneser–Ney涉及折扣、回退或插值，原课没有完整推导。示例里重复“da”的乱码也能有低perplexity，说明语言模型打分取决于参考分布，不能单独等同质量。"
+        },
+        {
+          "start": 450,
+          "end": 753,
+          "finding": "fastText把词表到类别的线性映射拆为V×H与H×K两个矩阵；在K=2、H=16时不一定省参数。这里没有隐藏层非线性，句子用词及n-gram特征聚合，哈希用于控制特征表规模。"
+        },
+        {
+          "start": 800,
+          "end": 1200,
+          "finding": "DSIR用目标/原始分布的密度比p/q重采样，要求目标有质量的区域原始分布也有支持。课程在哈希特征上估密度，不等于完全匹配语义。概率越大与perplexity越低方向相反；trace里概率0可来自数值下溢，不能据此认定句子理论概率严格为零。"
+        },
+        {
+          "start": 1500,
+          "end": 2200,
+          "finding": "LID现场把hello判为意大利语、把代码判为俄语等，显示短文本/混合语种的模型误差。phi-1的数据筛选随机森林借助教师标签，不应与fastText或手写质量规则混成一种算法。毒性筛选还涉及标签定义和偏差。"
+        },
+        {
+          "start": 2700,
+          "end": 3500,
+          "finding": "标准仅插入的Bloom filter可有假阳性、没有假阴性；用它去重可能误丢独有文档。假阳性率FPR=FP/(FP+TN)，不是FP/所有判阳项。理想近似为(1−exp(−kn/m))^k，最优k≈(m/n)ln2；0.5是此时bit占用率，不是最终FPR。固定m时不能无限增加哈希数。"
+        },
+        {
+          "start": 3590,
+          "end": 4660,
+          "finding": "Jaccard是集合重叠，不是语义相同；加一个not可能大改含义。理想MinHash碰撞概率等于Jaccard，LSH以1−(1−s^r)^b生成候选。99%不能直接换算为100词只差1词，n-gram与集合大小会改变关系；候选筛选常省工作，但全碰撞时仍可能二次复杂度。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-15",
+      "video_id": "Dfu7vC9jo4w",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "584b80368afd4620bc48e8018976f5160580ac4b77352f0380a23a690d8ad7e1",
+      "segments": 1696,
+      "previous_context_segments": 559,
+      "chronological_remaining_segments": 1137,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 0,
+          "end": 450,
+          "finding": "SFT把基础续写模型调整到指令响应分布。GPT-4相关嵌套提示代码例子在课堂中被阅读，没有据此确认现场实际执行成功。"
+        },
+        {
+          "start": 700,
+          "end": 900,
+          "finding": "课堂确实用Google Form让学生写回答，约五分钟后查看结果。出现短答、表情、nah fam及无关冰激凌回答；讲者怀疑某些长答借助AI，这是推测，不能定为作弊事实。字幕无法还原表单完整题面及所有响应行，资料不编造。"
+        },
+        {
+          "start": 900,
+          "end": 1650,
+          "finding": "课堂比较长答、列表和短答，说明形式偏好与事实质量不同。OpenAssistant的monopsony例子兼顾内容与风格。工具/检索可辅助事实回答，但仍需训练和验证；“kill Python process”的安全误拒绝说明词面规则的局限，500条安全样例不等于覆盖全部风险。"
+        },
+        {
+          "start": 1730,
+          "end": 2490,
+          "finding": "中训练可混入指令数据，减少遗忘的做法不保证完全消除遗忘。SFT能学新事实，也可能在未知事实上训练出自信回答；不能简化为只能学格式、绝不学知识。"
+        },
+        {
+          "start": 2516,
+          "end": 3500,
+          "finding": "偏好标注受时间、薪酬、题面和标注者群体影响；课堂用人类偏好AI摘要讨论评判局限。国籍/宗教与偏好研究的关联不证明因果，不能推广为整个国家或群体固定持有某种价值观。"
+        },
+        {
+          "start": 3546,
+          "end": 4400,
+          "finding": "DPO经KL正则策略解与Bradley–Terry偏好似然建立训练目标，不是直接照搬原始RL目标。PPO策略梯度使用加权log probability；奖励模型会被过优化。DPO改善chosen相对rejected的概率比，不保证chosen绝对概率一定上升或rejected一定下降。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-16",
+      "video_id": "46f2QTDB08Q",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "aa673c4271119ea0a8ddfce9a5b0fc369c57da3219149bb6d55f3c7690b6e347",
+      "segments": 1847,
+      "previous_context_segments": 247,
+      "chronological_remaining_segments": 1600,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 0,
+          "end": 700,
+          "finding": "本讲接续DPO，介绍长度归一化与SimPO，再用代理奖励和真实胜率区分过优化。具体比较依模型、SFT和数据条件，不能把单张图的结论说成方法永久排名。"
+        },
+        {
+          "start": 750,
+          "end": 1250,
+          "finding": "PPO裁剪的是概率比进入的surrogate objective，不是把环境reward截断，也不构成严格trust-region保证。课堂列举RL应用时不能把AlphaFold整体直接归为与AlphaGo相同的RL系统。"
+        },
+        {
+          "start": 1250,
+          "end": 1650,
+          "finding": "终点奖励、逐token KL惩罚及GAE是不同构件。在特定完整episode且gamma=lambda=1时，优势可化为return减value；仍须说明边界、detach与token对齐。"
+        },
+        {
+          "start": 1700,
+          "end": 2550,
+          "finding": "GRPO同prompt组内均值包含样本自身，和leave-one-out不同；除标准差改变目标权重。相同reward中心化为零；G=1的无偏样本std为NaN，事后加epsilon不修复。KL形式r−log(r)−1逐样本非负，但期望等价依采样分布及支持条件，不能自动推广到离策略。"
+        },
+        {
+          "start": 2576,
+          "end": 3450,
+          "finding": "R1-Zero从已有强基础模型出发，不是从随机参数直接获得推理。长思维链和aha文字不能单独证明真实反思；冷启动数据的未披露教师不猜测。PRM和MCTS在报告中的负面实验不证明所有设置下无效。"
+        },
+        {
+          "start": 3600,
+          "end": 4250,
+          "finding": "Kimi用8次无CoT猜测排除容易猜中的题，另用10次采样估难度；两种筛选不能混成排除所有可推理解决的题。依据https://arxiv.org/html/2501.12599v1 。长度惩罚和答案检查仍可能被利用；长rollout、旧策略与权重同步带来系统难题。"
+        },
+        {
+          "start": 4460,
+          "end": 4810,
+          "finding": "Qwen3的3995是独立prompt数，不是所有rollout数量。thinking fusion及早停控制预算需结合训练与质量实测，增加预算不保证无限提升；数学专用RL与一般行为可能有取舍。"
+        }
+      ]
+    },
+    {
+      "lecture": "2025-17",
+      "video_id": "JdGFdViaOJk",
+      "source_type": "uploaded_caption",
+      "source_file_sha256": "a46413a620b6220f9221818274cf0e92b63128512162060560f8986bd3350383",
+      "segments": 1342,
+      "previous_context_segments": 321,
+      "chronological_remaining_segments": 1021,
+      "full_caption_text_review_complete": true,
+      "full_audio_listening_review_complete": false,
+      "notes": [
+        {
+          "start": 5,
+          "end": 450,
+          "finding": "本讲深入上一讲的policy gradient/GRPO，用排序玩具演示。状态为prompt加已生成token，动作是下一个token；把完整响应合并为一个动作仅为终点奖励推导简化。纯文本追加的动态已知，真实agent调用工具后的外部环境并不都可这样精确模拟。"
+        },
+        {
+          "start": 450,
+          "end": 989,
+          "finding": "0/1奖励下未减baseline的REINFORCE只从成功样本取得直接信号；极稀疏成功会使学习停滞。过程奖励若可靠可提早反馈，但不能假定每步都有可信评分。"
+        },
+        {
+          "start": 989,
+          "end": 1750,
+          "finding": "两状态回报11/9与0/2用于区分绝对奖励和相对优势。与动作无关、停止梯度的baseline可保持期望策略梯度；样本内估baseline需另析偏差。trace的5.3229与1.1547是标准差不是方差。最优标量baseline带梯度平方权重，简单状态平均奖励通常只是近似。"
+        },
+        {
+          "start": 1880,
+          "end": 2252,
+          "finding": "排序先用位置匹配奖励，再用“输入元素出现＋相邻有序”部分奖励；后者有漏洞，讲者留作思考。本资料另给D09反例并标为新增。GRPO可自然重复同prompt采样，不能据口述断言机器人任务绝不可能有组采样结构。"
+        },
+        {
+          "start": 2252,
+          "end": 2570,
+          "finding": "玩具模型固定输入输出长度，每位置独立采样，用embedding和位置矩阵编码/解码。它不是自回归Transformer；einsum被字幕误转enzyme，vLLM也被误转，按源码术语理解。独立采样不保证各响应接近，只是分布相同。"
+        },
+        {
+          "start": 2570,
+          "end": 3000,
+          "finding": "现场一批reward碰巧全为3，讲者表示随机种子与预期不同；中心化便全零。均值0.1时原0奖励变−0.1，不是口述minus1。标准化对正比例缩放只在忽略epsilon等条件下不变；保留组内最大奖励是另提变体，不冒充原始GRPO。"
+        },
+        {
+          "start": 3000,
+          "end": 3500,
+          "finding": "旧概率须冻结；数值比为1仍可有非零梯度。实现比率应exp(logp_new−logp_old)，不是相除log probability。PPO取未裁剪与裁剪项的minimum并转负loss，不是直接clip梯度，也不硬性界定全部更新幅度。KL低方差估计的优势依分布，不能宣称任何情况下方差都更小。"
+        },
+        {
+          "start": 3500,
+          "end": 4117,
+          "finding": "分清current、rollout old、KL reference三种角色。old可缓存采样token的log probabilities，不必始终保存完整模型副本；ref更新频率取决算法。讲者自述代码比论文少一个循环及若干细节，不能称为逐行完整复现。"
+        },
+        {
+          "start": 4117,
+          "end": 4545,
+          "finding": "现场排序结果没有完全成功，中心化有改善也会卡在组内全同分，标准化展示被跳过。策略loss用的样本不断变，曲线不可当固定验证集loss直接跨时比较；奖励升高也须查实际任务成功率。课程最后明确未展开大型RL系统，CPU玩具不等于已学完其部署工程。"
+        }
+      ]
+    }
+  ]
+}
